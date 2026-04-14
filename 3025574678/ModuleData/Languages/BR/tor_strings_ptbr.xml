@@ -1014,5 +1014,263 @@
     <string id="str_tor_engineer_quest_rogue_engineer_encounter" text="Então o velho tolo enviou você atrás de nós? Como ele descobriu meus planos? Não importa, você não ficará no caminho das minhas criações. Você morrerá aqui!"/>
     <string id="str_tor_engineer_quest_rogue_engineer_encounter_player_after_battle_answer" text="Seus esquemas terminam aqui."/>
 
+    <!-- ===== S05 — linhas 1137–1500 (Encontros, Companheiros, Títulos e Juramentos) ===== -->
+
+    <!-- Diálogos de Encontros Customizados -->
+    <string id="tor_chaos_greeting" text="Você morrerá afogado em um poça do seu próprio sangue!"/>
+    <string id="tor_chaos_wounded_dialog_text" text="Eu retornarei!"/>
+    <string id="tor_beastmen_greeting" text="Nós pisotearemos seu corpo insignificante sob nossos cascos!"/>
+    <string id="tor_beastmen_wounded_dialog_text" text="Os deuses sombrios nos abandonaram!"/>
+    <string id="tor_brokenwheel_greeting" text="Você será banhado pelas chamas do Caos e será feliz!"/>
+    <string id="tor_brokenwheel_wounded_dialog_text" text="As intrigas de Tzeentch são infinitas, você não realizou nada!"/>
+    <string id="tor_illumination_greeting" text="Venha abrir o terceiro olho, deixe-me mostrar a você, irmão!"/>
+    <string id="tor_illumination_wounded_dialog_text" text="Você pode ter vencido a batalha, mas minha vida foi mais bem-sucedida do que a sua jamais será!"/>
+    <string id="tor_secondflesh_greeting" text="Espalharei minha varíola em sua carne!"/>
+    <string id="tor_secondflesh_wounded_dialog_text" text="Hoje, a morte. Amanhã, o renascimento. O ciclo não pode ser interrompido!"/>
+    <string id="tor_undead_no_talk_text" text="..."/>
+    <string id="tor_druchii_greeting_neutral" text="O que queres, estranho? Fala rápido antes de te encontrares acorrentado nas entranhas do meu navio."/>
+    <string id="tor_druchii_greeting_war" text="É você... Os Mestres de Karond Kar ficarão satisfeitos. Hora de abraçar suas correntes, escravo!"/>
+    <string id="tor_druchii_die" text="Nossa derrota é um ultraje a Khaine."/>
+    <string id="tor_druchii_sell_slaves" text="Venda seus prisioneiros como escravos ({RANSOM_AMOUNT}{GOLD_ICON})"/>
+    <string id="tor_dark_elf_slavers" text="Escravagistas Druchii"/>
+    <string id="tor_no_prisoners_to_sell_tooltip_text" text="Você não tem prisioneiros para vender."/>
+    <string id="tor_at_war_tooltip_text" text="Você está em guerra com esta facção."/>
+
+    <!-- Diálogos de Companheiros (Cavaleiro do Graal e Mercenário) -->
+    <string id="tor_grail_companion_vow_start" text="Saudações meu senhor, como posso ser útil?"/>
+    <string id="tor_grail_companion_vow_1" text="Já faz algum tempo que você entrou ao meu serviço; você provou repetidamente ser um Cavaleiro dos mais capazes e cavalheirescos."/>
+    <string id="tor_grail_companion_vow_2" text="Vossas palavras me honram, meu senhor. É meu orgulho e prazer servir e lutar ao seu lado."/>
+    <string id="tor_grail_companion_vow_3" text="Desejo trazer você para o meu círculo interno, torná-lo um líder e um companheiro de confiança entre meus homens; mais do que apenas um Cavaleiro ao meu serviço. O que me diz?"/>
+    <string id="tor_grail_companion_vow_3_end" text="Anseio por nossas futuras batalhas juntos."/>
+    <string id="tor_grail_companion_vow_4" text="Seria minha honra e, em nome da Senhora, eu juro isto: servir-vos até o meu último suspiro."/>
+    <string id="tor_grail_companion_vow_5" text="Anseio por nossas futuras batalhas juntos."/>
+    <string id="tor_mercenary_companion_start_text" text="Sim, o que posso fazer por você?"/>
+    <string id="tor_mercenary_companion_partner_offer_text" text="Seu serviço correu muito bem e desejo trazê-lo como sócio."/>
+    <string id="tor_mercenary_companion_partner_question_text" text="Como um sócio?"/>
+    <string id="tor_mercenary_companion_partner_terms_text" text="Você recebe uma parte dos lucros e precisará cuidar de alguns assuntos organizacionais avançados. No entanto, não pagarei mais o seu salário."/>
+    <string id="tor_mercenary_companion_demand_payment_text" text="Primeiro quero ver dinheiro vivo. Não vou bancar a babá ou ser 'sócio' sem ver algum dinheiro primeiro. Você me paga {MERCCOMPANIONPRICE}{GOLD_ICON}"/>
+    <string id="tor_mercenary_companion_accept_payment_text" text="Claro, considere isto um adiantamento de suas futuras participações."/>
+    <string id="tor_mercenary_companion_no_money_text" text="Não tenho esse valor em mãos agora."/>
+    <string id="tor_mercenary_companion_partnership_accepted_text" text="É um bom negócio, estou ansioso por essa parceria."/>
+    <string id="tor_mercenary_companion_keep_wage_text" text="Bem, então prefiro continuar com meu salário atual."/>
+    <string id="tor_mercenary_companion_wise_decision_text" text="Que decisão sensata!"/>
+    <string id="tor_mercenary_companion_fine_text" text="Certo."/>
+
+    <!-- Diálogos da Donzela do Graal (Enviada da Senhora) -->
+    <string id="tor_grail_envoy_peace_demand" text="A Senhora exige que você pare de massacrar seus companheiros bretonianos! ({PEACE_COST}{CHIVALRY_ICON})"/>
+    <string id="tor_grail_envoy_demand_response1" text="Minha senhora, como ousa me exigir... ah, ela exige?"/>
+    <string id="tor_grail_envoy_demand_response2" text="Creio que não posso negar vosso pedido. Se a Senhora exige, eu obedecerei."/>
+    <string id="tor_grail_envoy_war_demand" text="Nossa bela e nobre terra foi invadida! A Senhora exige que você atinja os inimigos dela!({WAR_COST}{CHIVALRY_ICON})"/>
+    <string id="tor_grail_envoy_war_response1" text="Ah, sim... então você sabe melhor... qual ameaça nos incomoda mais?"/>
+    <string id="tor_grail_envoy_war_response2" text="Creio que não posso negar vosso pedido. Se a Senhora exige, eu obedecerei."/>
+    <string id="tor_grail_envoy_stop_war_faction1" text="Parar guerra com {FACTION_NAME_1}."/>
+    <string id="tor_grail_envoy_stop_war_faction2" text="Parar guerra com {FACTION_NAME_2}."/>
+    <string id="tor_grail_envoy_stop_war_faction3" text="Parar guerra com {FACTION_NAME_3}."/>
+    <string id="tor_grail_envoy_nevermind" text="Na verdade, esqueça."/>
+    <string id="tor_grail_envoy_unite_against_faction1" text="Precisamos nos unir contra {FACTION_NAME_1}."/>
+    <string id="tor_grail_envoy_unite_against_faction2" text="Precisamos nos unir contra {FACTION_NAME_2}."/>
+    <string id="tor_grail_envoy_unite_against_faction3" text="Precisamos nos unir contra {FACTION_NAME_3}."/>
+    <string id="tor_grail_envoy_as_you_wish" text="Como desejar, Minha Senhora."/>
+
+    <!-- Títulos e Cargos de Facção -->
+    <string id="str_faction_official.empire" text="um conde" />
+    <string id="str_faction_official.empire_f" text="uma condessa" />
+    <string id="str_faction_ruler.empire" text="conde eleitor" />
+    <string id="str_faction_ruler.empire_f" text="condessa eleitora" />
+    <string id="str_faction_official.khuzait" text="um lorde" />
+    <string id="str_faction_official.khuzait_f" text="uma lady" />
+    <string id="str_faction_ruler.khuzait" text="Lorde Vampiro" />
+    <string id="str_faction_ruler.khuzait_f" text="Lady Vampira" />
+    <string id="str_faction_official.vlandia" text="um lorde" />
+    <string id="str_faction_official.vlandia_f" text="uma lady" />
+    <string id="str_faction_ruler.vlandia" text="Duque" />
+    <string id="str_faction_ruler.vlandia_f" text="Duquesa" />
+    <string id="str_faction_official.mousillon" text="um lorde" />
+    <string id="str_faction_official.mousillon_f" text="uma lady" />
+    <string id="str_faction_ruler.mousillon" text="Duque" />
+    <string id="str_faction_ruler.mousillon_f" text="Duquesa" />
+    <string id="str_faction_official.battania" text="um lorde" />
+    <string id="str_faction_official.battania_f" text="uma lady" />
+    <string id="str_faction_ruler.battania" text="Nobre" />
+    <string id="str_faction_ruler.battania_f" text="Nobre" />
+    <string id="str_faction_ruler.eonir" text="Nobre" />
+    <string id="str_faction_ruler.eonir_f" text="Nobre" />
+    <string id="str_faction_official.eonir" text="um lorde" />
+    <string id="str_faction_official.eonir_f" text="uma lady" />
+    <string id="str_faction_ruler.chaos_culture" text="Lorde do Caos" />
+    <string id="str_faction_ruler.chaos_culture_f" text="Lady do Caos" />
+    <string id="str_faction_official.chaos_culture" text="lorde do caos" />
+    <string id="str_faction_official.chaos_culture_f" text="lorde do caos" />
+    <string id="str_faction_ruler.sturgia" text="Rei" />
+    <string id="str_faction_ruler.sturgia_f" text="Rainha" />
+    <string id="str_faction_official.sturgia" text="um lorde" />
+    <string id="str_faction_official.sturgia_f" text="uma lady" />
+    <string id="str_faction_ruler.aserai" text="Senhor da Guerra" />
+    <string id="str_faction_ruler.aserai_f" text="Senhor da Guerra" />
+    <string id="str_faction_official.aserai" text="um mestre de guerra" />
+    <string id="str_faction_official.aserai_f" text="um mestre de guerra" />
+
+    <!-- Adjetivos de Facção -->
+    <string id="str_adjective_for_faction.averland" text="imperial" />
+    <string id="str_adjective_for_faction.stirland" text="imperial" />
+    <string id="str_adjective_for_faction.wissenland" text="imperial" />
+    <string id="str_adjective_for_faction.talabecland" text="imperial" />
+    <string id="str_adjective_for_faction.reikland" text="imperial" />
+    <string id="str_adjective_for_faction.middenland" text="imperial" />
+    <string id="str_adjective_for_faction.ostermark" text="imperial" />
+    <string id="str_adjective_for_faction.hochland" text="imperial" />
+    <string id="str_adjective_for_faction.nordland" text="imperial" />
+    <string id="str_adjective_for_faction.ostland" text="imperial" />
+    <string id="str_adjective_for_faction.wasteland" text="imperial" />
+    <string id="str_adjective_for_faction.couronne" text="bretoniano" />
+    <string id="str_adjective_for_faction.anguille" text="bretoniano" />
+    <string id="str_adjective_for_faction.lyonesse" text="bretoniano" />
+    <string id="str_adjective_for_faction.artois" text="bretoniano" />
+    <string id="str_adjective_for_faction.gisoreux" text="bretoniano" />
+    <string id="str_adjective_for_faction.parravon" text="bretoniano" />
+    <string id="str_adjective_for_faction.montfort" text="bretoniano" />
+    <string id="str_adjective_for_faction.bastonne" text="bretoniano" />
+    <string id="str_adjective_for_faction.bordeleaux" text="bretoniano" />
+    <string id="str_adjective_for_faction.carcassonne" text="bretoniano" />
+    <string id="str_adjective_for_faction.aquitaine" text="bretoniano" />
+    <string id="str_adjective_for_faction.brionne" text="bretoniano" />
+    <string id="str_adjective_for_faction.quenelles" text="bretoniano" />
+    <string id="str_adjective_for_faction.moot" text="halfling" />
+    <string id="str_adjective_for_faction.mousillon" text="mousillano" />
+    <string id="str_adjective_for_faction.sylvania" text="vampírico" />
+    <string id="str_adjective_for_faction.blooddragons" text="vampírico" />
+    <string id="str_adjective_for_faction.athel_loren" text="asrai" />
+    <string id="str_adjective_for_faction.laurelorn" text="eonir" />
+
+    <!-- Nomes Formais e Informais de Cultura -->
+    <string id="str_faction_formal_name_for_culture.khuzait" text="Sylvania" />
+    <string id="str_faction_formal_name_for_culture.empire" text="Império" />
+    <string id="str_faction_formal_name_for_culture.vlandia" text="Bretônia" />
+    <string id="str_faction_formal_name_for_culture.mousillon" text="Mousillon" />
+    <string id="str_faction_formal_name_for_culture.battania" text="Athel Loren" />
+    <string id="str_faction_formal_name_for_culture.eonir" text="Floresta de Laurelorn" />
+    <string id="str_faction_formal_name_for_culture.chaos_culture" text="Forças do Caos" />
+    <string id="str_faction_formal_name_for_culture.druchii" text="Escravagiscas Druchii" />
+    <string id="str_faction_formal_name_for_culture.sturgia" text="Karaz Ankor" />
+    <string id="str_faction_formal_name_for_culture.aserai" text="Tribos Peles-Verdes" />
+    <string id="str_faction_informal_name_for_culture.khuzait" text="Sylvania" />
+    <string id="str_faction_informal_name_for_culture.empire" text="o Império" />
+    <string id="str_faction_informal_name_for_culture.vlandia" text="Bretônia" />
+    <string id="str_faction_informal_name_for_culture.mousillon" text="Mousillon" />
+    <string id="str_faction_informal_name_for_culture.battania" text="Athel Loren" />
+    <string id="str_faction_informal_name_for_culture.eonir" text="Laurelorn" />
+    <string id="str_faction_informal_name_for_culture.chaos_culture" text="Caos" />
+    <string id="str_faction_informal_name_for_culture.druchii" text="Escravagistas Druchii" />
+    <string id="str_faction_informal_name_for_culture.sturgia" text="os Dawi" />
+    <string id="str_faction_informal_name_for_culture.aserai" text="os Peles-Verdes" />
+    <string id="str_adjective_for_culture.khuzait" text="vampírico" />
+    <string id="str_adjective_for_culture.empire" text="imperial" />
+    <string id="str_adjective_for_culture.vlandia" text="bretoniano" />
+    <string id="str_adjective_for_culture.mousillon" text="mousillano" />
+    <string id="str_adjective_for_culture.battania" text="asrai" />
+    <string id="str_adjective_for_culture.eonir" text="eonir" />
+    <string id="str_adjective_for_culture.chaos_culture" text="caos" />
+    <string id="str_adjective_for_culture.druchii" text="druchii" />
+    <string id="str_neutral_term_for_culture.khuzait" text="sylvanos" />
+    <string id="str_neutral_term_for_culture.empire" text="imperiais" />
+    <string id="str_neutral_term_for_culture.vlandia" text="bretonianos" />
+    <string id="str_neutral_term_for_culture.mousillon" text="mousillanos" />
+    <string id="str_neutral_term_for_culture.battania" text="asrai" />
+    <string id="str_neutral_term_for_culture.eonir" text="eonir" />
+    <string id="str_neutral_term_for_culture.chaos_culture" text="caos" />
+    <string id="str_neutral_term_for_culture.druchii" text="druchii" />
+
+    <!-- Juramentos Feudais (Império) -->
+    <string id="tor_feudal_oath_line1.averland" text="Eu juro solenemente servir o Grão-Condado de Averland." />
+    <string id="tor_feudal_oath_line2.averland" text="Eu proclamo o Conde Eleitor, Marius Leitdorf, como meu legítimo senhor e mais garboso que Kurt Helboring." />
+    <string id="tor_feudal_oath_line3.averland" text="Ergo minha espada para proteger as terras ensolaradas de Averland, seu povo, seu gado e, acima de tudo: seus vinhos doces." />
+    <string id="tor_feudal_oath_line4.averland" text="Eu o reconheço como meu senhor e salvador, e o seguirei até as profundezas do inferno e de volta e de volta ao inferno e... - ahem - de volta." />
+    <string id="tor_feudal_oath_line1.hochland" text="Eu juro minha lealdade à Grã-Baronia de Hochland." />
+    <string id="tor_feudal_oath_line2.hochland" text="Reconheço Aldebrand Ludenhof, o Grão-Barão de Hochland e Barão de Hergig, como meu legítimo governante." />
+    <string id="tor_feudal_oath_line3.hochland" text="Que Taal, Rhya e Sigmar me guiem em meu dever." />
+    <string id="tor_feudal_oath_line4.hochland" text="Que minha espada, escudo e arco permaneçam firmes diante do inimigo." />
+    <string id="tor_feudal_oath_line1.middenland" text="Eu juro solenemente servir aos Grão-Ducados de Middenland e Middenheim." />
+    <string id="tor_feudal_oath_line2.middenland" text="Reconheço Boris Todbringer, o Graf de Middenheim, o Grão-Duque de Middenland e o Príncipe de Carroburg como meu senhor e comandante." />
+    <string id="tor_feudal_oath_line3.middenland" text="Que Ulric, o Senhor do Inverno, guie meus passos e me leve à vitória por esta grande província." />
+    <string id="tor_feudal_oath_line4.middenland" text="Eu não descansarei até que o inimigo não exista mais ou que o Grande Lobo me reclame na morte." />
+    <string id="tor_feudal_oath_line1.ostermark" text="Eu juro minha lealdade à Liga de Ostermark, a Marcha Oriental." />
+    <string id="tor_feudal_oath_line2.ostermark" text="Reconheço o Conde Eleitor Wolfram Hertwig, Chanceler da Liga de Ostermark e Príncipe de Bechafen, como meu suserano." />
+    <string id="tor_feudal_oath_line3.ostermark" text="Enquanto eu respirar, prometo manter os inimigos mutantes e mortos-vivos à distância." />
+    <string id="tor_feudal_oath_line4.ostermark" text="Prometo sempre trabalhar para o benefício deste reino e de seus robustos cidadãos." />
+    <string id="tor_feudal_oath_line1.ostland" text="Eu juro solenemente servir ao Grão-Principado de Ostland." />
+    <string id="tor_feudal_oath_line2.ostland" text="Que meu serviço a Valmir von Raukov, Grão-Príncipe de Ostland, Marcrave da Marcha do Norte e Martelo do Leste, me permita esmagar nossos inimigos." />
+    <string id="tor_feudal_oath_line3.ostland" text="Conceda-me a oportunidade de lutar por vós até que eu descanse no abraço de Morr." />
+    <string id="tor_feudal_oath_line4.ostland" text="Vamos abater o lobo à porta e proteger o povo de Ostland!" />
+    <string id="tor_feudal_oath_line1.stirland" text="Eu juro lealdade ao Grão-Condado de Stirland." />
+    <string id="tor_feudal_oath_line2.stirland" text="Reconheço Alberich Haupt-Anderssen, Grão-Conde de Stirland, Príncipe de Wurtbad e Soberano de Sylvania como meu senhor e suserano até o meu último dia." />
+    <string id="tor_feudal_oath_line3.stirland" text="Que meu corpo seja o escudo de Stirland na defesa contra a ameaça morta-viva." />
+    <string id="tor_feudal_oath_line4.stirland" text="Eu o seguirei até as partes mais profundas das terras dos mortos." />
+    <string id="tor_feudal_oath_line1.wasteland" text="Eu juro fidelidade à cidade-estado mercantil de Wasteland." />
+    <string id="tor_feudal_oath_line2.wasteland" text="Lutarei com a bênção de Manann, pois o mar é meu lar." />
+    <string id="tor_feudal_oath_line3.wasteland" text="Meu sangue está cheio de sal e meus bolsos cheios de ouro, pois sou um Marienburguês." />
+    <string id="tor_feudal_oath_line4.wasteland" text="A dívida será paga!" />
+    <string id="tor_feudal_oath_line1.wissenland" text="Eu juro minha lealdade a Nuln, Bastião do Sul e Joia do Império, e às vilas, castelos e cidades menores circundantes de Wissenland." />
+    <string id="tor_feudal_oath_line2.wissenland" text="Reconheço Emmanuelle von Liebwitz, Grã-Condessa de Wissenland, Condessa de Nuln e Duquesa de Meissen como minha eterna dama." />
+    <string id="tor_feudal_oath_line3.wissenland" text="Em tempos de extrema necessidade, defenderei Nuln com o melhor de minha habilidade." />
+    <string id="tor_feudal_oath_line4.wissenland" text="Prometo segui-la onde quer que lidere e a defenderei até o meu último dia." />
+    <string id="tor_feudal_oath_line1.talabecland" text="Eu juro lealdade eterna ao Grão-Ducado de Talabecland." />
+    <string id="tor_feudal_oath_line2.talabecland" text="Reconheço Helmut Feuerbach, Grão-Duque de Talabecland, Marcrave da Marcha do Leste e Amado de Taal como meu eterno senhor." />
+    <string id="tor_feudal_oath_line3.talabecland" text="Em tempos de necessidade, defenderei o Taalbaston até o meu último suspiro." />
+    <string id="tor_feudal_oath_line4.talabecland" text="Ajudarei na defesa das terras sagradas de Taal até o fim dos dias." />
+    <string id="tor_feudal_oath_line1.reikland" text="Eu juro servidão eterna a Reikland e seu soberano, Karl Franz Holswig-Schliestein, Protetor do Império, Desafiador das Trevas, Herdeiro de Sigmar, Imperador do Sul e Filho de Imperadores." />
+    <string id="tor_feudal_oath_line2.reikland" text="Empenho minha alma ao deus guerreiro Sigmar, seus inimigos conhecerão minha ira." />
+    <string id="tor_feudal_oath_line3.reikland" text="Que vossos inimigos me reconheçam como seu eterno rival, pois enquanto houver fôlego em meu corpo, não descansarei." />
+    <string id="tor_feudal_oath_line4.reikland" text="Salve Karl Franz, a quem seguirei até as profundezas do abismo." />
+    <string id="tor_feudal_oath_line1.moot" text="Eu juro servir ao Grão-Condado de Mootland." />
+    <string id="tor_feudal_oath_line2.moot" text="Eu proclamo o ancião Hisme Stoutheart como meu legítimo suserano." />
+    <string id="tor_feudal_oath_line3.moot" text="Ergo minha espada para proteger o povo contra a ameaça morta-viva." />
+    <string id="tor_feudal_oath_line4.moot" text="Prometo ajudar-vos em tempos de paz e de guerra." />
+    <string id="tor_feudal_oath_line1.nordland" text="Eu proclamo servir à Grã-Baronia de Nordland." />
+    <string id="tor_feudal_oath_line2.nordland" text="Reconheço o Conde Eleitor Theoderic Gausser, Grão-Barão de Nordland e Príncipe de Salzenmund como meu legítimo suserano e comandante." />
+    <string id="tor_feudal_oath_line3.nordland" text="Juro proteger a bela província de Nordland, seu litoral, portos e florestas, de qualquer um e de qualquer coisa que ouse ameaçá-la." />
+    <string id="tor_feudal_oath_line4.nordland" text="Que Manann, Ulric, Taal e Sigmar me guiem neste caminho..." />
+
+    <!-- Juramentos Feudais (Sylvania e Bretônia) -->
+    <string id="tor_feudal_oath_line1.sylvania" text="Eu empenho minha alma à eterna servidão das terras de Sylvania." />
+    <string id="tor_feudal_oath_line2.sylvania" text="Pelo presente, juro minha lealdade imortal a Mannfred von Carstein, Conde de Sylvania, o mais astuto e talentoso vampiro de todas as linhagens von Carstein." />
+    <string id="tor_feudal_oath_line3.sylvania" text="Que vossos inimigos tremam ao me ver e às minhas legiões de mortos-vivos." />
+    <string id="tor_feudal_oath_line4.sylvania" text="Vou me juntar à vossa corte e seguir-vos profundamente pelas terras do Império." />
+    <string id="tor_feudal_oath_line1.anguille" text="Com a Senhora como minha testemunha, juro lealdade às terras fustigadas pelo sal de L'anguille." />
+    <string id="tor_feudal_oath_line2.anguille" text="O Duque Taubert será meu Suserano e em tempos de necessidade me reunirei sob seu estandarte." />
+    <string id="tor_feudal_oath_line3.anguille" text="Como cavaleiro e como marinheiro, juro proteger a terra e a costa de L'anguille." />
+    <string id="tor_feudal_oath_line4.anguille" text="Abençoados pela Senhora, venceremos!" />
+    <string id="tor_feudal_oath_line1.artois" text="Dou meu coração e dedicação à proteção das terras florestais do ducado de Artois." />
+    <string id="tor_feudal_oath_line2.artois" text="Minha espada e lança são vossas, Duque Chilfroy, pois sou vosso súdito." />
+    <string id="tor_feudal_oath_line3.artois" text="Meu escudo é para o povo de Gisoreux, a quem protegerei com meu corpo e alma, pois sou um puro e verdadeiro cavaleiro de Bretônia." />
+    <string id="tor_feudal_oath_line4.artois" text="Como um cavaleiro de Gisoreux, nenhum mal atingirá meu povo, eu juro." />
+    <string id="tor_feudal_oath_line1.aquitaine" text="Com honra, juro fidelidade ao majestoso Ducado de Aquitaine." />
+    <string id="tor_feudal_oath_line2.aquitaine" text="Seguirei a orientação do estimado Duque Armand, um exemplo de cavalaria e virtude." />
+    <string id="tor_feudal_oath_line3.aquitaine" text="Dedico minha espada para proteger os campos férteis de Aquitaine, seu povo e as ricas tradições da cavalaria." />
+    <string id="tor_feudal_oath_line4.aquitaine" text="Como um cavaleiro leal, manter-me-ei firme contra qualquer inimigo, preservando a honra e a graça que definem Aquitaine." />
+    <string id="tor_feudal_oath_line1.bastonne" text="Com honra e humildade, empenho meu serviço ao nobre Ducado de Bastonne." />
+    <string id="tor_feudal_oath_line2.bastonne" text="Declaro minha lealdade ao honrado Duque Bohemond, um farol de coragem e cavalaria." />
+    <string id="tor_feudal_oath_line3.bastonne" text="Defenderei a terra de Bastonne, seus bravos cavaleiros e as terras lendárias mantidas sagradas pela nossa Dama do Lago." />
+    <string id="tor_feudal_oath_line4.bastonne" text="Como um verdadeiro cavaleiro de Bastonne, defenderei as virtudes da cavalaria e do valor, protegendo o reino e suas queridas tradições." />
+    <string id="tor_feudal_oath_line1.bordeleaux" text="Com grande honra, empenho minha lealdade inabalável ao majestoso Ducado de Bordeleaux." />
+    <string id="tor_feudal_oath_line2.bordeleaux" text="Proclamo minha fidelidade ao Duque Alberic, um líder visionário cuja paixão pela prosperidade e guerra não conhece igual sob nossa Senhora." />
+    <string id="tor_feudal_oath_line3.bordeleaux" text="Juro proteger os vinhedos férteis de Bordeleaux, seu povo e seu vinho." />
+    <string id="tor_feudal_oath_line4.bordeleaux" text="Em nome da cavalaria e do valor, cavalgarei como um verdadeiro cavaleiro de Bordeleaux, defendendo nossas terras com minha vida." />
+    <string id="tor_feudal_oath_line1.brionne" text="Com honra e humildade, juro fidelidade ao nobre Ducado de Brionne." />
+    <string id="tor_feudal_oath_line2.brionne" text="Declaro minha lealdade ao Duque Theodoric, um governante sábio e justo, amado por seus súditos." />
+    <string id="tor_feudal_oath_line3.brionne" text="Protegerei as belas terras de Brionne, seu povo e os magníficos castelos que enfeitam o campo." />
+    <string id="tor_feudal_oath_line4.brionne" text="Como um verdadeiro cavaleiro de Brionne, defenderei as virtudes da honra e da lealdade, protegendo nosso ducado de qualquer um que ameace sua beleza e artes." />
+    <string id="tor_feudal_oath_line1.carcassonne" text="Pelo presente, empenho minha lealdade imortal ao valente Ducado de Carcassonne." />
+    <string id="tor_feudal_oath_line2.carcassonne" text="Proclamo minha fidelidade ao Duque Huebald, um líder galante cujos feitos inspiram a todos nós." />
+    <string id="tor_feudal_oath_line3.carcassonne" text="Juro proteger os campos de Carcassonne, seus bravos cavaleiros e seus exércitos proficientes." />
+    <string id="tor_feudal_oath_line4.carcassonne" text="Como um leal defensor de Carcassonne, permanecerei firme em preservar a honra e o valor de nosso amado reino." />
+    <string id="tor_feudal_oath_line1.couronne" text="Empenho minha lealdade e vida ao majestoso ducado de Couronne." />
+    <string id="tor_feudal_oath_line2.couronne" text="Juro proteger, servir e seguir o Rei de Bretônia, Rei Louen Leoncoeur." />
+    <string id="tor_feudal_oath_line3.couronne" text="Sou súdito do rei e estou sob seu comando." />
+    <string id="tor_feudal_oath_line4.couronne" text="Salve o Rei Louen Leoncoeur!" />
+    <string id="tor_feudal_oath_line1.gisoreux" text="Juro proteger as honradas terras do ducado de Gisoreux." />
+    <string id="tor_feudal_oath_line2.gisoreux" text="Meus estandartes ostentarão as cores do meu duque Hagen, pois sou seu servo e ajudarei em sua vontade." />
+    <string id="tor_feudal_oath_line3.gisoreux" text="Guardarei os picos das Irmãs Pálidas e as planícies de Gisoreux como defenderia minha própria família." />
+    <string id="tor_feudal_oath_line4.gisoreux" text="Como um verdadeiro filho de Gisoreux, defenderei os valores de Gisoreux e morrerei por sua glória." />
+
   </strings>
 </base>

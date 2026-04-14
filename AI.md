@@ -198,7 +198,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] S02 — linhas 266–550 *(PULADA: já traduzida por outra IA)*
 - [x] S03 — linhas 551–817 *(Sistema de Encantamento: UI geral, títulos, descrições, restrições, diálogos por cultura: Império, Bretônia, Sylvania, Mousillon, Anões, Peles-verdes, Elfos da Floresta, Eonir)*
 - [x] S04 — linhas 817–1136 *(Oath Gold, Rune Lord Guild, Guild info, Expedições, Cervejeiro, Warrior Guild, Engineer Guild, Tooltips)*
-- [ ] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**
+- [x] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**
 - [ ] S06 — linhas 1500–1944 *(Diálogos de Cultura — continuação)*
 - [ ] S07 — linhas 1945–2215 *(Skills/Crafting/Inventário/Party Screen, Assentamentos Customizados, Village Types, Wanderer Stories)*
 - [ ] S08 — linhas 2215–2471 *(Companheiros do Império: Bright Wizard, Warrior Priest, Witch Hunter, Light Wizard, Celestial Wizard, Engineer, Priestess of Shallya, Huntsman, Metal Wizard, Life Wizard, Beast Wizard, Priest of Ulric, Captain, Imperial Noble)*
@@ -263,10 +263,10 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Cada arquivo = uma chamada.**
 **Não traduzir:** `include.ink` (funções técnicas) e `Template.ink` (template vazio).
 
-- [ ] Battlefield.ink
-- [ ] BlessingsOfMen.ink
-- [ ] CabinInTheWoodsLocked.ink
-- [ ] CampFireLearning.ink
+- [x] Battlefield.ink
+- [x] BlessingsOfMen.ink
+- [x] CabinInTheWoodsLocked.ink
+- [x] CampFireLearning.ink
 - [ ] CultistInOurMidst.ink
 - [ ] DawiAndRuneMagic.ink
 - [ ] Duel.ink
