@@ -11,10 +11,13 @@ Este documento serve para coordenar o esforço de tradução do mod "The Old Rea
 3.  **Preservação Estrutural:** NUNCA alterar as chaves `{=...}` ou as tags XML (ex: `<string>`, `id=`, `<Description>`).
 4.  **Tom de Voz:** Estilo "Dark Fantasy" épico e solene. Evitar termos informais.
 
-## ⚠️ Atenção: Dois Tipos de Arquivo
+## ⚠️ Atenção: Três Tipos de Arquivo
 
 - **Arquivos de localização** (`tor_strings.xml`, `tor_voiced_strings.xml`, `tor_concept_strings.xml`): traduzir o atributo `text="..."` preservando a chave `{=...}` intacta.
 - **Arquivos com texto inline** (`tor_itemtraits.xml`, `tor_specialization_options.xml`, `tor_cc_options.xml`): os textos estão diretamente no XML, **sem** chave de localização correspondente em `tor_strings.xml`. Traduzir o conteúdo das tags diretamente.
+- **Arquivos Ink** (`InkStories/*.ink`): narrativas interativas com escolhas. Regras específicas:
+  - Traduzir: linhas de texto narrativo simples e o texto dentro de `[colchetes]` nas escolhas
+  - **NÃO traduzir:** linhas começando com `~`, `->`, `===`, `INCLUDE`, `EXTERNAL`; tags `#STR_...`; comentários `//` e `/* */`
 
 ## 📚 Glossário de Termos (Consistência)
 | Termo Original | Tradução Sugerida | Notas |
@@ -76,6 +79,39 @@ Este documento serve para coordenar o esforço de tradução do mod "The Old Rea
 - **Conteúdo:** Textos de origem e flavor text exibidos durante a criação de personagem. Texto **inline** — editar diretamente as tags `<OptionText>` e `<OptionFlavourText>`.
 - **Monitoramento:**
     - [ ] Tradução completa
+
+### 7. Eventos Narrativos (Livro Interativo)
+**Diretório:** `3025574678/InkStories/`
+- **Status:** 0%
+- **Conteúdo:** Eventos de mundo aberto exibidos como um livro com narração e escolhas clicáveis (Ink scripting language). São 26 arquivos independentes.
+- **Arquivos a traduzir:**
+    - [ ] Battlefield.ink
+    - [ ] BlessingsOfMen.ink
+    - [ ] CabinInTheWoodsLocked.ink
+    - [ ] CampFireLearning.ink
+    - [ ] CultistInOurMidst.ink
+    - [ ] DawiAndRuneMagic.ink
+    - [ ] Duel.ink
+    - [ ] EnchantingAndArtifacts.ink
+    - [ ] Fair.ink
+    - [ ] FozzriksFortress.ink
+    - [ ] Meadow.ink
+    - [ ] Minstrel.ink
+    - [ ] Miracle.ink
+    - [ ] MorrsliebWaxes.ink
+    - [ ] NurgleCultists.ink
+    - [ ] OrcBossQuest1.ink
+    - [ ] OrcBossQuest2.ink
+    - [ ] OrcEnchantmentStone.ink
+    - [ ] OrcShamanPrayerPrompt.ink
+    - [ ] OrcShamanQuest1InitialVision.ink
+    - [ ] OrcShamanQuest2InitialVision.ink
+    - [ ] OverturnedCart.ink
+    - [ ] Pond.ink
+    - [ ] ProtectOurDead.ink
+    - [ ] TheHangedMen.ink
+    - [ ] TravelingMerchant.ink
+- **Não traduzir:** `include.ink` (funções técnicas) e `Template.ink` (template vazio)
 
 ---
 
