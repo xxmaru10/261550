@@ -24,8 +24,8 @@ O Bannerlord tem um sistema de localização nativo. Arquivos registrados como `
 ## SETUP (já concluído — não repetir)
 
 - [x] Criado `3025574678/ModuleData/Languages/BR/language_data.xml` — registra os arquivos PT-BR no jogo
-- [ ] Criar `3025574678/ModuleData/Languages/BR/tor_concept_strings_ptbr.xml` ← primeiro a fazer
-- [ ] Criar `3025574678/ModuleData/Languages/BR/tor_voiced_strings_ptbr.xml`
+- [x] Criar `3025574678/ModuleData/Languages/BR/tor_concept_strings_ptbr.xml` ← primeiro a fazer
+- [x] Criar `3025574678/ModuleData/Languages/BR/tor_voiced_strings_ptbr.xml`
 - [x] Criado `3025574678/ModuleData/Languages/BR/tor_strings_ptbr.xml` — **PARCIAL**: contém apenas descrições e nomes de cultura (linhas 1197–1216 do tor_strings.xml). Ao trabalhar nos blocos S04/S05, verificar se os IDs já estão no arquivo antes de re-traduzir.
 
 O `language_data.xml` já existe com o seguinte conteúdo (não alterar):
@@ -178,7 +178,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `ModuleData/Languages/BR/tor_concept_strings_ptbr.xml` (criar do zero)
 **Uma única chamada — 28 linhas.**
 
-- [ ] C01 — linhas 1–28
+- [x] C01 — linhas 1–28
 
 ---
 
@@ -186,7 +186,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Fonte:** `ModuleData/tor_voiced_strings.xml` | 218 linhas
 **Saída:** `ModuleData/Languages/BR/tor_voiced_strings_ptbr.xml` (criar do zero)
 
-- [ ] V01 — linhas 1–218
+- [x] V01 — linhas 1–218
 
 ---
 
@@ -194,8 +194,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Fonte:** `ModuleData/tor_strings.xml` | 6.257 linhas
 **Saída:** `ModuleData/Languages/BR/tor_strings_ptbr.xml` (criar com S01, acumular nos seguintes)
 
-- [ ] S01 — linhas 1–265 *(UI, Skills, Skill Effects, Traits, Perks, Ability System, SpellBook/PrayerBook UI, notificações, mensagens de combate)*
-- [ ] S02 — linhas 266–550 *(Quests: Specialize Lore / Engineer / Cultists / Plagued Village; Generic Text; Game Mechanics; Greenskin Mechanics; Stats Bonuses; CC Options; Priest Blessings; Skill Training; Magical Items)*
+- [x] S01 — linhas 1–265 *(UI, Skills, Skill Effects, Traits, Perks, Ability System, SpellBook/PrayerBook UI, notificações, mensagens de combate)*
+- [x] S02 — linhas 266–550 *(Quests: Specialize Lore / Engineer / Cultists / Plagued Village; Generic Text; Game Mechanics; Greenskin Mechanics; Stats Bonuses; CC Options; Priest Blessings; Skill Training; Magical Items)*
 - [ ] S03 — linhas 551–817 *(Sistema de Encantamento: UI geral, títulos, descrições, restrições, diálogos por cultura: Império, Bretônia, Sylvania, Mousillon, Anões, Peles-verdes, Elfos da Floresta, Eonir)*
 - [ ] S04 — linhas 817–1136 *(Oath Gold, Rune Lord Guild, Guild info, Expedições, Cervejeiro, Warrior Guild, Engineer Guild, Tooltips)*
 - [ ] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**

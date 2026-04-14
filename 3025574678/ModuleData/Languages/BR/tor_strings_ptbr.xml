@@ -4,6 +4,449 @@
     <tag language="Português (BR)" />
   </tags>
   <strings>
+    <!-- S01 - UI, Skills, Perks, Magic System -->
+    <string id="str_tor_cc_review_description" text="O Velho Mundo o aguarda, com toda a sua glória e horrores. Este é o seu personagem. Continue se estiver pronto, ou volte e faça alterações." />
+    <string id="str_tor_career_screen_title" text="Carreira" />
+    <string id="str_tor_career_ability_title" text="Habilidade de Carreira" />
+    <string id="str_tor_career_free_points_label" text="Pontos de carreira livres: {FREE_CAREERPOINTS}" />
+    <string id="str_tor_inventory_race_lock_text" text="Este item só é utilizável por" />
+    <string id="str_tor_race_name_human" text="Humanoide" />
+    <string id="str_tor_race_name_dwarf" text="Anão" />
+    <string id="str_tor_race_name_orc" text="Orc" />
+    <string id="str_tor_race_name_goblin" text="Goblin" />
+    <string id="str_tor_race_name_gor" text="Gor" />
+    <string id="str_tor_race_name_ungor" text="Ungor" />
+    <string id="str_tor_race_name_skeleton" text="Esqueleto" />
+    <string id="str_tor_race_name_wraith" text="Aparição" />
+    <string id="str_tor_race_name_spirit_host" text="Hospedeiro Espiritual" />
+    <string id="str_tor_race_name_troll" text="Troll" />
+    <string id="str_tor_skill_faith" text="Fé" />
+    <string id="str_tor_skill_faith_description" text="A Fé significa suas crenças e sua convicção na religião escolhida." />
+    <string id="str_tor_skill_gunpowder" text="Pólvora" />
+    <string id="str_tor_skill_gunpowder_description" text="A habilidade de Pólvora governa sua capacidade de lidar com armas de fogo e artilharia." />
+    <string id="str_tor_skill_spellcraft" text="Arte Arcana" />
+    <string id="str_tor_skill_spellcraft_description" text="Arte Arcana é a sua aptidão para usar magia." />
+    <string id="str_tor_skill_effect_gun_reload_speed" text="Velocidade de recarga de armas de fogo: +{a0} %" />
+    <string id="str_tor_skill_effect_gun_accuracy" text="Precisão de armas de fogo: +{a0} %" />
+    <string id="str_tor_skill_effect_spell_effectiveness" text="Eficácia de feitiços: +{a0} %" />
+    <string id="str_tor_skill_effect_spell_duration" text="Duração de feitiços: +{a0} %" />
+    <string id="str_tor_skill_effect_winds_recharge_rate" text="Taxa de recarga dos ventos da magia: +{a0} / hora" />
+    <string id="str_tor_skill_effect_max_winds" text="Máximo de ventos da magia: +{a0}" />
+    <string id="str_tor_skill_effect_ward_save" text="Salvamento de Proteção: +{a0} %" />
+    <string id="str_tor_skill_effect_blessing_duration" text="Aumento da duração da bênção: +{a0} %" />
+    <string id="str_tor_skill_effect_prayer_effectiveness" text="Eficácia da oração (Apenas Sacerdotes): +{a0} %" />
+    <string id="str_tor_skill_effect_prayer_duration" text="Aumento da duração da oração (Apenas Sacerdotes): +{a0} %" />
+    <string id="str_tor_spellcaster_trait_name" text="Conjurador" />
+    <string id="str_tor_spellcaster_trait_description" text="Descrição de Conjurador" />
+    <string id="str_tor_shallyadevoted_trait_name" text="Devoto de Shallya" />
+    <string id="str_tor_shallyadevoted_trait_description" text="Sacerdote devoto de Shallya" />
+    <string id="str_tor_sigmardevoted_trait_name" text="Devoto de Sigmar" />
+    <string id="str_tor_sigmardevoted_trait_description" text="Sacerdote devoto de Sigmar" />
+    <string id="str_tor_ladydevoted_trait_name" text="Devoto da Senhora" />
+    <string id="str_tor_ladydevoted_trait_description" text="Sacerdotisa devota da Senhora" />
+    <string id="str_tor_ulricdevoted_trait_name" text="Devoto de Ulric" />
+    <string id="str_tor_ulricdevoted_trait_description" text="Sacerdote devoto de Ulric" />
+    <string id="str_tor_nagashcorrupted_trait_name" text="Corrompido por Nagash" />
+    <string id="str_tor_nagashcorrupted_trait_description" text="Esta mente foi corrompida pela maldição de Nagash" />
+    <string id="str_tor_gunner_trait_name" text="Atirador" />
+    <string id="str_tor_gunner_trait_description" text="Especialista em armas de pólvora negra" />
+    <string id="str_tor_perk_run_and_gun_label" text="Correr e Atirar" />
+    <string id="str_tor_perk_run_and_gun_1" text="Enquanto estiver a pé e usando uma pistola, sua penalidade de precisão por movimento é reduzida em 20%." />
+    <string id="str_tor_perk_run_and_gun_2" text="Tropas de infantaria de pólvora em seu grupo têm sua habilidade de pólvora aumentada em 30." />
+    <string id="str_tor_perk_mounted_heritage_label" text="Herança Montada" />
+    <string id="str_tor_perk_mounted_heritage_1" text="Sua precisão é aumentada em 20% com armas de pólvora quando montado." />
+    <string id="str_tor_perk_mounted_heritage_2" text="Tropas montadas à distância em seu grupo têm sua habilidade de equitação aumentada em 30." />
+    <string id="str_tor_perk_firing_drills_label" text="Treinamento de Tiro" />
+    <string id="str_tor_perk_firing_drills_1" text="Ganha imediatamente +1 de Disciplina." />
+    <string id="str_tor_perk_firing_drills_2" text="Tropas de pólvora em seu grupo recebem +5 de experiência por dia." />
+    <string id="str_tor_perk_ammunition_wagons_label" text="Vagões de Munição" />
+    <string id="str_tor_perk_ammunition_wagons_1" text="+50% de munição inicial para todas as tropas de pólvora (incluindo o jogador)." />
+    <string id="str_tor_perk_ammunition_wagons_2" text="Aumenta a capacidade de inventário do seu grupo em 30%." />
+    <string id="str_tor_perk_close_quarter_label" text="Combate Próximo" />
+    <string id="str_tor_perk_close_quarter_1" text="Você causa 25% mais dano com armas de pólvora a inimigos em um raio de 7 metros." />
+    <string id="str_tor_perk_close_quarter_2" text="Tropas à distância em seu grupo têm sua habilidade de uma mão aumentada em 30." />
+    <string id="str_tor_perk_dead_eye_label" text="Olho de Atirador" />
+    <string id="str_tor_perk_dead_eye_1" text="Você causa 30% mais dano com rifles longos." />
+    <string id="str_tor_perk_dead_eye_2" text="Tropas de pólvora de Duas Mãos em sua formação têm sua precisão aumentada em 20%." />
+    <string id="str_tor_perk_bullet_proof_label" text="À Prova de Balas" />
+    <string id="str_tor_perk_bullet_proof_1" text="Você recebe 15% menos dano de armas à distância manuais." />
+    <string id="str_tor_perk_bullet_proof_2" text="Tropas em sua formação recebem 5% menos dano de armas à distância manuais." />
+    <string id="str_tor_perk_bomb_suit_label" text="Traje Ante-Explosão" />
+    <string id="str_tor_perk_bomb_suit_1" text="Você recebe 25% menos dano de artilharia de cerco e explosões." />
+    <string id="str_tor_perk_bomb_suit_2" text="Tropas em sua formação recebem 10% menos dano de artilharia de cerco e explosões." />
+    <string id="str_tor_perk_pack_it_in_label" text="Carga Extra" />
+    <string id="str_tor_perk_pack_it_in_1" text="Ao usar uma arma de pólvora multi-projétil, aumenta o número de projéteis em 50%." />
+    <string id="str_tor_perk_pack_it_in_2" text="Tropas em sua formação usando armas de pólvora explosivas ganham +10% de bônus de dano e o dano é convertido em Dano de Fogo." />
+    <string id="str_tor_perk_steel_terror_label" text="Terror de Aço" />
+    <string id="str_tor_perk_steel_terror_1" text="Artilharia e armas explosivas em seu grupo causam +10% de dano de moral em batalha." />
+    <string id="str_tor_perk_steel_terror_2" text="Equipes de artilharia e engenheiros em seu grupo tornam-se inquebráveis devido à perda de moral." />
+    <string id="str_tor_perk_piercing_shots_label" text="Tiros Perfurantes" />
+    <string id="str_tor_perk_piercing_shots_1" text="Seus tiros ignoram 50% da armadura inimiga e penetram escudos." />
+    <string id="str_tor_perk_piercing_shots_2" text="Tropas de pólvora em seu grupo perfuram escudos." />
+    <string id="str_tor_perk_novice_spellcaster_label" text="Conjurador Iniciante" />
+    <string id="str_tor_perk_novice_spellcaster_1" text="Ganha acesso a feitiços de nível inicial." />
+    <string id="str_tor_perk_adept_spellcaster_label" text="Conjurador Adepto" />
+    <string id="str_tor_perk_adept_spellcaster_1" text="Ganha acesso a feitiços de nível adepto." />
+    <string id="str_tor_perk_master_spellcaster_label" text="Arqui-Conjurador" />
+    <string id="str_tor_perk_master_spellcaster_1" text="Ganha acesso a feitiços de nível mestre." />
+    <string id="str_tor_perk_selfish_label" text="Egoísta" />
+    <string id="str_tor_perk_selfish_1" text="Seus feitiços de dano causam 90% menos dano a você mesmo." />
+    <string id="str_tor_perk_selfish_2" text="Seus feitiços de fortalecimento direcionados a si mesmo têm 50% mais duração." />
+    <string id="str_tor_perk_well_controlled_label" text="Bem Controlado" />
+    <string id="str_tor_perk_well_controlled_1" text="Seus feitiços de dano causam 30% menos dano às tropas do seu grupo." />
+    <string id="str_tor_perk_well_controlled_2" text="Ganha 5% de vantagem em batalhas simuladas." />
+    <string id="str_tor_perk_librarian_label" text="Bibliotecário" />
+    <string id="str_tor_perk_librarian_1" text="Você ganha o dobro de experiência ao ler livros." />
+    <string id="str_tor_perk_librarian_2" text="Aprender novos feitiços custa 50% menos ouro." />
+    <string id="str_tor_perk_story_teller_label" text="Contador de Histórias" />
+    <string id="str_tor_perk_story_teller_1" text="Cada companheiro em seu grupo ganha 1000 de experiência em uma habilidade aleatória por dia." />
+    <string id="str_tor_perk_story_teller_2" text="Seu grupo ganha um bônus permanente de +5 na moral." />
+    <string id="str_tor_perk_overcaster_label" text="Conju-Sobrecarga" />
+    <string id="str_tor_perk_overcaster_1" text="Seus feitiços de dano causam 20% mais dano, mas custam 30% mais ventos da magia." />
+    <string id="str_tor_perk_effective_spellcaster_label" text="Conjurador Eficiente" />
+    <string id="str_tor_perk_effective_spellcaster_1" text="Seus feitiços de dano causam 20% menos dano, mas custam 30% menos ventos da magia." />
+    <string id="str_tor_perk_improvision_label" text="Improviso" />
+    <string id="str_tor_perk_improvision_1" text="Seus Ventos da Magia são definidos como 25 se você tiver menos do que isso no início da batalha." />
+    <string id="str_tor_perk_improvision_2" text="+10% de chance de Persuasão durante verificações de fala." />
+    <string id="str_tor_perk_catalyst_label" text="Catalisador" />
+    <string id="str_tor_perk_catalyst_1" text="Para cada item mágico em seus slots de equipamento, você ganha +5 Ventos da Magia extras no início da batalha." />
+    <string id="str_tor_perk_catalyst_2" text="Você ganha +20% de regeneração de Ventos da Magia enquanto espera em uma cidade." />
+    <string id="str_tor_perk_dampener_label" text="Amortecedor" />
+    <string id="str_tor_perk_dampener_1" text="O dano causado pelos seus feitiços de dano é reduzido em 15%, mas as tropas em sua formação recebem 30% menos dano de feitiços." />
+    <string id="str_tor_perk_dampener_2" text="Você ganha 5% de salvamento de proteção." />
+    <string id="str_tor_perk_arcane_link_label" text="Elo Arcano" />
+    <string id="str_tor_perk_arcane_link_1" text="Quaisquer fortalecimentos que você lançar em uma unidade amigável agora também se aplicarão a você, mesmo se você não estiver ao alcance." />
+    <string id="str_tor_perk_arcane_link_2" text="Como Capitão de formação, todas as tropas em sua formação causam 10% de dano mágico adicional." />
+    <string id="str_tor_perk_exchange_label" text="Permuta" />
+    <string id="str_tor_perk_exchange_1" text="Todo o dano físico causado pelas suas armas é dobrado e causado novamente como dano mágico." />
+    <string id="str_tor_perk_novice_prayer_label" text="Orações de Iniciante" />
+    <string id="str_tor_perk_novice_prayer_1" text="Ganha acesso a todas as orações de batalha de nível iniciante." />
+    <string id="str_tor_perk_adept_prayer_label" text="Orações de Adepto" />
+    <string id="str_tor_perk_adept_prayer_1" text="Ganha acesso a todas as orações de batalha de nível adepto." />
+    <string id="str_tor_perk_grand_prayer_label" text="Grandes Orações" />
+    <string id="str_tor_perk_grand_prayer_1" text="Ganha acesso a todas as grandes orações de batalha." />
+    <string id="str_tor_perk_devotee_label" text="Devoto" />
+    <string id="str_tor_perk_devotee_1" text="Você ganha +3 pontos de vida para cada ponto em Disciplina." />
+    <string id="str_tor_perk_devotee_2" text="Rezar em um santuário concede 50% de aumento na devoção à sua religião escolhida." />
+    <string id="str_tor_perk_divine_mission_label" text="Missão Divina" />
+    <string id="str_tor_perk_divine_mission_1" text="Você ganha 1 ponto de foco em Medicina." />
+    <string id="str_tor_perk_divine_mission_2" text="Aumento de 5% no crescimento da milícia em assentamentos de propriedade do seu clã." />
+    <string id="str_tor_perk_imperturbable_label" text="Imperturbável" />
+    <string id="str_tor_perk_imperturbable_1" text="Ganha 500 de experiência em Fé todos os dias enquanto espera em uma cidade." />
+    <string id="str_tor_perk_imperturbable_2" text="Unidades religiosas em seu grupo ganham 10% de resistência física." />
+    <string id="str_tor_perk_superstitious_label" text="Supersticioso" />
+    <string id="str_tor_perk_superstitious_1" text="Regiões amaldiçoadas no mapa mundial têm efeito de dano reduzido em 20% no seu grupo." />
+    <string id="str_tor_perk_superstitious_2" text="Unidades religiosas em seu grupo ganham 10% de bônus de dano físico." />
+    <string id="str_tor_perk_offering_label" text="Oferenda" />
+    <string id="str_tor_perk_offering_1" text="Obtém a capacidade de doar itens em santuários como oferendas de sacrifício para ganhar Fé." />
+    <string id="str_tor_perk_blessed_label" text="Abençoado" />
+    <string id="str_tor_perk_blessed_1" text="Seu clã ganha 3 de Influência todos os dias para cada grupo do clã com uma bênção ativa." />
+    <string id="str_tor_perk_blessed_2" text="Enquanto seu grupo tiver uma bênção ativa, unidades religiosas em seu grupo ganham 10xp todos os dias." />
+    <string id="str_tor_perk_foresight_label" text="Previdência" />
+    <string id="str_tor_perk_foresight_1" text="Ganha um ponto de atributo livre." />
+    <string id="str_tor_perk_foresight_2" text="Aumenta o alcance de visão do seu grupo no mapa de campanha em 10%." />
+    <string id="str_tor_perk_revival_label" text="Renascimento" />
+    <string id="str_tor_perk_revival_1" text="Depois que todas as habilidades relacionadas à medicina/cura falham, ganha uma segunda chance de 50% para personagens e unidades que seriam mortos serem feridos em vez disso." />
+    <string id="str_tor_perk_spirit_label" text="Espírito" />
+    <string id="str_tor_perk_spirit_1" text="Sempre que uma unidade de nível 6 ou superior morre, distribui sua experiência entre o restante das tropas no grupo." />
+    <string id="str_tor_perk_miracle_label" text="Milagre" />
+    <string id="str_tor_perk_miracle_1" text="Sua fé é tão forte que é capaz de manifestar eventos milagrosos de tempos em tempos." />
+    <string id="id_interno" text="CHAVE" />
+    <string id="tor_ability_enabled" text="Ativado" />
+    <string id="tor_ability_missing_anvil" text="Faltando Bigorna da Destruição" />
+    <string id="tor_ability_on_cooldown" text="Em recarga" />
+    <string id="tor_ability_mission_over" text="A missão acabou" />
+    <string id="tor_ability_casting" text="Conjurando" />
+    <string id="tor_ability_in_mistform" text="Em Forma de Névoa" />
+    <string id="tor_career_ability_not_charged" text="Habilidade não carregada" />
+    <string id="tor_career_ability_not_usable_mounted" text="Não utilizável montado" />
+    <string id="tor_career_ability_not_usable_without_weapon" text="Não utilizável sem arma" />
+    <string id="tor_spell_not_enough_wom" text="Ventos da magia insuficientes" />
+    <string id="tor_ability_frontal_cone_only_text" text="Só pode conjurar em um cone frontal" />
+    <string id="tor_ability_caster_dead_routed_text" text="Conjurador morto ou em fuga" />
+    <string id="tor_ability_no_target_locked_text" text="Nenhum alvo travado" />
+    <string id="tor_ability_not_player_controlled_text" text="Conjurador não controlado pelo jogador" />
+    <string id="tor_ability_not_enough_usages_text" text="Usos insuficientes (máximo {MAXIMUM})" />
+    <string id="tor_magister_scrolls_scribed" text="Seus Arqui-Magistas Imperiais escreveram {AMOUNT} Pergaminhos Arcanos." />
+    <string id="tor_ability_mission_agent_limit" text="Muitos agentes no campo de batalha" />
+    <string id="tor_spell_stat_name" text="Nome do Feitiço: " />
+    <string id="tor_spell_stat_wom_cost" text="Custo de Ventos da Magia: " />
+    <string id="tor_spell_stat_tier" text="Nível do Feitiço: " />
+    <string id="tor_spell_stat_type" text="Tipo de Feitiço: " />
+    <string id="tor_spell_stat_cooldown" text="Recarga: " />
+    <string id="tor_prayer_stat_name" text="Nome da Oração: " />
+    <string id="tor_prayer_stat_tier" text="Nível da Oração: " />
+    <string id="tor_prayer_stat_type" text="Tipo de Oração: " />
+    <string id="tor_prayer_stat_cooldown" text="Recarga: " />
+    <string id="tor_cooldown_seconds" text="{COOLDOWN} segundos" />
+    <string id="str_tor_spellcasting_level_none" text="Nenhum" />
+    <string id="str_tor_spellcasting_level_minor" text="Menor" />
+    <string id="str_tor_spellcasting_level_entry" text="Inicial" />
+    <string id="str_tor_spellcasting_level_adept" text="Adepto" />
+    <string id="str_tor_spellcasting_level_master" text="Mestre" />
+    <string id="str_tor_prayer_level_none" text="Nenhum" />
+    <string id="str_tor_prayer_level_minor" text="Menor" />
+    <string id="str_tor_prayer_level_novice" text="Iniciante" />
+    <string id="str_tor_prayer_level_adept" text="Adepto" />
+    <string id="str_tor_prayer_level_grand" text="Grão" />
+    <string id="str_tor_ability_effect_type_projectile" text="Projétil" />
+    <string id="str_tor_ability_effect_type_missile" text="Míssil" />
+    <string id="str_tor_ability_effect_type_seeker_missile" text="Míssil Teleguiado" />
+    <string id="str_tor_ability_effect_type_wind" text="Vento" />
+    <string id="str_tor_ability_effect_type_vortex" text="Vórtice" />
+    <string id="str_tor_ability_effect_type_heal" text="Cura" />
+    <string id="str_tor_ability_effect_type_augment" text="Aumento" />
+    <string id="str_tor_ability_effect_type_hex" text="Maldição" />
+    <string id="str_tor_ability_effect_type_summoning" text="Invocação" />
+    <string id="str_tor_ability_effect_type_bombardment" text="Bombardeio" />
+    <string id="str_tor_ability_effect_type_blast" text="Explosão" />
+    <string id="str_tor_ability_effect_type_artillery_placement" text="Posicionamento de Artilharia" />
+    <string id="str_tor_ability_effect_type_time_warp" text="Distorção Temporal" />
+    <string id="str_tor_ability_effect_type_career_ability" text="Habilidade de Carreira" />
+    <string id="str_tor_ability_effect_type_tactical_reposition" text="Reposicionamento Tático" />
+    <string id="str_tor_spellbook_hero_name" text="Nome do Herói: " />
+    <string id="str_tor_spellbook_casting_level" text="Nível de conjuração: " />
+    <string id="str_tor_spellbook_max_wom" text="Máximo de Ventos da Magia: " />
+    <string id="str_tor_spellbook_current_wom" text="Ventos da Magia Atuais: " />
+    <string id="str_tor_spellbook_wom_recharge" text="Taxa de recarga de Ventos da Magia: " />
+    <string id="str_tor_spellbook_recharge_rate" text="{RATE}{ICON} / hora" />
+    <string id="str_tor_spellbook_known_lores" text="Escolas de Magia Conhecidas: " />
+    <string id="str_tor_prayerbook_devoted_to" text="Devoto a: " />
+    <string id="str_tor_prayerbook_prayer_level" text="Nível de oração: " />
+    <string id="str_tor_forest_harmony_level_harmony" text="Harmonia" />
+    <string id="str_tor_forest_harmony_level_bound" text="Vinculado" />
+    <string id="str_tor_forest_harmony_level_unbound" text="Não-Vinculado" />
+    <string id="str_tor_ink_end" text="Fim" />
+    <string id="str_tor_ink_continue" text="Continuar" />
+    <string id="str_tor_brawl_cannot_leave" text="Você não pode sair até terminar a briga." />
+    <string id="str_tor_quest_fight_cannot_leave" text="Você não pode sair até terminar o cenário da missão." />
+    <string id="str_tor_joust_dismount" text="Você deve desmontar para continuar o combate a pé." />
+    <string id="str_tor_chaos_rebellion_text" text="A corrupção do Caos atinge um nível crítico em {SETTLEMENT_NAME} e uma rebelião explode." />
+    <string id="str_tor_stealth_attack_text" text="Ataque Furtivo!" />
+
+    <!-- S02 - Quests, Generic Texts, Mechanics, CC, Blessings, Training -->
+    <string id="str_tor_quest_specialize_lore_title" text="Praticar Conjuração" />
+    <string id="str_tor_quest_engineer_cultists_skip" text="Sua vitória aqui não tem sentido... você nunca encontrará o que levamos..." />
+    <string id="str_tor_quest_engineer_skip" text="Você não faz ideia do que está interferindo..." />
+    <string id="str_tor_quest_hunt_cultist_issue_brief" text="Na verdade, tenho uma pista sobre um possível cultista. Uma grave acusação que precisa de investigação." />
+    <string id="str_tor_quest_hunt_cultist_issue_accept_player" text="O que precisa ser feito?" />
+    <string id="str_tor_quest_hunt_cultist_issue_explanation" text="Preciso que você viaje até {TARGET_SETTLEMENT}. Investigue a população local e erradique quaisquer cultistas. Ao concluir com sucesso, a ordem lhe pagará {REWARD}{GOLD_ICON}." />
+    <string id="str_tor_quest_hunt_cultist_accept_player" text="Considere feito." />
+    <string id="str_tor_quest_hunt_cultist_issue_title" text="Um cultista entre nós" />
+    <string id="str_tor_quest_hunt_cultist_description" text="Viaje até {TARGET_SETTLEMENT} e erradique qualquer cultista que possa estar se escondendo lá." />
+    <string id="str_tor_quest_hunt_cultist_quest_title" text="Um cultista entre nós" />
+    <string id="str_tor_quest_hunt_cultist_offer_dialog" text="Excelente. Não subestime os poderes ruinovos; vigilância inabalável é necessária em sua jornada!" />
+    <string id="str_tor_quest_hunt_cultist_discuss_dialog" text="Foi bom fazer negócios com você." />
+    <string id="str_tor_quest_hunt_cultist_prepare_to_die" text="Prepare-se para morrer!" />
+    <string id="str_tor_khorne_cultist_mission_dialog" text="Este receptáculo é meu. Não interfira nos meus planos!" />
+    <string id="str_tor_quest_hunt_cultist_out_of_time_log" text="Você não conseguiu concluir a investigação a tempo. Quaisquer possíveis cultistas certamente fugiram agora." />
+    <string id="str_tor_quest_hunt_cultist_village_raided_title" text="Aldeia Saqueada" />
+    <string id="str_tor_quest_hunt_cultist_village_raided_info" text="A aldeia foi saqueada. Quaisquer cultistas provavelmente fugiram ou se esconderam. Retorne quando a aldeia for repovoada." />
+    <string id="str_tor_quest_hunt_cultist_log_updated_success" text="Você teve sucesso em descobrir os cultistas." />
+    <string id="str_tor_quest_hunt_cultist_log_updated_fail" text="Os cultistas fugiram antes que você pudesse lidar com eles." />
+    <string id="str_tor_quest_hunt_cultist_started" text="Você foi encarregado de viajar até {TARGET_SETTLEMENT} e erradicar qualquer cultista que possa estar se escondendo lá." />
+    <string id="str_tor_quest_plagued_village_issue_brief" text="Na verdade, tenho uma pista sobre uma possível atividade cultista. Uma aldeia foi atingida por uma peste terrível e não natural. Um assunto grave que precisa de investigação." />
+    <string id="str_tor_quest_plagued_village_issue_accept_player" text="O que precisa ser feito?" />
+    <string id="str_tor_quest_plagued_village_issue_explanation" text="Preciso que você viaje até {TARGET_SETTLEMENT}. Investigue a situação e encontre a causa raiz da peste. Ao concluir com sucesso, a ordem lhe pagará {REWARD}{GOLD_ICON}." />
+    <string id="str_tor_quest_plagued_village_accept_player" text="Considere feito." />
+    <string id="str_tor_quest_plagued_village_title" text="A aldeia assolada pela peste" />
+    <string id="str_tor_quest_plagued_village_description" text="Viaje até o assentamento alvo e encontre a causa da epidemia não natural que assola a aldeia." />
+    <string id="str_tor_quest_plagued_village_quest_title" text="A aldeia assolada pela peste" />
+    <string id="str_tor_quest_plagued_village_offer_dialog" text="Excelente. Não subestime os poderes ruinovos; vigilância inabalável é necessária em sua jornada!" />
+    <string id="str_tor_quest_plagued_village_discuss_dialog" text="Foi bom fazer negócios com você." />
+    <string id="str_tor_quest_plagued_village_out_of_time_log" text="Você não conseguiu concluir a investigação a tempo." />
+    <string id="str_tor_quest_plagued_village_raided_info" text="A aldeia foi saqueada, não há chance de encontrar quaisquer cultistas agora. Volte quando a aldeia for repovoada." />
+    <string id="str_tor_quest_plagued_village_log_updated_success" text="Você teve sucesso em erradicar a peste." />
+    <string id="str_tor_quest_plagued_village_log_updated_fail" text="Você abandonou a missão." />
+    <string id="str_tor_quest_plagued_village_started" text="Você foi encarregado de viajar até {TARGET_SETTLEMENT} e investigar a epidemia que a assola." />
+    <string id="str_tor_generic_upkeep" text="Manutenção" />
+    <string id="str_tor_generic_garrisonUpkeep" text="Manutenção da Guarnição" />
+    <string id="str_tor_generic_armyMember" text="Parte do Exército" />
+    <string id="str_tor_generic_siegeCampBonus" text="Bônus de Acampamento de Cerco" />
+    <string id="str_tor_generic_enchantedEquipment" text="Itens Encantados Equipados" />
+    <string id="str_tor_generic_isRaided" text="{SETTLEMENT} está sob saque" />
+    <string id="str_tor_generic_isLooted" text="{SETTLEMENT} está destruído" />
+    <string id="str_tor_generic_isCaptured" text="{SETTLEMENT} foi capturado" />
+    <string id="str_tor_inquiry_ok_text" text="OK" />
+    <string id="str_tor_inquiry_cancel_text" text="Cancelar" />
+    <string id="str_tor_inquiry_confirm_text" text="Confirmar" />
+    <string id="str_tor_inquiry_accept_text" text="Aceitar" />
+    <string id="str_tor_item_added_to_inventory_text" text="{ITEM_NAME} foi adicionado ao inventário" />
+    <string id="str_tor_not_enough_gold_text" text="Ouro insuficiente" />
+    <string id="str_tor_greenskin_appetite" text="Apetite de Pele-Verde" />
+    <string id="str_tor_waaagh_bar_tooltip" text="Waaagh: {CURRENT} / {MAX}" />
+    <string id="str_tor_greenskin_internal_fightin_text" text="Briga Interna" />
+    <string id="str_tor_waaagh_level_name_internal_fightin" text="Briga Interna" />
+    <string id="str_tor_waaagh_level_desc_internal_fightin" text="A piazada do bando está desmoralizada. Eles não têm ninguém pra espancar e começaram a lutar entre si." />
+    <string id="str_tor_waaagh_level_effects_internal_fightin" text="Moral: -40{NEWLINE}Dano Causado: -20%{NEWLINE}Comida Consumida: -60%{NEWLINE}Feridos Diários: Alta chance" />
+    <string id="str_tor_greenskin_internal_fightin_bonus_low_member_text" text="Bando de Fracotes" />
+    <string id="str_tor_greenskin_petty_squabblin_text" text="Briguinhas Bobas" />
+    <string id="str_tor_waaagh_level_name_petty_squabblin" text="Briguinhas Bobas" />
+    <string id="str_tor_waaagh_level_desc_petty_squabblin" text="O bando achou alguém pra bater, mas ainda rolam umas picuinhas entre a tribo. A piazada logo vai ficar inquieta de novo." />
+    <string id="str_tor_waaagh_level_effects_petty_squabblin" text="Moral: -20{NEWLINE}Dano Causado: -10%{NEWLINE}Comida Consumida: -30%{NEWLINE}Feridos Diários: Chance menor" />
+    <string id="str_tor_greenskin_ere_we_go_text" text="Lá Vamos Nós!" />
+    <string id="str_tor_waaagh_level_name_ere_we_go" text="Lá Vamos Nós!" />
+    <string id="str_tor_waaagh_level_desc_ere_we_go" text="As proezas recentes do seu bando chegaram aos ouvidos de outras tribos. Peles-Verdes de outros cantos começam a se reunir, e sua piazada está se preparando para uma briga de verdade." />
+    <string id="str_tor_waaagh_level_effects_ere_we_go" text="Dano Causado: +10%{NEWLINE}Comida Consumida: +25%{NEWLINE}Tamanho do Grupo: +60{NEWLINE}Recrutamento Diário: Pequena chance (T1-3)" />
+    <string id="str_tor_greenskin_waaagh_text" text="WAAAGH!!!!" />
+    <string id="str_tor_waaagh_level_name_waaagh" text="WAAAGH!!!!" />
+    <string id="str_tor_waaagh_level_desc_waaagh" text="Agora a piazada está com sangue nos olhos e pronta pra matança! Vamos mostrar pra todos esses humanos, nanicos e todo o resto quem manda! ISSO É WAAAAGH!!!" />
+    <string id="str_tor_waaagh_level_effects_waaagh" text="Dano Causado: +20%{NEWLINE}Comida Consumida: +100%{NEWLINE}Tamanho do Grupo: +120{NEWLINE}Recrutamento Diário: Grande chance (T1-3)" />
+    <string id="str_tor_waaagh_level_name_unknown" text="Desconhecido" />
+    <string id="str_tor_greenskin_teef_extorsion_text" text="Extorsão de Dentes" />
+    <string id="str_tor_greenskin_teef_tribute_text" text="Tributo de Dentes" />
+    <string id="str_tor_hideout_greenskin_no_sneak" text="Você é desajeitado demais para entrar sem ser notado." />
+    <string id="str_tor_hideout_greenskin_no_wait" text="Você é desajeitado demais para entrar sem ser notado. Por que esperar?" />
+    <string id="str_tor_stats_minotaur_bonus_text" text="Bônus de Minotauro" />
+    <string id="str_tor_stats_dryad_bonus_text" text="Bônus de Dríade" />
+    <string id="str_tor_vampire_bonus" text="Bônus de Vampiro" />
+    <string id="str_tor_vampire_nighttime_bonus" text="Bônus de Vampiro (Noite)" />
+    <string id="str_tor_stats_large_monster_text" text="Monstro Grande" />
+    <string id="str_tor_stats_tier1_text" text="Nível 1" />
+    <string id="str_tor_stats_tier2_text" text="Nível 2" />
+    <string id="str_tor_stats_tier3_text" text="Nível 3" />
+    <string id="str_tor_stats_tier4_text" text="Nível 4" />
+    <string id="str_tor_stats_vampire_body_text" text="Corpo de Vampiro" />
+    <string id="str_tor_healing_shallya_seal_text" text="Selo de Shallya" />
+    <string id="str_tor_undead_food_saving_text" text="Economia com tropas mortas-vivas" />
+    <string id="str_tor_healing_rune_text" text="Repouso Rúnico" />
+    <string id="str_tor_cc_growth_battania" text="Você passou a maior parte da sua vida venerando uma das divindades Asrai…" />
+    <string id="str_tor_cc_profession_battania" text="Escolha o seu caminho…" />
+    <string id="str_tor_cc_origin_sturgia" text="Seu Clã é famoso por seu…" />
+    <string id="str_tor_cc_growth_sturgia" text="Os orgulhosos Dawi cultivam cada ressentimento dirigido aos seus parentes…" />
+    <string id="str_tor_cc_profession_sturgia" text="Sua profissão atual…" />
+    <string id="str_tor_cc_origin_aserai" text="Peles-Verdes se reproduzem por esporos, e os seus caíram em…" />
+    <string id="str_tor_cc_growth_aserai" text="Após se juntar a uma tribo, sua maior conquista foi…" />
+    <string id="str_tor_cc_profession_aserai" text="Antes de deixar a tribo, você era um dos…" />
+    <string id="str_tor_cc_specialization_title_lore" text="Escolha sua Escola de Magia…" />
+    <string id="str_tor_cc_specialization_desc_lore" text="O dom da Visão de Bruxo permite que você canalize um dos oito Ventos da Magia:" />
+    <string id="str_tor_cc_specialization_title_bloodline" text="Escolha sua Linhagem…" />
+    <string id="str_tor_cc_specialization_desc_bloodline" text="A raça dos Vampiros é dividida em várias linhagens distintas:" />
+    <string id="str_tor_cc_specialization_title_god" text="Escolha sua Divindade…" />
+    <string id="str_tor_cc_specialization_desc_god" text="Todos os Sacerdotes Guerreiros servem a um deus em particular:" />
+    <string id="str_tor_cc_specialization_title_order" text="Escolha sua Ordem…" />
+    <string id="str_tor_cc_specialization_desc_order" text="Todos os cavaleiros são membros de uma estimada ordem de cavalaria:" />
+    <string id="str_tor_priest_hub_intro_cult_of_ulric" text="Em nome de Ulric, como posso ajudá-lo?" />
+    <string id="str_tor_priest_hub_reintro_cult_of_ulric" text="Você precisava de mais alguma coisa?" />
+    <string id="str_tor_priest_hub_blessings_p_cult_of_ulric" text="Desejo aprender mais sobre o Grande Lobo." />
+    <string id="str_tor_priest_hub_quit_p_cult_of_ulric" text="Devo partir, que Ulric guie sua lâmina." />
+    <string id="str_tor_priest_blessings_1_cult_of_ulric" text="Por uma doação em nome de Ulric, posso lhe conceder acesso aos nossos tomos sagrados." />
+    <string id="str_tor_priest_blessings_decline_cult_of_ulric" text="Você deve falar com um Alquimista primeiro. Há muito mais a aprender antes que eu possa mostrar como abençoar seu equipamento." />
+    <string id="str_tor_priest_start_accept_cult_of_ulric" text="Filhos do Lobo, bem-vindos!" />
+    <string id="str_tor_priest_start_decline_cult_of_ulric" text="Você precisa de um seguidor de Ulric em seu grupo se deseja falar comigo, estranho." />
+    <string id="str_tor_priest_start_decline_hard_cult_of_ulric" text="Saia, antes que eu mostre minhas presas, forasteiro!" />
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_ulric" text="Pode me mostrar como abençoar armas em nome de Ulric?" />
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_ulric" text="Desejo a bênção do Lobo Branco." />
+    <string id="str_tor_priest_blessingshop_1_cult_of_ulric" text="Com ofertas de ouro, você poderá acessar nossos Tomos do Lobo." />
+    <string id="str_tor_priest_blessing_party_1_cult_of_ulric" text="Oh, Grande Lobo! Com sua lâmina e presas, permita que este guerreiro se torne um com o frio do inverno…" />
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_ulric" text="O Lobo já está com você, retorne mais tarde." />
+    <string id="str_tor_priest_hub_quit_cult_of_ulric" text="Devo partir." />
+    <string id="str_tor_priest_start_accept_cult_of_sigmar" text="Bem-vindos, amigos do Império." />
+    <string id="str_tor_priest_start_decline_cult_of_sigmar" text="Você precisa de um seguidor de Sigmar se deseja falar comigo, estranho." />
+    <string id="str_tor_priest_start_decline_hard_cult_of_sigmar" text="Suma da minha frente, agora mesmo!" />
+    <string id="str_tor_priest_hub_intro_cult_of_sigmar" text="Em nome de Sigmar, como posso ajudá-lo?" />
+    <string id="str_tor_priest_hub_reintro_cult_of_sigmar" text="Havia algo mais?" />
+    <string id="str_tor_priest_hub_blessings_p_cult_of_sigmar" text="Pode me mostrar como abençoar armas em nome de Sigmar?" />
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_sigmar" text="Conte-me mais sobre a bênção de itens em nome de Sigmar." />
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_sigmar" text="Podemos receber a Bênção de Heldenhammer?" />
+    <string id="str_tor_priest_hub_quit_p_cult_of_sigmar" text="Devo partir." />
+    <string id="str_tor_priest_blessingshop_1_cult_of_sigmar" text="Por uma doação, em nome de Sigmar, posso lhe conceder acesso aos nossos tomos sagrados." />
+    <string id="str_tor_priest_blessingshop_decline_cult_of_sigmar" text="Você deve falar com um Alquimista primeiro. Há muito mais a aprender antes que eu possa mostrar como abençoar seu equipamento." />
+    <string id="str_tor_priest_blessing_party_1_cult_of_sigmar" text="Por Sigmar Heldenhammer e Ghal Maraz, que sua ira justa fustigue o impuro. Não tolere o imundo, o mutante, o herético, pois Sigmar caminha contigo…" />
+    <string id="str_tor_priest_blessings_decline_cult_of_sigmar" text="Você foi abençoado recentemente, não há necessidade de lhe conceder a bênção." />
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_sigmar" text="Você foi abençoado por Sigmar recentemente, não há necessidade de outra bênção." />
+    <string id="str_tor_priest_hub_quit_cult_of_sigmar" text="Sigmar guie seu caminho." />
+    <string id="str_tor_priest_start_accept_cult_of_shallya" text="Bem-vindo, amigo de Shallya." />
+    <string id="str_tor_priest_start_decline_cult_of_shallya" text="Você precisa de um seguidor de Shallya em seu grupo se deseja falar comigo, estranho." />
+    <string id="str_tor_priest_start_decline_hard_cult_of_shallya" text="Você não é bem-vindo aqui, saia imediatamente!" />
+    <string id="str_tor_priest_hub_intro_cult_of_shallya" text="A Pomba Branca da Misericórdia o acolhe de braços abertos." />
+    <string id="str_tor_priest_hub_reintro_cult_of_shallya" text="Havia mais alguma coisa que você precisava, amigo?" />
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_shallya" text="Conte-me mais sobre os tomos sagrados de Shallya." />
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_shallya" text="Desejamos ser abençoados pela Dama de Branco." />
+    <string id="str_tor_priest_hub_quit_p_cult_of_shallya" text="Devo me retirar." />
+    <string id="str_tor_priest_blessingshop_1_cult_of_shallya" text="Por uma pequena doação, você poderá acessar nossos tomos de cura e fé." />
+    <string id="str_tor_priest_blessingshop_decline_cult_of_shallya" text="Você deve falar com um Alquimista primeiro. Há muito mais a aprender antes que eu possa mostrar como abençoar seu equipamento." />
+    <string id="str_tor_priest_blessing_party_1_cult_of_shallya" text="Que Sua misericórdia e compaixão sirvam aos Seus humildes seguidores…" />
+    <string id="str_tor_priest_blessings_decline_cult_of_shallya" text="Você foi abençoado recentemente, não há necessidade de conceder a bênção de uma dividade." />
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_shallya" text="A luz curativa da Dama ainda está com você, retorne em outro momento." />
+    <string id="str_tor_priest_hub_quit_cult_of_shallya" text="Que a misericórdia de Shallya esteja com você." />
+    <string id="str_tor_priest_train_hub_quit_p" text="Devo partir por agora." />
+    <string id="str_tor_teach_skills_dialog_p" text="Você pode ensinar novas habilidades ao meu companheiro?" />
+    <string id="str_tor_skill_teacher_train_1" text="Posso ajudar, mas isso exigirá tempo e ouro." />
+    <string id="str_tor_skill_teacher_train_2" text="Gostaria de prosseguir com o treinamento?" />
+    <string id="str_tor_skill_train_hub_select_companion_p" text="Sim, por favor, instrua um dos meus companheiros." />
+    <string id="str_tor_skill_train_hub_select_companion" text="Muito bem, passarei meus ensinamentos. Seu amigo retornará quando o treinamento estiver concluído." />
+    <string id="str_tor_skill_train_hub_select_companion_decline" text="Não há ninguém no seu grupo que valha a pena ensinar." />
+    <string id="str_tor_teach_skills_dialog_p_DwarfRunelord" text="Você pode ensinar ao meu companheiro runesmith as artes sagradas das runas?" />
+    <string id="str_tor_skill_teacher_train_1_DwarfRunelord" text="Posso ajudar, mas isso levará uma quantidade substancial de tempo e ouro." />
+    <string id="str_tor_skill_teacher_train_2_DwarfRunelord" text="Você ainda deseja que eu passe adiante meus ensinamentos?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_DwarfRunelord" text="Sim, por favor, guie um dos meus companheiros." />
+    <string id="str_tor_skill_train_hub_select_companion_DwarfRunelord" text="Muito bem, passarei meus ensinamentos. Seu amigo retornará quando o treinamento estiver concluído." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_DwarfRunelord" text="Não há ninguém no seu grupo que valha a pena ensinar." />
+    <string id="str_tor_priest_train_hub_quit_p_DwarfRunelord" text="Perdoe-me, Rhunrik, eu mudei de ideia." />
+    <string id="str_tor_teach_skills_dialog_p_EngineerEmpire" text="Você pode ensinar mais sobre Engenharia ao meu companheiro?" />
+    <string id="str_tor_skill_teacher_train_1_EngineerEmpire" text="Com certeza. Posso ensinar seus companheiros. Eles ficarão aqui. Mas já aviso que isso lhe custará caro." />
+    <string id="str_tor_skill_teacher_train_2_EngineerEmpire" text="Então, como devemos proceder?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_EngineerEmpire" text="Sim, concordo. Deixe-me dizer quem deve aprender." />
+    <string id="str_tor_priest_train_hub_quit_p_EngineerEmpire" text="Há algo mais..." />
+    <string id="str_tor_skill_train_hub_select_companion_EngineerEmpire" text="Escolha um companheiro que você deseja que aprenda." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_EngineerEmpire" text="Seus companheiros ainda não estão prontos." />
+    <string id="str_tor_skill_teacher_train_1_EmpireMagister" text="Posso ensinar magia ao seu companheiro, se você permitir que ele permaneça nos colégios." />
+    <string id="str_tor_skill_teacher_train_2_EmpireMagister" text="Quem deve se juntar ao colégio e aprender a arte arcana?" />
+    <string id="str_tor_teach_skills_dialog_p_EmpireMagister" text="Você pode ensinar ao meu companheiro mago os segredos da magia?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_EmpireMagister" text="Sim, por favor, guie um dos meus companheiros." />
+    <string id="str_tor_skill_train_hub_select_companion_EmpireMagister" text="Muito bem, passarei meus ensinamentos. Seu amigo retornará quando o treinamento estiver concluído." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_EmpireMagister" text="Não há ninguém no seu grupo que valha a pena ensinar." />
+    <string id="str_tor_priest_train_hub_quit_p_EmpireMagister" text="Perdoe-me, mudei de ideia." />
+    <string id="str_tor_teach_skills_dialog_p_SigmarPriest" text="Meu companheiro deseja aprofundar sua fé, você pode guiá-lo?" />
+    <string id="str_tor_skill_teacher_train_1_SigmarPriest" text="Seria uma negligência de minha parte não transmitir a palavra sagrada de Sigmar. No entanto, seu companheiro deve ficar e treinar aqui." />
+    <string id="str_tor_skill_teacher_train_2_SigmarPriest" text="Quem entre seus companheiros aprenderá os caminhos de Nosso Senhor Sigmar?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_SigmarPriest" text="Sim, por favor, guie um dos meus companheiros nos ensinamentos de Sigmar." />
+    <string id="str_tor_skill_train_hub_select_companion_SigmarPriest" text="Muito bem, eles aprenderão sob a orientação de Sigmar. Seu companheiro retornará quando o treinamento estiver concluído." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_SigmarPriest" text="Nenhum dos seus companheiros é digno dos ensinamentos de Sigmar." />
+    <string id="str_tor_priest_train_hub_quit_p_SigmarPriest" text="Que Sigmar o guie, devo me retirar." />
+    <string id="str_tor_skill_teacher_train_1_UlricPriest" text="Se Ulric os considerar dignos, poderão aprender. Deixe-os comigo." />
+    <string id="str_tor_skill_teacher_train_2_UlricPriest" text="Quem aprenderá os caminhos do Pai do Inverno?" />
+    <string id="str_tor_teach_skills_dialog_p_UlricPriest" text="Meu companheiro deseja aprofundar sua fé, você pode guiá-lo?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_UlricPriest" text="Sim, por favor, guie um dos meus companheiros." />
+    <string id="str_tor_skill_train_hub_select_companion_UlricPriest" text="Muito bem, eles retornarão com as presas afiadas." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_UlricPriest" text="Não há ninguém no seu grupo que valha a pena ensinar." />
+    <string id="str_tor_priest_train_hub_quit_p_UlricPriest" text="Perdoe-me, mudei de ideia." />
+    <string id="id_interno" text="CHAVE" />
+    <string id="str_tor_skill_training_prompt_title" text="Ensinar {SKILL_NAME} a um companheiro" />
+    <string id="str_tor_skill_training_prompt_skill_value" text="Valor de habilidade atual: {SKILL_VALUE}" />
+    <string id="str_tor_skill_training_prompt_description" text="O treinamento custará {GOLD_ICON} e {CUSTOMRESOURCE}. O companheiro selecionado deixará seu grupo e permanecerá aqui por um período de tempo. Cancelar este processo não reembolsará quaisquer recursos gastos." />
+    <string id="str_tor_skill_training_reason_NoCustomResource" text="Você não possui {CUSTOMRESOURCE} suficiente." />
+    <string id="str_tor_skill_training_hover_NoGold" text="Você não possui {GOLD_ICON} suficiente." />
+    <string id="str_tor_skill_training_hover_NoCustomResource" text="Você não possui {CUSTOMRESOURCE} suficiente." />
+    <string id="str_tor_skill_training_hover_Costs" text="Requer {GOLD_COST}{GOLD_ICON}, {CR_COST}{CUSTOMRESOURCE}" />
+    <string id="str_tor_skill_training_hover_Full" text="{SKILLTRAINING_REASON} {SKILL_TRAINING_COSTS}" />
+    <string id="str_tor_teach_skills_dialog_p_ShallyaTrainRE" text="Você pode ensinar mais sobre Medicina aos meus companheiros?" />
+    <string id="str_tor_skill_teacher_train_1_ShallyaTrainRE" text="A misericórdia da Pomba guia nossas mãos na cura. Posso ensinar ao seu companheiro os caminhos dos misericordiosos." />
+    <string id="str_tor_skill_teacher_train_2_ShallyaTrainRE" text="Quem entre seus companheiros aprenderá as artes da cura?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_ShallyaTrainRE" text="Sim, por favor, guie um dos meus companheiros nas artes da cura." />
+    <string id="str_tor_skill_train_hub_select_companion_ShallyaTrainRE" text="Nós os devolveremos a tempo, eles estão em boas mãos." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_ShallyaTrainRE" text="Nenhum dos seus companheiros é adequado para aprender as artes da cura." />
+    <string id="str_tor_priest_train_hub_quit_p_ShallyaTrainRE" text="Talvez em outro momento, irmã." />
+    <string id="str_tor_teach_skills_dialog_p_ShallyaTrainCO" text="Meus companheiros desejam aprender mais sobre a misericórdia de Shallya." />
+    <string id="str_tor_skill_teacher_train_1_ShallyaTrainCO" text="O caminho da fé exige dedicação e compaixão. Posso guiar seu companheiro nos caminhos de Shallya." />
+    <string id="str_tor_skill_teacher_train_2_ShallyaTrainCO" text="Há muito sobre misericórdia e compaixão que podemos ensinar." />
+    <string id="str_tor_skill_train_hub_select_companion_p_ShallyaTrainCO" text="Sim, por favor, guie um dos meus companheiros nos caminhos da fé." />
+    <string id="str_tor_skill_train_hub_select_companion_ShallyaTrainCO" text="Nós os devolveremos a tempo, eles estão em boas mãos." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_ShallyaTrainCO" text="Nenhum dos seus companheiros é adequado para aprender os caminhos da fé." />
+    <string id="str_tor_priest_train_hub_quit_p_ShallyaTrainCO" text="Talvez em outro momento, irmã." />
+    <string id="str_tor_teach_skills_dialog_p_Necromancer" text="Você pode ensinar as artes sombrias ao meu companheiro?" />
+    <string id="str_tor_skill_teacher_train_1_Necromancer" text="Os segredos da morte não são dados livremente. Seu companheiro deve permanecer aqui para estudar o conhecimento proibido." />
+    <string id="str_tor_skill_teacher_train_2_Necromancer" text="Quem entre seus seguidores ousa trilhar o caminho dos mortos-vivos?" />
+    <string id="str_tor_skill_train_hub_select_companion_p_Necromancer" text="Sim, guie um dos meus companheiros nas artes sombrias." />
+    <string id="str_tor_skill_train_hub_select_companion_Necromancer" text="Que assim seja. Eles aprenderão os segredos de Nagash. Seu servo retornará quando o treinamento estiver concluído." />
+    <string id="str_tor_skill_train_hub_select_companion_decline_Necromancer" text="Nenhum dos seus seguidores possui aptidão para as artes sombrias." />
+    <string id="str_tor_priest_train_hub_quit_p_Necromancer" text="Muito bem. Os mortos esperarão." />
+    <string id="str_tor_magical_items_trait_nameComposition" text="{NAMEMODIFIER} {NAMEOFITEM}" />
+    <string id="str_tor_magical_items_trait_rarity_1" text="Incomum" />
+    <string id="str_tor_magical_items_trait_rarity_2" text="Raro" />
+    <string id="str_tor_magical_items_trait_rarity_3" text="Épico" />
+    <string id="str_tor_magical_items_trait_rarity_4" text="Lendário" />
 
     <!-- ===== NOMES RICOS DE CULTURA (exibidos na seleção de facção) ===== -->
     <string id="str_tor_culture_rich_name_khuzait"    text="Condes Vampiros" />
