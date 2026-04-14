@@ -304,9 +304,18 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 ---
 
-## WORKFLOW PÓS-UPDATE DO MOD (para a IA que retomar após um update)
+## WORKFLOW PÓS-UPDATE DO MOD (Steam)
 
-1. `git diff tor_strings.xml` — ver quais strings foram adicionadas/alteradas em inglês
-2. Para strings novas: traduzir e **acrescentar** ao `tor_strings_ptbr.xml` existente
-3. Para arquivos inline modificados: `git diff <arquivo>` mostra as linhas alteradas — re-aplicar só o necessário
-4. Os arquivos `Languages/BR/*.xml` são novos (Steam nunca os criou) — **sobrevivem automaticamente** a qualquer update
+O Steam sobrescreve os arquivos originais → execute `git status` para ver o que mudou.
+
+1. **Arquivos de linguagem (`tor_strings_ptbr.xml`, etc.):** Não precisa fazer nada. O Steam nunca criou esses arquivos, então nunca os sobrescreve.
+2. **Arquivos editados inline (`tor_cc_options.xml`, `tor_itemtraits.xml`, etc.):**
+   - Ver o que o Steam mudou: `git diff "3025574678/ModuleData/tor_custom_xmls/tor_cc_options.xml"`
+   - Restaurar sua tradução (sobrescreve a versão nova do Steam): `git checkout "arquivo"`
+   - Após restaurar, identifique entradas novas em inglês que ainda não existiam e adicione a tradução manualmente.
+
+## REGRA GERAL POR SESSÃO
+
+Ao finalizar cada sessão de tradução, execute os comandos:
+1. `git add [arquivos modificados]`
+2. `git commit -m "traducao: [o que foi feito, ex: CC02 Bretonia+Wood Elves]"`
