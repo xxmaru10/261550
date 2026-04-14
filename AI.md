@@ -223,7 +223,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Editar diretamente:** `<Name>`, `<Description>`, `<PositiveEffect>`, `<NegativeEffect>`
 
 - [x] E01 — linhas 1–210 *(Escolas de Magia: Ghyran/Vida, Aqshy/Fogo, Shyish/Morte, Chamon/Metal, Hysh/Luz, Azyr/Céus, Ghur/Feras, Ulgu/Sombras)*
-- [ ] E02 — linhas 211–410 *(Especializações: Vampiros, Sacerdotes, Cavaleiros e demais)*
+- [x] E02 — linhas 211–410 *(Especializações: Vampiros, Sacerdotes, Cavaleiros e demais)*
 
 ---
 
