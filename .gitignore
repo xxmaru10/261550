@@ -1,0 +1,17 @@
+﻿# Ignorar tudo por padrão
+*
+# Permitir pastas
+!*/
+!**/ModuleData/
+!**/ModuleData/**/
+
+# Permitir apenas os arquivos específicos de tradução do nosso plano
+!**/tor_strings.xml
+!**/tor_extendeditemproperties.xml
+!**/tor_voiced_strings.xml
+!**/tor_concept_strings.xml
+
+# Permitir arquivos de gerenciamento
+!AI.md
+!.gitignore
+'!*README*'
