@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData id="Português (BR)">
+  <LanguageFile xml_path="BR/tor_strings_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_voiced_strings_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_concept_strings_ptbr.xml" />
+</LanguageData>
