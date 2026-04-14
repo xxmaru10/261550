@@ -404,9 +404,9 @@
 			<string>Trade</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option30_label_str}Vagabond</OptionText>
-		<PositiveEffectText>{=tor_cc_option30_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option30_text_str}The roads of Sylvania are dark and dangerous, you prey on its few travellers and hoard what little riches you can take with your blade. Yet you are not the only monster lurking within the dark swamps and forests, at times there is nothing left of the travellers to thieve from.</OptionFlavourText>
+		<OptionText>{=tor_cc_option30_label_str}Vagabundo</OptionText>
+		<PositiveEffectText>{=tor_cc_option30_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option30_text_str}As estradas da Silvânia são sombrias e perigosas; você vive à custa dos poucos viajantes que por lá passam, acumulando o pouco que consegue arrancar com sua lâmina. Mas você não é o único monstro a espreitar nos pântanos e florestas sombrios — às vezes, não resta nada dos viajantes para roubar.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!-- Bretonnia stage 1 -->
@@ -418,8 +418,8 @@
 			<string>Riding</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option31_label_str}Bretonnian Nobility</OptionText>
-		<OptionFlavourText>{=tor_cc_option31_text_str}Your family can trace its various roots and relations nearly as far back as the time of Gilles. You were born into the nobility of Bretonnia; and everyone knows it by the way you dress, the way you talk and the way you order the peasants about.</OptionFlavourText>
+		<OptionText>{=tor_cc_option31_label_str}Nobreza Bretônia</OptionText>
+		<OptionFlavourText>{=tor_cc_option31_text_str}Sua família pode traçar suas raízes quase até a época de Gilles. Você nasceu na nobreza de Bretônia; e todos reconhecem isso pela forma como se veste, como fala e como ordena os camponeses.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_bretonnia_peasants" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_peasants_1">
@@ -430,8 +430,8 @@
 			<string>Crafting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option32_label_str}Bretonnian Peasants</OptionText>
-		<OptionFlavourText>{=tor_cc_option32_text_str}For untold generations, your family has worked the land of your feudal lord. Your father gave up long ago at trying to understand your lord’s words and simply look to the Yeoman who always accompanies him for orders, which normally involves great physical labour.</OptionFlavourText>
+		<OptionText>{=tor_cc_option32_label_str}Camponeses Bretônios</OptionText>
+		<OptionFlavourText>{=tor_cc_option32_text_str}Por incontáveis gerações, sua família trabalhou as terras de seu senhor feudal. Seu pai desistiu há muito de tentar entender as palavras do senhor e simplesmente aguarda as ordens do Yeoman que sempre o acompanha — ordens que normalmente envolvem muito trabalho braçal.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_bretonnia_sailors" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_sailors_1">
@@ -442,8 +442,8 @@
 			<string>Bow</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option33_label_str}Bretonnian Sailors</OptionText>
-		<OptionFlavourText>{=tor_cc_option33_text_str}Your father was a sailor on a Bretonnian Buccaneer. When he returned to your fishing village, he spent as much time as he could with your mother, you and your siblings. He taught you as many skills as he could, such as knot tying, the use of a spyglass and how to navigate by the night sky.</OptionFlavourText>
+		<OptionText>{=tor_cc_option33_label_str}Marinheiros Bretônios</OptionText>
+		<OptionFlavourText>{=tor_cc_option33_text_str}Seu pai era marinheiro em um Bucaneiro Bretônio. Quando retornava à sua aldeia de pescadores, passava todo o tempo possível com sua mãe, você e seus irmãos. Ele lhe ensinou tudo que pôde: atar nós, usar uma luneta e navegar guiado pelo céu noturno.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_bretonnia_outlaws" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
@@ -454,8 +454,8 @@
 			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option34_label_str}Outlaws</OptionText>
-		<OptionFlavourText>{=tor_cc_option34_text_str}Somehow, your family broke one of the oath bonds to your lord and has since been branded as outlaws. Constantly on the run and living at the fringe of society, your family makes due with what they can poach from the forests.</OptionFlavourText>
+		<OptionText>{=tor_cc_option34_label_str}Fora-da-Lei</OptionText>
+		<OptionFlavourText>{=tor_cc_option34_text_str}De alguma forma, sua família quebrou um dos juramentos ao seu senhor e desde então foi marcada como fora-da-lei. Sempre em fuga, vivendo à margem da sociedade, sua família se sustenta com o que consegue caçar furtivamente nas florestas.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_bretonnia_wine_merchants" Culture="vlandia" StageNumber="1" EquipmentSetId="tor_cc_bretonnian_merchants_1">
@@ -466,8 +466,8 @@
 			<string>Charm</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option35_label_str}Wine Merchants</OptionText>
-		<OptionFlavourText>{=tor_cc_option35_text_str}Your family was a part of the very small number of wealthy peasants that exist in Bretonnia. They gained their wealth over the generations through the sale of the many Bretonnian vintages into the Empire, Estalia and Tilea. Recently, your lord granted an exemption to the Sumptuary laws, enabling you to wear boots that reach to your knees.</OptionFlavourText>
+		<OptionText>{=tor_cc_option35_label_str}Comerciantes de Vinho</OptionText>
+		<OptionFlavourText>{=tor_cc_option35_text_str}Sua família fazia parte do pequíssimo grupo de camponeses abastados que existe em Bretônia. Ao longo das gerações, acumularam riqueza vendendo os muitos vinhos bretônios para o Império, Estália e Tilea. Recentemente, seu senhor lhe concedeu uma isenção às leis suntuárias, permitindo-lhe usar botas que chegam aos joelhos.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!-- Bretonnia stage 2 -->
@@ -479,8 +479,8 @@
 			<string>Leadership</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option36_label_str}Bretonnian Courtier</OptionText>
-		<OptionFlavourText>{=tor_cc_option36_text_str}For years, you were groomed to be the best Bretonnian noble you could be. This included lessons in manners, horsemanship and chivalry.</OptionFlavourText>
+		<OptionText>{=tor_cc_option36_label_str}Cortesão Bretônio</OptionText>
+		<OptionFlavourText>{=tor_cc_option36_text_str}Por anos, você foi preparado para ser o melhor nobre bretônio possível. Isso incluía lições de etiqueta, equitação e cavalaria.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_bretonnia_man_at_arms" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_men_at_arms_2">
@@ -491,8 +491,8 @@
 			<string>Tactics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option37_label_str}Man-at-Arms</OptionText>
-		<OptionFlavourText>{=tor_cc_option37_text_str}When you came of age, you entered the service of your lord. You were trained to hold the line and survive on the battlefield the best you can. You are still alive now, so you must have been pretty good at it.</OptionFlavourText>
+		<OptionText>{=tor_cc_option37_label_str}Homem de Armas</OptionText>
+		<OptionFlavourText>{=tor_cc_option37_text_str}Quando atingiu a idade, entrou a serviço de seu senhor. Foi treinado para aguentar firme e sobreviver no campo de batalha da melhor forma possível. O fato de ainda estar vivo prova que você foi bom nisso.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_bretonnia_highwayman" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_highwayman_2">
@@ -503,8 +503,8 @@
 			<string>Scouting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option38_label_str}Wanted Criminal</OptionText>
-		<OptionFlavourText>{=tor_cc_option38_text_str}In your youthful rashness, you broke one of the many laws setting the boundaries of Bretonnian society. Without any other options, you were forced into the fringe of society, forever on the run from the authorities. You lived for a time only by your poaching and stealing, while eventually finding forgiveness for your crimes.</OptionFlavourText>
+		<OptionText>{=tor_cc_option38_label_str}Criminoso Procurado</OptionText>
+		<OptionFlavourText>{=tor_cc_option38_text_str}Em sua imprudência juvenil, você infringiu uma das muitas leis que regem a sociedade bretônia. Sem outra saída, foi empurrado para a margem, eternamente fugindo das autoridades. Viveu por um tempo apenas de caça furtiva e furtos, até que, eventualmente, encontrou o perdão por seus crimes.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_bretonnia_apprentice_craftsmen" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_apprentice_craftsmen_2">
@@ -515,8 +515,8 @@
 			<string>Steward</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option39_label_str}Apprentice Craftsman</OptionText>
-		<OptionFlavourText>{=tor_cc_option39_text_str}Your father was able to get you an apprenticeship with one of the local artisans. Over the course of five years your master taught you everything he could, leaving you with skills that would forever put you above the average peasant.</OptionFlavourText>
+		<OptionText>{=tor_cc_option39_label_str}Aprendiz de Artesão</OptionText>
+		<OptionFlavourText>{=tor_cc_option39_text_str}Seu pai conseguiu lhe arranjar um aprendizado com um dos artesãos locais. Ao longo de cinco anos, seu mestre lhe ensinou tudo que sabia, deixando-lhe habilidades que para sempre o colocariam acima do camponês comum.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_bretonnia_shepherd" Culture="vlandia" StageNumber="2" EquipmentSetId="tor_cc_shephard_2">
@@ -527,8 +527,8 @@
 			<string>Steward</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option40_label_str}Shepherd</OptionText>
-		<OptionFlavourText>{=tor_cc_option40_text_str}You became a shepherd, watching over the various livestock that your community relied upon for food and clothing. You and your fellows in essence served two roles, protecting the herds from wolves and other predators, while also watching at the outskirts of the village for signs of invaders.</OptionFlavourText>
+		<OptionText>{=tor_cc_option40_label_str}Pastor</OptionText>
+		<OptionFlavourText>{=tor_cc_option40_text_str}Você se tornou pastor, cuidando dos rebanhos dos quais sua comunidade dependia para se alimentar e se vestir. Você e seus companheiros cumpriam essencialmente dois papéis: proteger os animais de lobos e outros predadores, e vigiar os arredores da aldeia em busca de sinais de invasores.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!--  Bretonnia stage 3 -->
@@ -540,9 +540,9 @@
 			<string>Tactics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option41_label_str}Knight Errant</OptionText>
-		<PositiveEffectText>{=tor_cc_option41_effect_str}Knight of Bretonnia Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option41_text_str}You have chosen to set out on the path of a knight of Bretonnia. The trail of dutiful chivalry is a hard one - many foes and battles await you. But, if you are worthy, at the end of your quest you will receive the greatest blessing known to men; a sip from the Grail of the Lady.</OptionFlavourText>
+		<OptionText>{=tor_cc_option41_label_str}Cavaleiro Errante</OptionText>
+		<PositiveEffectText>{=tor_cc_option41_effect_str}Carreira de Cavaleiro de Bretônia</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option41_text_str}Você escolheu trilhar o caminho de um cavaleiro de Bretônia. A estrada da cavalaria abnegada é árdua — muitos inimigos e batalhas o aguardam. Mas, se for digno, ao fim de sua jornada receberá a maior bênção conhecida pelos homens: um gole do Cálice da Senhora.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_3_bretonnia_damsel" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_damsel_3">
@@ -553,9 +553,9 @@
 			<string>Charm</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
-		<OptionText>{=tor_cc_option42_label_str}Damsel of the Lady</OptionText>
-		<PositiveEffectText>{=tor_cc_option42_effect_str}Damsel of the Lady Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option42_text_str}Earlier in your life, the Fay Enchantress visited your family and took you away. She saw within you a great potential and you joined her other students. After years of training she has deemed you ready to ride out, to serve the will of the Lady.</OptionFlavourText>
+		<OptionText>{=tor_cc_option42_label_str}Donzela da Senhora</OptionText>
+		<PositiveEffectText>{=tor_cc_option42_effect_str}Carreira de Donzela da Senhora</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option42_text_str}Ainda jovem, a Feiticeira Fada visitou sua família e levou você consigo. Ela enxergou em você um grande potencial e você se juntou às suas outras alunas. Após anos de treinamento, ela julgou que você estava pronta para partir e servir à vontade da Senhora.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_bretonnia_yeoman_warden" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_yeoman_warden_3">
@@ -566,9 +566,9 @@
 			<string>Bow</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
-		<OptionText>{=tor_cc_option43_label_str}Yeoman Warden</OptionText>
-		<PositiveEffectText>{=tor_cc_option43_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option43_text_str}You proved your worth to your lord and he rewarded you with the title of Yeoman. As such, you were at times placed in command of other peasants or expected to act as an outrider while on campaign.</OptionFlavourText>
+		<OptionText>{=tor_cc_option43_label_str}Guarda Yeoman</OptionText>
+		<PositiveEffectText>{=tor_cc_option43_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option43_text_str}Você provou seu valor ao seu senhor e foi recompensado com o título de Yeoman. Como tal, era por vezes colocado no comando de outros camponeses ou esperava-se que atuasse como batedeiro durante as campanhas.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_bretonnia_freeman" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_freemen_3">
@@ -579,9 +579,9 @@
 			<string>Trade</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option44_label_str}Freeman</OptionText>
-		<PositiveEffectText>{=tor_cc_option44_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option44_text_str}With licence of movement and a sense to improve yourself, you found yourself free of a direct lord and able to make something of yourself. With some skill in craft or luck in trade, you may yet make yourself a peasant worthy of sumptuary exemptions.</OptionFlavourText>
+		<OptionText>{=tor_cc_option44_label_str}Homem Livre</OptionText>
+		<PositiveEffectText>{=tor_cc_option44_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option44_text_str}Com liberdade de movimento e vontade de se aperfeiçoar, você se viu livre de um senhor direto e capaz de construir seu próprio destino. Com alguma habilidade artesanal ou sorte no comércio, quem sabe você se torne um camponês digno de isenções suntuárias.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_bretonnia_wall_warden" Culture="vlandia" StageNumber="3" EquipmentSetId="tor_cc_wall_warden_3">
@@ -592,9 +592,9 @@
 			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option45_label_str}Wall Warden</OptionText>
-		<PositiveEffectText>{=tor_cc_option45_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option45_text_str}You were the apprentice of a Wall Warden for some time. You helped him evaluate damage and maintain the castle of your lord. When your master was killed during an assault on the castle walls, you became the Wall Warden. After a small mistake however, your lord has released you from your bond to find someone with more expertise.</OptionFlavourText>
+		<OptionText>{=tor_cc_option45_label_str}Guardião das Muralhas</OptionText>
+		<PositiveEffectText>{=tor_cc_option45_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option45_text_str}Por algum tempo, você foi aprendiz de um Guardião das Muralhas. Ajudava-o a avaliar danos e manter o castelo de seu senhor. Quando seu mestre foi morto durante um assalto às muralhas, você assumiu o posto. Porém, após um pequeno erro, seu senhor o dispensou do vínculo para buscar alguém mais experiente.</OptionFlavourText>
 	</CharacterCreationOption> 
 	
 	<!-- Mousillon stage 1 -->
@@ -606,8 +606,8 @@
 			<string>Polearm</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option46_label_str}Mousillan Nobility</OptionText>
-		<OptionFlavourText>{=tor_cc_option46_text_str}You parents were of the ‘Nobility’ in Mousillon, if they can be called that. Nobles here are mostly made up of outlawed Bretonnian nobles, exiles and rogues from other nations, vampires, mummies and other varied monstrosities. While certainly at the top of Mousillan society, outside of the blighted land they are looked down upon the same as anyone else from here. </OptionFlavourText>
+		<OptionText>{=tor_cc_option46_label_str}Nobreza de Mousillon</OptionText>
+		<OptionFlavourText>{=tor_cc_option46_text_str}Seus pais faziam parte da "Nobreza" de Mousillon, se é que se pode chamar assim. Os nobres daqui são em sua maioria compostos por nobres bretônios banidos, exilados e patifes de outras nações, vampiros, múmias e outras monstruosidades variadas. Embora certamente estejam no topo da sociedade de Mousillon, fora dessa terra amaldiçoada são desprezados tanto quanto qualquer outro daqui.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_mousillon_yeoman" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_mousillon_yeoman_1">
@@ -618,8 +618,8 @@
 			<string>Roguery</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
-		<OptionText>{=tor_cc_option47_label_str}Mousillan Yeoman</OptionText>
-		<OptionFlavourText>{=tor_cc_option47_text_str}Your father was a Yeoman for one of the lords in the cursed dukedom. His position was one of the few that ensured your family dry lodgings and decent food, most of the time. When he was not on campaign he would do his best to teach you some fighting skills.</OptionFlavourText>
+		<OptionText>{=tor_cc_option47_label_str}Yeoman de Mousillon</OptionText>
+		<OptionFlavourText>{=tor_cc_option47_text_str}Seu pai era Yeoman de um dos senhores do ducado amaldiçoado. Sua posição era uma das poucas que garantia à família abrigo seco e comida decente — na maior parte do tempo. Quando não estava em campanha, fazia o possível para lhe ensinar algumas habilidades de combate.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_mousillon_bog_smuggler" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_bog_smuggler_1">
@@ -630,8 +630,8 @@
 			<string>TwoHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option48_label_str}Bog Smuggler</OptionText>
-		<OptionFlavourText>{=tor_cc_option48_text_str}Trade in and out of Mousillon is nearly impossible due to the Cordon Sanitaire. Despite this, your family became skilled at smuggling goods past the gates and their guards. While not wealthy by most standards, for Mousillon you certainly were born with a silver spoon.</OptionFlavourText>
+		<OptionText>{=tor_cc_option48_label_str}Contrabandista dos Pântanos</OptionText>
+		<OptionFlavourText>{=tor_cc_option48_text_str}O comércio de entrada e saída de Mousillon é quase impossível devido ao Cordão Sanitário. Ainda assim, sua família ficou habilidosa em contrabandear mercadorias pelos portões e seus guardas. Embora não seja rico pelos padrões comuns, em Mousillon você certamente nasceu com o pé direito.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_mousillon_peat_farmer" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_peat_farmer_1">
@@ -642,8 +642,8 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option49_label_str}Peat Farmer and his Frogwife</OptionText>
-		<OptionFlavourText>{=tor_cc_option49_text_str}Somehow, your family broke one of the oath bonds to your lord and has since been branded as outlaws. Constantly on the run and living at the fringe of society, your family makes due with what they can poach from the forests.</OptionFlavourText>
+		<OptionText>{=tor_cc_option49_label_str}Turbeiro e sua Esposasapo</OptionText>
+		<OptionFlavourText>{=tor_cc_option49_text_str}De alguma forma, sua família quebrou um dos juramentos ao seu senhor e desde então foi marcada como fora-da-lei. Sempre em fuga, vivendo à margem da sociedade, sua família se sustenta com o que consegue caçar furtivamente nas florestas.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_mousillon_outlaws" Culture="mousillon" StageNumber="1" EquipmentSetId="tor_cc_outlaws_1">
@@ -654,8 +654,8 @@
 			<string>Scouting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option50_label_str}Outlaws</OptionText>
-		<OptionFlavourText>{=tor_cc_option50_text_str}One of the most common professions of Mousillon, your family was a rough bunch, who used their strength and wits to take advantage of the many weak and foolish people you found yourself living amongst. </OptionFlavourText>
+		<OptionText>{=tor_cc_option50_label_str}Fora-da-Lei</OptionText>
+		<OptionFlavourText>{=tor_cc_option50_text_str}Uma das profissões mais comuns de Mousillon, sua família era um grupo rude que usava sua força e astúcia para tirar vantagem das muitas pessoas fracas e tolas com quem você vivia.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!-- Mousillon stage 2 -->
@@ -667,8 +667,8 @@
 			<string>Leadership</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option51_label_str}Mousillan Courtier</OptionText>
-		<OptionFlavourText>{=tor_cc_option51_text_str}For years, you were groomed to be the best Mousillan noble you could be. This included lessons in manners, horsemanship and chivalry.</OptionFlavourText>
+		<OptionText>{=tor_cc_option51_label_str}Cortesão de Mousillon</OptionText>
+		<OptionFlavourText>{=tor_cc_option51_text_str}Por anos, você foi preparado para ser o melhor nobre de Mousillon possível. Isso incluía lições de etiqueta, equitação e cavalaria.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_mousillon_student_witchcraft" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_student_of_witchcraft_2">
@@ -679,8 +679,8 @@
 			<string>Crafting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
-		<OptionText>{=tor_cc_option52_label_str}Student of Witchcraft</OptionText>
-		<OptionFlavourText>{=tor_cc_option52_text_str}Witchcraft and Magic is rife in Mousillon. You became a student of one of these practitioners and worked on brews and potions until you were trusted to learn more arcane knowledge.</OptionFlavourText>
+		<OptionText>{=tor_cc_option52_label_str}Estudante de Feitiçaria</OptionText>
+		<OptionFlavourText>{=tor_cc_option52_text_str}A feitiçaria e a magia proliferam em Mousillon. Você se tornou aprendiz de um desses praticantes e trabalhou com poções e preparados até ganhar confiança suficiente para aprender conhecimentos mais arcanos.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_mousillon_man_at_arms" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_man_at_arms_2">
@@ -691,8 +691,8 @@
 			<string>Steward</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option53_label_str}Mousillan Man-at-Arms</OptionText>
-		<OptionFlavourText>{=tor_cc_option53_text_str}When you came of age, you entered the service of your lord. You were trained to hold the line and survive on the battlefield the best you can. You are still alive now, so you must have been pretty good at it. </OptionFlavourText>
+		<OptionText>{=tor_cc_option53_label_str}Homem de Armas de Mousillon</OptionText>
+		<OptionFlavourText>{=tor_cc_option53_text_str}Quando atingiu a idade, entrou a serviço de seu senhor. Foi treinado para aguentar firme e sobreviver no campo de batalha da melhor forma possível. O fato de ainda estar vivo prova que você foi bom nisso.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -704,8 +704,8 @@
 			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option54_label_str}Swampaire</OptionText>
-		<OptionFlavourText>{=tor_cc_option54_text_str}You spent your time hunting frogs and snails in the swamps and bogs to support your family. It is a tricky task that requires some skill and quickness to your fingers but snails and frogs are one of the few resources that your land is rich in.</OptionFlavourText>
+		<OptionText>{=tor_cc_option54_label_str}Pantaneiro</OptionText>
+		<OptionFlavourText>{=tor_cc_option54_text_str}Você passou seu tempo caçando rãs e caracóis nos pântanos e brejos para sustentar sua família. É uma tarefa delicada que exige habilidade e agilidade nos dedos, mas rãs e caracóis são um dos poucos recursos dos quais sua terra é abundante.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_mousillon_brigand" Culture="mousillon" StageNumber="2" EquipmentSetId="tor_cc_brigand_2">
@@ -716,8 +716,8 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option55_label_str}Brigand </OptionText>
-		<OptionFlavourText>{=tor_cc_option55_text_str}Waiting along the high roads and near ferries, you made a living ambushing passersby and demanding their possessions. It is not an easy life, but you’d rather lead your own life than those of your victims</OptionFlavourText>
+		<OptionText>{=tor_cc_option55_label_str}Bandoleiro</OptionText>
+		<OptionFlavourText>{=tor_cc_option55_text_str}Emboscado nas estradas principais e perto das balsas, você ganhava a vida assaltando passantes e exigindo seus pertences. Não é uma vida fácil, mas você prefere viver como quiser a viver como suas vítimas.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -730,9 +730,9 @@
 			<string>Tactics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option56_label_str}Mousillan Errant Knight</OptionText>
-		<PositiveEffectText>{=tor_cc_option56_effect_str}Knight of Mousillon Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option56_text_str} Nothing says that a man of Mousillon cannot walk the path of a Bretonnian Knight. Where that path leads is as always reliant on the will and purity of the individual who walks it.</OptionFlavourText>
+		<OptionText>{=tor_cc_option56_label_str}Cavaleiro Errante de Mousillon</OptionText>
+		<PositiveEffectText>{=tor_cc_option56_effect_str}Carreira de Cavaleiro de Mousillon</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option56_text_str}Nada impede que um homem de Mousillon siga o caminho de um Cavaleiro Bretônio. Para onde esse caminho leva depende, como sempre, da vontade e pureza de quem o trilha.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_3_mousillon_vampire" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_vampire_of_mousillon_3">
@@ -743,9 +743,9 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option57_label_str}Vampire of Mousillon</OptionText>
-		<PositiveEffectText>{=tor_cc_option57_effect_str}Vampire Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option57_text_str}The swamps prevent the land of chivalry from exerting their control over the cursed dukedom, as a result many nerdowells find a kind of sanctuary in Mousillon, even the lords of the night.</OptionFlavourText>
+		<OptionText>{=tor_cc_option57_label_str}Vampiro de Mousillon</OptionText>
+		<PositiveEffectText>{=tor_cc_option57_effect_str}Carreira de Vampiro</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option57_text_str}Os pântanos impedem que a terra da cavalaria exerça controle sobre o ducado amaldiçoado; como resultado, muitos indesejáveis encontram uma espécie de santuário em Mousillon — até mesmo os senhores da noite.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_mousillon_necromancer" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_necromancer_3">
@@ -756,9 +756,9 @@
 			<string>Spellcraft</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option58_label_str}Necromancer</OptionText>
-		<PositiveEffectText>{=tor_cc_option58_effect_str}Necromancer Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option58_text_str}Witches and Warlocks, Hedgefolk and Daemonologists, Wisewomen and Strigany; In a nearly lawless and accursed land such as Mousillon, what's one more who defies the will of Morr?</OptionFlavourText>
+		<OptionText>{=tor_cc_option58_label_str}Necromante</OptionText>
+		<PositiveEffectText>{=tor_cc_option58_effect_str}Carreira de Necromante</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option58_text_str}Bruxas e Feiticeiros, Curandeiros e Demonologistas, Sábias e Strigany; em uma terra quase sem lei e amaldiçoada como Mousillon, que diferença faz mais um que desafia a vontade de Morr?</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_mousillon_cordon_runner" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_cordon_runner_3">
@@ -769,9 +769,9 @@
 			<string>Trade</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option59_label_str}Cordon Runner</OptionText>
-		<PositiveEffectText>{=tor_cc_option59_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option59_text_str}Things arrive in Mousillon that would be confiscated in any other port of the Oldworld. Wyrdstone, strange drugs, slaves, stolen goods, pirated ships and much much more and far darker. Someone has to take these items to their arranged buyers, who are almost always located outside of Mousillon. That means, you need someone who can get these items past the Cordon Sanitaire</OptionFlavourText>
+		<OptionText>{=tor_cc_option59_label_str}Corredor do Cordão</OptionText>
+		<PositiveEffectText>{=tor_cc_option59_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option59_text_str}Chegam a Mousillon coisas que seriam confiscadas em qualquer outro porto do Velho Mundo. Wyrdstone, drogas estranhas, escravos, mercadorias roubadas, navios pirateados e muito, muito mais — e coisas bem mais sombrias. Alguém precisa levar esses itens até seus compradores previamente arranjados, quase sempre localizados fora de Mousillon. Isso significa que você precisa de alguém capaz de passar esses itens pelo Cordão Sanitário.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_mousillon_bog_pirate" Culture="mousillon" StageNumber="3" EquipmentSetId="tor_cc_bog_pirate_3">
@@ -782,9 +782,9 @@
 			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option60_label_str}Bog Pirate</OptionText>
-		<PositiveEffectText>{=tor_cc_option60_effect_str}Mercenary Career</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option60_text_str}The Foggy river heads and boggy bays of Mousillon make great hideouts for those of a less than legitimate profession. Bretonnian vessels are some of the best in the world, and are often laden with fabulous and valuable goods. That these vessels often have to ply the waters of the coast of Mousillon creates many opportunities for those willing to ‘seize’ them.</OptionFlavourText>
+		<OptionText>{=tor_cc_option60_label_str}Pirata dos Pântanos</OptionText>
+		<PositiveEffectText>{=tor_cc_option60_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option60_text_str}As nascentes cobertas de névoa e as baías pantanosas de Mousillon formam excelentes esconderijos para quem exerce profissões menos legítimas. Os navios bretônios estão entre os melhores do mundo e frequentemente carregam cargas fabulosas e valiosas. O fato de esses navios muitas vezes navegarem pelas águas da costa de Mousillon cria muitas oportunidades para aqueles dispostos a "tomá-los".</OptionFlavourText>
 	</CharacterCreationOption> 
 	
 		<!-- Asrai stage 1 -->
@@ -796,8 +796,8 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_daith_label_str}Student of Daith</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_daith_text_str}You were taken under the wing of Daith, the master smith of the Asrai. Under his tutelage, you learned the secrets of forging enchanted weapons and armor. Your skills in crafting are matched only by your prowess in battle, making you a formidable warrior and a skilled artisan. </OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_daith_label_str}Estudante de Daith</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_daith_text_str}Você foi acolhido por Daith, o mestre ferreiro dos Asrai. Sob sua tutela, aprendeu os segredos de forjar armas e armaduras encantadas. Suas habilidades de fabricação só são superadas por sua destreza em combate, fazendo de você um formidável guerreiro e um artesão habilidoso.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_we_forest" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_forest_survivor_1">
