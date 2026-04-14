@@ -1272,5 +1272,216 @@
     <string id="tor_feudal_oath_line3.gisoreux" text="Guardarei os picos das Irmãs Pálidas e as planícies de Gisoreux como defenderia minha própria família." />
     <string id="tor_feudal_oath_line4.gisoreux" text="Como um verdadeiro filho de Gisoreux, defenderei os valores de Gisoreux e morrerei por sua glória." />
 
+    <!-- ===== S06 — linhas 1500–1944 (Juramentos de Facção, Diálogos de Vassalagem e Introduções Nobres) ===== -->
+
+    <!-- Juramentos Feudais (Bretônia e Vampiros) -->
+    <string id="tor_feudal_oath_line1.lyonesse" text="Ofereço minha espada e meu escudo ao abençoado ducado de Lyonesse." />
+    <string id="tor_feudal_oath_line2.lyonesse" text="Juro apoiar o Duque Adalhard em seu governo sobre Lyonesse." />
+    <string id="tor_feudal_oath_line3.lyonesse" text="Derrubarei meus inimigos e defenderei a terra sagrada de Lyonesse." />
+    <string id="tor_feudal_oath_line4.lyonesse" text="Como um cavaleiro de Lyonesse, lutarei com a coragem de um leão; serei o pilar que sustenta nossos valores e legado." />
+    <string id="tor_feudal_oath_line1.montfort" text="Empenho minha lealdade inabalável ao nobre Ducado de Montfort." />
+    <string id="tor_feudal_oath_line2.montfort" text="Proclamo minha fidelidade ao Duque Folcard, um líder corajoso cujo valor é tão resistente quanto as montanhas que ele governa." />
+    <string id="tor_feudal_oath_line3.montfort" text="Juro proteger as majestosas terras de Montfort, seu povo e os castelos imponentes que se erguem como símbolos de nossa força." />
+    <string id="tor_feudal_oath_line4.montfort" text="Com dedicação inabalável, servirei como um verdadeiro cavaleiro de Montfort, defendendo a honra e a soberania do nosso reino a cada suspiro." />
+    <string id="tor_feudal_oath_line1.parravon" text="Pelo presente, juro fidelidade ao ilustre Ducado de Parravon." />
+    <string id="tor_feudal_oath_line2.parravon" text="Empenho minha lealdade ao Duque Cassyon, o valente defensor de nossas montanhas e florestas." />
+    <string id="tor_feudal_oath_line3.parravon" text="Protegerei as terras sagradas de Parravon, seu povo e seus amados pégasos." />
+    <string id="tor_feudal_oath_line4.parravon" text="Como um cavaleiro dedicado de Parravon, permanecerei como um farol de esperança, defendendo nosso reino e mantendo o legado do nosso ducado." />
+    <string id="tor_feudal_oath_line1.quenelles" text="Com honra e humildade, juro fidelidade ao nobre Ducado de Quenelles." />
+    <string id="tor_feudal_oath_line2.quenelles" text="Declaro minha lealdade ao Duque Tancred II, um líder sábio e resoluto que inspira a todos nós." />
+    <string id="tor_feudal_oath_line3.quenelles" text="Juro proteger as terras de Quenelles, seu povo e os santuários sagrados que honram a Dama do Lago." />
+    <string id="tor_feudal_oath_line4.quenelles" text="Como um verdadeiro cavaleiro de Quenelles, abraçarei os ideais da cavalaria, defendendo nosso reino e preservando sua graça e beleza atemporais." />
+    <string id="tor_feudal_oath_line1.mousillon" text="Eu, um humilde cavaleiro, empenho minha lealdade inabalável ao reino de Mousillon." />
+    <string id="tor_feudal_oath_line2.mousillon" text="Juro servir ao governante do Ducado, a Serpente, e abraçar as sombras que envolvem esta terra." />
+    <string id="tor_feudal_oath_line3.mousillon" text="Defenderei o povo de Mousillon e os espíritos esquecidos que perduram em meio à escuridão." />
+    <string id="tor_feudal_oath_line4.mousillon" text="Eu o reconheço como meu senhor soberano e permanecerei resoluto diante do desdém do mundo por nosso lar, unidos sob seu estandarte." />
+    <string id="tor_feudal_oath_line1.blooddragons" text="Pelo presente, juro lealdade a Wallach Harkon, à Ordo Draconis e aos meus companheiros cavaleiros." />
+    <string id="tor_feudal_oath_line2.blooddragons" text="Juro minha lâmina à completa destruição da humanidade e de qualquer outro que se oponha ao poder dos vampiros." />
+    <string id="tor_feudal_oath_line3.blooddragons" text="Que eu possa sempre saciar a sede de sangue de minha espada e buscar os maiores de nossos inimigos." />
+    <string id="tor_feudal_oath_line4.blooddragons" text="Nunca recuarei de uma batalha e serei leal a vós, ou sofrerei as consequências da traição." />
+    <string id="tor_feudal_oath_line1.necrachs" text="Nesta noite funesta, juro minha lealdade eterna à linhagem Necrarca e ao meu Senhor, Zacharias, o Eterno." />
+    <string id="tor_feudal_oath_line2.necrachs" text="Dedico minha mente à busca do arcano e vinculo meu espírito à essência da magia." />
+    <string id="tor_feudal_oath_line3.necrachs" text="Com tomos antigos, navegarei pelas sombras, desbloqueando os sussurros e segredos há muito esquecidos." />
+    <string id="tor_feudal_oath_line4.necrachs" text="Enquanto vós guiais meu destino através desta não-vida amaldiçoada." />
+
+    <!-- Juramentos (Elfos e Caos) -->
+    <string id="tor_feudal_oath_line1.laurelorn" text="Vossa Majestade, neste momento sagrado, coloco-me diante de vós, profundamente honrado por vossa presença." />
+    <string id="tor_feudal_oath_line2.laurelorn" text="Prometo proteger a harmonia de nossa terra, nutrir sua magia e preservar sua beleza que nos une a todos." />
+    <string id="tor_feudal_oath_line3.laurelorn" text="Na presença de riachos cintilantes e árvores milenares, comprometo-me a ser um guardião de nosso reino." />
+    <string id="tor_feudal_oath_line4.laurelorn" text="Que Laurelorn, a Rainha Marrisith e os Eonir floresçam e prosperem para todo o sempre!" />
+    <string id="tor_feudal_oath_line1.athel_loren" text="Juro proteger o reino de Athel Loren." />
+    <string id="tor_feudal_oath_line2.athel_loren" text="Serei o arco de Athel Loren e ela será minha flecha." />
+    <string id="tor_feudal_oath_line3.athel_loren" text="Juro fidelidade ao rei e rainha da floresta, Orion e Ariel, e responderei ao seu chamado em tempos de necessidade." />
+    <string id="tor_feudal_oath_line4.athel_loren" text="Que as raízes da floresta me guiem!" />
+    <string id="tor_feudal_oath_line1.brasskeep" text="Forjados na praga, erguemo-nos da decadência." />
+    <string id="tor_feudal_oath_line2.brasskeep" text="Com as dádivas do senhor da praga, marchamos para a contenda." />
+    <string id="tor_feudal_oath_line3.brasskeep" text="Da morte, nosso poder cresce." />
+    <string id="tor_feudal_oath_line4.brasskeep" text="Em nome de Nurgle, entregaremos a morte!" />
+
+    <!-- Juramentos (Anões) -->
+    <string id="tor_feudal_oath_line1.karak_kadrin" text="Pelo machado e pelo juramento, ajoelho-me diante do Rei Matador Ungrim Ironfist, senhor de Karak Kadrin e herdeiro da fúria de Grimnir." />
+    <string id="tor_feudal_oath_line2.karak_kadrin" text="Juro proteger o Passo do Pico e permanecer inabalável onde os dawi caírem e as lendas surgirem." />
+    <string id="tor_feudal_oath_line3.karak_kadrin" text="Que meu sangue se junte ao tributo dos Matadores, e minha ira ecoe por Khaz Drengi." />
+    <string id="tor_feudal_oath_line4.karak_kadrin" text="Pelo fogo de Grimnir e pela vontade do Rei, empenho minha vida a Karak Kadrin — e ao meu destino (doom), se necessário." />
+    <string id="tor_feudal_oath_line1.karak_angazhar" text="Pela pedra, pelo aço e pelas forjas rugintes de Karak Angazhar, ofereço meu serviço." />
+    <string id="tor_feudal_oath_line2.karak_angazhar" text="Ajoelho-me diante do Rei Duregar Sharpblade, cujo nome está gravado em runa e rocha — empenho meu machado ao seu comando." />
+    <string id="tor_feudal_oath_line3.karak_angazhar" text="Que as bigornas de nossos ancestrais soem verdadeiras enquanto faço este juramento." />
+    <string id="tor_feudal_oath_line4.karak_angazhar" text="Com a barba por fazer e os rancores lembrados, não recuarei um passo enquanto uma forja ainda arder nesta fortaleza." />
+    <string id="tor_feudal_oath_line1.karak_azgaraz" text="Pelo Machado Destemido e pelos salões de meus antepassados, empenho meu juramento inabalável." />
+    <string id="tor_feudal_oath_line2.karak_azgaraz" text="Ao Rei Thuringar Orc-hewer, filho audaz das Montanhas Cinzentas, juro minha lealdade e força." />
+    <string id="tor_feudal_oath_line3.karak_azgaraz" text="Que meus feitos sejam esculpidos na pedra ao lado dos mortos honrados, e meu juramento ecoe pelas Profundezas dos Heróis." />
+    <string id="tor_feudal_oath_line4.karak_azgaraz" text="Nenhum grobi, cria deformada ou quebrador de promessas cruzará nossos portões enquanto eu respirar." />
+    <string id="tor_feudal_oath_line1.karak_eksfilaz" text="Pelo juramento de pedra e pelo selo de prata, ajoelho-me diante do Rei Hergar Steelclad, senhor de Karak Eksfilaz." />
+    <string id="tor_feudal_oath_line2.karak_eksfilaz" text="Juro guardar os portões de Eksfilaz e abater todos os que espreitam sob as Criptas." />
+    <string id="tor_feudal_oath_line3.karak_eksfilaz" text="Que meu machado sirva aos Caçadores de Vermes, e que meus feitos honrem Grung Mizpal." />
+    <string id="tor_feudal_oath_line4.karak_eksfilaz" text="Pelo clã e pela linhagem, empenho ouro e aço para defender a vontade do Rei Hergar." />
+    <string id="tor_feudal_oath_line1.karak_gantuk" text="Pelo toque do martelo e pelo rendimento do minério, dobro o joelho ao Rei Skag Hammerfist de Karak Gantuk." />
+    <string id="tor_feudal_oath_line2.karak_gantuk" text="Juro proteger nossas forjas e manter os veios de Khazid Hafak fluindo com ferro." />
+    <string id="tor_feudal_oath_line3.karak_gantuk" text="Que meu braço ataque com firmeza pela fortaleza, e que nenhum pele-verde pise nas pedras de Gantuk sem ser desafiado." />
+    <string id="tor_feudal_oath_line4.karak_gantuk" text="Em chamas e aço, empenho minha força ao trono e ao ofício de nossos antepassados." />
+    <string id="tor_feudal_oath_line1.karak_hirn" text="Pelo som do martelo e pelo sopro da montanha, ajoelho-me diante do Rei Alrik Ranulfsson da Fortaleza do Chifre (Hornhold)." />
+    <string id="tor_feudal_oath_line2.karak_hirn" text="Juro guardar as estradas do penhasco e os salões mercantes, e soar o Chifre em tempos de conflito." />
+    <string id="tor_feudal_oath_line3.karak_hirn" text="Que meu machado abata qualquer inimigo, nascido da pedra ou ressuscitado, que ouse cruzar nosso portão." />
+    <string id="tor_feudal_oath_line4.karak_hirn" text="Pelo juramento e pelo minério, luto por Hirn e gravo meu nome em seu registro honrado." />
+    <string id="tor_feudal_oath_line1.karak_izor" text="Pelo veio de cobre e pela raiz da montanha, juro fidelidade ao Rei Kazran Grimbrow de Karak Izor." />
+    <string id="tor_feudal_oath_line2.karak_izor" text="Juro defender as Criptas e proteger nossos parentes nas fortalezas do vale." />
+    <string id="tor_feudal_oath_line3.karak_izor" text="Que meu machado responda ao rugido do troll e ao uivo do demônio, sob estes picos antigos." />
+    <string id="tor_feudal_oath_line4.karak_izor" text="Pela pedra, pelo aço e pelo juramento selado com cerveja, sirvo ao trono e honro o nome de Izor." />
+    <string id="tor_feudal_oath_line1.karak_kaferkammaz" text="Pelo veio de mármore e pelo sopro da montanha, dobro o joelho ao Rei Skalf Redbeard de Karak Kaferkammaz." />
+    <string id="tor_feudal_oath_line2.karak_kaferkammaz" text="Juro guardar as alturas da escarpa e vigiar a borda da floresta de nossas torres de pedra branca." />
+    <string id="tor_feudal_oath_line3.karak_kaferkammaz" text="Que meu martelo soe fiel onde o Kaferdrin serpenteia, e minha honra pese tanto quanto a pedra esculpida." />
+    <string id="tor_feudal_oath_line4.karak_kaferkammaz" text="Pelo ofício Dawi e pela luz fria das criptas elevadas, empenho aço, pedra e alma a Kaferkammaz." />
+    <string id="tor_feudal_oath_line1.karak_norn" text="Pelo juramento inquebrável e pela determinação de ferro, dobro o joelho ao Rei Brokk Ironpick de Karak Norn, onde até a pedra estéril exala o orgulho Dawi." />
+    <string id="tor_feudal_oath_line2.karak_norn" text="Juro manter o Passo de Montdidier e guardar os altos salões cinzentos contra as sombras da floresta e a traição das terras baixas." />
+    <string id="tor_feudal_oath_line3.karak_norn" text="Que meu machado morda fundo pelos clãs de Silverspear e pelos fogos de vigília do Passo do Cão Louco (Mad Dog Pass), perdido mas não esquecido." />
+    <string id="tor_feudal_oath_line4.karak_norn" text="Pelo leito de rocha sob minhas botas, empenho aço, rancor e silêncio à vontade de Brokk Ironpick e à fortaleza de Norn." />
+    <string id="tor_feudal_oath_line1.karak_zhufbar" text="Pelos picos envoltos em fumaça e pelo rugido da torrente, juro ao Rei Morgrim Ironforge, Senhor da Chama e da Forja." />
+    <string id="tor_feudal_oath_line2.karak_zhufbar" text="Que meu ofício sirva às bigornas de Zhufbar, onde o Gromril canta e os motores despertam." />
+    <string id="tor_feudal_oath_line3.karak_zhufbar" text="Juro proteger as criptas profundas tanto da garra Skaven quanto da horda pele-verde." />
+    <string id="tor_feudal_oath_line4.karak_zhufbar" text="Pela muralha de detonação, pelo navio voador e pelo aço forjado com runas, vinculo minha vida ao Portão de Ferro." />
+    <string id="tor_feudal_oath_line1.karak_ziflin" text="Pelo punho de granito e pela vontade movida por rancores, juro ao Rei Rorek Granitehand, senhor dos altos salões de Ziflin." />
+    <string id="tor_feudal_oath_line2.karak_ziflin" text="Juro guardar as estradas comerciais e as forjas das criptas, onde o aço anão ainda fala mais alto que o ouro estrangeiro." />
+    <string id="tor_feudal_oath_line3.karak_ziflin" text="Que meu escudo se mantenha firme onde as promessas falham, e que nenhum quebrador de juramentos passe pelo Mordida de Machado (Axe Bite) sem ser desafiado." />
+    <string id="tor_feudal_oath_line4.karak_ziflin" text="Pela fortaleza, pelo clã e pelo rei, empenho martelo e coração à pedra teimosa de Ziflin." />
+
+    <!-- Juramentos (Peles-Verdes) -->
+    <string id="tor_feudal_oath_line1.bad_axes" text="Tô oiando pra oce e vejo um Chefe. Meu choppa tá afiado e os rapazes tão com fome de esmagar." />
+    <string id="tor_feudal_oath_line2.bad_axes" text="Gromodrak Hoofslasha é o maior mané da área — então tô seguindo oce até o mundo ficar verde ou vermeio." />
+    <string id="tor_feudal_oath_line3.bad_axes" text="Com os Bad Axes, nóis vamo picar eles até num sobrar nada desses gitz." />
+    <string id="tor_feudal_oath_line4.bad_axes" text="Se oce num ficar feliz com meu choppa, Gork vai me achatar todinho no chão!" />
+    <string id="tor_feudal_oath_line1.black_sunz" text="O Black Sun brilha na gente, e nóis mata e dança no... guhhh... brilho dele!" />
+    <string id="tor_feudal_oath_line2.black_sunz" text="O grande Zorbak Bearthwakka mostrou pra nóis a escuridão brilhante e tamo aqui pra espalhar ela!" />
+    <string id="tor_feudal_oath_line3.black_sunz" text="Nóis vai deixar o mundo cego, tirando óio por óio e um monte de dente também!" />
+    <string id="tor_feudal_oath_line4.black_sunz" text="Em nome do Bearthwakka, vou enfiar os inimigos dele onde o sol num brilha!" />
+    <string id="tor_feudal_oath_line1.crooked_eye" text="O Crooked Eye vê todos os gitz que precisam morrer. Tô pronto pra esmagar eles pra oce." />
+    <string id="tor_feudal_oath_line2.crooked_eye" text="Bazglud, oce é o Daemonstompa! Oce é maior e mió que os treco esquisito, então faço o que oce mandar." />
+    <string id="tor_feudal_oath_line3.crooked_eye" text="Deixa eu esmagar os inimigos com minhas bota e quebrar eles com meus punho!" />
+    <string id="tor_feudal_oath_line4.crooked_eye" text="Vou entrar no seu Waaaagh! pra quebrar, bater e lutar!" />
+    <string id="tor_feudal_oath_line1.deff_grindaz" text="Nóis é os mais forte, mais ruim e mais verde que tem." />
+    <string id="tor_feudal_oath_line2.deff_grindaz" text="E o Zorkar Throat Ripper é o melhor de todos." />
+    <string id="tor_feudal_oath_line3.deff_grindaz" text="Então, entro pro bando pra oce me deixar ainda mais verde do que eu sou." />
+    <string id="tor_feudal_oath_line4.deff_grindaz" text="Pelos Grandes Deuses Verdes e por um bom quebra-pau! WAAAAAGH!!!" />
+    <string id="tor_feudal_oath_line1.iron_tribe" text="Brutamontes?! Quem oce tá chamando de brutamontes, seu fresco!?" />
+    <string id="tor_feudal_oath_line2.iron_tribe" text="Vou te dar uma lição! Alguma última dessas palavra estúpida, git?" />
+    <string id="tor_feudal_oath_line3.iron_tribe" text="O que oce disse? Juramento, não brutamontes? Ughhrrrrp... nóis pode lutar junto, por uns tempos..." />
+    <string id="tor_feudal_oath_line4.iron_tribe" text="A terra é grande, tem um monte desses gits nanicos e todos aqueles nanicos barbudos pra nóis dois." />
+    <string id="tor_feudal_oath_line1.massif_choppas" text="Por Gork e Mork, juro pra oce, Skulgul Horsesmakka, que vou esmagar qualquer git que oce quiser." />
+    <string id="tor_feudal_oath_line2.massif_choppas" text="Skulgul, oce tem o maior choppa do bando. Isso quer dizer que oce é o melhor Chefe que tem." />
+    <string id="tor_feudal_oath_line3.massif_choppas" text="Nóis vai derrubar os cavaleiro e os gits grandes direto no chão!" />
+    <string id="tor_feudal_oath_line4.massif_choppas" text="Este choppa é seu. Vou continuar batendo até num sobrar nada além de lama vermeia no chão." />
+    <string id="tor_feudal_oath_line1.neck_snappers" text="Tava procurando um Chefe de verdade e o Morglum é o melhor que tem." />
+    <string id="tor_feudal_oath_line2.neck_snappers" text="Nóis faz Waaaagh! com os rapazes mais durão e os melhor choppas graças a oce." />
+    <string id="tor_feudal_oath_line3.neck_snappers" text="Vou esmagar qualquer um que num mostrar o respeito que oce merece, Chefe." />
+    <string id="tor_feudal_oath_line4.neck_snappers" text="Porque o mundo pertence ao Morglum. O mundo vai ser verde." />
+    <string id="tor_feudal_oath_line1.skull_smasherz" text="Quero quebrar uns crânio de verdade e oce é o melhor Chefe pra isso." />
+    <string id="tor_feudal_oath_line2.skull_smasherz" text="Juro por Gork e Mork seguir o Ugrok Craktoof até o Waaaagh! E esmagar os inimigos dele pra valer!" />
+    <string id="tor_feudal_oath_line3.skull_smasherz" text="Porque seu punho é maior que minha cabeça e oce é mais ruim que um par desses squigs grande." />
+    <string id="tor_feudal_oath_line4.skull_smasherz" text="Então vamo achar uns gits pros Skull Smasherz esmagarem!" />
+    <string id="tor_feudal_oath_line1.bloody_spearz" text="Nóis é os Bloody Spearz, o terror dos nanicos. Nóis num é de Gunbad, nóis sempre foi mau!" />
+    <string id="tor_feudal_oath_line2.bloody_spearz" text="Vou colocar medo no coração dos nanicos e dos gits da tribo Red Face, bando de molenga e fresco!" />
+    <string id="tor_feudal_oath_line3.bloody_spearz" text="Quando eu tiver saqueando os nanicos, a maior parte é pro Chefe Gnashrak, e quando tiver esmagando os Gits Red Face, mando as lembrança dele." />
+    <string id="tor_feudal_oath_line4.bloody_spearz" text="Se eu trair os Bloody Spearz, num sou melhor que os estúpido dos Red Face." />
+    <string id="tor_feudal_oath_line1.red_eye" text="Nóis vai lutar pelo Ornery Backslider, e lutar nóis vai." />
+    <string id="tor_feudal_oath_line2.red_eye" text="Porque o Red Eye nunca pisca, ele vê através das nuvem, da escuridão, da terra e da carne." />
+    <string id="tor_feudal_oath_line3.red_eye" text="Então nóis é sorrateiro e esfaqueador com os outro gits, mas não com os nossos garotos." />
+    <string id="tor_feudal_oath_line4.red_eye" text="E se eu esfaquear os garotos pelas costas, vou ser jogado pros wyverns até eu morrer." />
+    <string id="tor_feudal_oath_line1.reavaz" text="Vou seguir o código dos irmãos do Reavaz. Saquear todos os humanos, nanicos e outro gits estúpido o bastante pra cruzar nosso bando." />
+    <string id="tor_feudal_oath_line2.reavaz" text="Qualquer saque que eu pegar vai ser dividido com meus irmão e a maior parte é pro Kap'n Snozzsnik Skumclaw." />
+    <string id="tor_feudal_oath_line3.reavaz" text="E se eu for afundado, vou descer com o navio, porque se rastejar pro Kap'n é pior." />
+    <string id="tor_feudal_oath_line4.reavaz" text="Vou manter minha palavra até meu túmulo molhado." />
+    <string id="tor_feudal_oath_line1.black_pit" text="Vim da teia profunda. O Deus-Aranha sussurrou seu nome, Snagla. Tô aqui." />
+    <string id="tor_feudal_oath_line2.black_pit" text="Oce é o gobbo mais sorrateiro e esfaqueador que tem. Sou parte dos Deff Creepers agora." />
+    <string id="tor_feudal_oath_line3.black_pit" text="Pelo Black Pit, vamo dar esses gits pras aranha comerem." />
+    <string id="tor_feudal_oath_line4.black_pit" text="As teia guiam nóis e os garotos, pelo Deus-Aranha! Por Snagla Grobspit!" />
+
+    <!-- Diálogos de Aceitação de Vassalagem -->
+    <string id="tor_player_accept_vassalage.empire" text="Eu o proclamo um nobre do Império. Sua vida e propriedade serão protegidas por nossas leis, e não serão tiradas de você, exceto por lei. Você poderá servir como autoridade sobre cidades e vilas e como general sobre exércitos, se assim o convocarmos." />
+    <string id="tor_player_accept_vassalage.khuzait" text="Eu o proclamo um nobre de Sylvania e um servo dos von Carstein. Espera-se que você cumpra nossas ordens e pegue em armas em tempos de guerra." />
+    <string id="tor_player_accept_vassalage.mousillon" text="Tenho grandes esperanças para você, {PLAYER.NAME}. Sei que provará ser digno da confiança que depositei em você." />
+    <string id="tor_player_accept_vassalage.blooddragons" text="Bem-vindo à Ordo Draconis, {PLAYER.NAME}. Aqui estão alguns dos meus seguidores; que eles o ajudem na batalha. Aceite esta lâmina." />
+    <string id="tor_player_accept_vassalage.vlandia" text="Pela Dama do Lago, eu o proclamo um nobre de Bretônia e defensor do reino." />
+    <string id="tor_player_accept_vassalage.battania" text="Eu o nomeio guardião de Athel Loren, nobre dos Asrai; que seu arco aponte com perícia." />
+    <string id="tor_player_accept_vassalage.eonir" text="Eu o proclamo um nobre dos Eonir; porte-se com orgulho, pois agora você é um protetor da floresta sagrada de Laurelorn." />
+    <string id="tor_player_accept_vassalage.sturgia" text="Seu juramento foi ouvido e martelado nos anais. Porte-se com orgulho, pois seus parentes medirão seus feitos na pedra." />
+    <string id="tor_player_accept_vassalage.aserai" text="Oce faz parte do meu bando agora! Vai esmagar alguém antes que eu te esfaqueie. WAAAAAAAGH!!!" />
+    <string id="tor_player_accept_vassalage.chaos_culture" text="Que Nurgle o presenteie com suas bênçãos." />
+
+    <!-- Títulos de Suserano -->
+    <string id="str_liege_title.empire" text="Conde Eleitor de uma das Províncias do Império" />
+    <string id="str_liege_title_female.empire" text="Condessa Eleitora de uma das Províncias do Império" />
+    <string id="str_liege_title.blooddragons" text="Grão-mestre dos Dragões de Sangue" />
+    <string id="str_liege_title.khuzait" text="Governante da província de Sylvania" />
+    <string id="str_liege_title_female.khuzait" text="Lady Vampira de Sylvania" />
+    <string id="str_liege_title.vlandia" text="Duque de Bretônia" />
+    <string id="str_liege_title_female.vlandia" text="Duquesa de Bretônia" />
+    <string id="str_liege_title.mousillon" text="Duque de Mousillon" />
+    <string id="str_liege_title_female.mousillon" text="Duquesa de Mousillon" />
+    <string id="str_liege_title.battania" text="Nobre de Athel Loren" />
+    <string id="str_liege_title_female.battania" text="Nobre de Athel Loren" />
+    <string id="str_liege_title.eonir" text="Nobre de Laurelorn" />
+    <string id="str_liege_title_female.eonir" text="Nobre de Laurelorn" />
+    <string id="str_liege_title.chaos_culture" text="Lorde do Caos" />
+    <string id="str_liege_title_female.chaos_culture" text="Lady do Caos" />
+
+    <!-- Apresentações de Nobres (Império) -->
+    <string id="str_comment_noble_introduces_self.empire" text="Eu sou {CONVERSATION_CHARACTER.LINK} da casa de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.empire" text="Eu sou {CONVERSATION_CHARACTER.LINK}, da casa de {CLAN_NAME}. Nossa família serviu ao Império por gerações." />
+    <string id="str_comment_noble_introduces_self_and_clan.empire_honor" text="Eu sou {CONVERSATION_CHARACTER.LINK}, da casa de {CLAN_NAME}. Nossa família desempenha seus deveres honradamente desde os dias do próprio Sigmar." />
+    <string id="str_comment_noble_introduces_self_and_clan.empire_mercy" text="Eu sou {CONVERSATION_CHARACTER.LINK}, da casa de {CLAN_NAME}. Embora não se deva ter orgulho excessivo da própria linhagem, alegra-me dizer que sempre levamos a sério nosso dever de proteger o povo comum do Império." />
+    <string id="str_comment_noble_introduces_self_and_clan.empire_boasting" text="Eu sou {CONVERSATION_CHARACTER.LINK}, da casa de {CLAN_NAME}, uma das famílias mais ilustres nos anais do Império." />
+    <string id="str_comment_noble_introduces_self_and_clan.empire_boasting_cruel" text="Eu sou {CONVERSATION_CHARACTER.LINK}, da casa de {CLAN_NAME}, uma das famílias mais ilustres nos anais do Império. O que é melhor na vida? Esmagar seus inimigos. Vê-los acuados diante de você. E ouvir as lamentações de suas mulheres." />
+
+    <!-- Apresentações de Nobres (Vampiros) -->
+    <string id="str_comment_intro.cruel_khuzait" text="Saiba que, se algum dia me cruzar, acabará como bucha morta-viva em nossos exércitos." />
+    <string id="str_comment_noble_introduces_self.khuzait" text="Eu sou {CONVERSATION_CHARACTER.LINK} dos {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait_boasting" text="Eu sou {CONVERSATION_CHARACTER.LINK}, dos {CLAN_NAME}. Tenho certeza de que você já ouviu o nome do nosso clã sussurrado em temor entre os soldados do Império." />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait" text="Eu sou {CONVERSATION_CHARACTER.LINK}, dos {CLAN_NAME}. Nosso clã serviu lealmente aos von Carstein por gerações." />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait_boasting_blooddragon_honor" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Pouparei tua vida apenas por meus ideais pessoais; fale rápido." />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait_boasting_blooddragon" text="Você parece fraco. Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Está pronto para morrer?" />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait_blooddragon_cruel" text="Encontras-te perante {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Qual vira-lata insignificante vem a mim? Fala! Ou farei com que teu cadáver seja exposto nas ameias do Forte de Sangue (Blood Keep)." />
+    <string id="str_comment_noble_introduces_self_and_clan.khuzait_blooddragon_mercy" text="Fraco... meu senhor Walach ordenaria que eu o massacrasse. Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Fale rápido antes que eu cumpra meus deveres." />
+
+    <!-- Apresentações de Nobres (Bretônia e Mousillon) -->
+    <string id="str_comment_noble_introduces_self.vlandia" text="Saudações, sou {CONVERSATION_CHARACTER.LINK} de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.vlandia" text="Saudações, sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Minha família serviu ao povo de Bretônia e à Senhora por gerações." />
+    <string id="str_comment_noble_introduces_self_and_clan.vlandia_honor" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Venha, sejas amigo ou inimigo, e deixe-me ouvir o que tens a dizer." />
+    <string id="str_comment_noble_introduces_self_and_clan.vlandia_mercy" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Meu senhor me instrui a não mostrar misericórdia a ninguém, mas você não parece uma ameaça à minha causa." />
+    <string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Fale rápido, não tenho paciência para aqueles com pouca ambição." />
+    <string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_cruel" text="Quem ousa vir perante {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}? Peões, mendigos e covardes não têm o direito de pisar no chão onde caminho. Fale ou morra." />
+    <string id="str_comment_noble_introduces_self.mousillon" text="Eu sou {CONVERSATION_CHARACTER.LINK} da casa de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.mousillon" text="Vocês vêm diante de {CONVERSATION_CHARACTER.LINK} de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.mousillon_honor" text="Você vem perante {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Você parece um adversário capaz; saudações." />
+    <string id="str_comment_noble_introduces_self_and_clan.mousillon_mercy" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Meu senhor me instrui a não mostrar misericórdia a ninguém, mas você não parece uma ameaça à minha causa." />
+    <string id="str_comment_noble_introduces_self_and_clan.mousillon_boasting" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Fale rápido, não tenho paciência para aqueles com pouca ambição." />
+    <string id="str_comment_noble_introduces_self_and_clan.mousillon_boasting_cruel" text="Quem ousa vir perante {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}? Peões, mendigos e covardes não têm o direito de pisar no chão onde caminho. Fale ou morra." />
+
+    <!-- Apresentações de Nobres (Asrai e Eonir) -->
+    <string id="str_comment_noble_introduces_self.battania" text="Eu sou {CONVERSATION_CHARACTER.LINK} do reino de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.battania" text="Vocês vêm diante de {CONVERSATION_CHARACTER.LINK} de {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.battania_honor" text="Vocês vêm perante {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Nosso reino resistiu ao teste do tempo desde a Cisão (Sundering)." />
+    <string id="str_comment_noble_introduces_self_and_clan.battania_mercy" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Meu senhor me instrui a não mostrar misericórdia a ninguém, mas você não parece uma ameaça à minha causa." />
+    <string id="str_comment_noble_introduces_self_and_clan.battania_boasting" text="Eu sou {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}. Fale rápido, tenho pouca paciência para a insignificância." />
+    <string id="str_comment_noble_introduces_self_and_clan.battania_boasting_cruel" text="Quem ousa vir diante de {CONVERSATION_CHARACTER.LINK}, de {CLAN_NAME}?" />
+
   </strings>
 </base>
