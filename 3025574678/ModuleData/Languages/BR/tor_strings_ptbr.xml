@@ -507,5 +507,512 @@
     <string id="str_tor_enchanter_info_hub_intro_first_visit_eonir" text="Pegue este pergaminho com instruções. Que você viva mil anos, parente."/>
     <string id="str_tor_enchanter_info_hub_intro_read_book_eonir" text="Espero sinceramente que tenha guardado o pergaminho que lhe confiei…"/>
 
+    <!-- ===== S02 — linhas 266–550 ===== -->
+
+    <!-- Quests - Specialize Lore -->
+    <string id="str_tor_quest_specialize_lore_title" text="Praticar Conjuração de Feitiços"/>
+
+    <!-- Quests - Engineer -->
+    <string id="str_tor_quest_engineer_cultists_skip" text="Sua vitória aqui é insignificante... nunca encontrarás o que tomamos..."/>
+    <string id="str_tor_quest_engineer_skip" text="Não tens a menor ideia do que estás a interferir..."/>
+
+    <!-- Quests - Hunt Cultists -->
+    <string id="str_tor_quest_hunt_cultist_issue_brief" text="Na verdade, tenho uma pista sobre um potencial cultista. Uma acusação grave que precisa ser investigada."/>
+    <string id="str_tor_quest_hunt_cultist_issue_accept_player" text="O que precisa ser feito?"/>
+    <string id="str_tor_quest_hunt_cultist_issue_explanation" text="Preciso que vás a {TARGET_SETTLEMENT}. Investiga a população local e elimina quaisquer cultistas. Ao concluir com êxito, a Ordem te pagará {REWARD}{GOLD_ICON}."/>
+    <string id="str_tor_quest_hunt_cultist_accept_player" text="Pode contar comigo."/>
+    <string id="str_tor_quest_hunt_cultist_issue_title" text="Um Cultista Entre Nós"/>
+    <string id="str_tor_quest_hunt_cultist_description" text="Viaja até {TARGET_SETTLEMENT} e elimina qualquer cultista que possa estar escondido lá."/>
+    <string id="str_tor_quest_hunt_cultist_quest_title" text="Um Cultista Entre Nós"/>
+    <string id="str_tor_quest_hunt_cultist_offer_dialog" text="Excelente. Não subestimes os poderes da ruína — vigilância inabalável é exigida em tua missão!"/>
+    <string id="str_tor_quest_hunt_cultist_discuss_dialog" text="Foi um prazer fazer negócios contigo."/>
+    <string id="str_tor_quest_hunt_cultist_prepare_to_die" text="Prepara-te para morrer!"/>
+    <string id="str_tor_khorne_cultist_mission_dialog" text="Este receptáculo é meu. Não interfiras em meus planos!"/>
+    <string id="str_tor_quest_hunt_cultist_out_of_time_log" text="Falhaste em concluir a investigação a tempo. Quaisquer cultistas em potencial certamente já se dispersaram."/>
+    <string id="str_tor_quest_hunt_cultist_village_raided_title" text="Aldeia Saqueada"/>
+    <string id="str_tor_quest_hunt_cultist_village_raided_info" text="A aldeia foi saqueada. Quaisquer cultistas provavelmente fugiram ou estão se escondendo. Retorna quando a aldeia for repovoada."/>
+    <string id="str_tor_quest_hunt_cultist_log_updated_success" text="Foste bem-sucedido em desmascarar os cultistas."/>
+    <string id="str_tor_quest_hunt_cultist_log_updated_fail" text="Os cultistas fugiram antes que pudesses lidar com eles."/>
+    <string id="str_tor_quest_hunt_cultist_started" text="Foste incumbido de viajar a {TARGET_SETTLEMENT} e eliminar qualquer cultista que possa estar escondido lá."/>
+
+    <!-- Quests - Plagued Village -->
+    <string id="str_tor_quest_plagued_village_issue_brief" text="Na verdade, tenho uma pista sobre atividade cultista. Uma aldeia foi acometida por uma terrível e sobrenatural praga. Um assunto grave que precisa de investigação."/>
+    <string id="str_tor_quest_plagued_village_issue_accept_player" text="O que precisa ser feito?"/>
+    <string id="str_tor_quest_plagued_village_issue_explanation" text="Preciso que vás a {TARGET_SETTLEMENT}. Investiga a situação e encontra a causa raiz da praga. Ao concluir com êxito, a Ordem te pagará {REWARD}{GOLD_ICON}."/>
+    <string id="str_tor_quest_plagued_village_accept_player" text="Pode contar comigo."/>
+    <string id="str_tor_quest_plagued_village_title" text="A Aldeia Assolada pela Praga"/>
+    <string id="str_tor_quest_plagued_village_description" text="Viaja ao assentamento indicado e encontra a causa da epidemia sobrenatural que assola a aldeia."/>
+    <string id="str_tor_quest_plagued_village_quest_title" text="A Aldeia Assolada pela Praga"/>
+    <string id="str_tor_quest_plagued_village_offer_dialog" text="Excelente. Não subestimes os poderes da ruína — vigilância inabalável é exigida em tua missão!"/>
+    <string id="str_tor_quest_plagued_village_discuss_dialog" text="Foi um prazer fazer negócios contigo."/>
+    <string id="str_tor_quest_plagued_village_out_of_time_log" text="Falhaste em concluir a investigação a tempo."/>
+    <string id="str_tor_quest_plagued_village_raided_info" text="A aldeia está sendo saqueada. Não há chance de encontrar cultistas agora. Retorna quando a aldeia for repovoada."/>
+    <string id="str_tor_quest_plagued_village_log_updated_success" text="Foste bem-sucedido em erradicar a praga."/>
+    <string id="str_tor_quest_plagued_village_log_updated_fail" text="Abandonaste a missão."/>
+    <string id="str_tor_quest_plagued_village_started" text="Foste incumbido de viajar a {TARGET_SETTLEMENT} e investigar a epidemia que a assola."/>
+
+    <!-- Generic Text -->
+    <string id="str_tor_generic_upkeep" text="Manutenção"/>
+    <string id="str_tor_generic_garrisonUpkeep" text="Manutenção da Guarnição"/>
+    <string id="str_tor_generic_armyMember" text="Parte do Exército"/>
+    <string id="str_tor_generic_siegeCampBonus" text="Bônus de Acampamento de Cerco"/>
+    <string id="str_tor_generic_enchantedEquipment" text="Itens Encantados Equipados"/>
+    <string id="str_tor_generic_isRaided" text="{SETTLEMENT} está sendo saqueada"/>
+    <string id="str_tor_generic_isLooted" text="{SETTLEMENT} foi destruída"/>
+    <string id="str_tor_generic_isCaptured" text="{SETTLEMENT} foi capturada"/>
+
+    <!-- Generic UI Messages -->
+    <string id="str_tor_inquiry_ok_text" text="OK"/>
+    <string id="str_tor_inquiry_cancel_text" text="Cancelar"/>
+    <string id="str_tor_inquiry_confirm_text" text="Confirmar"/>
+    <string id="str_tor_inquiry_accept_text" text="Aceitar"/>
+    <string id="str_tor_item_added_to_inventory_text" text="{ITEM_NAME} foi adicionado ao inventário"/>
+    <string id="str_tor_not_enough_gold_text" text="Ouro insuficiente"/>
+
+    <!-- Greenskin Mechanics -->
+    <string id="str_tor_greenskin_appetite" text="Apetite Pele-verde"/>
+    <string id="str_tor_waaagh_bar_tooltip" text="Waaagh: {CURRENT} / {MAX}"/>
+    <string id="str_tor_greenskin_internal_fightin_text" text="Briga Interna"/>
+    <string id="str_tor_waaagh_level_name_internal_fightin" text="Briga Interna"/>
+    <string id="str_tor_waaagh_level_desc_internal_fightin" text="Os Muleque da matilha tão dimuralizadu. Num tem gritão pra focar e ficam dano porrada um no otro."/>
+    <string id="str_tor_waaagh_level_effects_internal_fightin" text="Moral: -40{NEWLINE}Dano Causado: -20%{NEWLINE}Comida Consumida: -60%{NEWLINE}Feridos Diários: Grande chance"/>
+    <string id="str_tor_greenskin_internal_fightin_bonus_low_member_text" text="Fresconas da Matilha Pequenininha"/>
+    <string id="str_tor_greenskin_petty_squabblin_text" text="Briguinha Idiota"/>
+    <string id="str_tor_waaagh_level_name_petty_squabblin" text="Briguinha Idiota"/>
+    <string id="str_tor_waaagh_level_desc_petty_squabblin" text="A matilha achou uns gritão pra surrar, mas ainda ocorre briguinha entre a tribo. Logo os Muleque vão ficá impaciente de novo."/>
+    <string id="str_tor_waaagh_level_effects_petty_squabblin" text="Moral: -20{NEWLINE}Dano Causado: -10%{NEWLINE}Comida Consumida: -30%{NEWLINE}Feridos Diários: Menor chance"/>
+    <string id="str_tor_greenskin_ere_we_go_text" text="'Bora Lá!"/>
+    <string id="str_tor_waaagh_level_name_ere_we_go" text="'Bora Lá!"/>
+    <string id="str_tor_waaagh_level_desc_ere_we_go" text="As façanha recente da sua matilha foram ouvida nas outra tribo também. Pele-verde das outra tribo começa a se juntá, e os Muleque tão se preparando pra uma bagunça propamente grandona."/>
+    <string id="str_tor_waaagh_level_effects_ere_we_go" text="Dano Causado: +10%{NEWLINE}Comida Consumida: +25%{NEWLINE}Tamanho do Grupo: +60{NEWLINE}Recrutamento Diário: Pequena chance (T1-3)"/>
+    <string id="str_tor_greenskin_waaagh_text" text="WAAAGH!!!!"/>
+    <string id="str_tor_waaagh_level_name_waaagh" text="WAAAGH!!!!"/>
+    <string id="str_tor_waaagh_level_desc_waaagh" text="Agora os Muleque tão propamente animado e assassino! Nóis vamo mostrá pra todos esses humano e barrigão e todos os otro gritão também! ISSO É O WAAAAGH!!!"/>
+    <string id="str_tor_waaagh_level_effects_waaagh" text="Dano Causado: +20%{NEWLINE}Comida Consumida: +100%{NEWLINE}Tamanho do Grupo: +120{NEWLINE}Recrutamento Diário: Grande chance (T1-3)"/>
+    <string id="str_tor_waaagh_level_name_unknown" text="Desconhecido"/>
+    <string id="str_tor_greenskin_teef_extorsion_text" text="Extorsão de Dente"/>
+    <string id="str_tor_greenskin_teef_tribute_text" text="Tributo de Dente"/>
+    <string id="str_tor_hideout_greenskin_no_sneak" text="És truculento demais para se infiltrar sem ser detectado."/>
+    <string id="str_tor_hideout_greenskin_no_wait" text="És truculento demais para se infiltrar sem ser detectado. Por que sequer esperar?"/>
+
+    <!-- Character Stats Bonuses -->
+    <string id="str_tor_stats_minotaur_bonus_text" text="Bônus de Minotauro"/>
+    <string id="str_tor_stats_dryad_bonus_text" text="Bônus de Dríade"/>
+    <string id="str_tor_vampire_bonus" text="Bônus de Vampiro"/>
+    <string id="str_tor_vampire_nighttime_bonus" text="Bônus Noturno de Vampiro"/>
+    <string id="str_tor_stats_large_monster_text" text="Monstro de Grande Porte"/>
+    <string id="str_tor_stats_tier1_text" text="Nível 1"/>
+    <string id="str_tor_stats_tier2_text" text="Nível 2"/>
+    <string id="str_tor_stats_tier3_text" text="Nível 3"/>
+    <string id="str_tor_stats_tier4_text" text="Nível 4"/>
+    <string id="str_tor_stats_vampire_body_text" text="Corpo de Vampiro"/>
+
+    <!-- Healing & Other Bonuses -->
+    <string id="str_tor_healing_shallya_seal_text" text="Selo de Shallya"/>
+    <string id="str_tor_undead_food_saving_text" text="Economia das tropas mortas-vivas"/>
+    <string id="str_tor_healing_rune_text" text="Alívio Rúnico"/>
+
+    <!-- CC Options - Intros de Cultura -->
+    <string id="str_tor_cc_growth_battania" text="Passastes a maior parte de sua vida venerando uma das divindades Asrai…"/>
+    <string id="str_tor_cc_profession_battania" text="Escolhe teu caminho…"/>
+    <string id="str_tor_cc_origin_sturgia" text="Teu Clã é famoso por seu…"/>
+    <string id="str_tor_cc_growth_sturgia" text="Os orgulhosos Dawi cultivam cada rancor dirigido a seus semelhantes…"/>
+    <string id="str_tor_cc_profession_sturgia" text="Tua profissão atual…"/>
+    <string id="str_tor_cc_origin_aserai" text="Os Peles-verdes se reproduzem por esporos, e o teu pousou em…"/>
+    <string id="str_tor_cc_growth_aserai" text="Após ingressar em uma tribo, teu maior feito foi…"/>
+    <string id="str_tor_cc_profession_aserai" text="Antes de deixar a tribo, eras um dos…"/>
+
+    <!-- CC Specialization Stage -->
+    <string id="str_tor_cc_specialization_title_lore" text="Escolhe Teu Saber da Magia…"/>
+    <string id="str_tor_cc_specialization_desc_lore" text="O dom da Visão Bruxa permite-te canalizar um dos oito Ventos da Magia:"/>
+    <string id="str_tor_cc_specialization_title_bloodline" text="Escolhe Tua Linhagem…"/>
+    <string id="str_tor_cc_specialization_desc_bloodline" text="A espécie vampírica está dividida em diversas linhagens distintas:"/>
+    <string id="str_tor_cc_specialization_title_god" text="Escolhe Tua Divindade…"/>
+    <string id="str_tor_cc_specialization_desc_god" text="Todos os Sacerdotes Guerreiros servem a uma divindade específica:"/>
+    <string id="str_tor_cc_specialization_title_order" text="Escolhe Tua Ordem…"/>
+    <string id="str_tor_cc_specialization_desc_order" text="Todos os cavaleiros são membros de uma estimada ordem cavaleiresca:"/>
+
+    <!-- Priest Blessings - Culto de Ulric -->
+    <string id="str_tor_priest_hub_intro_cult_of_ulric" text="Em nome de Ulric, como posso te ajudar?"/>
+    <string id="str_tor_priest_hub_reintro_cult_of_ulric" text="Precisas de algo mais?"/>
+    <string id="str_tor_priest_hub_blessings_p_cult_of_ulric" text="Desejo aprender mais sobre o Grande Lobo."/>
+    <string id="str_tor_priest_hub_quit_p_cult_of_ulric" text="Devo partir. Que Ulric guie tua lâmina."/>
+    <string id="str_tor_priest_blessings_1_cult_of_ulric" text="POR FAVOR REPORTE ONDE VÊS ISTO Por uma doação em nome de Sigmar, posso conceder-te acesso aos nossos tomos sagrados."/>
+    <string id="str_tor_priest_blessings_decline_cult_of_ulric" text="POR FAVOR REPORTE ONDE VÊS ISTO Deverias falar primeiro com um Alquimista. Há muito mais a aprender antes que eu possa mostrar como podes abençoar teu equipamento."/>
+    <string id="str_tor_priest_start_accept_cult_of_ulric" text="Filhos do Lobo, sejam bem-vindos!"/>
+    <string id="str_tor_priest_start_decline_cult_of_ulric" text="Precisas de um seguidor de Ulric em teu grupo se desejas falar comigo, estrangeiro."/>
+    <string id="str_tor_priest_start_decline_hard_cult_of_ulric" text="Parte, antes que eu mostre minhas presas, forasteiro!"/>
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_ulric" text="Podes mostrar-me como abençoar armas em nome de Ulric?"/>
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_ulric" text="Desejo a bênção do Lobo Branco."/>
+    <string id="str_tor_priest_blessingshop_1_cult_of_ulric" text="Com oferendas de ouro, podes acessar nossos Tomos do Lobo."/>
+    <string id="str_tor_priest_blessing_party_1_cult_of_ulric" text="Ó, Grande Lobo! Com tua lâmina e presas, permite que este guerreiro se torne uno com o frio do inverno…"/>
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_ulric" text="O Lobo já está contigo. Retorna mais tarde."/>
+    <string id="str_tor_priest_hub_quit_cult_of_ulric" text="Devo partir."/>
+
+    <!-- Priest Blessings - Culto de Sigmar -->
+    <string id="str_tor_priest_start_accept_cult_of_sigmar" text="Sejam bem-vindos, amigos do Império."/>
+    <string id="str_tor_priest_start_decline_cult_of_sigmar" text="Precisas de um seguidor de Sigmar se desejas falar comigo, estrangeiro."/>
+    <string id="str_tor_priest_start_decline_hard_cult_of_sigmar" text="Fora da minha vista, imediatamente!"/>
+    <string id="str_tor_priest_hub_intro_cult_of_sigmar" text="Em nome de Sigmar, como posso te ajudar?"/>
+    <string id="str_tor_priest_hub_reintro_cult_of_sigmar" text="Havia algo mais?"/>
+    <string id="str_tor_priest_hub_blessings_p_cult_of_sigmar" text="Podes mostrar-me como abençoar armas em nome de Sigmar?"/>
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_sigmar" text="Conta-me mais sobre abençoar itens em nome de Sigmar."/>
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_sigmar" text="Podemos receber a Bênção do Heldenhammer?"/>
+    <string id="str_tor_priest_hub_quit_p_cult_of_sigmar" text="Devo partir."/>
+    <string id="str_tor_priest_blessingshop_1_cult_of_sigmar" text="Por uma doação, em nome de Sigmar, posso conceder-te acesso aos nossos tomos sagrados."/>
+    <string id="str_tor_priest_blessingshop_decline_cult_of_sigmar" text="Deverias falar primeiro com um Alquimista. Há muito mais a aprender antes que eu possa mostrar como podes abençoar teu equipamento."/>
+    <string id="str_tor_priest_blessing_party_1_cult_of_sigmar" text="Por Sigmar Heldenhammer e Ghal Maraz, que tua justa ira esmague os impuros. Não tolereis o imundo, o mutante, o herege — pois Sigmar caminha contigo…"/>
+    <string id="str_tor_priest_blessings_decline_cult_of_sigmar" text="Foste abençoado recentemente. Não há necessidade de uma nova bênção."/>
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_sigmar" text="Fostes abençoados por Sigmar recentemente. Não há necessidade de outra bênção."/>
+    <string id="str_tor_priest_hub_quit_cult_of_sigmar" text="Que Sigmar guie teu caminho."/>
+
+    <!-- Priest Blessings - Culto de Shallya -->
+    <string id="str_tor_priest_start_accept_cult_of_shallya" text="Seja bem-vindo, amigo de Shallya."/>
+    <string id="str_tor_priest_start_decline_cult_of_shallya" text="Precisas de um seguidor de Shallya em teu grupo se desejas falar comigo, estrangeiro."/>
+    <string id="str_tor_priest_start_decline_hard_cult_of_shallya" text="Não és bem-vindo aqui. Parte imediatamente!"/>
+    <string id="str_tor_priest_hub_intro_cult_of_shallya" text="A Pomba Branca da Misericórdia recebe-te de braços abertos."/>
+    <string id="str_tor_priest_hub_reintro_cult_of_shallya" text="Havia algo mais que precisavas, amigo?"/>
+    <string id="str_tor_priest_hub_blessingshop_p_cult_of_shallya" text="Conta-me mais sobre os tomos sagrados de Shallya."/>
+    <string id="str_tor_priest_hub_party_blessing_p_cult_of_shallya" text="Desejamos receber a bênção da Senhora de Branco."/>
+    <string id="str_tor_priest_hub_quit_p_cult_of_shallya" text="Devo me retirar."/>
+    <string id="str_tor_priest_blessingshop_1_cult_of_shallya" text="Por uma pequena doação, podes acessar nossos tomos de cura e fé."/>
+    <string id="str_tor_priest_blessingshop_decline_cult_of_shallya" text="Deverias falar primeiro com um Alquimista. Há muito mais a aprender antes que eu possa mostrar como podes abençoar teu equipamento."/>
+    <string id="str_tor_priest_blessing_party_1_cult_of_shallya" text="Que Sua misericórdia e compaixão sirvam aos Seus humildes seguidores…"/>
+    <string id="str_tor_priest_blessings_decline_cult_of_shallya" text="Foste abençoado recentemente. Não há necessidade de receber a bênção de uma divindade."/>
+    <string id="str_tor_priest_hub_party_blessing_decline_cult_of_shallya" text="A luz curativa da Senhora ainda está convosco. Retornai em outro momento."/>
+    <string id="str_tor_priest_hub_quit_cult_of_shallya" text="Que a misericórdia de Shallya esteja contigo."/>
+
+    <!-- Skill Training - Genérico (fallback) -->
+    <string id="str_tor_priest_train_hub_quit_p" text="padrão saída hub treino. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_teach_skills_dialog_p" text="padrão tor_teach_skills_dialog_p. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_skill_teacher_train_1" text="padrão tor_skill_teacher_train_1. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_skill_teacher_train_2" text="tor_skill_teacher_train_2. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_skill_train_hub_select_companion_p" text="padrão tor_skill_train_hub_select_companion_p. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_skill_train_hub_select_companion" text="padrão tor_skill_train_hub_select_companion. fallback caso nenhuma variante exista."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline" text="padrão tor_skill_train_hub_select_companion_decline. fallback caso nenhuma variante exista."/>
+
+    <!-- Skill Training - Senhor das Runas Anão -->
+    <string id="str_tor_teach_skills_dialog_p_DwarfRunelord" text="Podes ensinar ao meu companheiro ferreiro-de-runas as artes sagradas das runas?"/>
+    <string id="str_tor_skill_teacher_train_1_DwarfRunelord" text="Posso ajudar, mas exigirá uma quantidade considerável de tempo e ouro."/>
+    <string id="str_tor_skill_teacher_train_2_DwarfRunelord" text="Ainda desejas que eu transmita meus ensinamentos?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_DwarfRunelord" text="Sim, por favor guia um dos meus companheiros."/>
+    <string id="str_tor_skill_train_hub_select_companion_DwarfRunelord" text="Muito bem, transmitirei meus ensinamentos. Teu amigo será devolvido quando o treinamento estiver concluído."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_DwarfRunelord" text="Não há ninguém digno de aprendizado em teu grupo."/>
+    <string id="str_tor_priest_train_hub_quit_p_DwarfRunelord" text="Perdoa-me, Rhunrik, mudei de ideia."/>
+
+    <!-- Skill Training - Engenheiro do Império -->
+    <string id="str_tor_teach_skills_dialog_p_EngineerEmpire" text="Podes ensinar ao meu companheiro mais sobre Engenharia?"/>
+    <string id="str_tor_skill_teacher_train_1_EngineerEmpire" text="Claro. Posso ensinar teus companheiros. Eles ficarão aqui. Mas posso dizer-te que isso custará caro."/>
+    <string id="str_tor_skill_teacher_train_2_EngineerEmpire" text="Como devemos prosseguir?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_EngineerEmpire" text="Sim, concordo. Deixa-me indicar-te quem ensinar."/>
+    <string id="str_tor_priest_train_hub_quit_p_EngineerEmpire" text="Há algo mais."/>
+    <string id="str_tor_skill_train_hub_select_companion_EngineerEmpire" text="Escolhe um companheiro que desejas ensinar."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_EngineerEmpire" text="Teus companheiros ainda não estão prontos."/>
+
+    <!-- Skill Training - Magister do Império -->
+    <string id="str_tor_skill_teacher_train_1_EmpireMagister" text="Posso ensinar magia ao teu companheiro, se permitires que permaneça nos colégios."/>
+    <string id="str_tor_skill_teacher_train_2_EmpireMagister" text="Quem deverá ingressar no colégio e aprender a Arte Arcana?"/>
+    <string id="str_tor_teach_skills_dialog_p_EmpireMagister" text="Podes ensinar ao meu companheiro mago os segredos da magia?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_EmpireMagister" text="Sim, por favor guia um dos meus companheiros."/>
+    <string id="str_tor_skill_train_hub_select_companion_EmpireMagister" text="Muito bem, transmitirei meus ensinamentos. Teu amigo será devolvido quando o treinamento estiver concluído."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_EmpireMagister" text="Não há ninguém digno de aprendizado em teu grupo."/>
+    <string id="str_tor_priest_train_hub_quit_p_EmpireMagister" text="Perdoa-me, mudei de ideia."/>
+
+    <!-- Skill Training - Sacerdote de Sigmar -->
+    <string id="str_tor_teach_skills_dialog_p_SigmarPriest" text="Meu companheiro deseja aprofundar sua fé. Podes guiá-lo?"/>
+    <string id="str_tor_skill_teacher_train_1_SigmarPriest" text="Seria negligência minha não transmitir a palavra sagrada de Sigmar. Porém, teu companheiro deve permanecer e treinar aqui."/>
+    <string id="str_tor_skill_teacher_train_2_SigmarPriest" text="Quem entre teus companheiros aprenderá os caminhos de nosso Senhor Sigmar?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_SigmarPriest" text="Sim, por favor guia um dos meus companheiros nos ensinamentos de Sigmar."/>
+    <string id="str_tor_skill_train_hub_select_companion_SigmarPriest" text="Muito bem, aprenderão sob a orientação de Sigmar. Teu companheiro retornará quando o treinamento estiver completo."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_SigmarPriest" text="Nenhum dos teus companheiros é digno dos ensinamentos de Sigmar."/>
+    <string id="str_tor_priest_train_hub_quit_p_SigmarPriest" text="Que Sigmar te guie. Devo me retirar."/>
+
+    <!-- Skill Training - Sacerdote de Ulric -->
+    <string id="str_tor_skill_teacher_train_1_UlricPriest" text="Se Ulric os julgar dignos, poderão aprender. Deixa-os comigo."/>
+    <string id="str_tor_skill_teacher_train_2_UlricPriest" text="Quem aprenderá os caminhos do Pai do Inverno?"/>
+    <string id="str_tor_teach_skills_dialog_p_UlricPriest" text="Meu companheiro deseja aprofundar sua fé. Podes guiá-lo?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_UlricPriest" text="Sim, por favor guia um dos meus companheiros."/>
+    <string id="str_tor_skill_train_hub_select_companion_UlricPriest" text="Muito bem. Retornarão com as presas afiadas."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_UlricPriest" text="Não há ninguém em teu grupo digno de aprendizado."/>
+    <string id="str_tor_priest_train_hub_quit_p_UlricPriest" text="Perdoa-me, mudei de ideia."/>
+
+    <!-- Skill Training - Prompt de Treinamento -->
+    <string id="str_tor_skill_training_prompt_title" text="Ensinar a um companheiro {SKILL_NAME}"/>
+    <string id="str_tor_skill_training_prompt_skill_value" text="Valor atual da habilidade: {SKILL_VALUE}"/>
+    <string id="str_tor_skill_training_prompt_description" text="O treinamento custará {GOLD_ICON} e {CUSTOMRESOURCE}. O companheiro selecionado deixará teu grupo e permanecerá aqui por um período. Cancelar este processo não reembolsará os recursos gastos."/>
+    <string id="str_tor_skill_training_reason_NoCustomResource" text="Não possuis {CUSTOMRESOURCE} suficiente."/>
+    <string id="str_tor_skill_training_hover_NoGold" text="Não possuis {GOLD_ICON} suficiente."/>
+    <string id="str_tor_skill_training_hover_NoCustomResource" text="Não possuis {CUSTOMRESOURCE} suficiente."/>
+    <string id="str_tor_skill_training_hover_Costs" text="Requer {GOLD_COST}{GOLD_ICON}, {CR_COST}{CUSTOMRESOURCE}"/>
+    <string id="str_tor_skill_training_hover_Full" text="{SKILLTRAINING_REASON} {SKILL_TRAINING_COSTS}"/>
+
+    <!-- Skill Training - Sacerdotisa de Shallya (Medicina) -->
+    <string id="str_tor_teach_skills_dialog_p_ShallyaTrainRE" text="Podes ensinar aos meus companheiros mais sobre Medicina?"/>
+    <string id="str_tor_skill_teacher_train_1_ShallyaTrainRE" text="A misericórdia da Pomba guia nossas mãos na cura. Posso ensinar ao teu companheiro os caminhos da misericórdia."/>
+    <string id="str_tor_skill_teacher_train_2_ShallyaTrainRE" text="Quem entre teus companheiros aprenderá as artes curativas?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_ShallyaTrainRE" text="Sim, por favor guia um dos meus companheiros nas artes curativas."/>
+    <string id="str_tor_skill_train_hub_select_companion_ShallyaTrainRE" text="Os devolveremos a seu tempo. Estão em boas mãos."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_ShallyaTrainRE" text="Nenhum dos teus companheiros é adequado para aprender as artes curativas."/>
+    <string id="str_tor_priest_train_hub_quit_p_ShallyaTrainRE" text="Talvez em outro momento, irmã."/>
+
+    <!-- Skill Training - Sacerdotisa de Shallya (Fé) -->
+    <string id="str_tor_teach_skills_dialog_p_ShallyaTrainCO" text="Meus companheiros desejam aprender mais sobre a misericórdia de Shallya."/>
+    <string id="str_tor_skill_teacher_train_1_ShallyaTrainCO" text="O caminho da fé exige dedicação e compaixão. Posso guiar teu companheiro pelos caminhos de Shallya."/>
+    <string id="str_tor_skill_teacher_train_2_ShallyaTrainCO" text="Há muito sobre misericórdia e compaixão que podemos ensinar."/>
+    <string id="str_tor_skill_train_hub_select_companion_p_ShallyaTrainCO" text="Sim, por favor guia um dos meus companheiros nos caminhos da fé."/>
+    <string id="str_tor_skill_train_hub_select_companion_ShallyaTrainCO" text="Os devolveremos a seu tempo. Estão em boas mãos."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_ShallyaTrainCO" text="Nenhum dos teus companheiros é adequado para aprender os caminhos da fé."/>
+    <string id="str_tor_priest_train_hub_quit_p_ShallyaTrainCO" text="Talvez em outro momento, irmã."/>
+
+    <!-- Skill Training - Necromante -->
+    <string id="str_tor_teach_skills_dialog_p_Necromancer" text="Podes ensinar ao meu companheiro as artes sombrias?"/>
+    <string id="str_tor_skill_teacher_train_1_Necromancer" text="Os segredos da morte não são dados livremente. Teu companheiro deve permanecer aqui para estudar o conhecimento proibido."/>
+    <string id="str_tor_skill_teacher_train_2_Necromancer" text="Quem entre teus seguidores ousa trilhar o caminho dos mortos-vivos?"/>
+    <string id="str_tor_skill_train_hub_select_companion_p_Necromancer" text="Sim, guia um dos meus companheiros nas artes sombrias."/>
+    <string id="str_tor_skill_train_hub_select_companion_Necromancer" text="Que assim seja. Aprenderão os segredos de Nagash. Teu servo retornará quando o treinamento estiver completo."/>
+    <string id="str_tor_skill_train_hub_select_companion_decline_Necromancer" text="Nenhum dos teus seguidores possui aptidão para as artes sombrias."/>
+    <string id="str_tor_priest_train_hub_quit_p_Necromancer" text="Muito bem. Os mortos aguardarão."/>
+
+    <!-- Itens Mágicos - Raridade -->
+    <string id="str_tor_magical_items_trait_nameComposition" text="{NAMEMODIFIER} {NAMEOFITEM}"/>
+    <string id="str_tor_magical_items_trait_rarity_1" text="Incomum"/>
+    <string id="str_tor_magical_items_trait_rarity_2" text="Raro"/>
+    <string id="str_tor_magical_items_trait_rarity_3" text="Épico"/>
+    <string id="str_tor_magical_items_trait_rarity_4" text="Lendário"/>
+
+    <!-- ===== S04 — linhas 817–1136 (Mecânicas de Ouro de Juramento, Guildas e Engenharia) ===== -->
+
+    <!-- Engenharia e Ouro de Juramento -->
+    <string id="str_tor_dw_guildmaster_reject_non_dwarf" text="Você não pertence a este lugar. Fora daqui."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_learn_rune_magic_p" text="Desejo aprender mais sobre a Magia Rúnica e as Bigornas da Perdição."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_1_p" text="Rhunrik, desejo provar meu valor aos Burudin e elevar minha posição na guilda."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_2_p" text="Rhunrik, desejo elevar ainda mais minha posição na guilda."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_buy_equipment_p" text="Posso encomendar equipamentos produzidos por sua Guilda?"/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_deliver_steel_p" text="Você aceitaria estes metais valiosos?"/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_quit_p" text="Isso será tudo."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_0" text="Tal respeito não é concedido facilmente; prove seu valor sob o olhar severo de Grungni e veremos se és digno."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career" text="Pela barba de Grungni! Faz muito tempo que não vejo alguém com tanto potencial."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_2" text="Em nome dos Burudin, eu o declaro parte dos Rhunki. Tenha orgulho de suas conquistas, rapaz. Embora eu tema que as celebrações precisem ser adiadas, pois tempos desesperadores exigem medidas desesperadoras. E nuvens escuras pairam sobre Karaz Ankor."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_3" text="Estou vinculado ao Grongaz, mas você pode viajar e lutar como desejar. Você provou ser digno, e é por isso que compartilho com você minha Bigorna da Perdição. Mas saiba disto: há juramentos de segredo vinculados a ela; não se pode simplesmente abandonar a Bigorna. Proteja-a com sua vida."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_4" text="Você pode usá-la em batalha como achar melhor e liberar as runas antigas inscritas em sua superfície, mas tenha cuidado: suas runas são poderosas, e apenas o Rhunki mais habilidoso pode esperar despertá-las. A combinação mais direta é a Runa do Lar Central. Nunca se esqueça de onde você pertence e de onde você veio."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord_0" text="Você está se precipitando, Rhunki. Não faz muito tempo que ainda discutíamos os fundamentos, e agora você acha que merece o título de Senhor das Runas? Viaje por Karaz Ankor, ajude nossos parentes necessitados. Prove-se digno desta grande honra."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord" text="Desde os tempos de Thorek ou mesmo Kragg, nenhum Rhunki exibiu tal habilidade nas artes das runas!"/>
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord2" text="Com Thungni como minha testemunha, de agora em diante serás conhecido como um Rhunriki; que caminhes com orgulho entre as forjas de nossos Ancestrais. Agora, vamos discutir os segredos da Terceira Runa…"/>
+    <string id="str_tor_dw_guildmaster_rune_smith_buy_equipment" text="Dê uma olhada."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel" text="Esses são sempre bem-vindos. O que você deseja doar?"/>
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel_accept_p" text="Dê uma olhada."/>
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel_decline_p" text="Isso será tudo."/>
+    <string id="str_tor_dw_guildmaster_1_start_runesmith" text="Um rosto desconhecido. O que queres com nossos Rhunki?"/>
+    <string id="str_tor_dw_guildmaster_2_start_runesmith" text="Um companheiro Dawi! Bem-vindo ao Grongaz."/>
+    <string id="str_tor_dw_guildmaster_3_start_runesmith" text="{PLAYER_CLAN}, Dawongr! Tens negócios com os Rhunki?"/>
+    <string id="str_tor_dw_guildmaster_4_start_runesmith" text="Membro de confiança de {PLAYER_CLAN}! Saiba que a Guilda considera nossa parceria uma grande honra!"/>
+    <string id="str_tor_dw_guildmaster_reintro_runesmith" text="Precisas de algo mais?"/>
+    <string id="str_tor_dw_guildmaster_1_start_miner" text="Saudações, estranho. O que queres com nossos Boki?"/>
+    <string id="str_tor_dw_guildmaster_2_start_miner" text="Um companheiro Dawi! Bem-vindo à Guilda dos Mineradores."/>
+    <string id="str_tor_dw_guildmaster_3_start_miner" text="{PLAYER_CLAN}, Dawongr! Tens negócios com a Guilda dos Mineradores?"/>
+    <string id="str_tor_dw_guildmaster_4_start_miner" text="Membros de confiança de {Player_Clan}! Saibam que os Boki consideram nossa parceria uma honra!"/>
+    <string id="str_tor_dw_guildmaster_reintro_miner" text="Precisavas de algo mais?"/>
+    <string id="str_tor_dw_guildmaster_1_start_engineer" text="Um rosto desconhecido. O que queres com nossos Endrinkuli?"/>
+    <string id="str_tor_dw_guildmaster_2_start_engineer" text="Um companheiro Dawi! Bem-vindo à Guilda dos Engenheiros."/>
+    <string id="str_tor_dw_guildmaster_3_start_engineer" text="{PLAYER_CLAN}, Dawongr! Tens negócios com a Guilda dos Engenheiros?"/>
+    <string id="str_tor_dw_guildmaster_4_start_engineer" text="Membros de confiança de {Player_Clan}! Saibam que os Endrinkuli consideram nossa parceria uma honra!"/>
+    <string id="str_tor_dw_guildmaster_reintro_engineer" text="Precisas de algo mais?"/>
+    <string id="str_tor_dw_guildmaster_1_start_brewer" text="Saudações, velho amigo… ou… ainda não nos conhecemos, não é? Salve, estranho."/>
+    <string id="str_tor_dw_guildmaster_2_start_brewer" text="Dawi! Bem-vindo à… à… Valdahaz!"/>
+    <string id="str_tor_dw_guildmaster_3_start_brewer" text="{PLAYER_CLAN}, Dawongr! Tens negócios comigo e com nossa Guilda? Entre!"/>
+    <string id="str_tor_dw_guildmaster_4_start_brewer" text="Amigo?… MEU AMIGO! Meu confiável parceiro de bebida! O que podemos fazer por você!?"/>
+    <string id="str_tor_dw_guildmaster_reintro_brewer" text="Precisavas de algo mais?"/>
+    <string id="str_tor_dw_guildmaster_1_start_warrior" text="Um rosto desconhecido. O que queres com nossos barbas-longas?"/>
+    <string id="str_tor_dw_guildmaster_2_start_warrior" text="Companheiro Dawi! Bem-vindo à Guilda dos Guerreiros."/>
+    <string id="str_tor_dw_guildmaster_3_start_warrior" text="{PLAYER_CLAN}, amigos dos Dawi! Têm negócios com a Guilda dos Guerreiros?"/>
+    <string id="str_tor_dw_guildmaster_4_start_warrior" text="Membros de confiança de {PLAYER_CLAN}. Saibam que a Guilda considera nossa parceria uma honra!"/>
+    <string id="str_tor_dw_guildmaster_reintro_warrior" text="E então, algo mais?"/>
+
+    <!-- Informações das Guildas -->
+    <string id="str_tor_dw_guildmaster_info_p_runesmith" text="O que os Rhunki fornecem?"/>
+    <string id="str_tor_dw_guildmaster_unlock_info_runesmith" text="A nossa é a mais antiga, rica e poderosa das guildas. Fundada no tempo em que os Deuses Ancestrais ainda caminhavam entre nós. Nós fornecemos aos Dawi dignos armaduras que poderiam detar o golpe de gigantes e armas que poderiam abater dragões com um único golpe."/>
+    <string id="str_tor_dw_guildmaster_unlock_info_2_runesmith" text="Em tempos de guerra, e apenas quando surge a necessidade, enviamos a campo as Bigornas da Perdição, capazes de devastar exércitos inteiros. Com nossas conexões, também podemos reduzir os custos de tropas equipadas com Gromril, como os Quebra-Ferros ou Marteladores."/>
+    <string id="str_tor_dw_guildmaster_info_p_miner" text="Podes explicar as funções da Guilda dos Mineradores?"/>
+    <string id="str_tor_dw_guildmaster_unlock_info_miner" text="A nossa é uma das maiores e mais veneradas de todas as Guildas. Fundada pelo próprio Grungni, a Guilda dos Mineradores garante que onde quer que haja um veio de ouro ou ferro, haja Dawi para minerá-lo."/>
+    <string id="str_tor_dw_guildmaster_unlock_info_2_miner" text="Além disso, podemos impulsionar o processamento de minérios e metais do seu Grung, bem como entregar carvão, gemas e ferro a cada duas semanas aproximadamente. Nossos membros mais confiáveis também podem financiar expedições subterrâneas. Quem pode dizer quais tesouros perdidos há muito tempo jazem escondidos nas profundezas…"/>
+    <string id="str_tor_dw_guildmaster_info_p_brewer" text="Quais são as funções da Guilda dos Cervejeiros?"/>
+    <string id="str_tor_dw_guildmaster_unlock_info_brewer" text="O que você acha que fazemos? Tricotamos roupas e colhemos flores bonitas? Nós fazemos o maldito Gorog! Somos a guilda mais importante de todas; não existe Rhunrik, Endrinkuli ou mesmo um maldito Gov que não tenha álcool no corpo que não tenha sido fabricado pelos nossos Dawi."/>
+    <string id="str_tor_dw_guildmaster_unlock_info_2_brewer" text="Também podemos ajudar com suprimentos para o exército. E nossos laços com os Patrulheiros permitem que certos exércitos empreguem batedores melhores. Embora nossa especialidade resida em impulsionar a economia das Fortalezas Dawi e garantir que todos permaneçam leais e nunca resmunguem devido à falta de cerveja."/>
+    <string id="str_tor_dw_guildmaster_info_p_engineer" text="Quais são as funções dos seus engenheiros?"/>
+    <string id="str_tor_dw_guildmaster_unlock_info_engineer" text="Somos uma das guildas mais importantes e poderosas que existem. Nossos engenheiros constroem e mantêm não apenas nossas grandiosas Fortalezas, mas também as diversas máquinas de guerra de Karaz Ankor."/>
+    <string id="str_tor_dw_guildmaster_unlock_info_2_engineer" text="Além disso, ajudamos a reduzir os custos de manutenção de unidades de pólvora negra. A Guilda também fornece acesso a armamentos e artilharia protótipos testados e aprovados para diversos clãs Dawi, mas observe que exigimos que você se prove primeiro."/>
+    <string id="str_tor_dw_guildmaster_info_p_warrior" text="Quais são as funções dos guerreiros dentro da sua Guilda?"/>
+    <string id="str_tor_dw_guildmaster_unlock_info_warrior" text="Somos a maior das guildas; qualquer Dawi que se preze, seja ele minerador ou batedor, passou por algum tipo de treinamento de guerreiro. Se um guerreiro se sair excepcionalmente bem, ele poderá subir de posto para se tornar um Angthragor ou até mesmo um Martelador."/>
+    <string id="str_tor_dw_guildmaster_unlock_info_2_warrior" text="Além disso, podemos ajudar a reduzir os custos de aprimoramento de Guerreiros, Barbas-Longas e Matadores. Nossas conexões também ajudam você a ganhar mais Ouro de Juramento em batalhas e torneios. Por fim, somos responsáveis por fornecer Dawi extras para ajudar a patrulhar Karaz Ankor."/>
+
+    <!-- Ouro de Juramento (Doações) -->
+    <string id="str_tor_dw_guildmaster_hub_oath_gold_runesmith" text="Posso apoiar os Rhunki?"/>
+    <string id="str_tor_dw_guildmaster_oath_gold_runesmith" text="Doações aos Burudin são sempre bem-vindas."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_runesmith" text="Desejo doar Ouro de Juramento."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_runesmith" text="Perdoe-me, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_end_runesmith" text="Obrigado por sua contribuição."/>
+    <string id="str_tor_dw_guildmaster_hub_oath_gold_engineer" text="Posso apoiar a Guilda dos Engenheiros de alguma forma?"/>
+    <string id="str_tor_dw_guildmaster_oath_gold_engineer" text="Doações à Guilda são sempre bem-vindas."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_engineer" text="Desejo doar Ouro de Juramento."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_engineer" text="Mudei de ideia, Mestre Engenheiro."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_end_engineer" text="Obrigado por sua contribuição."/>
+    <string id="str_tor_dw_guildmaster_hub_oath_gold_miner" text="Posso apoiar a Guilda dos Mineradores de alguma forma?"/>
+    <string id="str_tor_dw_guildmaster_oath_gold_miner" text="Doações à Guilda são sempre bem-vindas."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_miner" text="Desejo doar Ouro de Juramento."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_miner" text="Perdoe-me, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_end_miner" text="Isto é apreciado."/>
+    <string id="str_tor_dw_guildmaster_hub_oath_gold_brewer" text="Posso apoiar a Guilda dos Cervejeiros de alguma forma?"/>
+    <string id="str_tor_dw_guildmaster_oath_gold_brewer" text="Doações à guilda são sempre apreciadas."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_brewer" text="Desejo doar Ouro de Juramento."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_brewer" text="Mudei de ideia, Mestre Cervejeiro."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_end_brewer" text="Obrigado por sua contribuição."/>
+    <string id="str_tor_dw_guildmaster_hub_oath_gold_warrior" text="Posso apoiar a Guilda dos Guerreiros?"/>
+    <string id="str_tor_dw_guildmaster_oath_gold_warrior" text="Doações à guilda são sempre bem-vindas."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_warrior" text="Desejo doar Ouro de Juramento."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_warrior" text="Perdoe-me, Mestre Barba-Longa. Mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_oath_gold_end_warrior" text="A Guilda aprecia qualquer contribuição."/>
+
+    <!-- Outras Mecânicas Anãs -->
+    <string id="str_tor_dw_guildmaster_gemcutter_hub_spend_troops_p" text="Posso fornecer tropas para guardar os poços de mineração?"/>
+    <string id="str_tor_dw_guildmaster_expedition_hub_found_artefacts_p" text="Você encontrou algo de interesse para mim?"/>
+    <string id="str_tor_dw_guildmaster_expedition_hub_launch_expedition_p" text="Posso lançar uma expedição?"/>
+    <string id="str_tor_dw_guildmaster_gemcutter_hub_quit_p" text="Isso será tudo, Mestre Boki."/>
+    <string id="str_party_size_desc_friendofundead" text="Amigo dos mortos-vivos" />
+    <string id="str_tor_party_size_desc_caravanofdeath" text="Caravana da morte" />
+    <string id="str_tor_party_size_desc_settlementvampirecounts" text="Assentamento dos Condes Vampiros" />
+    <string id="str_tor_party_size_desc_vampirelord" text="Lorde Vampiro" />
+    <string id="str_tor_party_size_desc_greenskins" text="Peles-Verdes" />
+    <string id="str_tor_party_size_desc_dwarfpenalty" text="Penalidade cultural de Anão" />
+    <string id="str_tor_party_size_desc_woodelfpenalty" text="Penalidade cultural de Elfo Silvano" />
+
+    <!-- Expedições -->
+    <string id="str_tor_dw_guildmaster_expedition_found_artefacts" text="Algumas das equipes de exploradores retornam com tesouros ou artefatos. Naturalmente, uma parte seria compartilhada com você."/>
+    <string id="str_tor_dw_guildmaster_expedition_found_artefacts_no_expeditions" text="As expedições ainda não retornaram."/>
+    <string id="str_tor_dw_guildmaster_expedition_launch_expedition_decline" text="Estamos com pessoal insuficiente; tudo o que podemos fazer é esperar pelo retorno de nossos exploradores."/>
+    <string id="str_tor_dw_guildmaster_expedition_launch_expedition" text="Sim, com financiamento suficiente, podemos enviar equipes para recuperar tesouros dos túneis mais profundos do Subcaminho."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_launch_expedition_accept_p" text="Deixe-me financiar uma expedição."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_launch_expedition_decline_p" text="Perdoe-me, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_launch_expedition_end" text="Muito bem, nossos melhores exploradores e mineradores partirão após reunirem suprimentos."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_spend_troops" text="Sim, a Guilda apreciaria qualquer ajuda nesse sentido."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_spend_troops_accept_p" text="Deixe-me posicionar estes homens."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_spend_troops_decline_p" text="Mudei de ideia, perdoe-me."/>
+    <string id="str_tor_dw_guildmaster_gemcutter_spend_troops_end" text="Isto é muito apreciado, Dawongr."/>
+
+    <!-- Cervejeiro e Guerreiros -->
+    <string id="str_tor_dw_guildmaster_brewer_hub_spend_food_p" text="Posso lhe entregar um pouco de trigo para ajudar na fabricação de cerveja?"/>
+    <string id="str_tor_dw_guildmaster_brewer_hub_quit_p" text="Isso será tudo, Mestre Cervejeiro."/>
+    <string id="str_tor_dw_guildmaster_brewer_hub_spend_food" text="É assim que fabricamos nossa melhor cerveja. E sempre podemos usar mais Gertun."/>
+    <string id="str_tor_dw_guildmaster_brewer_hub_spend_food_accept_p" text="Fique com estas sacas de grãos, então."/>
+    <string id="str_tor_dw_guildmaster_brewer_hub_spend_food_decline_p" text="Na verdade, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_brewer_hub_spend_food_end" text="Obrigado por sua contribuição."/>
+    <string id="str_tor_dw_brewer_recruit_rangers_text" text="Preciso de alguns patrulheiros para batedoria"/>
+    <string id="str_tor_dw_brewer_recruit_rangers_offer_text" text="Sim, temos alguns patrulheiros habilidosos ansiosos para servir. Custará a você {RANGER_GOLD_PRICE}{GOLD_ICON} e {RANGER_OATHGOLD_PRICE} Ouro de Juramento."/>
+    <string id="str_tor_dw_brewer_recruit_rangers_accept_text" text="Eles servirão bem às fortalezas."/>
+    <string id="str_tor_dw_brewer_recruit_rangers_no_funds_text" text="Não tenho moedas ou Ouro de Juramento suficientes agora"/>
+    <string id="str_tor_dw_brewer_recruit_rangers_decline_text" text="Talvez em outro momento"/>
+    <string id="str_tor_dw_guildmaster_warrior_hub_spend_troops_p" text="Posso deixar alguns Dawi para ajudar a defender nossas Fortalezas?"/>
+    <string id="str_tor_dw_guildmaster_warrior_influence_for_oath_p" text="Você pode ajudar a melhorar minha posição dentro de Karaz Ankor?"/>
+    <string id="str_tor_dw_guildmaster_warrior_hub_quit_p" text="Isso será tudo, honrado barba-longa."/>
+    <string id="str_tor_dw_guildmaster_warrior_spend_troops" text="Honrados guerreiros de mãos firmes e olhar severo são sempre bem-vindos."/>
+    <string id="str_tor_dw_guildmaster_warrior_spend_troops_accept_p" text="Nesse caso, deixarei estes Dawi com você."/>
+    <string id="str_tor_dw_guildmaster_warrior_spend_troops_decline_p" text="Perdoe-me, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_warrior_spend_troops_end" text="Apreciamos qualquer guerreiro que você possa ceder."/>
+    <string id="str_tor_dw_guildmaster_warrior_influence_for_oath" text="Com uma doação de Ouro de Juramento, nossos guerreiros espalharão a Influência de seu Clã por Karaz Ankor."/>
+    <string id="str_tor_dw_guildmaster_warrior_influence_for_oath_decline_p" text="Na verdade, mudei de ideia."/>
+    <string id="str_tor_dw_guildmaster_warrior_influence_for_oath_accept_p" text="Temos um acordo, essa é uma troca digna."/>
+    <string id="str_tor_dw_guildmaster_engineer_hub_quit_p" text="Espero que tenha encontrado o que procurava. Volte a qualquer momento."/>
+    <string id="str_tor_dw_guildmaster_engineer_hub_buy_weapons_shop_p" text="A Guilda pode compartilhar algumas de suas invenções?"/>
+    <string id="str_tor_dw_guildmaster_engineer_buy_weapons_shop" text="Muito bem. Aqui está o que estivemos trabalhando recentemente."/>
+
+    <!-- Tooltips Ouro de Juramento -->
+    <string id="str_tor_dw_oathgold_time_since_visit" text="Tempo desde os últimos benefícios fornecidos" />
+    <string id="str_tor_dw_engineer_benefit_title" text="Engenheiros" />
+    <string id="str_tor_dw_engineer_benefit_description" text="Acesso a armas à distância e artilharia, reduz custos de aprimoramento de atiradores e Irondrakes." />
+    <string id="str_tor_dw_engineer_benefit_arsenal" text="Arsenal inteiro" />
+    <string id="str_tor_dw_engineer_benefit_artillery" text="Armas e artilharia" />
+    <string id="str_tor_dw_engineer_benefit_guns" text="Armas" />
+    <string id="str_tor_dw_engineer_benefit_upkeep_reduction" text="Redução de manutenção para tropas de armas de fogo" />
+    <string id="str_tor_dw_runesmith_benefit_title" text="Ferreiros Rúnicos." />
+    <string id="str_tor_dw_runesmith_benefit_description" text="Acesso a armas de corpo a corpo e Forja Rúnica, reduz custos de aprimoramento de Quebra-Ferros." />
+    <string id="str_tor_dw_runesmith_benefit_anvil" text="Artefato" />
+    <string id="str_tor_dw_runesmith_benefit_equipment2" text="Armas e armaduras" />
+    <string id="str_tor_dw_runesmith_benefit_equipment1" text="Armas" />
+    <string id="str_tor_dw_runesmith_benefit_upgradecost" text="Redução do custo de aprimoramento de Quebra-Ferros." />
+    <string id="str_tor_dw_miners_benefit_title" text="Guilda de Mineração e Expedições" />
+    <string id="str_tor_dw_miners_benefit_description" text="Recebe matérias-primas, aumenta a produção de minas, lança expedições." />
+    <string id="str_tor_dw_miners_benefit_expeditions" text="Expedições " />
+    <string id="str_tor_dw_miners_benefit_mine_productivity" text="Produtividade global das minas" />
+    <string id="str_tor_dw_brewers_benefit_title" text="Cervejeiros" />
+    <string id="str_tor_dw_brewers_benefit_description" text="Recebe suprimentos, aumenta a produção de alimentos e o alcance de avistamento perto de fortalezas anãs, bônus para Patrulheiros." />
+    <string id="str_tor_dw_brewers_benefit_supplies" text="Suprimentos quinzenais" />
+    <string id="str_tor_dw_brewers_benefit_foodbonus" text="Produção de Alimentos em Karak Anã" />
+    <string id="str_tor_dw_brewers_benefit_loyalty" text="Lealdade Global da Karak" />
+    <string id="str_tor_dw_brewers_benefit_sightbonus" text="Visão extra perto de assentamentos de Anões" />
+    <string id="str_tor_dw_oathgold_warrior_benefit_title" text="Guerreiros" />
+    <string id="str_tor_dw_oathgold_warrior_benefit_description" text="Reduz os custos de aprimoramento de tropas de corpo a corpo, aumenta ganhos de Ouro de Juramento, bônus para milícias." />
+    <string id="str_tor_dw_oathgold_warriorguild_benefit_upgradecost" text="Redução de custo de aprimoramento para Matadores, Guerreiros e Barbas-Longas" />
+    <string id="str_tor_dw_oathgold_warriorguild_benefit_oathgoldgain" text="Ganho de Ouro de Juramento em batalhas e torneios" />
+    <string id="str_tor_dw_oathgold_warriorguild_benefit_militiabonus" text="Milícia Adicional" />
+
+    <!-- Missão do Engenheiro Renegado -->
+    <string id="str_tor_engineer_quest_rogue_engineer_first_time" text="Você tem o visual de alguém que nunca viu uma grama de pólvora negra nem graxa. Está no lugar certo?"/>
+    <string id="str_tor_engineer_quest_cultist_done" text="Ah, você voltou. Que notícias você traz?"/>
+    <string id="str_tor_engineer_quest_cultist_in_progress" text="Volte quando tiver notícias."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_found" text="Você encontrou {ROGUE_ENGINEER_NAME}?"/>
+    <string id="str_tor_engineer_quest_start_rogue_engineer_hunt" text="Você mudou de ideia e quer ajudar a caçar {ROGUE_ENGINEER_NAME}?"/>
+    <string id="str_tor_engineer_quest_hub_greet" text="Você de novo, o que você quer?"/>
+    <string id="str_tor_engineer_quest_hub_player_cannons" text="Eu gostaria de comprar algum equipamento."/>
+    <string id="str_tor_engineer_quest_hub_player_engineers" text="Eu gostaria de recrutar alguns engenheiros."/>
+    <string id="str_tor_engineer_quest_hub_player_cannons_instruction" text="Como posso usar canhões?"/>
+    <string id="str_tor_engineer_quest_hub_player_cannons_limit_instruction" text="Como posso comprar mais canhões?"/>
+    <string id="str_tor_engineer_quest_hub_player_leave" text="Nada no momento, devo partir."/>
+    <string id="str_tor_engineer_quest_player_reconsider" text="Reconsiderei sua oferta, gostaria de ajudar."/>
+    <string id="str_tor_engineer_quest_player_greet_0" text="Saudações, Mestre Engenheiro, eu sou {PlAYERNAME}. Vim em busca de acesso às forjas de Nuln. Pode ajudar?"/>
+    <string id="str_tor_engineer_quest_player_greet_1" text="Eu sou, vim em busca de acesso a armas de pólvora negra."/>
+    <string id="str_tor_engineer_quest_cultist_briefing_0" text="Podemos, no entanto, chegar a um acordo; há um assunto interno que precisa de atenção urgente e não posso agir. Se você nos ajudar, como um favor pessoal, verei o que posso fazer por você. O que me diz?"/>
+    <string id="str_tor_engineer_quest_cultist_briefing_player" text="O que você quer que eu faça?"/>
+    <string id="str_tor_engineer_quest_cultist_briefing_decline" text="Não tenho tempo para isso."/>
+    <string id="str_tor_engineer_quest_cultist_briefing_1" text="Normalmente não recorremos a assistência externa, mas estamos com pouco pessoal. Tivemos alguns componentes importantes roubados das forjas de Nuln, e eles devem ser devolvidos. Imediatamente. Se você puder rastrear esses fugitivos e encontrar essas peças, então poderemos conversar mais."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_briefing_player_accept_0" text="Eu posso, desde que nosso acordo permaneça o mesmo. Eu o encontrarei para você e, em troca, você me dará acesso às forjas de Nuln."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_briefing_player_accept_1" text="Se esta é a única maneira de me permitir acesso às forjas, que assim seja. Trarei a cabeça dele."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_briefing_player_decline_0" text="Receio que não, tenho outras tarefas a atender."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_briefing_end" text="Temos um acordo então, acredito que saiba onde ele está. Vou marcar no seu mapa, que Sigmar o guie, estranho."/>
+    <string id="str_tor_engineer_quest_cultist_player_accept_0" text="Eu entendo, voltarei no momento em que tiver notícias."/>
+    <string id="str_tor_engineer_quest_cultist_player_accept_1" text="É só isso? Parece fácil o suficiente."/>
+    <string id="str_tor_engineer_quest_cultist_player_decline" text="Não tenho tempo para isso."/>
+    <string id="str_tor_engineer_quest_cultist_reaction_positive" text="Bom, espero resultados positivos e seu retorno apressado."/>
+    <string id="str_tor_engineer_quest_cultist_reaction_negative" text="Uma pena, pense a respeito e volte se mudar de ideia."/>
+    <string id="str_tor_engineer_quest_cultist_return_0" text="Retornei, mas sem os componentes roubados; receio dizer que eles ainda estão desaparecidos."/>
+    <string id="str_tor_engineer_quest_cultist_return_1" text="Entendo, não é o que eu esperava. Houve mais alguma pista, você interrogou esses canalhas?"/>
+    <string id="str_tor_engineer_quest_cultist_return_2" text="Um dos bandidos mencionou um nome, {ROGUE_ENGINEER_NAME}, eu acho?"/>
+    <string id="str_tor_engineer_quest_cultist_return_3" text="Droga! Eu deveria saber. Se estiver disposto, pediria sua ajuda mais uma vez. Este assunto pode ser mais terrível do que imaginei inicialmente. {ROGUE_ENGINEER_NAME} é um engenheiro, e dos bons, mas suas obras sempre pareceram… erradas."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_quest_start" text="Se ele roubou essas peças, só pode significar algum plano hediondo. Devo pedir que você o rastreie e ponha fim a qualquer loucura que ele esteja tentando arquitetar. Vai nos ajudar?"/>
+    <string id="str_tor_engineer_quest_cultist_in_progress_player" text="Ainda não rastreei os fugitivos."/>
+    <string id="str_tor_engineer_quest_cultist_in_progress_answer" text="Entendo, volte para mim quando tiver algo útil."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_hand_in" text="{ROGUE_ENGINEER_NAME} não será mais um problema e recuperei o que ele roubou de você. Não tenho certeza do que ele estava tentando fazer com eles."/>
+    <string id="str_tor_engineer_quest_rogue_engineer_debrief" text="Não importa, sem dúvida teria sido algo deturpado. Devo agradecer por seus esforços e por sua discrição. Conforme acordado, agora você pode acessar nossas fundições e fazer pedidos como desejar."/>
+    <string id="str_tor_engineer_quest_hub_entry" text="Agora, do que você precisa?"/>
+    <string id="str_tor_engineer_quest_rogue_engineer_in_progress_player" text="Ainda não o rastreei"/>
+    <string id="str_tor_engineer_quest_rogue_engineer_in_progress_answer" text="Entendo, volte para mim quando tiver notícias melhores."/>
+    <string id="str_tor_engineer_quest_open_shop" text="Claro, você encontrará apenas o melhor das forjas de Nuln!"/>
+    <string id="str_tor_engineer_quest_close_shop" text="O que mais posso fazer por você?"/>
+    <string id="str_tor_engineer_quest_hire_engineers" text="Um par de nossos engenheiros novatos está ansioso para se juntar a você pelo preço certo ({RECRUITMENT_PRICE})."/>
+    <string id="str_tor_engineer_quest_hire_engineers_accept" text="Bem-vindos a bordo."/>
+    <string id="str_tor_engineer_quest_hire_engineers_not_enough_money" text="Não tenho os fundos para eles agora."/>
+    <string id="str_tor_engineer_quest_hire_engineers_decline" text="Pensando bem, talvez mais tarde."/>
+    <string id="str_tor_engineer_quest_cannons_limit_instruction_0" text="Para comprar canhões você deve ser um Imperial, essa é a lei."/>
+    <string id="str_tor_engineer_quest_cannons_limit_instruction_1" text="A quantidade de canhões que você pode ter em seu exército aumenta a cada 50 níveis na habilidade de Engenharia."/>
+    <string id="str_tor_engineer_quest_cannons_limit_instruction_2" text="Se você atender a esses requisitos, basta falar comigo e eu lhe mostrarei o que temos."/>
+    <string id="str_tor_engineer_quest_cannons_use_0" text="Canhões são posicionados usando o modo de conjuração de feitiços, mas para dispará-los você precisará recrutar pelo menos dois Tripulantes de Canhão"/>
+    <string id="str_tor_engineer_quest_cannons_use_1" text="Você também precisará garantir que o canhão esteja no inventário do seu grupo"/>
+    <string id="str_tor_engineer_quest_cannons_use_2" text="Engenheiros e Tripulantes de Canhão podem disparar canhões."/>
+    <string id="str_tor_engineer_quest_cultist_encounter" text="{ROGUE_ENGINEER_NAME} estava certo, eles enviaram alguém atrás de nós! Peguem suas armas rápido!"/>
+    <string id="str_tor_engineer_quest_cultist_encounter_player_0" text="Opa, esperem aí, vim apenas buscar as peças roubadas, não há necessidade de derramamento de sangue. Talvez um acordo possa ser feito?"/>
+    <string id="str_tor_engineer_quest_cultist_encounter_player_1" text="Larguem suas armas e eu poderei poupar suas vidas."/>
+    <string id="str_tor_engineer_quest_cultist_encounter_player_2" text="Armados ou não, mataremos todos vocês e recuperaremos o que roubaram!"/>
+    <string id="str_tor_engineer_quest_cultist_encounter_answer" text="Você não vai nos enganar! Elas servirão a um propósito maior! Você não vai levá-las!"/>
+    <string id="str_tor_engineer_quest_rogue_engineer_encounter" text="Então o velho tolo enviou você atrás de nós? Como ele descobriu meus planos? Não importa, você não ficará no caminho das minhas criações. Você morrerá aqui!"/>
+    <string id="str_tor_engineer_quest_rogue_engineer_encounter_player_after_battle_answer" text="Seus esquemas terminam aqui."/>
+
   </strings>
 </base>
