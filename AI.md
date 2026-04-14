@@ -5,7 +5,7 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 ---
 
 > [!IMPORTANT]
-> **AUDITORIA DE PROGRESSO (14/04/2026 — atualizado 16:40):** Sessão focada em `tor_itemtraits.xml`. Blocos T01–T12 traduzidos e integrados ao arquivo local (linhas 1–2001). O arquivo local está XML válido com tag `</ItemTraits>` de fechamento. Próximo passo: retomar em T13 (linha 2001 da Steam = Livros de Arma + Blueprints de Encantamento do Império).
+> **AUDITORIA DE PROGRESSO (14/04/2026 — atualizado 16:54):** Sessão focada em `tor_itemtraits.xml`. Blocos T01–T14 traduzidos e integrados ao arquivo local (até linha 2800 da Steam/Original). O arquivo local está XML válido com tag `</ItemTraits>` de fechamento. Próximo passo: retomar em T15 (linha 2801 da Steam = Blueprints de Encantamento - Vampiros/Outros).
 
 ---
 
@@ -167,6 +167,16 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 | Slayer | Matador | |
 | Warden | Guardião | |
 | Grey Lord | Senhor Cinza | |
+| Ward Save | Salvaguarda | Bônus contra qualquer tipo de dano |
+| Cleave | Trespassar | Atributo de arma que acerta múltiplos inimigos |
+| Enchantment Blueprint | Projeto de Encantamento | Pergaminho que ensina uma receita |
+| Swing Speed | Velocidade de Ataque | Usado em StatsTuple |
+| Missile Speed | Velocidade de Projétil | |
+| Armor Penetration | Penetração de Armadura | |
+| Shield HP / Shield Health | PV do Escudo | |
+| Physical / Magical / Fire damage | Dano físico / mágico / de fogo | Minúsculo salvo início de frase |
+| Stackable | Acumulável | Quando o efeito se acumula |
+| Unaware enemies | Inimigos desprevenidos | Para efeitos de ataque furtivo |
 
 ---
 
@@ -214,6 +224,10 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [ ] S13 — linhas 3693–4053 *(Descrições de Carreira: Mercenary, Necromancer, Vampire Count, Blood Knight, Necrarch, Grail Knight, Grail Damsel, Black Grail Knight)*
 - [ ] S14 — linhas 4053–4534 *(Descrições de Carreira: Waywatcher, Spellsinger, Warden, Grey Lord, Ironbreaker, Slayer, Runelord, Orc Boss, Orc Shaman)*
 - [ ] S15 — linhas 4534–4998 *(Desbloqueios de Carreira, Recompensas, Purity Seal, Spell Damage Display, Damage Types, Career Perks, Recursos Customizados, Chivalry, Oath Gold, Forest Harmony)*
+
+> [!NOTE]
+> **Por que S16–S19 estão concluídos antes de S05–S15?** Numa sessão anterior, a tradução foi iniciada pelo final do arquivo (eventos narrativos), pois eram os mais urgentes para o jogador. Retomar **sempre pelo primeiro bloco sem `[x]`** — que atualmente é o **S05**.
+
 - [x] S16 — linhas 4998–5395 (Eventos Narrativos: Battlefield, Cabin, Fair, Duel, Overturned Cart; Sistema Hireling) -> **100%**
 - [x] S17 — linhas 5395–5625 (Prestige Noble, Construções, Mecânicas Peles-verdes, Blood Keep) -> **100%**
 - [x] S18 — linhas 5625–5865 (Diálogos de Blood Kiss, Spell Trainers, Quests de Classe) -> **100%**
@@ -243,13 +257,19 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 ---
 
-#### 2.3 tor_itemtraits.xml — Traços e Encantos de Itens
+#### 2.3 tor_itemtraits.xml — Traços, Encantos, Runas, Livros e Blueprints
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_itemtraits.xml` | 4.672 linhas
 **Editar diretamente:** `<ItemTraitName>` e `<ItemTraitDescription>`
 
-- [x] T01 - Traços Gerais (Linhas 1-100)
-- [x] T02 - Traços de Combate I (Linhas 101-200)
-- [x] T03 - Traços de Combate II (Linhas 201-300)
+> O arquivo contém **4 tipos de conteúdo** — todos usam as mesmas tags, mas com semântica diferente:
+> - **Enchantments** (`emp_enchant_*`, `we_enchant_*`, etc.) — encantamentos de armas/armaduras
+> - **Runes** (`dw_rune_*`, `dw_master_rune_*`) — runas anãs gravadas em equipamentos
+> - **Skill Books** (`learn_engineering`, `learn_bow`, etc.) — livros consumíveis que dão XP de perícia
+> - **Enchantment Blueprints** (`learn_emp_enchant_*`) — pergaminhos que ensinam receitas de encantamento por Vento da Magia
+
+- [x] T01 - Encantamentos Gerais e de Magia (Linhas 1-100)
+- [x] T02 - Encantamentos do Império I (Linhas 101-200)
+- [x] T03 - Encantamentos do Império II (Linhas 201-300)
 - [x] T04 - Encantamentos Hysh (Linhas 301-443)
 - [x] T05 - Encantamentos Ghyran/Aqshy (Linhas 444-600)
 - [x] T06 - Encantamentos Chamon/Azyr (Linhas 601-720)
@@ -259,8 +279,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] T10 - Encantamentos de Vampiros (Linhas 1040-1200)
 - [x] T11 - Elfos Silvestres, Altos Elfos e Peles-verdes (Linhas 1201-1600)
 - [x] T12 - Runas Anãs e Livros de Skill (Linhas 1601-2000)
-- [ ] T13 - Bloco 13 de Traços (Linhas 2001-2400)
-- [ ] T14 - Bloco 14 de Traços (Linhas 2401-2800)
+- [x] T13 - Bloco 13 de Traços (Linhas 2001-2400) -> **CONCLUÍDO**
+- [x] T14 - Bloco 14 de Traços (Linhas 2401-2800) -> **CONCLUÍDO**
 - [ ] T15 - Bloco 15 de Traços (Linhas 2801-3200)
 - [ ] T16 - Bloco 16 de Traços (Linhas 3201-3600)
 - [ ] T17 - Bloco 17 de Traços (Linhas 3601-4000)
@@ -302,8 +322,3 @@ O Steam sobrescreve os arquivos originais → execute `git status` para ver o qu
    - Restaurar sua tradução (sobrescreve a versão nova do Steam): `git checkout "arquivo"`
    - Após restaurar, identifique entradas novas em inglês que ainda não existiam e adicione a tradução manualmente.
 
-## REGRA GERAL POR SESSÃO
-
-Ao finalizar cada sessão de tradução, execute os comandos:
-1. `git add [arquivos modificados]`
-2. `git commit -m "traducao: [o que foi feito, ex: CC02 Bretonia+Wood Elves]"`
