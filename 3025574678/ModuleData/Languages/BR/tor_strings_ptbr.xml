@@ -479,5 +479,707 @@
     <string id="str_tor_culture_description_aserai"
       text="Orcs e Goblins têm sido um espinho no lado de cada grande e pequeno poder por tanto tempo quanto qualquer um pode lembrar. Não se importando com história ou legado, nos tempos antigos os Peles-Verdes estavam amplamente confinados às Terras do Sul, onde travavam guerras selvagens entre si, indiferentes ao mundo mais amplo. Porém, esse isolamento brutal não durou. Terremotos e atividade vulcânica os empurraram para o norte em vastas hordas furiosas chamadas Waaaghs!, saqueando e queimando tudo em seu caminho. Os Anões, enfraquecidos pela longa e amarga Guerra da Vingança contra os Elfos, pouco podiam fazer contra a maré verde que inundou seus lares, e muitas fortalezas foram perdidas. Desde então, Orcs e Goblins podem ser encontrados em grande número por todo o planeta, superados em número apenas pelos Skaven, com quem frequentemente travam guerras nas profundezas subterrâneas." />
 
+    <!-- S16 - Eventos Narrativos (Conteúdo vindo dos arquivos .ink) -->
+    <string id="str_tor_inky_continue" text="Continuar…" />
+    <string id="str_tor_inky_end" text="Fim." />
+
+    <!-- Templates de Teste de Habilidade -->
+    <string id="str_tor_inky_party_skill_check_template" text="({tor_inky_skill_check_skill_name} - teste com chance de sucesso de {tor_inky_Party_skill_CheckChance}%)" />
+    <string id="str_tor_inky_player_skill_check_template" text="({tor_inky_skill_check_skill_name} - teste com chance de sucesso de {tor_inky_Player_skill_CheckChance}%)" />
+    <string id="str_tor_inky_player_attribute_check_template" text="({tor_inky_attribute_check_attribute_name} - teste com chance de sucesso de {tor_inky_Player_attribute_CheckChance}%)" />
+    <string id="str_tor_inky_party_attribute_check_template" text="({tor_inky_attribute_check_attribute_name} - teste com chance de sucesso de {tor_inky_Party_attribute_CheckChance}%)" />
+
+    <!-- Campo de Batalha (Battlefield) -->
+    <string id="str_tor_inky_battlefield_strid_title" text="Campo de Batalha" />
+    <string id="str_tor_inky_battlefield_str_start1" text="Uma aura sombria paira sobre o campo de batalha desolado à sua frente, onde o valor do Império colidiu com o poder sombrio dos Condes Vampiros. O solo está juncado com os remanescentes da guerra – lâminas quebradas, escudos estilhaçados e os corpos caídos de soldados e horrores mortos-vivos. Um silêncio profundo permeia o ar, pontuado apenas pelos gritos distantes de aves carniceiras. Você pode sentir levemente o peso da magia necromântica maculando os ventos." />
+    <string id="str_tor_inky_battlefield_str_start2" text="Os caídos jazem em solene repouso, suas vidas e destinos para sempre entrelaçados na tragédia deste lugar. Ao pisar na terra encharcada de sangue, o peso da história e do sacrifício recai sobre você." />
+    <string id="str_tor_inky_battlefield_str_start3" text="Qual curso de ação você escolherá em meio a esta cena pungente?" />
+
+    <!-- Battlefield - Resultados -->
+    <string id="str_tor_inky_battlefield_str_searchforsurvivors1" text="Com uma mistura de esperança e apreensão, você navega pelo terrível cenário de soldados caídos, procurando por qualquer centelha de vida em meio ao mar de morte. Sua determinação o leva a um soldado ferido, com a respiração pesada e fraca. Ajoelhando-se ao lado dele, você oferece ajuda e consolo, cuidando de seus ferimentos o melhor que pode." />
+    <string id="str_tor_inky_battlefield_str_searchforsurvivors2" text="Seus olhos se abrem brevemente, e a gratidão brilha neles. Em tons baixos, ele expressa seu agradecimento, jurando retribuir sua bondade." />
+    <string id="str_tor_inky_battlefield_str_useghyranmagic1" text="Canalizando a magia de Ghyran, seu mago invoca as energias vitais da própria natureza. O ar brilha com energia verdejante enquanto o mago canaliza o feitiço, guiando-o em direção ao soldado ferido. Os ferimentos do soldado começam a cicatrizar, sua respiração se estabiliza e a cor retorna às suas bochechas." />
+    <string id="str_tor_inky_battlefield_str_useghyranmagic2" text="Com um sorriso fraco, mas grato, o sobrevivente reconhece sua intervenção milagrosa. Ele expressa seus sinceros agradecimentos e jura se juntar às suas fileiras." />
+    <string id="str_tor_inky_battlefield_str_helpbutdie1" text="Apesar de seus melhores esforços, a condição do soldado deteriora-se rapidamente. Sua respiração ofegante torna-se mais rasa e seu olhar perde o foco. Apesar de suas tentativas valentes, a vida do soldado se esvai, deixando para trás uma aura de melancolia e uma sensação inabalável de futilidade." />
+    <string id="str_tor_inky_battlefield_str_helpbutdie2" text="Com o coração pesado, você inclina a cabeça em reverência, honrando a luta valente do soldado caído." />
+    <string id="str_tor_inky_battlefield_str_payrespects1" text="Inclinando a cabeça em solene reverência, você presta seus respeitos aos soldados caídos que deram suas vidas neste campo de batalha assombrado. Um senso de camaradagem e propósito compartilhado se estabelece sobre o seu grupo, um lembrete pungente da luta duradoura entre Morr e a morte-viva." />
+    <string id="str_tor_inky_battlefield_str_payrespects2" text="Com seu tributo silencioso concluído, você reúne sua determinação, decidido a vencer a escuridão iminente que ameaça o reino." />
+
+    <!-- Encontro com Vittorio de Luca (Duel) -->
+    <string id="str_tor_inky_duel_metbefore_false" text="Você avista uma figura misteriosa se aproximando com passos confiantes. À medida que se aproxima, o brilho de uma rapieira finamente trabalhada chama sua atenção. O estranho para diante de você, com um sorriso caloroso no rosto enquanto o avalia." />
+    <string id="str_tor_inky_duel_metbefore_true" text="Você avista a figura familiar de Vittorio de Luca, o renomado duelista de Tilea, vindo em direção ao seu grupo com passos confiantes.{tor_inky_DeniedBefore1}" />
+    <string id="str_tor_inky_duel_deniedbefore1_false" text=" Lembranças de seu encontro anterior inundam sua mente, a emoção do primeiro duelo ainda presente." />
+    <string id="str_tor_inky_duel_deniedbefore2_false" text=" Gostaria de provar suas habilidades desta vez?" />
+    <string id="str_tor_inky_duel_deniedbefore2_true" text=" Gostaria de provar suas habilidades mais uma vez em uma revanche?" />
+    <string id="str_tor_inky_duel_metbefore2_true" text=" Mais uma vez" />
+    <string id="str_tor_inky_duel_str_start3metbefore" text="À medida que Vittorio se aproxima, o brilho de sua rapieira finamente trabalhada chama sua atenção, e um sorriso caloroso se espalha em seu rosto enquanto ele o avalia. &quot;Ah, que golpe de sorte nos encontrarmos novamente neste caminho solitário,&quot; diz ele, sua voz carregando um tom brincalhão. &quot;Vejo que o fogo de um guerreiro ainda queima dentro de você.&quot; {tor_inky_DeniedBefore2}" />
+    <string id="str_tor_inky_duel_str_start3notmetbefore" text="&quot;Ah, que golpe de sorte encontrar um bando de guerreiros dignos neste caminho solitário,&quot; dizem. &quot;Sou Vittorio de Luca, um mestre da lâmina das terras distantes de Tilea. Viajei por toda parte em busca de um adversário digno que possa igualar minhas habilidades em combate. E agora, o destino me trouxe até você. Gostaria de provar suas habilidades em um duelo amigável, com uma pequena aposta para tornar as coisas emocionantes?&quot;" />
+
+    <!-- Sistema de Hirelings (Assalariados) -->
+    <string id="str_tor_hirelinglordquit_default" text="Se este é o seu desejo... que assim seja." />
+    <string id="str_tor_hirelinglordexplain_default" text="Um assalariado? Certamente tenho uso para você. Apenas note que não estou aceitando tropas adicionais." />
+    <string id="str_tor_hirelinglordexplain_empire" text="O Império precisa de sangue novo, certamente tenho uso para você. Apenas note que não estou aceitando tropas adicionais." />
+    <string id="str_tor_hirelinglordexplain_vlandia" text="Servir ao país no Serviço de Cavalaria é o dever mais alto entre os Bretões. Apenas note que não estou aceitando tropas adicionais." />
+    <string id="str_tor_hirelinglordexplain_khuzait" text="Arrr, sangue novo. Com certeza tenho uso para você. Apenas saiba que você me servirá e não tolerarei mais nenhuma ovelha no meu bando." />
+    <string id="str_tor_hirelinglordexplain_mousillion" text="Uma espada de aluguel? Que conveniente. Apenas note que você está me servindo, e não tenho uso para mais camponeses." />
+    <string id="str_tor_hirelinglordresult_default" text="Prepare seu equipamento. Espero você em minhas fileiras imediatamente." />
+    <string id="str_tor_hireling_prompttitle" text="Servir como Assalariado." />
+    <string id="str_tor_hireling_prompttext" text="Você está prestes a servir como um Assalariado, seguindo um Senhor em vez de liderar seu próprio bando. Todas as suas tropas serão removidas (seus companheiros permanecem). Deseja continuar?" />
+    <string id="str_tor_hireling_maintext" text=" Você foi alistado por {ENLISTING_LORD} {new_line} Você está servindo por {ENLISTING_DURATION} dias. Lutou até agora em {HIRELING_BATTLE_COUNT} batalhas. {ENLISTING_ARMY}" />
+    <string id="str_tor_hireling_talktolord" text="Falar com o Senhor" />
+    <string id="str_tor_hireling_pausetime" text="Pausar ao entrar no próximo assentamento: {PAUSE_ONOFF}" />
+
+    <!-- Atividades de Hireling -->
+    <string id="str_tor_hirelingactivity0_Waywatcher" text="Prática de tiro em solidão" />
+    <string id="str_tor_hirelingactivity4_Waywatcher" text="Coletar ervas medicinais" />
+    <string id="str_tor_hirelingactivity0_ImperialMagister" text="Focar em seus estudos" />
+    <string id="str_tor_hirelingactivity4_ImperialMagister" text="Aconselhar o comandante" />
+    <string id="str_tor_hirelingactivity4_GrailKnight" text="Orar à Senhora do Lago" />
+    <string id="str_tor_hirelingactivity2_GrailDamsel" text="Abençoar as tropas em nome da Senhora" />
+    <string id="str_tor_hirelingactivity4_WarriorPriestUlric" text="Pregar os ensinamentos de Ulric" />
+    <string id="str_tor_hirelingactivity2_Mercenary" text="Fazer a manutenção de armas de pólvora" />
+    <string id="str_tor_hirelingactivity3_Mercenary" text="Negociar e pechinchar com o intendente" />
+    <string id="str_tor_hirelingactivity1_Necromancer" text="Saquear cemitérios próximos" />
+    <string id="str_tor_hirelingactivity2_Necromancer" text="Experimentar em cadáveres" />
+    <string id="str_tor_hirelingactivity3_WitchHunter" text="Dar palestras sobre os perigos da Corrupção" />
+    <string id="str_tor_hirelingactivity4_WarriorPriest" text="Pregar sobre Sigmar Heldenhammer" />
+
+    <!-- Peles-Verdes Atividades (Estilo Bruto) -->
+    <string id="str_tor_hirelingactivity0_OrcBoss" text="Esmagar as coisa cum um cutelo peq'no" />
+    <string id="str_tor_hirelingactivity1_OrcBoss" text="Esmagar as coisa cum o maior cutelo de todos" />
+    <string id="str_tor_hirelingactivity3_OrcBoss" text="Gritar nome feio pros Arrer Boys" />
+    <string id="str_tor_hirelingactivity2_OrcShaman" text="Dar uns tapa no cachimbo e falá cum os Deu'z" />
+
+    <!-- Religiões e Cultos -->
+    <string id="str_tor_religion_cult_name_cult_of_sigmar" text="Culto de Sigmar" />
+    <string id="str_tor_religion_cult_name_cult_of_taal" text="Culto de Taal" />
+    <string id="str_tor_religion_cult_name_cult_of_ulric" text="Culto de Ulric" />
+    <string id="str_tor_religion_cult_name_cult_of_shallya" text="Culto de Shallya" />
+    <string id="str_tor_religion_cult_name_cult_of_lady" text="Culto da Senhora" />
+    <string id="str_tor_religion_cult_name_cult_of_nagash" text="Seguidores de Nagash" />
+    <string id="str_tor_religion_cult_name_chaos_undivided" text="Caos Indiviso" />
+    <string id="str_tor_religion_cult_name_cult_of_gork" text="Culto de Gork" />
+    <string id="str_tor_religion_cult_name_cult_of_mork" text="Culto de Mork" />
+
+    <!-- Mecânicas Peles-Verdes (Dialeto Orc) -->
+    <string id="str_tor_greenskin_brawl_start" text="Começá um quebra-pau" />
+    <string id="str_tor_greenskin_brawl_intro" text="Hora de prová quem é o maior e o mais forte! Tá pronto pra uma briga de verdade?" />
+    <string id="str_tor_greenskin_brawl_victory_desc" text="Cê ganhou a briga! A piazada tá vibrando com a sua vitória. {newline} {BRAWL_RESULT}" />
+    <string id="str_tor_greenskin_brawl_victory_reward" text="Cê ganhou {GOLD_REWARD} brilhantes, {RENOWN_REWARD} renome, e {TEEF_REWARD}{CR_ICON} dentez da sua briga!{TROOP_REWARD}" />
+    <string id="str_tor_greenskin_brawl_victory_troops" text="Alguns dos Peles-Verdes ficaram impressionados. Eles se juntam a ocê.{POUCHED_TROOPS}" />
+    <string id="str_tor_greenskin_brawl_victory_accept" text="Pegá o prêmio" />
+    <string id="str_tor_greenskin_brawl_defeat_desc" text="Cê perdeu {GOLD_LOSS} brilhantes e {TEEF_LOSS}{CR_ICON} dentez por causa da sua derrota." />
+    <string id="str_tor_greenskin_brawl_defeat_accept" text="Aceitá a derrota" />
+    <string id="str_tor_greenskin_brawl_disabled" text="Cê precisa esperá pelo menos {COOLDOWN_DAYS} dias" />
+    <string id="str_tor_greenskin_brawl_disabled_hireling" text="O Xefe num vai gostá nada disso" />
+    <string id="str_tor_goblin_recruitment_start" text="Procurá por goblins" />
+    <string id="str_tor_goblin_recruitment_no_goblins" text="Nenhum goblin achado d'pois de procurá…" />
+    <string id="str_tor_goblin_encounter_desc" text="Cê achou um bando de goblins! Eles viram ocê e tão decidindo se se rendem ou se caem pra dentro..." />
+    <string id="str_tor_goblin_encounter_continue" text="Continuá" />
+    <string id="str_tor_goblin_bullying_success_desc" text="Os goblins deram uma olhada no seu bando grande e começaram a se rastejá na hora! 'Nóis se junta a ocê, grão-xefe!' eles gritam. Cê recrutou {GOBLINS_RECRUITED} goblins e ganhou {TEEF_REWARD}{CR_ICON} dentez!" />
+    <string id="str_tor_goblin_bullying_accept" text="Bom, agora entra na fila!" />
+    <string id="str_tor_goblin_fight_victory_desc" text="D'pois de um quebra-pau de verdade, os goblin respeitaram sua força! {GOBLINS_RECRUITED} goblins entram pro bando e ocê ganhou {TEEF_REWARD}{CR_ICON} dentez!" />
+    <string id="str_tor_goblin_fight_victory_accept" text="Bem-vindo ao bando!" />
+    <string id="str_tor_goblin_fight_defeat_desc" text="Que vergonha! Ocê apanhou pra uns meros goblins! Seus orcs tão com nojo desse papelão. Cê perdeu {TEEF_LOSS}{CR_ICON} dentez, {RENOWN_LOSS} renome, e {ORC_BOYS_LEFT} orcs foram embora de vergonha!" />
+    <string id="str_tor_goblin_fight_defeat_accept" text="Sair de fininho com vergonha…" />
+    <string id="str_tor_greenskin_brawl_no_space" text="Seu bando tá cheio - ninguém pôde se juntá!" />
+    <string id="str_tor_goblin_recruitment_party_full" text="Seu bando tá cheio - sem espaço pra mais goblins" />
+
+    <!-- Blood Keep -->
+    <string id="str_tor_bloodkeep_hire_start" text="Recrutar Cavaleiros de Sangue" />
+    <string id="str_tor_bloodkeep_hire_success" text="Você recrutou {KNIGHT_COUNT} Cavaleiros de Sangue por {ENERGY_COST}{CR_ICON}." />
+    <string id="str_tor_bloodkeep_hire_disabled_energy" text="Energia Sombria insuficiente (Necessário: {ENERGY_COST}, Possui: {CURRENT_ENERGY})" />
+    <string id="str_tor_bloodkeep_hire_disabled_space" text="Espaço insuficiente no grupo (Necessário pelo menos {MIN_KNIGHTS} slots livres)" />
+    <string id="str_tor_bloodkeep_hire_disabled_hireling" text="Você não pode recrutar enquanto estiver alistado no exército de outro senhor" />
+
+    <!-- Duelos Peles-Verdes -->
+    <string id="str_tor_greenskin_duel_challenge" text="OI! Vâmo vê quem é o maior e o mais forte! WAAAGH!" />
+    <string id="str_tor_greenskin_duel_accept" text="WAAAGH! Cai pra dentro! Vâmo briga!" />
+    <string id="str_tor_greenskin_duel_decline" text="Gah! Tô sem tempo pra isso..." />
+    <string id="str_tor_greenskin_duel_decline_cooldown" text="Oi! Nóis já quebrou o pau faz pouco tempo! Espera mais {COOLDOWN_DAYS} dias antes de a gente se estraçalhá de novo, seu verme!" />
+    <string id="str_tor_duel_start_combat_greenskin" text="Quebrá uns dente!" />
+    <string id="str_tor_duel_prep" text="Prepare-se para o combate!" />
+    <string id="str_tor_duel_prep_greenskin" text="WAAAGH!!! Hora de ensiná uns bons modo pra esse fedorento do {DUEL_TARGET_NAME}! Se prepara pro quebra-pau!" />
+    <string id="str_tor_duel_victory" text="Você venceu a batalha!" />
+    <string id="str_tor_duel_victory_greenskin" text="Cê claramente é o grão-xefe. Ocê ganhou {TEEF_GAIN_DUEL}{TEEF_ICON} dentez. {TROOP_GAIN_DUEL}" />
+    <string id="str_tor_duel_defeat" text="Você foi derrotado por {DUEL_TARGET_NAME}." />
+    <string id="str_tor_duel_defeat_greenskin" text="Cê foi estraçalhado! Perdeu {TEEF_LOSS_DUEL}{TEEF_ICON} dentez e as seguintes tropas: {TROOP_LOSS_DUEL}" />
+    <string id="str_tor_duel_party_full_extra_teef" text="Seu bando tá cheio! Ganhou {EXTRA_TEEF_FROM_TROOPS}{TEEF_ICON} dentez extras em vez da piazada nova!" />
+    <string id="str_tor_duel_troops_want_to_join" text="Alguns dos rapazes querem se juntá ao seu bando!" />
+    <string id="str_tor_duel_troop_selection_title" text="A piazada quer entrá" />
+    <string id="str_tor_duel_accept_victory" text="Reivindique sua vitória!" />
+    <string id="str_tor_duel_accept_defeat" text="Aceite sua derrota" />
+
+    <!-- Quests (Missões) -->
+    <string id="str_tor_orc_boss_quest1_title" text="O Caminho do Xefe" />
+    <string id="str_tor_orc_boss_quest1_log_onehanded" text="Alcance {REQUIRED} na perícia de Uma Mão" />
+    <string id="str_tor_orc_boss_quest1_task_onehanded" text="Perícia de Uma Mão" />
+    <string id="str_tor_orc_boss_quest1_log_twohanded" text="Alcance {REQUIRED} na perícia de Duas Mãos" />
+    <string id="str_tor_orc_boss_quest1_task_twohanded" text="Perícia de Duas Mãos" />
+    <string id="str_tor_orc_boss_quest1_log_polearm" text="Alcance {REQUIRED} na perícia de Armas de Haste" />
+    <string id="str_tor_orc_boss_quest1_task_polearm" text="Perícia de Armas de Haste" />
+    <string id="str_tor_orc_boss_quest1_log_battles" text="Vença {REQUIRED} batalhas" />
+    <string id="str_tor_orc_boss_quest1_task_battles" text="Batalhas vencidas" />
+    <string id="str_tor_orc_boss_quest1_log_tournament" text="Vença {REQUIRED} combates de arena ou torneios" />
+    <string id="str_tor_orc_boss_quest1_task_tournament" text="Lutas de Arena vencidas" />
+    <string id="str_tor_orc_boss_quest1_log_teef" text="Converta {REQUIRED} em valor de saque para Dentez" />
+    <string id="str_tor_orc_boss_quest1_task_teef" text="Dentez recebidos" />
+    <string id="str_tor_orc_boss_quest1_log_brawls" text="Vença {REQUIRED} quebra-paus" />
+    <string id="str_tor_orc_boss_quest1_task_brawls" text="Quebra-paus vencidos" />
+    <string id="str_tor_orc_boss_quest2_title" text="O Caminho do Grão-Xefe" />
+    <string id="str_tor_orc_boss_quest2_log_cities" text="Capture {REQUIRED} cidades ou castelos" />
+    <string id="str_tor_orc_boss_quest2_log_duels" text="Vença {REQUIRED} Senhores em duelos" />
+    <string id="str_tor_orc_shaman_quest1_title" text="Favorecido dus Deu'z" />
+    <string id="str_tor_orc_shaman_quest1_log_pray" text="Ore em um Santuário de Gork ou Mork" />
+    <string id="str_tor_orc_shaman_quest1_log_spellcraft" text="Alcance {REQUIRED} na perícia de Feitiçaria" />
+    <string id="str_tor_orc_shaman_quest1_log_faith" text="Alcance {REQUIRED} na perícia de Fé" />
+    <string id="str_tor_orc_shaman_quest1_log_enchants" text="Aprenda {REQUIRED} encantamentos Orcs" />
+    <string id="str_tor_orc_shaman_quest2_title" text="Grande Senhor Xamã" />
+    <string id="str_tor_runesmith_quest_title" text="Missão do Ferreiro de Runas" />
+    <string id="str_tor_runesmith_quest_log_contracts" text="Finalize {REQUIRED} contratos de ferraria." />
+    <string id="str_tor_runesmith_quest_log_runes" text="Aprenda {REQUIRED} runas." />
+    <string id="str_tor_runesmith_quest_log_complete" text="Fale com o ferreiro de runas" />
+    <string id="str_tor_runelord_quest_title" text="Missão do Senhor das Runas" />
+    <string id="str_tor_runelord_quest_log_abilities" text="Aprenda {REQUIRED} habilidades rúnicas da Bigorna do Destino." />
+    <string id="str_tor_runelord_quest_log_reputation" text="Alcance o status de Respeitado com a Guilda dos Ferreiros de Runas." />
+
+    <!-- Interface (UI) e Notificações -->
+    <string id="str_tor_ui_artillery_title" text="Artilharia" />
+    <string id="str_tor_ui_artillery_amount" text="Peças de Artilharia Atuais no Inventário:" />
+    <string id="str_tor_ui_artillery_max_deployable" text="Máximo de Peças de Artilharia Mobilizáveis:" />
+    <string id="str_tor_ui_blessing_title" text="Bênção: " />
+    <string id="str_tor_ui_blessing_duration" text="Duração:" />
+    <string id="str_tor_ui_blessing_effect" text="Efeito:" />
+    <string id="str_tor_ui_devotion" text="Devoção" />
+    <string id="str_tor_ui_no_devotion" text="Sem devoção" />
+    <string id="str_tor_ui_active_blessing" text="Bênção Ativa" />
+    <string id="str_tor_ui_no_blessing" text="Nenhuma bênção ativa" />
+    <string id="str_tor_ui_winds_of_magic_title" text="Ventos da Magia" />
+    <string id="str_tor_ui_winds_of_magic_maximum" text="Máximo:" />
+    <string id="str_tor_ui_winds_of_magic_recharge_rate" text="Taxa de Recarga:" />
+    <string id="str_tor_menu_enter_game" text="Entrar no Velho Mundo" />
+    <string id="str_tor_menu_shader_cache" text="Construir Cache de Shaders" />
+    <string id="str_tor_item_hint_use" text="Usar Item" />
+    <string id="str_tor_religion_follower_none" text="Não é seguidor de nenhuma religião" />
+    <string id="str_tor_bloodkiss_player_notification" text="O jogador recebe o Beijo de Sangue." />
+
+    <!-- Missão do Engenheiro -->
+    <string id="str_tor_engineer_quest_log0" text="O Mestre Engenheiro me encarregou de caçar fugitivos ladrões; devo encontrá-los e recuperar o que roubaram." />
+    <string id="str_tor_engineer_quest_log1" text="Encontrei os ladrões, mas eles não tinham os componentes roubados. Devo retornar ao Mestre Engenheiro com as notícias." />
+    <string id="str_tor_engineer_quest_log1_fail" text="Eu falhei... fui derrotado. Preciso retornar ao Mestre Engenheiro com as notícias." />
+    <string id="str_tor_engineer_quest_log2" text="Parece que um engenheiro traidor está com as peças roubadas; o Mestre Engenheiro pediu minha ajuda para encontrá-lo." />
+    <string id="str_tor_engineer_quest_log3" text="Matei Goswin e recuperei os componentes roubados; devo retornar ao Mestre Engenheiro e informá-lo." />
+    <string id="str_tor_engineer_quest_task0" text="Caçar os ladrões fugitivos" />
+    <string id="str_tor_engineer_quest_task1" text="Retornar ao Mestre Engenheiro em Nuln" />
+    <string id="str_tor_engineer_quest_task2" text="Caçar Goswin e recuperar os componentes roubados." />
+    <string id="str_tor_rogue_engineer_name" text="Goswin" />
+
+    <!-- Locais Amaldiçoados e Necromancia -->
+    <string id="str_tor_custom_settlement_cursed_site_not_enough_free_slots" text="Você não tem espaço suficiente no seu bando." />
+    <string id="str_tor_custom_settlement_cursed_site_not_necromancer" text="Você não é um praticante de necromancia." />
+    <string id="str_tor_custom_settlement_cursed_site_binding_cooldown" text="Você só pode realizar esta ação uma vez por dia." />
+    <string id="str_tor_custom_settlement_cursed_site_purify_fail" text="Você precisa de pelo menos 10 membros saudáveis no bando para realizar o ritual." />
+    <string id="str_tor_custom_settlement_cursed_site_ward" text="Atualmente existem selos contendo as energias malévolas da maldição. Os selos resistirão por mais {CURSEDSITE_WARDHOURS} horas" />
+    <string id="str_tor_custom_settlement_cursed_site_no_undead" text="Não há mortos-vivos no seu bando." />
+    <string id="str_tor_custom_settlement_cursed_site_not_enough_dark_energy" text="Você não tem Energia Sombria suficiente ({DARKENERGYICON})." />
+    <string id="str_tor_custom_settlement_menu_cursed_site_ghost" text="Sintonize-se com a essência condensada da Magia Negra e vincule alguns espectros à sua vontade." />
+    <string id="str_tor_custom_settlement_menu_cursed_site_empower" text="Fortaleça seus servos mortos-vivos usando Energia Sombria (100{DARKENERGYICON})." />
+    <string id="str_tor_custom_settlement_menu_leave" text="Sair..." />
+    <string id="str_tor_custom_settlement_menu_continue" text="Continuar" />
+    <string id="str_tor_custom_settlement_cursed_site_purify_progress" text="Realizando ritual de purificação..." />
+    <string id="str_tor_custom_settlement_cursed_site_ghosts_progress" text="Realizando ritual de vinculação..." />
+    <string id="str_tor_custom_settlement_cursed_site_empower_progress" text="Fortalecendo seus servos..." />
+    <string id="str_tor_custom_settlement_cursed_site_purify_text" text="Realize um ritual de proteção em nome de {GOD_NAME}." />
+    <string id="str_tor_custom_settlement_cursed_site_purify_success" text="Seu bando consegue colocar selos e proteções ao redor da área, diminuindo os efeitos da maldição. Você estima que os selos durarão {PURIFICATION_DURATION} horas." />
+    <string id="str_tor_custom_settlement_cursed_site_purify_wounded_result" text="Permanecer na área amaldiçoada durante o ritual cobrou seu preço. {PURIFICATION_WOUNDED_RESULT_NUMBER} membros do seu bando ficaram feridos." />
+    <string id="str_tor_custom_settlement_cursed_site_ghosts_result" text="Você vinculou com sucesso {GHOST_RESULT_NUMBER} espíritos ao seu comando." />
+
+    <!-- Santuários e Oferendas -->
+    <string id="str_tor_custom_settlement_shrine_offering_label" text="Dar itens como oferenda" />
+    <string id="str_tor_custom_settlement_shrine_greenskin_own" text="Cê é burro? Esse aqui é de Gork (ou Mork)." />
+    <string id="str_tor_custom_settlement_shrine_undead_no_pray" text="Os mortos-vivos não comungam com os deuses." />
+    <string id="str_tor_custom_settlement_shrine_wrong_culture" text="Este santuário não é para o seu povo." />
+    <string id="str_tor_custom_settlement_shrine_vampire_no_donate" text="Os mortos-vivos não fazem oferendas aos deuses." />
+    <string id="str_tor_custom_settlement_shrine_pray_result" text="Você recebeu a bênção de {GOD_NAME}." />
+    <string id="str_tor_custom_settlement_shrine_follower_result" text="Testemunhar suas preces inspirou {FOLLOWER_RESULT_NUMBER} {FOLLOWER_RESULT_TROOP} a se juntarem ao seu bando." />
+    <string id="str_tor_shrine_defile_option" text="Profanar o Santuário para obter Energia Sombria. Os seguidores de {GOD_NAME} se lembrarão disso." />
+    <string id="str_tor_shrine_defiling_cooldown" text="Você só pode realizar esta ação a cada {DEFILE_COOLDOWN_DAYS} dias." />
+    <string id="str_tor_shrine_loot_option" text="Saquear o Santuário em busca de recursos. Os seguidores de {GOD_NAME} se lembrarão disso." />
+    <string id="str_tor_shrine_praying_progress" text="Orando..." />
+    <string id="str_tor_shrine_defiling_progress" text="Profanando o santuário..." />
+    <string id="str_tor_shrine_defile_result" text="Você coletou com sucesso {DEFILE_AMOUNT} Energia Sombria {DARKENERGYICON}. Contos de sua profanação chegam aos ouvidos dos seguidores de {GOD_NAME}." />
+    <string id="str_tor_shrine_loot_result_detail" text="Você saqueou com sucesso {TOTAL_GOLD} ouro, {TOTAL_FOOD} carne e {TOTAL_TEEF} Dentez" />
+
+    <!-- Beijo de Sangue (Blood Kiss) -->
+    <string id="str_tor_bloodkiss_request" text="Meu senhor von Carstein, desejo despojar-me de minha casca mortal e servi-lo eternamente." />
+    <string id="str_tor_bloodkiss_answer_line2" text="Tu serviste a mim e aos meus lealmente; conceder-te-ei o Beijo de Sangue se assim desejares." />
+    <string id="str_tor_bloodkiss_answer_line3" text="Contudo, este presente não vem sem custo; ao receber o Beijo de Sangue, nunca mais poderás voltar atrás. Tens certeza?" />
+    <string id="str_tor_bloodkiss_player_ready" text="Estou pronto, meu senhor." />
+    <string id="str_tor_bloodkiss_receive" text="Prepare-se para o seu despertar sombrio." />
+    <string id="str_tor_bloodkiss_player_receive_end" text="Levante-se, descendente dos von Carstein." />
+    <string id="str_tor_bloodkiss_request_blooddragon" text="Grão-mestre, desejo juntar-me às fileiras dos Dragões de Sangue como um Cavaleiro de Sangue." />
+    <string id="str_tor_bloodkiss_blooddragon_answer_line2" text="Ah, de fato, um guerreiro de incrível proeza está diante de mim, ousando buscar o Beijo de Sangue de ninguém menos que Walach Harkon. Embora estejas manchado por tua mortalidade, teu vigor e devoção aos ideais da cavalaria são louváveis." />
+    <string id="str_tor_bloodkiss_blooddragon_answer_ready" text="Saiba disso, cavaleiro: o Beijo de Sangue não é um dom concedido levianamente. É um vínculo eterno, um juramento de fidelidade. Todos os patéticos sentidos mortais de misericórdia e fraqueza serão expurgados de ti (HABILIDADES MÁGICAS SERÃO REMOVIDAS!)." />
+    <string id="str_tor_bloodkiss_blooddragon_player_ready" text="Estou pronto, Grão-mestre." />
+    <string id="str_tor_bloodkiss_blooddragon_player_receive_end" text="Levante-se, jovem dragão de sangue." />
+
+    <!-- O Graal Negro -->
+    <string id="str_tor_blackgrail_request" text="Você vive dizendo que a Senhora não é real. O que exatamente quer dizer com isso?" />
+    <string id="str_tor_blackgrail_answer_line1" text="Nem todo Bretão está pronto para a verdade. Você está disposto a se purificar da Mentira que nós, Bretões, seguimos dogmaticamente?" />
+    <string id="str_tor_blackgrail_receive" text="A verdade é esta: os Bretões, humanos orgulhosos, seguem os sussurros de uma Elfa. A Senhora nada mais é do que uma Bruxa Élfica, não uma deusa ou santa. Todo o nosso Reino foi construído sobre a Mentira da Senhora. Eu o limparei dessas mentiras; beba deste graal e obtenha os verdadeiros poderes de Bretônia!" />
+    <string id="str_tor_blackgrail_receive_end" text="Levante-se, meu jovem Cavaleiro. Vamos limpar este mundo desse absurdo." />
+
+    <!-- Treinadores de Magia -->
+    <string id="str_tor_spelltrainer_start" text="Eu te conheço? O que você precisa? Seja rápido, sou ocupado." />
+    <string id="str_tor_spelltrainer_open_book" text="Vim em busca de mais conhecimento." />
+    <string id="str_tor_spelltrainer_scrolls" text="Você vende algum pergaminho?" />
+    <string id="str_tor_spelltrainer_player_goodbye" text="Adeus, Magister." />
+    <string id="str_tor_spelltrainer_magictest_empire" text="Vim em busca de conhecimento, desejo aprender as artes arcanas. Pode me ajudar?" />
+    <string id="str_tor_spelltrainer_magictest_begin_empire" text="Hmm. Para entender os Ventos da Magia, você deve ter sentidos etéreos. Deixe-me realizar um experimento em você para determinar seu potencial..." />
+    <string id="str_tor_spelltrainer_magictest_result_success" text="Hmm... interessante. Parece que você tem aptidão, talvez até potencial." />
+    <string id="str_tor_spelltrainer_magictest_empire_specialize_lore" text="Você provou seu valor e tem forte aptidão para o vento da magia. A qual colégio você se juntará? Você só pode se dedicar a um, escolha com sabedoria." />
+    <string id="str_tor_spelltrainer_magictest_vc" text="Preciso de poder para escapar da morte, para governar este mundo como algo mais. Pode me ensinar os caminhos do seu poder?" />
+    <string id="str_tor_spelltrainer_magictest_vc_specialize_lore" text="Você tem potencial, Escuro. Sirva-me e eu lhe ensinarei tudo o que sei com o tempo. Venha, deixe-me consultar meu grimório." />
+    <string id="str_tor_spelltrainer_prophetesse_start" text="Bem-vinda, criança de Bretônia. A Senhora guiou você à minha presença. Fale, e deixe suas intenções se revelarem." />
+    <string id="str_tor_spelltrainer_prophetesse_goodbye" text="Vá, e que a graça da Senhora ilumine seu caminho." />
+    <string id="str_tor_spelltrainer_spellsinger_start" text="Eu o saúdo, filho de Athel Loren." />
+    <string id="str_tor_spelltrainer_spellsinger_goodbye" text="Que Ela o guie em todos os seus caminhos através de seu jardim." />
+    <string id="str_tor_spelltrainer_greenskin_open_book_str" text="Tô aqui atráz de umas mandinga fantasmagórica." />
+    <string id="str_tor_spelltrainer_greenskin_close_book_str" text="Come este gogumelo e dança cumigo." />
+    <string id="str_tor_spelltrainer_greenskin_goodbye_str" text="Cai fora daqui! Ocê tá deixando a fumaça saí!" />
+
+    <!-- Carvalho das Eras (Wood Elves) -->
+    <string id="str_tor_oak_of_ages_not_enough_harmony" text="Você não tem Harmonia da Floresta suficiente." />
+    <string id="str_tor_oak_of_ages_no_spellsinger" text="Nenhum cantor de feitiços forte o suficiente presente para convencer os espíritos a segui-lo." />
+    <string id="str_tor_oak_of_ages_travel_cost" text="Viajar para o local de destino ({COST} {RESOURCE_ICON})." />
+    <string id="str_tor_oak_upgrade_healing_roots" text="Todas as tropas e heróis são curados ao usar as raízes do mundo." />
+    <string id="str_tor_oak_symbol_kithband_unlock" text="Decifrar o Símbolo da Kithband. {TREESYMBOLUNLOCKCOST}{FORESTHARMONY}" />
+    <string id="str_tor_oak_symbol_wardancer_apply" text="Aplicar o Símbolo do Dançarino de Guerra. {TREESYMBOLCHANGECOST}{FORESTHARMONY}" />
+
+    <!-- Pedras de Poder (Powerstones) -->
+    <string id="str_tor_powerstone_fire_dmg_10_name" text="Rubi de Fogo Brilhante Inferior" />
+    <string id="str_tor_powerstone_fire_dmg_10_desc" text="+15% de dano de Fogo" />
+    <string id="str_tor_powerstone_fire_amp_50_name" text="Rubi de Fogo Nutritivo Inferior" />
+    <string id="str_tor_powerstone_fire_res_20_name" text="Rubi de Fogo Caloroso Inferior" />
+    <string id="str_tor_powerstone_fire_res_20_desc" text="+20% de resistência a Gelo e Fogo" />
+    <string id="str_tor_powerstone_light_res_20_name" text="Pedra de Lúmen Protetora Inferior" />
+    <string id="str_tor_powerstone_light_res_20_desc" text="+20% de resistência física" />
+    <string id="str_tor_powerstone_light_mov_25_name" text="Pedra de Lúmen de Dobra Temporal Inferior" />
+    <string id="str_tor_powerstone_light_dmg_15_name" text="Pedra de Lúmen Cintilante Inferior" />
+    <string id="str_tor_powerstone_beast_range_res_25_name" text="Âmbar Fantasma Ofuscante Inferior" />
+    <string id="str_tor_powerstone_beast_range_res_25_desc" text="+25% de resistência à distância" />
+    <string id="str_tor_powerstone_beast_phys_15_name" text="Âmbar Fantasma Protetor Inferior" />
+    <string id="str_tor_powerstone_life_magical_fire_res_25_name" text="Vitaellum de Amortecimento Inferior" />
+    <string id="str_tor_powerstone_life_res_20_name" text="Vitaellum Protetor Inferior" />
+    <string id="str_tor_powerstone_heavens_dmg_raged_20_name" text="Safira do Vento Inferior" />
+    <string id="str_tor_powerstone_heavens_res_25_name" text="Safira de Dissipação Inferior" />
+    <string id="str_tor_powerstone_metal_dmg_15_name" text="Pedra de Ouro Endurecedora Inferior" />
+    <string id="str_tor_powerstone_death_dmg_15_name" text="Endstone de Prejuízo Inferior" />
+
+    <!-- Pedras de Poder Superiores e Poderosas -->
+    <string id="str_tor_powerstone_fire_dmg_35_name" text="Rubi de Fogo Iluminador Superior" />
+    <string id="str_tor_powerstone_life_res_ward_35_name" text="Vitaellum Protetor Superior" />
+    <string id="str_tor_powerstone_life_res_ward_35_desc" text="+35% de Salvaguarda (Wardsave)" />
+    <string id="str_tor_powerstone_death_trait_undead_bane_name" text="Endstone de Banimento Superior" />
+    <string id="str_tor_powerstone_death_trait_undead_bane_desc" text="50% a mais de dano contra mortos-vivos e vampiros" />
+    <string id="str_tor_powerstone_life_reg_name" text="Vitaellum Poderoso" />
+    <string id="str_tor_powerstone_life_reg_desc" text="Regenera 1 PV a cada segundo" />
+    <string id="str_tor_powerstone_death_magic_surv_100_name" text="Endstone Poderosa" />
+    <string id="str_tor_powerstone_death_magic_surv_100_desc" text="100% de chance de sobrevivência para a unidade" />
+
+    <!-- Runas de Unidade (Anões) -->
+    <string id="str_tor_unit_rune_title" text="Runas de Unidade" />
+    <string id="str_tor_unit_rune_cost_display" text="{RUNE_DESCRIPTION}{newline}{newline}Ingredientes necessários:{newline}{RUNE_COST_LIST}" />
+    <string id="str_tor_unit_rune_warning_text" text="AVISO: A {CURRENT_RUNE} atual será removida sem compensação." />
+    <string id="str_tor_unit_rune_not_for_heroes_text" text="Não funciona para heróis" />
+    <string id="str_tor_unit_rune_only_in_karak_text" text="Só é possível dentro de um Karak Anão. Visite um Karak." />
+    <string id="str_tor_unit_rune_guarding_name" text="Runa de Proteção" />
+    <string id="str_tor_unit_rune_guarding_desc" text="15% de resistência física extra." />
+    <string id="str_tor_unit_rune_sanctuary_name" text="Runa de Santuário" />
+    <string id="str_tor_unit_rune_battle_name" text="Runa de Batalha" />
+    <string id="str_tor_unit_rune_retribution_name" text="Runa de Retribuição" />
+    <string id="str_tor_unit_rune_strollaz_name" text="Runa de Strollaz" />
+    <string id="str_tor_unit_rune_valaya_name" text="Runa Mestra de Valaya" />
+    <string id="str_tor_unit_rune_grungni_name" text="Runa Mestra de Grungni" />
+    <string id="str_tor_unit_rune_grimnir_name" text="Runa Mestra de Grimnir" />
+
+    <!-- Enciclopédia e Interface -->
+    <string id="str_tor_encyclopedia_filter_characters" text="Personagens" />
+    <string id="str_tor_encyclopedia_filter_kingdoms" text="Reinos" />
+    <string id="str_tor_encyclopedia_filter_old_realms" text="The Old Realms" />
+    <string id="str_tor_cc_origin_summary" text="Origem" />
+    <string id="str_tor_cc_profession_summary" text="Profissão" />
+    <string id="str_tor_cc_specialization_title_lore" text="Escolha seu Conhecimento" />
+    <string id="str_tor_cc_specialization_desc_lore" text="Como um conjurador, você deve escolher um conhecimento de magia para se especializar. Isso determinará quais feitiços você poderá aprender." />
+    <string id="str_tor_cc_specialization_title_bloodline" text="Escolha sua Linhagem" />
+    <string id="str_tor_cc_specialization_title_god" text="Escolha seu Deus" />
+
+    <!-- Mecânicas de Engenharia e Oficinas -->
+    <string id="str_tor_gs_quartermaster_intro_text" text="E aí, você tem r'curso pro Xefe?" />
+    <string id="str_tor_gs_quartermaster_shinies_option_text" text="Brilhantes" />
+    <string id="str_tor_dw_engineer_buy_weapons_text" text="Eu preciso de equipamento melhor, Mestre Engenheiro." />
+    <string id="str_tor_dw_engineer_recruit_crew_offer_text" text="Sim, alguns de nossos barbudinhos estão ansiosos para se provar. Custará {ENGINEER_GOLD_PRICE}{GOLD_ICON} e {ENGINEER_OATHGOLD_PRICE} Ouro de Juramento." />
+    <string id="str_tor_priest_start_accept" text="Bem-vindo, fiel. Como posso servi-lo hoje?" />
+    <string id="str_tor_priest_start_decline_hard" text="Você ousa se aproximar de mim, servo das trevas? Saia deste lugar sagrado agora!" />
+    <string id="str_tor_artisan_district_title_text" text="Distrito dos Artesãos" />
+
+    <!-- Enviados Diplomáticos (Envoys) -->
+    <string id="str_eonir_envoy_low_clan_tier_text" text="Você não tem o privilégio de servir ao conselho. Você não tem utilidade. (Nível de Clã Baixo)." />
+    <string id="str_eonir_druchii_why_here_explain_text" text="Não somos seus inimigos, o oposto é verdade. Poucos compartilham nosso laço de sofrimento nas mãos dos Asur, poucos podem entender nossa provação mútua." />
+    <string id="str_eonir_asur_intro_text" text="Saudações, parente. Como posso ajudá-lo?" />
+    <string id="str_eonir_asur_why_here_intro_text" text="Estou aqui como representante de Ulthuan, e para servir como um lembrete de que a liberdade e independência que você desfruta é um presente gracioso dado pelo Rei Fênix." />
+    <string id="str_eonir_empire_why_here_intro_text" text="Como enviado do Graf Boris Todbringer, represento os interesses de Middenland e, em menor medida, do Império como um todo." />
+    <string id="str_eonir_spellsinger_world_roots_explain_text" text="Há uma entrada para as Raízes do Mundo aqui em Laurelorn, primeiro você deve encontrá-la... As raízes são sagradas, é raro um não-Asrai cruzá-las." />
+
+    <!-- Engenheiro e Melhorias -->
+    <string id="str_tor_engineer_upgrade_explain_1" text="Goswin não apenas roubou peças valiosas, mas também plantas de construção. Algumas de nossas melhores criações foram perdidas em seu surto." />
+    <string id="str_tor_engineer_upgrade_3_response" text="Eu amo o cheiro de pólvora negra queimando pela manhã." />
+
+    <!-- Cemitério e Diplomacia -->
+    <string id="str_tor_settlement_graveyard_raise_dead_action" text="Erguer mortos dos cadáveres no solo (aguarde 8 horas)." />
+    <string id="str_tor_settlement_graveyard_raise_dead_begin_text" text="As covas do povo comum estão prontas para serem colhidas! Você gasta tempo erguendo cadáveres do solo. Morr ficará furioso esta noite!" />
+    <string id="str_tor_alliance_chaos" text="As forças do Caos não formam alianças." />
+    <string id="str_tor_alliance_greenskin" text="Peles-Verdes não entendem o conceito de alianças." />
+    <string id="str_tor_trade_chaos" text="As forças do Caos não realizam comércio." />
+    <string id="str_tor_trade_greenskin" text="Peles-Verdes não entendem o conceito de comércio." />
+
+
+    <!-- S03 - ENCHANTMENT SYSTEM DIALOGS -->
+    <string id="tor_enchantmentshop_title.empire" text="{=str_tor_enchantmentshop_title_empire}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.vlandia" text="{=str_tor_enchantmentshop_title_vlandia}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.khuzait" text="{=str_tor_enchantmentshop_title_khuzait}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.mousillon" text="{=str_tor_enchantmentshop_title_mousillon}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.battania" text="{=str_tor_enchantmentshop_title_battania}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.eonir" text="{=str_tor_enchantmentshop_title_eonir}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.sturgia" text="{=str_tor_enchantmentshop_title_sturgia}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_title.aserai" text="{=str_tor_enchantmentshop_title_aserai}Escolhe um logo, vai?!" />
+    <string id="tor_enchantmentshop_title.blessings" text="{=str_tor_enchantmentshop_title_blessings}Faça sua escolha…" />
+    <string id="tor_enchantmentshop_description.empire" text="{=str_tor_enchantmentshop_description_empire}Selecione um pergaminho arcano para estudar:" />
+    <string id="tor_enchantmentshop_description.vlandia" text="{=str_tor_enchantmentshop_description_vlandia}Selecione um tomo abençoado para estudar:" />
+    <string id="tor_enchantmentshop_description.khuzait" text="{=str_tor_enchantmentshop_description_khuzait}Selecione um grimório para estudar:" />
+    <string id="tor_enchantmentshop_description.mousillon" text="{=str_tor_enchantmentshop_description_mousillon}Selecione um grimório para estudar:" />
+    <string id="tor_enchantmentshop_description.battania" text="{=str_tor_enchantmentshop_description_battania}Selecione um pergaminho arcano para estudar:" />
+    <string id="tor_enchantmentshop_description.eonir" text="{=str_tor_enchantmentshop_description_eonir}Selecione um pergaminho arcano para estudar:" />
+    <string id="tor_enchantmentshop_description.sturgia" text="{=str_tor_enchantmentshop_description_sturgia}Selecione um entalhe rúnico para estudar:" />
+    <string id="tor_enchantmentshop_description.aserai" text="{=str_tor_enchantmentshop_description_aserai}Pega um desses troço místico aê:" />
+    <string id="tor_enchantmentshop_description.blessings" text="{=str_tor_enchantmentshop_description_blessings}Selecione um tomo abençoado para estudar:" />
+    <string id="tor_enchantmentshop_restriction.Armor" text="{=str_tor_enchantmentshop_restriction_Armor}Aplica-se a armaduras" />
+    <string id="tor_enchantmentshop_restriction.Melee" text="{=str_tor_enchantmentshop_restriction_Melee}Aplica-se a armas de corpo a corpo" />
+    <string id="tor_enchantmentshop_restriction.Weapon" text="{=str_tor_enchantmentshop_restriction_Weapon}Aplica-se a qualquer arma" />
+    <string id="tor_enchantmentshop_restriction.Shield" text="{=str_tor_enchantmentshop_restriction_Shield}Aplica-se a escudos" />
+    <string id="tor_enchantmentshop_restriction.Ammo" text="{=str_tor_enchantmentshop_restriction_Ammo}Aplica-se a munições" />
+    <string id="tor_enchantmentshop_restriction.Ranged" text="{=str_tor_enchantmentshop_restriction_Ranged}Aplica-se a armas de longo alcance" />
+    <string id="tor_enchantmentshop_restriction.Thrown" text="{=str_tor_enchantmentshop_restriction_Thrown}Aplica-se a armas de arremesso" />
+    <string id="tor_enchanting_title_text" text="{=str_tor_enchanting_title_text}Encantamento" />
+    <string id="tor_enchanting_no_blueprints_text" text="{=str_tor_enchanting_no_blueprints_text}Você não conhece nenhum diagrama de encantamento." />
+    <string id="tor_enchanting_no_traits_selected_text" text="{=str_tor_enchanting_no_traits_selected_text}Nenhum atributo selecionado." />
+    <string id="tor_enchanting_missing_ingredients_text" text="{=str_tor_enchanting_missing_ingredients_text}Ingredientes faltando." />
+    <string id="tor_enchanting_enter_name_text" text="{=str_tor_enchanting_enter_name_text}Insira um nome para seu item encantado" />
+    <string id="tor_enchanting_failed_text" text="{=str_tor_enchanting_failed_text}O encantamento falhou." />
+    <string id="tor_enchanting_success_text" text="{=str_tor_enchanting_success_text}Encantamento bem-sucedido. O item foi adicionado ao inventário." />
+    <string id="tor_learned_enchantment_text" text="{=str_tor_learned_enchantment_text}{HERO_NAME} aprendeu o encantamento {ENCHANTMENT_NAME}" />
+    <string id="tor_enchant_prompt_donate_items.title" text="{=str_tor_enchant_prompt_donate_items_title}Doar itens" />
+    <string id="tor_enchant_prompt_donate_items.text" text="{=str_tor_enchant_prompt_donate_items_text}Selecione os itens que deseja doar. Você obterá {CUSTOMRESOURCE_ICON} com esta ação." />
+    <string id="tor_enchanter_dialog_start_quit.empire" text="{=str_tor_enchanter_dialog_start_quit_empire}Você não serve ao Império. Fora daqui." />
+    <string id="tor_enchanter_dialog_start_1.empire" text="{=str_tor_enchanter_dialog_start_1_empire}Saudações, aqueles leais ao Império são sempre bem-vindos aqui." />
+    <string id="tor_enchanter_dialog_start_2.empire" text="{=str_tor_enchanter_dialog_start_2_empire}Ah, um colega praticante! Você é muito bem-vindo, temos muito a discutir como colegas." />
+    <string id="tor_enchanter_hub_intro.empire" text="{=str_tor_enchanter_hub_intro_empire}Então, a que devo esta visita?" />
+    <string id="tor_enchanter_hub_reintro.empire" text="{=str_tor_enchanter_hub_reintro_empire}O que mais você precisa?" />
+    <string id="tor_enchanter_hub_info_p.empire" text="{=str_tor_enchanter_hub_info_p_empire}Pode me ensinar os fundamentos da alquimia?" />
+    <string id="tor_enchanter_hub_blueprints_p.empire" text="{=str_tor_enchanter_hub_blueprints_p_empire}I would like to learn new alchemical formulas." />
+    <string id="tor_enchanter_hub_donate_items_p.empire" text="{=str_tor_enchanter_hub_donate_items_p_empire}Tenho itens mágicos que não preciso mais, pode dar-lhes um bom uso?" />
+    <string id="tor_enchanter_hub_open_enchanter_p.empire" text="{=str_tor_enchanter_hub_open_enchanter_p_empire}May I use your laboratory?" />
+    <string id="tor_enchanter_hub_return_p.empire" text="{=str_tor_enchanter_hub_return_p_empire}I must go, farewell." />
+    <string id="tor_enchanter_blueprints.empire" text="{=str_tor_enchanter_blueprints_empire}Vamos folhear a coleção imperial de pergaminhos e tomos." />
+    <string id="tor_enchanter_blueprints_decline.empire" text="{=str_tor_enchanter_blueprints_decline_empire}Sinto que você não possui o dom da Visão de Bruxa, e nem seus companheiros. Você deve retornar na companhia de um mago." />
+    <string id="tor_enchanter_donate_items_1.empire" text="{=str_tor_enchanter_donate_items_1_empire}Estou interessado nos itens mágicos que encontrar em suas jornadas. O que você tem a oferecer?" />
+    <string id="tor_enchanter_donate_items_1_negative.empire" text="{=str_tor_enchanter_donate_items_1_negative_empire}Você não tem nada de interesse para mim. Não desejo ver seus itens encantados, mas sim estudar os artefatos deste mundo." />
+    <string id="tor_enchanter_donate_items_hub_p.empire" text="{=str_tor_enchanter_donate_items_hub_p_empire}Deixe-me fornecer estes itens…" />
+    <string id="tor_enchanter_gift_items_hub_return_p.empire" text="{=str_tor_enchanter_gift_items_hub_return_p_empire}I need to think about this." />
+    <string id="tor_enchanter_donate_items_2.empire" text="{=str_tor_enchanter_donate_items_2_empire}Quais itens você deseja doar?" />
+    <string id="tor_enchanter_info_hub_intro_enchanter_first_visit.empire" text="{=str_tor_enchanter_info_hub_intro_enchanter_first_visit_empire}Certamente! Na verdade, tenho exatamente o que você precisa para começar; pegue isto e poderemos discutir tudo em mais detalhes." />
+    <string id="tor_enchanter_info_hub_intro_first_visit.empire" text="{=str_tor_enchanter_info_hub_intro_first_visit_empire}Naturalmente. Posso explicar sem grande dificuldade, mas o fardo da compreensão recai sobre você. Estude este tomo." />
+    <string id="tor_enchanter_info_hub_intro_read_book.empire" text="{=str_tor_enchanter_info_hub_intro_read_book_empire}Leia o tomo que lhe dei; ele deve cobrir todos os princípios básicos da alquimia." />
+    <string id="tor_enchanter_start_p.vlandia" text="{=str_tor_enchanter_start_p_vlandia}Minha senhora, podemos discutir os mistérios do Cálice?" />
+    <string id="tor_enchanter_start_enchanter.vlandia" text="{=str_tor_enchanter_start_enchanter_vlandia}Irmã Filha do Cálice, ajudarei você com prazer." />
+    <string id="tor_enchanter_dialog_start.vlandia" text="{=str_tor_enchanter_dialog_start_vlandia}Amigos de Bretônia são sempre bem-vindos aqui." />
+    <string id="tor_enchanter_dialog_start_quit.vlandia" text="{=str_tor_enchanter_dialog_start_quit_vlandia}Sujeira vil, saia da minha frente." />
+    <string id="tor_enchanter_hub_intro.vlandia" text="{=str_tor_enchanter_hub_intro_vlandia}O que deseja saber?" />
+    <string id="tor_enchanter_hub_reintro.vlandia" text="{=str_tor_enchanter_hub_reintro_vlandia}Havia algo mais?" />
+    <string id="tor_enchanter_hub_info_p.vlandia" text="{=str_tor_enchanter_hub_info_p_vlandia}Minha senhora, desejo saber mais sobre os ensinamentos da Dama." />
+    <string id="tor_enchanter_hub_blueprints_p.vlandia" text="{=str_tor_enchanter_hub_blueprints_p_vlandia}Minha senhora, desejo saber mais sobre os tomos sagrados." />
+    <string id="tor_enchanter_hub_donate_items_p.vlandia" text="{=str_tor_enchanter_hub_donate_items_p_vlandia}Minha senhora, você aceitaria estes artefatos?" />
+    <string id="tor_enchanter_hub_open_enchanter_p.vlandia" text="{=str_tor_enchanter_hub_open_enchanter_p_vlandia}May I make use of this altar?" />
+    <string id="tor_enchanter_hub_return_p.vlandia" text="{=str_tor_enchanter_hub_return_p_vlandia}Desejo perguntar sobre outra coisa." />
+    <string id="tor_enchanter_blueprints.vlandia" text="{=str_tor_enchanter_blueprints_vlandia}Muito bem, comecemos em nome da Dama." />
+    <string id="tor_enchanter_blueprints_decline.vlandia" text="{=str_tor_enchanter_blueprints_decline_vlandia}Não sinto o dom da Dama em você. Nem em seus companheiros, aliás. Retorne na companhia de uma Donzela do Cálice." />
+    <string id="tor_enchanter_donate_items_1.vlandia" text="{=str_tor_enchanter_donate_items_1_vlandia}Aceitarei de bom grado o que você não precisa mais; no entanto, a Dama não aceitará itens que você mesmo encantou." />
+    <string id="tor_enchanter_donate_items_1_negative.vlandia" text="{=str_tor_enchanter_donate_items_1_negative_vlandia}Infelizmente, você não carrega nada que seja útil para o reino." />
+    <string id="tor_enchanter_donate_items_hub_p.vlandia" text="{=str_tor_enchanter_donate_items_hub_p_vlandia}Desejo doar os seguintes itens…" />
+    <string id="tor_enchanter_gift_items_hub_return_p.vlandia" text="{=str_tor_enchanter_gift_items_hub_return_p_vlandia}Perdoe-me, preciso pensar mais sobre isso." />
+    <string id="tor_enchanter_donate_items_2.vlandia" text="{=str_tor_enchanter_donate_items_2_vlandia}O que você tinha em mente?" />
+    <string id="tor_enchanter_info_hub_intro_first_visit.vlandia" text="{=str_tor_enchanter_info_hub_intro_first_visit_vlandia}Pegue este tomo de conhecimento. Ele deve responder a todas as suas perguntas." />
+    <string id="tor_enchanter_info_hub_intro_read_book.vlandia" text="{=str_tor_enchanter_info_hub_intro_read_book_vlandia}Você já carrega o tomo da Dama. Estude-o para obter as respostas que procura." />
+    <string id="tor_enchanter_start_p.khuzait" text="{=str_tor_enchanter_start_p_khuzait}Desejo saber mais sobre itens mágicos e amaldiçoados." />
+    <string id="tor_enchanter_start_enchanter.khuzait" text="{=str_tor_enchanter_start_enchanter_khuzait}Saudações, colega praticante das artes sombrias; vamos nos reunir?" />
+    <string id="tor_enchanter_dialog_start.khuzait" text="{=str_tor_enchanter_dialog_start_khuzait}What do you require?" />
+    <string id="tor_enchanter_dialog_start_quit.khuzait" text="{=str_tor_enchanter_dialog_start_quit_khuzait}Não o conheço, estranho; melhor partir antes que uma grande desgraça caia sobre você." />
+    <string id="tor_enchanter_dialog_start_1.khuzait" text="{=str_tor_enchanter_dialog_start_1_khuzait}Saudações estranho, sinto a escuridão dentro de você." />
+    <string id="tor_enchanter_dialog_start_2.khuzait" text="{=str_tor_enchanter_dialog_start_2_khuzait}Colega praticante das artes sombrias, vamos nos reunir?" />
+    <string id="tor_enchanter_hub_intro.khuzait" text="{=str_tor_enchanter_hub_intro_khuzait}What do you require?" />
+    <string id="tor_enchanter_hub_reintro.khuzait" text="{=str_tor_enchanter_hub_reintro_khuzait}Do que é que você precisa?" />
+    <string id="tor_enchanter_hub_info_p.khuzait" text="{=str_tor_enchanter_hub_info_p_khuzait}Compartilhe comigo seu conhecimento sobre encantamentos e maldições." />
+    <string id="tor_enchanter_hub_blueprints_p.khuzait" text="{=str_tor_enchanter_hub_blueprints_p_khuzait}Mostre-me quais fórmulas mágicas você possui." />
+    <string id="tor_enchanter_hub_donate_items_p.khuzait" text="{=str_tor_enchanter_hub_donate_items_p_khuzait}Leve estas bugigangas, elas são impróprias para minha comitiva." />
+    <string id="tor_enchanter_hub_open_enchanter_p.khuzait" text="{=str_tor_enchanter_hub_open_enchanter_p_khuzait}Mostre-me o caminho para o seu altar sombrio." />
+    <string id="tor_enchanter_hub_return_p.khuzait" text="{=str_tor_enchanter_hub_return_p_khuzait}Terminamos." />
+    <string id="tor_enchanter_blueprints.khuzait" text="{=str_tor_enchanter_blueprints_khuzait}Vamos mergulhar em grimórios e tomos amaldiçoados." />
+    <string id="tor_enchanter_blueprints_decline.khuzait" text="{=str_tor_enchanter_blueprints_decline_khuzait}Não sinto escuridão em você, nem ela reside em sua comitiva. Retorne a mim na companhia de um mago." />
+    <string id="tor_enchanter_donate_items_1.khuzait" text="{=str_tor_enchanter_donate_items_1_khuzait}Muito bem, eu os levarei e lhes darei um bom uso." />
+    <string id="tor_enchanter_donate_items_1_negative.khuzait" text="{=str_tor_enchanter_donate_items_1_negative_khuzait}Estes provavelmente não serão úteis para mim ou meu mestre. Retorne com os tesouros e artefatos deste mundo." />
+    <string id="tor_enchanter_donate_items_hub_p.khuzait" text="{=str_tor_enchanter_donate_items_hub_p_khuzait}Leve estas relíquias então." />
+    <string id="tor_enchanter_gift_items_hub_return_p.khuzait" text="{=str_tor_enchanter_gift_items_hub_return_p_khuzait}Acho que prefiro guardá-las por enquanto." />
+    <string id="tor_enchanter_donate_items_2.khuzait" text="{=str_tor_enchanter_donate_items_2_khuzait}Isso é tudo? Vamos prosseguir então." />
+    <string id="tor_enchanter_info_hub_intro_enchanter_first_visit.khuzait" text="{=str_tor_enchanter_info_hub_intro_enchanter_first_visit_khuzait}Há energias sombrias se enrolando ao seu redor. Eu lhe transmitirei este conhecimento." />
+    <string id="tor_enchanter_info_hub_intro_first_visit.khuzait" text="{=str_tor_enchanter_info_hub_intro_first_visit_khuzait}Este tomo contém tudo o que você precisará." />
+    <string id="tor_enchanter_info_hub_intro_read_book.khuzait" text="{=str_tor_enchanter_info_hub_intro_read_book_khuzait}O grimório que lhe concedi cobre todos os fundamentos necessários." />
+    <string id="tor_enchanter_start_p.sturgia" text="{=str_tor_enchanter_start_p_sturgia}Desejo saber mais sobre a arte da forja de runas." />
+    <string id="tor_enchanter_start_enchanter.sturgia" text="{=str_tor_enchanter_start_enchanter_sturgia}Ah, um colega Rhunki! Você é muito bem-vindo no Grongaz." />
+    <string id="tor_enchanter_dialog_start.sturgia" text="{=str_tor_enchanter_dialog_start_sturgia}Um irmão Dawi! Bem-vindo ao Grongaz." />
+    <string id="tor_enchanter_dialog_start_quit.sturgia" text="{=str_tor_enchanter_dialog_start_quit_sturgia}Compartilhar os segredos dos Rhunki envergonharia todo o meu clã, forasteiro. A resposta é nei." />
+    <string id="tor_enchanter_dialog_start_1.sturgia" text="{=str_tor_enchanter_dialog_start_1_sturgia}{Player_Clan}, Dawongr! Você tem negócios com os Rhunki?" />
+    <string id="tor_enchanter_dialog_start_2.sturgia" text="{=str_tor_enchanter_dialog_start_2_sturgia}Confiável {Player_Clan}! Saiba que os Rhunki consideram nossa parceria uma grande honra!" />
+    <string id="tor_enchanter_hub_intro.sturgia" text="{=str_tor_enchanter_hub_intro_sturgia}Então, do que é que você precisa?" />
+    <string id="tor_enchanter_hub_reintro.sturgia" text="{=str_tor_enchanter_hub_reintro_sturgia}Havia algo mais?" />
+    <string id="tor_enchanter_hub_info_p.sturgia" text="{=str_tor_enchanter_hub_info_p_sturgia}Pode me ensinar os fundamentos da forja de runas?" />
+    <string id="tor_enchanter_hub_blueprints_p.sturgia" text="{=str_tor_enchanter_hub_blueprints_p_sturgia}Estou aqui para aprender novos entalhes Rhun." />
+    <string id="tor_enchanter_hub_donate_items_p.sturgia" text="{=str_tor_enchant_hub_donate_items_p_sturgia}Tenho itens mágicos que não preciso mais, pode dar-lhes um bom uso?" />
+    <string id="tor_enchanter_hub_open_enchanter_p.sturgia" text="{=str_tor_enchanter_hub_open_enchanter_p_sturgia}Desejo usar sua forja, Mestre Ferreiro." />
+    <string id="tor_enchanter_hub_return_p.sturgia" text="{=str_tor_enchanter_hub_return_p_sturgia}Vamos discutir outros assuntos." />
+    <string id="tor_enchanter_blueprints.sturgia" text="{=str_tor_enchanter_blueprints_sturgia}Desejo aprender novos entalhes Rhun." />
+    <string id="tor_enchanter_blueprints_decline.sturgia" text="{=str_tor_enchanter_blueprints_decline_sturgia}Julgando pelas suas capacidades mentais, você é muito 'doh' para entender até as runas mais básicas. Melhor continuar usando nossas armas em vez de fabricá-las. Retorne com um Ferreiro de Runas." />
+    <string id="tor_enchanter_donate_items_1.sturgia" text="{=str_tor_enchanter_donate_items_1_sturgia}Ficaria feliz em receber e analisar qualquer equipamento mágico que tenha coletado. O que tem a oferecer?" />
+    <string id="tor_enchanter_donate_items_1_negative.sturgia" text="{=str_tor_enchanter_donate_items_1_negative_sturgia}Você não tem nada de interesse para mim. Lembre-se, não aceitaremos itens que você mesmo fez, pois tudo o que você sabe, nós já sabemos." />
+    <string id="tor_enchanter_donate_items_hub_p.sturgia" text="{=str_tor_enchanter_donate_items_hub_p_sturgia}Vou lhe fornecer estes itens…" />
+    <string id="tor_enchanter_gift_items_hub_return_p.sturgia" text="{=str_tor_enchanter_gift_items_hub_return_p_sturgia}Preciso pensar sobre isso." />
+    <string id="tor_enchanter_donate_items_2.sturgia" text="{=str_tor_enchanter_donate_items_2_sturgia}Quais itens você deseja doar?" />
+    <string id="tor_enchanter_info_hub_intro_first_visit.sturgia" text="{=str_tor_enchanter_info_hub_intro_first_visit_sturgia}Posso lhe dar um Klinkarhun, sobre o qual você poderá construir os alicerces de seu próprio futuro Rhunki." />
+    <string id="tor_enchanter_info_hub_intro_read_book.sturgia" text="{=str_tor_enchanter_info_hub_intro_read_book_sturgia}O Klinkarhun que lhe dei tem tudo o que você precisa para começar." />
+    <string id="tor_enchanter_start_p.aserai" text="{=str_tor_enchanter_start_p_aserai}Eu qué sabê dos troço místico." />
+    <string id="tor_enchanter_start_enchanter.aserai" text="{=str_tor_enchanter_start_enchanter_aserai}Tu veio olhá pro fogo?" />
+    <string id="tor_enchanter_dialog_start.aserai" text="{=str_tor_enchanter_dialog_start_aserai}Gork e Mork traz coisa grande pros mió de nóis." />
+    <string id="tor_enchanter_dialog_start_quit.aserai" text="{=str_tor_enchanter_dialog_start_quit_aserai}Vaza! Ou eu te transformo num squig!" />
+    <string id="tor_enchanter_dialog_start_1.aserai" text="{=str_tor_enchanter_dialog_start_1_aserai}Tu é um grandão, tu. Gork tá contigo." />
+    <string id="tor_enchanter_dialog_start_2.aserai" text="{=str_tor_enchanter_dialog_start_2_aserai}Tu veio olhá pro fogo?" />
+    <string id="tor_enchanter_hub_intro.aserai" text="{=str_tor_enchanter_hub_intro_aserai}Guhh, o que tu qué sabê?" />
+    <string id="tor_enchanter_hub_reintro.aserai" text="{=str_tor_enchanter_hub_reintro_aserai}Que que tu qué?" />
+    <string id="tor_enchanter_hub_info_p.aserai" text="{=str_tor_enchanter_hub_info_p_aserai}Eu tô atrás de… errrp… ins-tru-ção…" />
+    <string id="tor_enchanter_hub_blueprints_p.aserai" text="{=str_tor_enchanter_hub_blueprints_p_aserai}Como faz os troço brilha de verdade?" />
+    <string id="tor_enchanter_hub_donate_items_p.aserai" text="{=str_tor_enchanter_hub_donate_items_p_aserai}Tenho uns ferro bão pra Gork e Mork." />
+    <string id="tor_enchanter_hub_open_enchanter_p.aserai" text="{=str_tor_enchanter_hub_open_enchanter_p_aserai}(Olhar para o fogo enquanto o Xamã está ocupado dançando)" />
+    <string id="tor_enchanter_hub_return_p.aserai" text="{=str_tor_enchanter_hub_return_p_aserai}Nada" />
+    <string id="tor_enchanter_blueprints.aserai" text="{=str_tor_enchanter_blueprints_aserai}Bota a cara na fumaça e respira fundo." />
+    <string id="tor_enchanter_blueprints_decline.aserai" text="{=str_tor_enchanter_blueprints_decline_aserai}Não tem nenhum Xamã contigo, cai fora." />
+    <string id="tor_enchanter_donate_items_1.aserai" text="{=str_tor_enchanter_donate_items_1_aserai}Os deuse vão gosta do teu presente." />
+    <string id="tor_enchanter_donate_items_1_negative.aserai" text="{=str_tor_enchanter_donate_items_1_negative_aserai}Esse lixo nanico? Os deuse não qué isso não." />
+    <string id="tor_enchanter_donate_items_2.aserai" text="{=str_tor_enchanter_donate_items_2_aserai}Que troço é esse?" />
+    <string id="tor_enchanter_info_hub_intro_first_visit.aserai" text="{=str_tor_enchanter_info_hub_intro_first_visit_aserai}Eu tenho essa pedra entalhada que não tô usando, pode pegá." />
+    <string id="tor_enchanter_info_hub_intro_read_book.aserai" text="{=str_tor_enchanter_info_hub_intro_read_book_aserai}Tu já tem a pedra entalhada. Vaza!" />
+    <string id="tor_enchanter_start_p.battania" text="{=str_tor_enchanter_start_p_battania}Desejo estudar os artefatos da floresta." />
+    <string id="tor_enchanter_start_enchanter.battania" text="{=str_tor_enchanter_start_enchanter_battania}Um colega cantor de feitiços? Um prazer raro nestes tempos." />
+    <string id="tor_enchanter_dialog_start.battania" text="{=str_tor_enchanter_dialog_start_battania}Suas contribuições para estas matas renderam-lhe uma medida de tolerância." />
+    <string id="tor_enchanter_dialog_start_quit.battania" text="{=str_tor_enchanter_dialog_start_quit_battania}Você invade solo sagrado; saia antes que minha paciência chegue ao fim." />
+    <string id="tor_enchanter_hub_intro.battania" text="{=str_tor_enchanter_hub_intro_battania}Que propósito o traz aqui?" />
+    <string id="tor_enchanter_hub_reintro.battania" text="{=str_tor_enchanter_hub_reintro_battania}Que propósito o traz aqui?" />
+    <string id="tor_enchanter_hub_info_p.battania" text="{=str_tor_enchanter_hub_info_p_battania}Busco a sabedoria da floresta e seu conhecimento sobre itens mágicos." />
+    <string id="tor_enchanter_hub_blueprints_p.battania" text="{=str_tor_enchanter_hub_blueprints_p_battania}Posso pedir-lhe métodos de encantamento?" />
+    <string id="tor_enchanter_hub_donate_items_p.battania" text="{=str_tor_enchanter_hub_donate_items_p_battania}Por favor, aceite estes presentes, para que possa usá-los para guardar Athel Loren." />
+    <string id="tor_enchanter_hub_open_enchanter_p.battania" text="{=str_tor_enchanter_hub_open_enchanter_p_battania}Posso fazer uso de seus espaços rituais para minhas próprias obras?" />
+    <string id="tor_enchanter_hub_return_p.battania" text="{=str_tor_enchanter_hub_return_p_battania}Este fio alcançou seu fim natural." />
+    <string id="tor_enchanter_blueprints.battania" text="{=str_tor_enchanter_blueprints_battania}Muito bem, vamos estudar juntos para a melhoria de Athel Loren." />
+    <string id="tor_enchanter_blueprints_decline.battania" text="{=str_tor_enchanter_blueprints_decline_battania}Não sinto dom de magia em você ou em seus companheiros. Retorne na companhia de um Cantor de Feitiços." />
+    <string id="tor_enchanter_donate_items_1.battania" text="{=str_tor_enchanter_donate_items_1_battania}O que é que você deseja entregar?" />
+    <string id="tor_enchanter_donate_items_1_negative.battania" text="{=str_tor_enchanter_donate_items_1_negative_battania}A Floresta não pode fazer uso do que você oferece. Retorne quando encontrar mais artefatos." />
+    <string id="tor_enchanter_donate_items_2.battania" text="{=str_tor_enchanter_donate_items_2_battania}Isso será tudo? Muito bem." />
+    <string id="tor_enchanter_info_hub_intro_enchanter_first_visit.battania" text="{=str_tor_enchanter_info_hub_intro_enchanter_first_visit_battania}Certamente. Não tenho tempo para transmitir o conhecimento eu mesma; leve estes pergaminhos de Argwylon e minha própria adição, que tenho certeza que apreciará." />
+    <string id="tor_enchanter_info_hub_intro_first_visit.battania" text="{=str_tor_enchanter_info_hub_intro_first_visit_battania}Este pergaminho vem das bibliotecas de Argwylon; pegue-o e estude-o em detalhes." />
+    <string id="tor_enchanter_info_hub_intro_read_book.battania" text="{=str_tor_enchanter_info_hub_intro_read_book_battania}Você já carrega o pergaminho de Argwylon, não é?" />
+    <string id="tor_enchanter_start_p.eonir" text="{=str_tor_enchanter_start_p_eonir}Pode me contar mais sobre encantamentos?" />
+    <string id="tor_enchanter_start_enchanter.eonir" text="{=str_tor_enchanter_start_enchanter_eonir}Bem-vindo ao povo de Laurelorn; espero que seu tempo fora de nossas fronteiras tenha sido frutífero." />
+    <string id="tor_enchanter_dialog_start.eonir" text="{=str_tor_enchanter_dialog_start_eonir}Seus feitos nestas matas renderam-lhe minha atenção, por um tempo." />
+    <string id="tor_enchanter_dialog_start_quit.eonir" text="{=str_tor_enchanter_dialog_start_quit_eonir}Você não é um de nós. Saia antes que eu chame os guardas." />
+    <string id="tor_enchanter_hub_intro.eonir" text="{=str_tor_enchanter_hub_intro_eonir}Bênçãos de Isha sobre você; que auxílio posso conceder?" />
+    <string id="tor_enchanter_hub_reintro.eonir" text="{=str_tor_enchanter_hub_reintro_eonir}Bênçãos de Isha sobre você; que auxílio posso conceder?" />
+    <string id="tor_enchanter_hub_info_p.eonir" text="{=str_tor_enchanter_hub_info_p_eonir}Pode me ajudar a aprender os fundamentos do encantamento?" />
+    <string id="tor_enchanter_hub_blueprints_p.eonir" text="{=str_tor_enchanter_hub_blueprints_p_eonir}Venho em busca de novas técnicas de encantamento." />
+    <string id="tor_enchanter_hub_donate_items_p.eonir" text="{=str_tor_enchanter_hub_donate_items_p_eonir}Trago grandes presentes de poder arcano para você e nosso povo." />
+    <string id="tor_enchanter_hub_open_enchanter_p.eonir" text="{=str_tor_enchanter_hub_open_enchanter_p_eonir}Posso fazer uso de seu equipamento de encantamento?" />
+    <string id="tor_enchanter_hub_return_p.eonir" text="{=str_tor_enchanter_hub_return_p_eonir}Desejo discutir assuntos de diplomacia." />
+    <string id="tor_enchanter_blueprints.eonir" text="{=str_tor_enchanter_blueprints_eonir}Que assim seja; vamos desvendar estes mistérios juntos." />
+    <string id="tor_enchanter_blueprints_decline.eonir" text="{=str_tor_enchanter_blueprints_decline_eonir}Não sinto dom de magia em você ou em seus companheiros. Retorne na companhia de um conjurador." />
+    <string id="tor_enchanter_donate_items_1.eonir" text="{=str_tor_enchanter_donate_items_1_eonir}O que é que você deseja entregar?" />
+    <string id="tor_enchanter_donate_items_1_negative.eonir" text="{=str_tor_enchanter_donate_items_1_negative_eonir}Receio que nada que você carrega tenha valor real para nós." />
+    <string id="tor_enchanter_donate_items_2.eonir" text="{=str_tor_enchanter_donate_items_2_eonir}Isso será tudo? Muito bem." />
+    <string id="tor_enchanter_info_hub_intro_enchanter_first_visit.eonir" text="{=str_tor_enchanter_info_hub_intro_enchanter_first_visit_eonir}Pegue este pergaminho com instruções; ele inclui algumas de minhas próprias anotações. Que você viva mil anos, irmão." />
+    <string id="tor_enchanter_info_hub_intro_first_visit.eonir" text="{=str_tor_enchanter_info_hub_intro_first_visit_eonir}Pegue este pergaminho com instruções. Que você viva mil anos, irmão." />
+    <string id="tor_enchanter_info_hub_intro_read_book.eonir" text="{=str_tor_enchanter_info_hub_intro_read_book_eonir}Espero realmente que tenha guardado o pergaminho que lhe entreguei…" />
+
+    <!-- S03 - Sistema de Encantamentos -->
+    <string id="str_tor_enchantmentshop_title_empire" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_vlandia" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_khuzait" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_mousillon" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_battania" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_eonir" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_sturgia" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_title_aserai" text="Escolhe um logo, vai?!" />
+    <string id="id_tor_enchantmentshop_title_blessings" text="Faça sua escolha…" />
+    <string id="str_tor_enchantmentshop_description_empire" text="Selecione um pergaminho arcano para estudar:" />
+    <string id="str_tor_enchantmentshop_description_vlandia" text="Selecione um tomo abençoado para estudar:" />
+    <string id="str_tor_enchantmentshop_description_khuzait" text="Selecione um grimório para estudar:" />
+    <string id="str_tor_enchantmentshop_description_mousillon" text="Selecione um grimório para estudar:" />
+    <string id="str_tor_enchantmentshop_description_battania" text="Selecione um pergaminho arcano para estudar:" />
+    <string id="str_tor_enchantmentshop_description_eonir" text="Selecione um pergaminho arcano para estudar:" />
+    <string id="str_tor_enchantmentshop_description_sturgia" text="Selecione um entalhe rúnico para estudar:" />
+    <string id="str_tor_enchantmentshop_description_aserai" text="Pega um desses pedacinhos de mandinga:" />
+    <string id="id_tor_enchantmentshop_description_blessings" text="Selecione um tomo abençoado para estudar:" />
+    <string id="str_tor_enchantmentshop_restriction_Armor" text="Aplica-se a armaduras" />
+    <string id="str_tor_enchantmentshop_restriction_Melee" text="Aplica-se a armas corpo a corpo" />
+    <string id="str_tor_enchantmentshop_restriction_Weapon" text="Aplica-se a qualquer arma" />
+    <string id="str_tor_enchantmentshop_restriction_Shield" text="Aplica-se a escudos" />
+    <string id="str_tor_enchantmentshop_restriction_Ammo" text="Aplica-se a munições" />
+    <string id="str_tor_enchantmentshop_restriction_Ranged" text="Aplica-se a armas de longo alcance" />
+    <string id="str_tor_enchantmentshop_restriction_Thrown" text="Aplica-se a armas de arremesso" />
+    <string id="str_tor_enchanting_title_text" text="Encantamento" />
+    <string id="str_tor_enchanting_no_blueprints_text" text="Você não conhece nenhum projeto de encantamento." />
+    <string id="str_tor_enchanting_no_traits_selected_text" text="Nenhum traço selecionado." />
+    <string id="str_tor_enchanting_missing_ingredients_text" text="Ingredientes faltando." />
+    <string id="str_tor_enchanting_enter_name_text" text="Insira o nome para o seu item encantado" />
+    <string id="str_tor_enchanting_failed_text" text="Falha no encantamento." />
+    <string id="str_tor_enchanting_success_text" text="Encantamento bem-sucedido. O item foi adicionado ao inventário." />
+    <string id="str_tor_learned_enchantment_text" text="{HERO_NAME} aprendeu o encantamento {ENCHANTMENT_NAME}" />
+    <string id="str_tor_enchant_prompt_donate_items_title" text="Doar itens" />
+    <string id="str_tor_enchant_prompt_donate_items_text" text="Selecione os itens que deseja doar. Você obterá {CUSTOMRESOURCE_ICON} com esta ação." />
+
+    <!-- Diálogos de Encantadores por Cultura -->
+    <string id="str_tor_enchanter_dialog_start_quit_empire" text="Você não serve ao Império. Vá embora." />
+    <string id="str_tor_enchanter_dialog_start_1_empire" text="Saudações, aqueles leais ao Império são sempre bem-vindos aqui." />
+    <string id="str_tor_enchanter_dialog_start_2_empire" text="Ah, um colega praticante! Você é muito bem-vindo, há muito o que podemos discutir como colegas." />
+    <string id="str_tor_enchanter_hub_intro_empire" text="Então, a que devo esta visita?" />
+    <string id="str_tor_enchanter_hub_reintro_empire" text="O que mais você precisa?" />
+    <string id="str_tor_enchanter_hub_info_p_empire" text="Pode me ensinar os fundamentos da alquimia?" />
+    <string id="str_tor_enchanter_hub_blueprints_p_empire" text="Gostaria de aprender novas fórmulas alquímicas." />
+    <string id="str_tor_enchanter_hub_donate_items_p_empire" text="Tenho itens mágicos que não preciso mais, pode dar um bom uso a eles?" />
+    <string id="str_tor_enchanter_hub_open_enchanter_p_empire" text="Posso usar seu laboratório?" />
+    <string id="str_tor_enchanter_hub_return_p_empire" text="Preciso ir, adeus." />
+    <string id="str_tor_enchanter_blueprints_empire" text="Vamos examinar a coleção imperial de pergaminhos e tomos." />
+    <string id="str_tor_enchanter_blueprints_decline_empire" text="Sinto que você não possui o dom da Visão de Bruxo, e nem seus companheiros. Você deve retornar na companhia de um mago." />
+    <string id="str_tor_enchanter_donate_items_1_empire" text="Estou interessado nos itens mágicos que você encontrar em suas jornadas. O que você tem a oferecer?" />
+    <string id="str_tor_enchanter_donate_items_1_negative_empire" text="Você não tem nada de interessante para mim. Não desejo ver seus itens encantados, mas sim estudar os artefatos deste mundo." />
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_empire" text="Naturalmente. Posso explicar com pouca dificuldade, o fardo da compreensão cabe a você. Estude este tomo." />
+
+    <!-- Bretônia e Vampiros -->
+    <string id="str_tor_enchanter_start_p_vlandia" text="Minha senhora, podemos discutir os mistérios do Graal?" />
+    <string id="str_tor_enchanter_dialog_start_quit_vlandia" text="Imundície vil, saia da minha vista." />
+    <string id="str_tor_enchanter_hub_info_p_vlandia" text="Minha senhora, desejo saber mais sobre os ensinamentos da Senhora." />
+    <string id="str_tor_enchanter_blueprints_decline_vlandia" text="Não sinto o dom da Senhora em você. Nem em seus companheiros, aliás. Retorne na companhia de uma Donzela do Graal." />
+    <string id="str_tor_enchanter_start_p_khuzait" text="Desejo saber mais sobre itens mágicos e amaldiçoados." />
+    <string id="str_tor_enchanter_dialog_start_quit_khuzait" text="Não te conheço, estranho; melhor ir embora antes que uma grande desgraça caia sobre você." />
+    <string id="str_tor_enchanter_blueprints_decline_khuzait" text="Não sinto nenhuma escuridão em você, nem ela reside em seu bando. Retorne a mim na companhia de um mago." />
+
+    <!-- Anões e Peles-Verdes -->
+    <string id="str_tor_enchanter_start_p_sturgia" text="Desejo saber mais sobre a arte da runaria." />
+    <string id="str_tor_enchanter_dialog_start_quit_sturgia" text="Compartilhar os segredos dos Rhunki envergonharia todo o meu clã, forasteiro. A resposta é nei." />
+    <string id="str_tor_enchanter_blueprints_decline_sturgia" text="Julgando por suas capacidades mentais, você é burro demais para compreender até as runas mais básicas. Retorne na companhia de um Ferreiro de Runas." />
+    <string id="str_tor_enchanter_start_p_aserai" text="Eu quero sabê dessas coisa especial." />
+    <string id="str_tor_enchanter_dialog_start_quit_aserai" text="Cai fora! Ou eu te transformo num squig!" />
+    <string id="str_tor_enchanter_blueprints_aserai" text="Enfia a cabeça na fumaça, dá uma respirada." />
+    <string id="str_tor_enchanter_blueprints_decline_aserai" text="Não tem nenhum Xamã com você, cai fora daqui." />
+
+    <!-- Elfos -->
+    <string id="str_tor_enchanter_start_p_battania" text="Desejo estudar os artefatos da floresta." />
+    <string id="str_tor_enchanter_dialog_start_quit_battania" text="Você invade solo sagrado, saia antes que minha paciência chegue ao fim." />
+    <string id="str_tor_enchanter_blueprints_decline_battania" text="Não sinto dom para magia em você ou seus companheiros. Retorne na companhia de um Cantor de Feitiços." />
+    <string id="str_tor_enchanter_start_p_eonir" text="Pode me contar mais sobre encantamentos?" />
+    <string id="str_tor_enchanter_dialog_start_quit_eonir" text="Você não é um de nós. Saia antes que eu chame os guardas." />
+
+    <!-- S04 - Guildas Dawi e Quest de Engenharia -->
+    <string id="str_tor_dw_guildmaster_reject_non_dwarf" text="Você não pertence aqui. Vá embora." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_learn_rune_magic_p" text="I wish to learn more of Rune Magic and the Anvils of Doom." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_1_p" text="Rhunrik, desejo provar meu valor aos Burudin e elevar minha posição na guilda." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_2_p" text="Rhunrik, desejo elevar ainda mais minha posição na guilda." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_buy_equipment_p" text="Posso encomendar equipamentos produzidos por sua Guilda?" />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_deliver_steel_p" text="Aceitaria estes metais valiosos?" />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_quit_p" text="Isso é tudo." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_0" text="Tal respeito não é dado facilmente; prove seu valor sob o olhar severo de Grungni e veremos se você é digno." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career" text="Pela barba de Grungni! Faz muito tempo desde que vi alguém com tal potencial." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_2" text="Em nome dos Burudin, eu declaro você parte dos Rhunki. Tenha orgulho de suas conquistas, rapaz. Embora eu tema que as celebrações precisem ser adiadas, pois tempos desesperados exigem medidas desesperadas. E nuvens negras pairam sobre Karaz Ankor." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_3" text="Estou vinculado ao Grongaz, mas você pode viajar e lutar como quiser. Você provou ser digno, e é por isso que compartilho com você minha Bigorna do Destino. Mas saiba disso: existem juramentos de segredo sobre ela; não se pode simplesmente abandonar a Bigorna. Proteja-a com sua vida." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_4" text="Você pode usá-la em batalha como achar melhor e liberar as runas antigas inscritas em sua superfície, mas tenha cuidado, suas runas são poderosas e apenas os Rhunki mais habilidosos podem esperar despertá-las. A combinação mais direta é a Runa de Lar e Lareira. Nunca esqueça a onde pertence e de onde veio." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord_0" text="Você está se precipitando, Rhunki. Não faz muito tempo estávamos discutindo os fundamentos, e agora você acha que merece o título de Senhor das Runas? Viaje por Karaz Ankor, ajude nossa gente necessitada. Prove ser digno desta grande honra." />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord" text="Desde os tempos de Thorek ou até mesmo Kragg, nenhum Rhunki exibiu tal habilidade nas artes das runas!" />
+    <string id="str_tor_dw_guildmaster_rune_smith_hub_rune_lord_career_runelord2" text="Como Thungni é minha testemunha, de agora em diante você será conhecido como um Rhunriki; que você caminhe com orgulho entre as fornalhas de nossos Ancestrais. Agora, vamos discutir os segredos da Terceira Runa…" />
+    <string id="str_tor_dw_guildmaster_rune_smith_buy_equipment" text="Dê uma olhada." />
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel" text="Estes são sempre bem-vindos, o que você deseja doar?" />
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel_accept_p" text="Dê uma olhada." />
+    <string id="str_tor_dw_guildmaster_rune_smith_deliver_steel_decline_p" text="Isso é tudo." />
+    <string id="str_tor_dw_guildmaster_1_start_runesmith" text="Um rosto desconhecido. O que você quer com nossos Rhunki?" />
+    <string id="str_tor_dw_guildmaster_2_start_runesmith" text="Um companheiro Dawi! Bem-vindo ao Grongaz." />
+    <string id="str_tor_dw_guildmaster_3_start_runesmith" text="{PLAYER_CLAN}, Dawongr! Você tem negócios com os Rhunki?" />
+    <string id="str_tor_dw_guildmaster_4_start_runesmith" text="Membro de confiança do {PLAYER_CLAN}! Saiba que a Guilda considera nossa parceria uma grande honra!" />
+    <string id="str_tor_dw_guildmaster_reintro_runesmith" text="Você precisa de mais alguma coisa?" />
+    <string id="str_tor_dw_guildmaster_1_start_miner" text="Saudações, estranho. O que você quer com nossos Boki?" />
+    <string id="str_tor_dw_guildmaster_2_start_miner" text="Um companheiro Dawi! Bem-vindo à Guilda dos Mineradores." />
+    <string id="str_tor_dw_guildmaster_3_start_miner" text="{PLAYER_CLAN}, Dawongr! Você tem negócios com a Guilda dos Mineradores?" />
+    <string id="str_tor_dw_guildmaster_4_start_miner" text="Membro de confiança do {Player_Clan}! Saiba que os Boki consideram nossa parceria uma honra!" />
+    <string id="str_tor_dw_guildmaster_1_start_engineer" text="Um rosto desconhecido. O que você quer com nossos Endrinkuli?" />
+    <string id="str_tor_dw_guildmaster_2_start_engineer" text="Um companheiro Dawi! Bem-vindo à Guilda dos Engenheiros." />
+    <string id="str_tor_dw_guildmaster_3_start_engineer" text="{PLAYER_CLAN}, Dawongr! Você tem negócios com a Guilda dos Engenheiros?" />
+    <string id="str_tor_dw_guildmaster_4_start_engineer" text="Membro de confiança do {Player_Clan}! Saiba que os Endrinkuli consideram nossa parceria uma honra!" />
+    <string id="str_tor_dw_guildmaster_1_start_brewer" text="Saudações, velho amigo… ou… não nos conhecemos ainda, conhecemos? Salve, estranho." />
+    <string id="str_tor_dw_guildmaster_2_start_brewer" text="Dawi! Bem-vindo à… à… Valdahaz!" />
+    <string id="str_tor_dw_guildmaster_3_start_brewer" text="{PLAYER_CLAN}, Dawongr! Você tem negócios comigo e com nossa Guilda? Entre!" />
+    <string id="str_tor_dw_guildmaster_4_start_brewer" text="Amigo?… MEU AMIGO! Meu camarada de bebida de confiança! O que podemos fazer por você!?" />
+    <string id="str_tor_dw_guildmaster_1_start_warrior" text="Um rosto desconhecido. O que você quer com nossos barbas-longas?" />
+    <string id="str_tor_dw_guildmaster_2_start_warrior" text="Companheiro Dawi! Bem-vindo à Guilda dos Guerreiros." />
+    <string id="str_tor_dw_guildmaster_info_p_runesmith" text="O que os Rhunki fornecem?" />
+    <string id="str_tor_dw_guildmaster_unlock_info_runesmith" text="A nossa é a mais antiga, rica e poderosa das guildas. Fundada no tempo em que os Deuses Ancestrais ainda caminhavam entre nós. Suprimos os Dawi dignos com armaduras que podem desviar golpes de gigantes e armas que podem abater dragões com um único golpe." />
+    <string id="str_tor_dw_guildmaster_unlock_info_2_runesmith" text="Em tempos de guerra, e somente quando surge a necessidade, enviamos as Bigornas do Destino, capazes de devastar exércitos inteiros. Com nossas conexões, também podemos reduzir os custos de tropas equipadas com Gromril, como os Quebra-ferros ou Marteladores." />
+    <string id="str_tor_dw_guildmaster_info_p_miner" text="Pode explicar os deveres da Guilda dos Mineradores?" />
+    <string id="str_tor_dw_guildmaster_unlock_info_miner" text="A nossa é uma das maiores e mais veneradas de todas as Guildas. Fundada pelo próprio Grungni, a Guilda dos Mineradores garante que onde houver um veio de ouro ou ferro, haverá Dawi para minerá-lo." />
+    <string id="str_tor_dw_guildmaster_unlock_info_2_miner" text="Além disso, podemos impulsionar o processamento de minérios e metais de seu Grung, bem como entregar carvão, joias e ferro a cada duas semanas aproximadamente. Nossos membros mais confiáveis também podem financiar expedições subterrâneas. Quem sabe que tesouros há muito perdidos jazem escondidos nas profundezas…" />
+    <string id="str_tor_dw_guildmaster_info_p_brewer" text="Quais são os deveres da Guilda dos Cervejeiros?" />
+    <string id="str_tor_dw_guildmaster_unlock_info_brewer" text="O que você acha que fazemos? Tricotamos roupas e colhemos flores bonitas? Nós fazemos a maldita Gorog! Somos a guilda mais importante de todas; não existe Rhunrik ou Endrinkuli ou até mesmo um governante sangrento que não tenha álcool no corpo que não tenha sido fabricado pelos nossos Dawi." />
+    <string id="str_tor_dw_guildmaster_unlock_info_2_brewer" text="Também podemos ajudar com suprimentos para o exército. E nossos laços com os Patrulheiros permitem que certos exércitos empreguem melhores batedores. Embora nossa especialidade resida em impulsionar a economia das Fortalezas Dawi e garantir que todos permaneçam leais e nunca resmunguem por falta de cerveja." />
+    <string id="str_tor_dw_guildmaster_info_p_engineer" text="Quais são os deveres de seus engenheiros?" />
+    <string id="str_tor_dw_guildmaster_unlock_info_engineer" text="Somos uma das Guildas mais importantes e poderosas que existem. Nossos engenheiros constroem e mantêm não apenas nossas grandes Fortalezas, mas também as várias máquinas de guerra de Karaz Ankor." />
+    <string id="str_tor_dw_guildmaster_unlock_info_2_engineer" text="Além disso, ajudamos a reduzir os custos de manutenção de unidades de pólvora negra. A Guilda também fornece acesso a armamentos e artilharia protótipos testados e comprovados a vários clãs Dawi, mas observe que exigimos que você se prove primeiro." />
+    <string id="str_tor_dw_guildmaster_info_p_warrior" text="Quais são os deveres dos guerreiros dentro de sua Guilda?" />
+    <string id="str_tor_dw_guildmaster_unlock_info_warrior" text="Somos a maior das guildas; qualquer Dawi que valha seu peso em ouro, seja minerador ou batedor, passou por algum tipo de treinamento de guerreiro. Se um guerreiro se sai excepcionalmente bem, ele pode subir para se tornar um Angthragor ou até mesmo um Martelador." />
+    <string id="str_tor_dw_guildmaster_unlock_info_2_warrior" text="Além disso, podemos ajudar a reduzir os custos de melhoria de Guerreiros, Barbas-Longas e Matadores. Nossas conexões também ajudam você a ganhar mais Ouro do Juramento em batalhas e torneios. Por fim, somos encarregados de fornecer Dawi extras para ajudar a patrulhar Karaz Ankor." />
+    <string id="str_tor_dw_guildmaster_oath_gold_accept_p_runesmith" text="Desejo doar Ouro do Juramento." />
+    <string id="str_tor_dw_guildmaster_oath_gold_decline_p_runesmith" text="Perdoe-me, mudei de ideia." />
+    <string id="str_tor_dw_guildmaster_oath_gold_end_runesmith" text="Obrigado por sua contribuição." />
+    <string id="str_tor_dw_guildmaster_expedition_launch_expedition" text="Aye, com financiamento suficiente podemos enviar equipes para recuperar tesouros dos túneis mais profundos dos Caminhos Subterrâneos." />
+    <string id="str_tor_dw_guildmaster_gemcutter_launch_expedition_accept_p" text="Deixe-me financiar uma expedição." />
+    <string id="str_tor_dw_guildmaster_gemcutter_launch_expedition_end" text="Muito bem, nossos melhores exploradores e mineradores partirão após reunirem suprimentos." />
+    <string id="str_tor_dw_brewer_recruit_rangers_offer_text" text="Aye, temos alguns patrulheiros habilidosos famintos para servir. Custará {RANGER_GOLD_PRICE}{GOLD_ICON} e {RANGER_OATHGOLD_PRICE} Ouro do Juramento." />
+
+    <!-- Quest do Engenheiro de Nuln -->
+    <string id="str_tor_engineer_quest_rogue_engineer_first_time" text="Você tem a aparência de alguém que nunca viu um grão de pólvora negra ou graxa. Está no lugar certo?" />
+    <string id="str_tor_engineer_quest_cultist_briefing_1" text="Normalmente não recorremos a ajuda externa, mas estamos com pouco pessoal. Tivemos alguns componentes importantes roubados das fornalhas de Nuln, e eles devem ser devolvidos. Imediatamente. Se você puder rastrear esses fugitivos e encontrar as peças, poderemos conversar mais." />
+    <string id="str_tor_engineer_quest_rogue_engineer_briefing_player_accept_1" text="Se esta é a única maneira de me permitir acesso às fornalhas, que assim seja. Trarei a cabeça dele para você." />
+    <string id="str_tor_engineer_quest_hire_engineers" text="Um par de nossos engenheiros novatos está ansioso para se juntar a você pelo preço certo ({RECRUITMENT_PRICE})." />
+    <string id="str_tor_engineer_quest_cannons_limit_instruction_1" text="A quantidade de canhões que você pode ter no exército aumenta a cada 50 níveis na perícia de Engenharia." />
+    <string id="str_tor_engineer_quest_cannons_use_0" text="Canhões são posicionados usando o modo de Conjuração, mas para dispará-los você precisará contratar pelo menos dois tripulantes de canhão." />
+
+    <!-- Tooltips Gerais -->
+    <string id="str_tor_party_size_desc_friendofundead" text="Amigo dos mortos-vivos" />
+    <string id="str_tor_party_size_desc_caravanofdeath" text="Caravana da morte" />
+    <string id="str_tor_party_size_desc_vampirelord" text="Senhor Vampiro" />
+    <string id="str_tor_party_size_desc_greenskins" text="Peles-verdes" />
+    <string id="str_tor_party_size_desc_dwarfpenalty" text="Penalidade cultural de Anão" />
+    <string id="str_tor_party_size_desc_woodelfpenalty" text="Penalidade cultural de Elfo Silvano" />
+
   </strings>
 </base>

@@ -4,6 +4,11 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 
 ---
 
+> [!IMPORTANT]
+> **AUDITORIA DE PROGRESSO (14/04/2026 — atualizado 16:40):** Sessão focada em `tor_itemtraits.xml`. Blocos T01–T12 traduzidos e integrados ao arquivo local (linhas 1–2001). O arquivo local está XML válido com tag `</ItemTraits>` de fechamento. Próximo passo: retomar em T13 (linha 2001 da Steam = Livros de Arma + Blueprints de Encantamento do Império).
+
+---
+
 ## CONTEXTO DO PROJETO
 
 - **Mod:** The Old Realms (TOR) para Mount & Blade II: Bannerlord
@@ -194,10 +199,10 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Fonte:** `ModuleData/tor_strings.xml` | 6.257 linhas
 **Saída:** `ModuleData/Languages/BR/tor_strings_ptbr.xml` (criar com S01, acumular nos seguintes)
 
-- [x] S01 — linhas 1–265 *(UI, Skills, Skill Effects, Traits, Perks, Ability System, SpellBook/PrayerBook UI, notificações, mensagens de combate)*
-- [x] S02 — linhas 266–550 *(Quests: Specialize Lore / Engineer / Cultists / Plagued Village; Generic Text; Game Mechanics; Greenskin Mechanics; Stats Bonuses; CC Options; Priest Blessings; Skill Training; Magical Items)*
-- [ ] S03 — linhas 551–817 *(Sistema de Encantamento: UI geral, títulos, descrições, restrições, diálogos por cultura: Império, Bretônia, Sylvania, Mousillon, Anões, Peles-verdes, Elfos da Floresta, Eonir)*
-- [ ] S04 — linhas 817–1136 *(Oath Gold, Rune Lord Guild, Guild info, Expedições, Cervejeiro, Warrior Guild, Engineer Guild, Tooltips)*
+- [x] S01 — linhas 1–265 -> **CONCLUÍDO**
+- [x] S02 — linhas 266–550 -> **CONCLUÍDO**
+- [x] S03 — linhas 551–817 (Encantamentos) -> **CONCLUÍDO**
+- [x] S04 — linhas 817–1136 (Guildas Dawi, Ouro do Juramento, Quest de Engenharia) -> **CONCLUÍDO**
 - [ ] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**
 - [ ] S06 — linhas 1500–1944 *(Diálogos de Cultura — continuação)*
 - [ ] S07 — linhas 1945–2215 *(Skills/Crafting/Inventário/Party Screen, Assentamentos Customizados, Village Types, Wanderer Stories)*
@@ -209,10 +214,10 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [ ] S13 — linhas 3693–4053 *(Descrições de Carreira: Mercenary, Necromancer, Vampire Count, Blood Knight, Necrarch, Grail Knight, Grail Damsel, Black Grail Knight)*
 - [ ] S14 — linhas 4053–4534 *(Descrições de Carreira: Waywatcher, Spellsinger, Warden, Grey Lord, Ironbreaker, Slayer, Runelord, Orc Boss, Orc Shaman)*
 - [ ] S15 — linhas 4534–4998 *(Desbloqueios de Carreira, Recompensas, Purity Seal, Spell Damage Display, Damage Types, Career Perks, Recursos Customizados, Chivalry, Oath Gold, Forest Harmony)*
-- [ ] S16 — linhas 4998–5395 *(Textos Ink/Eventos: Meadow, Battlefield, Cabin, Fair, Duel; Sistema Hireling/Mercenário)*
-- [ ] S17 — linhas 5395–5625 *(Prestígio Nobre, Projetos de Construção/Políticos, Mecânicas Peles-verdes: Brawl, Goblin Recruitment, Bullying, Duel System, Blood Keep)*
-- [ ] S18 — linhas 5625–5865 *(Quests: Orc Boss 1&2, Orc Shaman 1&2, Runesmith, Runelord, Engineer; Menus: Cursed Sites, Shrines, Oak of Ages, Chaos Portal, Troll Cave; Blood Kiss / Blood Dragon / Necrarch / Black Grail; Spell Trainer Dialogs)*
-- [ ] S19 — linhas 5865–6257 *(Powerstones Lesser/Greater/Mighty, Unit Rune Texts, Career Choices, Attributes, Encyclopedia, Character Creation, Quartermaster, Skill Trainer, Priest Dialog, Artisan District, Hireling, Blood Kiss, Eonir Envoy Dialogs, Engineer Quest, Spelltrainer, Graveyard, Diplomacy)*
+- [x] S16 — linhas 4998–5395 (Eventos Narrativos: Battlefield, Cabin, Fair, Duel, Overturned Cart; Sistema Hireling) -> **100%**
+- [x] S17 — linhas 5395–5625 (Prestige Noble, Construções, Mecânicas Peles-verdes, Blood Keep) -> **100%**
+- [x] S18 — linhas 5625–5865 (Diálogos de Blood Kiss, Spell Trainers, Quests de Classe) -> **100%**
+- [x] S19 — linhas 5865–6257 (Powerstones, Runas de Unidade, Enciclopédia, Personagem, Diplomacia) -> **100%**
 
 ---
 
@@ -222,8 +227,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_specialization_options.xml` | 410 linhas
 **Editar diretamente:** `<Name>`, `<Description>`, `<PositiveEffect>`, `<NegativeEffect>`
 
-- [ ] E01 — linhas 1–210 *(Escolas de Magia: Ghyran/Vida, Aqshy/Fogo, Shyish/Morte, Chamon/Metal, Hysh/Luz, Azyr/Céus, Ghur/Feras, Ulgu/Sombras)*
-- [ ] E02 — linhas 211–410 *(Especializações: Vampiros, Sacerdotes, Cavaleiros e demais)*
+- [x] E01 — linhas 1–210 (Escolas de Magia — Ventos de Ghyran, Aqshy, Shyish, Hysh, Azyr, Ghur, Chamon; Linhagens de Vampiros) -> **CONCLUÍDO**
+- [x] E02 — linhas 211–410 (Vampiros de Mousillon; Sacerdotes Guerreiros; Ordens de Cavalaria) -> **CONCLUÍDO**
 
 ---
 
@@ -242,18 +247,25 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_itemtraits.xml` | 4.672 linhas
 **Editar diretamente:** `<ItemTraitName>` e `<ItemTraitDescription>`
 
-- [ ] T01 — linhas 1–400
-- [ ] T02 — linhas 401–800
-- [ ] T03 — linhas 801–1200
-- [ ] T04 — linhas 1201–1600
-- [ ] T05 — linhas 1601–2000
-- [ ] T06 — linhas 2001–2400
-- [ ] T07 — linhas 2401–2800
-- [ ] T08 — linhas 2801–3200
-- [ ] T09 — linhas 3201–3600
-- [ ] T10 — linhas 3601–4000
-- [ ] T11 — linhas 4001–4400
-- [ ] T12 — linhas 4401–4672
+- [x] T01 - Traços Gerais (Linhas 1-100)
+- [x] T02 - Traços de Combate I (Linhas 101-200)
+- [x] T03 - Traços de Combate II (Linhas 201-300)
+- [x] T04 - Encantamentos Hysh (Linhas 301-443)
+- [x] T05 - Encantamentos Ghyran/Aqshy (Linhas 444-600)
+- [x] T06 - Encantamentos Chamon/Azyr (Linhas 601-720)
+- [x] T07 - Encantamentos Shyish/Sigmar (Linhas 721-801)
+- [x] T08 - Bênçãos de Ulric/Shallya (Linhas 802-963)
+- [x] T09 - Bênçãos da Bretônia (Linhas 964-1039)
+- [x] T10 - Encantamentos de Vampiros (Linhas 1040-1200)
+- [x] T11 - Elfos Silvestres, Altos Elfos e Peles-verdes (Linhas 1201-1600)
+- [x] T12 - Runas Anãs e Livros de Skill (Linhas 1601-2000)
+- [ ] T13 - Bloco 13 de Traços (Linhas 2001-2400)
+- [ ] T14 - Bloco 14 de Traços (Linhas 2401-2800)
+- [ ] T15 - Bloco 15 de Traços (Linhas 2801-3200)
+- [ ] T16 - Bloco 16 de Traços (Linhas 3201-3600)
+- [ ] T17 - Bloco 17 de Traços (Linhas 3601-4000)
+- [ ] T18 - Bloco 18 de Traços (Linhas 4001-4400)
+- [ ] T19 - Bloco 19 de Traços (Linhas 4401-4672)
 
 ---
 
@@ -263,32 +275,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Cada arquivo = uma chamada.**
 **Não traduzir:** `include.ink` (funções técnicas) e `Template.ink` (template vazio).
 
-- [ ] Battlefield.ink
-- [ ] BlessingsOfMen.ink
-- [ ] CabinInTheWoodsLocked.ink
-- [ ] CampFireLearning.ink
-- [ ] CultistInOurMidst.ink
-- [ ] DawiAndRuneMagic.ink
-- [ ] Duel.ink
-- [ ] EnchantingAndArtifacts.ink
-- [ ] Fair.ink
-- [ ] FozzriksFortress.ink
-- [ ] Meadow.ink
-- [ ] Minstrel.ink
-- [ ] Miracle.ink
-- [ ] MorrsliebWaxes.ink
-- [ ] NurgleCultists.ink
-- [ ] OrcBossQuest1.ink
-- [ ] OrcBossQuest2.ink
-- [ ] OrcEnchantmentStone.ink
-- [ ] OrcShamanPrayerPrompt.ink
-- [ ] OrcShamanQuest1InitialVision.ink
-- [ ] OrcShamanQuest2InitialVision.ink
-- [ ] OverturnedCart.ink
-- [ ] Pond.ink
-- [ ] ProtectOurDead.ink
-- [ ] TheHangedMen.ink
-- [ ] TravelingMerchant.ink
+> **Nota Técnica:** Os eventos abaixo, originalmente listados como arquivos `.ink`, foram integrados ao `tor_strings.xml` (Blocos S16-S18). Traduzir via sistema GameText.
+> Battlefield, BlessingsOfMen, CabinInTheWoodsLocked, CampFireLearning, CultistInOurMidst, DawiAndRuneMagic, Duel, EnchantingAndArtifacts, Fair, FozzriksFortress, Meadow, Minstrel, Miracle, MorrsliebWaxes, NurgleCultists, OrcBossQuest1, OrcBossQuest2, OrcEnchantmentStone, OrcShamanPrayerPrompt, OrcShamanQuest1InitialVision, OrcShamanQuest2InitialVision, OverturnedCart, Pond, ProtectOurDead, TheHangedMen, TravelingMerchant.
 
 ---
 
