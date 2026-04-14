@@ -10,38 +10,38 @@
 //Scenarios notes
     //Rarity: COMMON
     //Repeatable: YES
-    
+
     //Triggers:
         //While traveling on the campaign map
-    
+
     //Scenario Explanation (explain the main scenario and any major variations that you are planning to build in. If a variation is different enough consider making it its own file.)
-    
+
         //Main: You are around a campfire and can listen to a story to gain xp or tell your men to rest.
 
         //Alt: You can get ambushed
-        
+
     //Future Options/Additions
         //More possible variants in groupings
         //Magic and Faith XP options when proper restictions are in place
-        
+
 //Data Import/Export Section
     //Make sure you include this in all ink files to get access to integration functions
         INCLUDE include.ink
-        
+
     //List of Data Being Imported (use this to help keep track of what data you are importing; will help with troubleshooting and testing.)
-    
+
         //
-        
+
     //Data Exported (use this to help keep track of what data you are exporting; will help with troubleshooting and testing.)
-        
+
         //Skill XP
-        
+
 //Variables setup
     //IMPORTANT! Initial values are mandatory, but they can only be primitives (number, string, boolean). If we want to assign the return value of a function to the variable, we must do it on a separate line, see one line below
 
     //Seed
         //~ SEED_RANDOM(100) //Uncomment to lock an RNG testing seed for the randomness. Change number inside () for different seed
-        
+
     //Learning sets (The groupings of exp by campfire story category)
         //Each option gives 3000 Xp total. So if a story has 2 skills attached they each get 1500 Xp. For 3 it is 1000 for each.
         //Grouping 1: War stories
@@ -57,13 +57,13 @@
             //3. Negotiation (Charm, Trade, Roguery)
             //4. Traveling (Riding and Athletics)
             //5. Survival (Medicine, Scouting, Athletics)
-            
+
     //Random Selections
         //Melee Weapon
             VAR MeleeWeaponRandom = 0
                 ~ MeleeWeaponRandom = RANDOM(1,3)
             VAR MeleeWeaponText = ""
-                
+
                 {MeleeWeaponRandom:
                     -1:
                         ~ MeleeWeaponText = "One Handed"
@@ -72,13 +72,13 @@
                     -3:
                         ~ MeleeWeaponText = "Polearm"
                 }
-                
+
 
         //Ranged
             VAR RangedWeaponRandom = 0
                 ~ RangedWeaponRandom = RANDOM(1,4)
             VAR RangedWeaponText = ""
-                
+
                 {RangedWeaponRandom:
                     -1:
                         ~ RangedWeaponText = "Bow"
@@ -89,15 +89,15 @@
                     -4:
                         ~ RangedWeaponText = "Gunpowder"
                 }
-    
+
     //Group 1
         VAR StoryName = ""
         VAR StoryBranch = ""
         VAR StoryXpText = ""
-        
+
         VAR StorySelect = 0
             ~ StorySelect = RANDOM(1,6)
-            
+
             {StorySelect:
                 -0: ERROR
                 -1:
@@ -125,15 +125,15 @@
                     ~ StoryBranch = ->TheShootout
                     ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
             }
-    
+
     //Group 2
         VAR DiscussionName = ""
         VAR DiscussionBranch = ""
         VAR DiscussionXpText = ""
-        
+
         VAR DiscussionSelect = 0
             ~ DiscussionSelect = RANDOM(1,5)
-            
+
             {DiscussionSelect:
                 -0: ERROR
                 -1:
@@ -157,10 +157,10 @@
                     ~ DiscussionBranch = ->Survival
                     ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
             }
-            
-            
-            
-        
+
+
+
+
 //Variable Check (Use for sanity check. Uncomment variables to see what they are)
 //{GiveSkillExperience("Throwing", 1000)}
 
@@ -168,31 +168,31 @@
 
 ===Start===
 
-As it gets dark you and your men setup camp. As the night goes on you can see that your men have broken off into two groups. One seems to be telling war stories, while the other is just talking. #STR_Start1
+Com o anoitecer, você e seus homens armam o acampamento. Conforme a noite avança, percebe que seus homens se dividiram em dois grupos. Um parece estar contando histórias de guerra, enquanto o outro apenas conversa. #STR_Start1
 -> choice1
 
     =choice1
-        What will you do? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
-            *[Listen in on the story of {StoryName} {StoryXpText}]
+        O que você fará? //{MeleeWeaponRandom} {RangedWeaponRandom} //Uncomment for bug testing
+            *[Ouvir a história de {StoryName} {StoryXpText}]
                 ->StoryBranch
-            *[Join in the discussion of {DiscussionName} {DiscussionXpText}]
+            *[Participar da discussão sobre {DiscussionName} {DiscussionXpText}]
                 ->DiscussionBranch
-            *[Tell your men to get some rest (All companions healed and all wounded troops restored)]
-                You tell your men to head to bed early and get all the rest they can.
+            *[Mandar seus homens descansar (Todos os companheiros curados e todas as tropas feridas restauradas)]
+                Você manda seus homens dormir cedo e descansar o quanto puderem.
                 ~ HealPartyToFull()
                 ->END
 
 ===TheHunt===
-    Amidst the crackling of the campfire, a grizzled soldier's voice carried a tale of stealth and pursuit. The flickering flames seemed to mirror the anticipation in the eyes of his companions as they leaned in to listen. #STR_TheHunt1
+    Meio ao crepitar da fogueira, a voz de um soldado grisalho narrava uma história de furtividade e perseguição. As chamas tremeluzentes pareciam espelhar a expectativa nos olhos de seus companheiros enquanto se inclinavam para ouvir. #STR_TheHunt1
 
-"Listen up, lads and lasses," the soldier began, "let me regale you with the tale of our last hunt. It was a moonless night, our steps guided by shadows and the rustling leaves. Our scouts moved through the underbrush, eyes sharp and senses alert as we sensed a minotaur..." #STR_TheHunt2
+"Prestem atenção, rapazes e moças," o soldado começou, "deixem-me narrar a história de nossa última caça. Era uma noite sem lua, nossos passos guiados pelas sombras e pelo farfalhar das folhas. Nossos batedores avançavam entre a vegetação rasteira, olhos atentos e sentidos alerta enquanto pressentíamos um minotauro..." #STR_TheHunt2
 
-As the story unfolded, the soldiers felt themselves drawn into the narrative, experiencing the thrill of the chase and the tension that hung in the air. The storyteller's words painted a vivid picture of cunning and strategy, and by the time the tale concluded, the soldiers had a newfound appreciation for scouting and the art of the hunt. #STR_TheHunt3
-    
+À medida que a história se desenrolava, os soldados sentiam-se atraídos pela narrativa, vivenciando a emoção da perseguição e a tensão que pairava no ar. As palavras do narrador pintavam um quadro vívido de astúcia e estratégia, e quando a história chegou ao fim, os soldados tinham uma nova admiração pela exploração e pela arte da caça. #STR_TheHunt3
+
     //Give Xp
         ~ GiveSkillExperience("Scouting",1000)
         ~ GiveSkillExperience("Tactics",1000)
-        
+
         {RangedWeaponRandom:
                     -1:
                         ~ GiveSkillExperience("Bow" ,1000)
@@ -206,12 +206,12 @@ As the story unfolded, the soldiers felt themselves drawn into the narrative, ex
     -> END
 
 ===TheAmbush===
-    Amid the crackling embers, a soldier's voice rose with a mischievous glint in his eye. The campfire's warm glow illuminated the eager faces of his comrades as they settled in for the story. #STR_TheAmbush1
+    Entre as brasas crepitantes, a voz de um soldado ecoou com um brilho malicioso nos olhos. O brilho aconchegante da fogueira iluminava os rostos ansiosos de seus camaradas enquanto se acomodavam para ouvir a história. #STR_TheAmbush1
 
-"Gather 'round, men," the soldier said with a grin, "and let me tell you about the ambush we survived. Picture this—a Mannslieblit night, the enemy beastmen advancing unaware. Our plan was cunning, our movements swift. We struck with surprise and ferocity, turning the tide in our favor..." #STR_TheAmbush2
+"Aproximem-se, homens," disse o soldado com um sorriso, "e deixem-me contar sobre a emboscada que sobrevivemos. Imaginem — uma noite iluminada pela Mannslieb, as bestas-homens inimigas avançando sem perceber. Nosso plano era astuto, nossos movimentos rápidos. Atacamos com surpresa e ferocidade, virando a maré a nosso favor..." #STR_TheAmbush2
 
-The soldiers were transported to a scene of calculated cunning and swift execution. Laughter and nods of approval followed the tale's conclusion, leaving the soldiers with a deeper understanding of tactics and the power of a well-executed ambush. #STR_TheAmbush3
-    
+Os soldados foram transportados para uma cena de astúcia calculada e execução veloz. Risos e acenos de aprovação seguiram a conclusão da história, deixando os soldados com uma compreensão mais profunda das táticas e do poder de uma emboscada bem executada. #STR_TheAmbush3
+
         //Give Xp
             ~ GiveSkillExperience("Leadership",1000)
             ~ GiveSkillExperience("Tactics",1000)
@@ -219,30 +219,30 @@ The soldiers were transported to a scene of calculated cunning and swift executi
     -> END
 
 ===TheCharge===
-    The fire's warm embrace cast dancing shadows upon the faces of the soldiers gathered around. Their attention was rapt as a battle-hardened warrior's voice filled the air. #STR_Charge1
+    O abraço caloroso do fogo projetava sombras dançantes sobre os rostos dos soldados reunidos ao redor. Sua atenção era absorta enquanto a voz de um guerreiro endurecido pela batalha enchia o ar. #STR_Charge1
 
-"Listen well, my friends," the soldier began, "to the tale of our last battle. It was a day bathed in the glow of a setting sun. Our horses were eager, their hooves pawing at the earth. With a thunderous cry, we charged..." #STR_Charge2
+"Ouçam bem, meus amigos," o soldado começou, "a história de nossa última batalha. Era um dia banhado pelo brilho do sol poente. Nossos cavalos estavam ansiosos, suas ferraduras escavando a terra. Com um grito trovejante, carregamos..." #STR_Charge2
 
-The soldiers could almost feel the rush of wind against their faces and the pounding of hooves beneath them. The story painted a vivid picture of unity and bravery, leaving the soldiers with a deeper understanding of riding, weapon usage, and the power of a well-coordinated charge. #STR_Charge3
-    
+Os soldados quase podiam sentir a rajada de vento em seus rostos e o troar dos cascos sob eles. A história pintou um quadro vívido de unidade e bravura, deixando os soldados com uma compreensão mais profunda da equitação, do uso de armas e do poder de uma carga bem coordenada. #STR_Charge3
+
     //Give Xp
         ~ GiveSkillExperience("Riding",1000)
         ~ GiveSkillExperience("Polearm",1000)
         ~ GiveSkillExperience("Leadership",1000)
-    -> END 
+    -> END
 
 ===HoldingTheLine===
-    Amidst the campfire's gentle crackle, a soldier's voice carried the weight of determination. The glow of the flames seemed to mirror the resolve in the eyes of his companions. #STR_HoldingTheLine1
+    Meio ao suave crepitar da fogueira, a voz de um soldado carregava o peso da determinação. O brilho das chamas parecia espelhar a resolução nos olhos de seus companheiros. #STR_HoldingTheLine1
 
-"Listen closely, my friends," the soldier spoke with unwavering conviction, "to the tale of our last battle. It was a moment of unbreakable unity as we positioned ourselves to hold strong, shields locked in steadfast defense. As the undead army advanced, we stood resolute..." #STR_HoldingTheLine2
+"Ouçam com atenção, meus amigos," o soldado falou com convicção inabalável, "a história de nossa última batalha. Foi um momento de unidade inquebrantável quando nos posicionamos para resistir, escudos travados em firme defesa. Enquanto o exército morto-vivo avançava, mantivemo-nos resolutos..." #STR_HoldingTheLine2
 
-The soldiers felt a sense of solidarity wash over them, as if they were standing side by side with the warriors of the story. The storyteller's words emphasized the importance of leadership and tactics, leaving the soldiers with a deeper appreciation for the art of defense. #STR_HoldingTheLine3
-    
+Os soldados sentiram uma onda de solidariedade tomar conta deles, como se estivessem lado a lado com os guerreiros da história. As palavras do narrador enfatizavam a importância da liderança e das táticas, deixando os soldados com uma maior admiração pela arte da defesa. #STR_HoldingTheLine3
+
     //Give Xp
             ~ GiveSkillExperience("Scouting",1000)
-            
+
             ~ GiveSkillExperience("Tactics",1000)
-            
+
             {MeleeWeaponRandom:
                     -1:
                         ~ GiveSkillExperience("OneHanded",1000)
@@ -254,12 +254,12 @@ The soldiers felt a sense of solidarity wash over them, as if they were standing
     -> END
 
 ===TheBrawl===
-    Around the campfire's flickering light, a soldier's voice carried a tale of camaraderie and friendly competition. Laughter mingled with the crackling of flames as his companions leaned in, eager to hear the story. #STR_TheBrawl1
+    À luz tremeluzente da fogueira, a voz de um soldado narrava uma história de camaradagem e competição amistosa. Risos se misturavam ao crepitar das chamas enquanto seus companheiros se inclinavam, ansiosos para ouvir. #STR_TheBrawl1
 
-"Ah, my comrades," the soldier chuckled, "let me tell you of what occured the last training session! It was a night of merriment turned into spirited contest. We playfully tested our mettle, each strike and parry a dance of skill..." #STR_TheBrawl2
+"Ah, meus camaradas," o soldado riu, "deixem-me contar o que aconteceu no último treinamento! Foi uma noite de alegria que se transformou em disputa animada. Testamos nossa têmpera de brincadeira, cada golpe e aparada uma dança de habilidade..." #STR_TheBrawl2
 
-The soldiers shared knowing glances, their own memories of friendly contests coming to mind. The storyteller's words emphasized the bonds of camaraderie and the lessons of melee combat techniques, leaving the soldiers with a sense of shared experience. #STR_TheBrawl3
-    
+Os soldados trocaram olhares cúmplices, suas próprias memórias de disputas amistosas vindo à mente. As palavras do narrador enfatizavam os laços de camaradagem e as lições das técnicas de combate corpo a corpo, deixando os soldados com um senso de experiência compartilhada. #STR_TheBrawl3
+
     //Give Xp
             ~ GiveSkillExperience("OneHanded",1000)
             ~ GiveSkillExperience("TwoHanded",1000)
@@ -267,12 +267,12 @@ The soldiers shared knowing glances, their own memories of friendly contests com
     -> END
 
 ===TheShootout===
-    Amidst the warm embrace of the campfire, a soldier's voice rose with a sense of anticipation. The flames danced in the eyes of his companions as they settled in to hear the tale. #STR_TheShootout1
+    Envoltos pelo calor aconchegante da fogueira, a voz de um soldado ergueu-se com um senso de expectativa. As chamas dançavam nos olhos de seus companheiros enquanto se acomodavam para ouvir a história. #STR_TheShootout1
 
-"Listen closely, my comrades," the soldier began, "to the tale of our last battle. Imagine a sky heavy with clouds, setting the stage for a display of ranged prowess as my regiment aimed for the approaching beastmen. Bows, crossbows, throwing knives, and gunpowder weapons took center stage..." #STR_TheShootout2
+"Ouçam com atenção, meus camaradas," o soldado começou, "a história de nossa última batalha. Imaginem um céu carregado de nuvens, preparando o cenário para uma demonstração de destreza à distância enquanto meu regimento mirava os bestiais que se aproximavam. Arcos, bestas, facas de arremesso e armas de pólvora ocuparam o centro das atenções..." #STR_TheShootout2
 
-The soldiers exchanged nods, their minds vividly painting scenes of arrows and projectiles soaring through the air. The storyteller's words underscored the intricacies of ranged combat, leaving the soldiers with a deeper understanding of various ranged weapon skills. #STR_TheShootout3
-    
+Os soldados trocaram acenos, suas mentes pintando vividamente cenas de flechas e projéteis cortando o ar. As palavras do narrador ressaltavam as nuances do combate à distância, deixando os soldados com uma compreensão mais profunda das diversas habilidades com armas à distância. #STR_TheShootout3
+
     //Give Xp
             ~ GiveSkillExperience("Bow",750)
             ~ GiveSkillExperience("Crossbow",750)
@@ -281,12 +281,12 @@ The soldiers exchanged nods, their minds vividly painting scenes of arrows and p
     -> END
 
 ===GreatRulers===
-    Amidst the warm glow of the campfire, a group of soldiers engaged in a spirited conversation about the great rulers of the Old World. Their voices carried admiration and respect, their tales interwoven with lessons of leadership and statecraft. #STR_GreatRulers1
+    Banhados pelo brilho aconchegante da fogueira, um grupo de soldados se engajava em uma conversa animada sobre os grandes governantes do Velho Mundo. Suas vozes carregavam admiração e respeito, suas histórias entrelaçadas com lições de liderança e estadismo. #STR_GreatRulers1
 
-One soldier began, his voice laden with reverence, "Let us speak of the legendary rulers who shaped our lands. Last I heard, the great Karl Franz seemed to uphold his reputation well, as it takes a lot to govern..." #STR_GreatRulers2
+Um soldado começou, sua voz carregada de reverência: "Falemos dos lendários governantes que moldaram nossas terras. Da última vez que ouvi, o grande Karl Franz parecia manter bem sua reputação, pois é preciso muito para governar..." #STR_GreatRulers2
 
-As the stories flowed, the soldiers contemplated the qualities that made these rulers exceptional—their mastery of stewardship, the art of leadership, and the charisma that united their subjects. In their minds, the lessons of stewardship, leadership, and charm took root, leaving them with a deeper understanding of the responsibilities that came with power. #STR_GreatRulers3
-    
+À medida que as histórias fluíam, os soldados contemplavam as qualidades que tornavam esses governantes excepcionais — seu domínio da administração, a arte da liderança e o carisma que unia seus súditos. Em suas mentes, as lições de administração, liderança e charme lançavam raízes, deixando-os com uma compreensão mais profunda das responsabilidades que o poder trazia. #STR_GreatRulers3
+
     //Give Xp
             ~ GiveSkillExperience("Steward",1000)
             ~ GiveSkillExperience("Leadership",1000)
@@ -294,24 +294,24 @@ As the stories flowed, the soldiers contemplated the qualities that made these r
     -> END
 
 ===Craftsman===
-    Amidst the camaraderie of the campfire, a group of soldiers exchanged tales of craftsmanship and engineering marvels. Their voices held a sense of awe and admiration as they recounted the feats of master artisans and ingenious engineers.  #STR_Craftsman1
+    Envolvidos pela camaradagem da fogueira, um grupo de soldados trocava histórias de habilidade artesanal e maravilhas da engenharia. Suas vozes carregavam admiração e reverência enquanto narravam os feitos de mestres artesãos e engenheiros engenhosos. #STR_Craftsman1
 
-"Listen closely, comrades," one soldier urged, "Not many know this, but I have had the blessing to learn about engineering from a dwarf. The Dwarfen holds are a testament to the art of smithing..." #STR_Craftsman2
+"Ouçam bem, camaradas," um soldado instou, "poucos sabem disso, mas tive a bênção de aprender sobre engenharia com um anão. As fortalezas Dawi são um testemunho da arte da ferraria..." #STR_Craftsman2
 
-As the stories unfolded, the soldiers marveled at the intricate designs and the sheer ingenuity that drove these feats. Their discussions delved into the realms of smithing, engineering, and the marvels born from the minds of skilled craftsmen and craftsdwarfs, leaving them with a newfound appreciation for these vital trades. #STR_Craftsman3
-    
+À medida que as histórias se desenrolavam, os soldados maravilhavam-se com os designs intrincados e a pura engenhosidade que impulsionava esses feitos. Suas discussões mergulhavam nos domínios da ferraria, engenharia e nas maravilhas nascidas das mentes de hábeis artesãos e artesãos-anões, deixando-os com uma nova apreciação por esses ofícios vitais. #STR_Craftsman3
+
     //Give Xp
             ~ GiveSkillExperience("Crafting",1500)
             ~ GiveSkillExperience("Engineering",1500)
     -> END
 
 ===Negotiation===
-    Amidst the flickering firelight, a group of soldiers regaled one another with stories of haggling and trade. Laughter mingled with their voices as they shared both successful negotiations and amusing tales of when things had gone awry. #STR_Negotiation1
+    Sob a luz tremeluzente das chamas, um grupo de soldados se entretinha com histórias de barganha e comércio. Risos se misturavam às suas vozes enquanto compartilhavam tanto negociações bem-sucedidas quanto histórias divertidas de quando as coisas saíram errado. #STR_Negotiation1
 
-"Ah, my comrades," one soldier chuckled, "let me share the art of haggling and the dance of trade. From bartering with the wily halflings to facing the shrewd merchants of Marienburg, the path to a fair deal is lined with wit and cunning..." #STR_Negotiation2
+"Ah, meus camaradas," um soldado riu, "deixem-me compartilhar a arte da barganha e a dança do comércio. De trocar com os astutos halflings a enfrentar os perspicazes mercadores de Marienburg, o caminho para um bom negócio é pavimentado de sagacidade e astúcia..." #STR_Negotiation2
 
-The soldiers leaned in, captivated by the stories of wit and banter that had unfolded in the bustling markets and bazaars of the Old World. They contemplated the delicate balance of charm, trade acumen, and the occasional misstep that came with the territory, leaving them with a deeper understanding of the art of negotiation. #STR_Negotiation3
-    
+Os soldados inclinaram-se, cativados pelas histórias de sagacidade e gracejo que se desenrolavam nos movimentados mercados e bazares do Velho Mundo. Eles refletiram sobre o delicado equilíbrio entre o charme, a perspicácia no comércio e os tropeços ocasionais que vinham com o território, deixando-os com uma compreensão mais profunda da arte da negociação. #STR_Negotiation3
+
     //Give Xp
             ~ GiveSkillExperience("Charm",1000)
             ~ GiveSkillExperience("Trade",1000)
@@ -319,24 +319,24 @@ The soldiers leaned in, captivated by the stories of wit and banter that had unf
     -> END
 
 ===Traveling===
-   Around the crackling fire, a group of soldiers shared tales of their travels and experiences on horseback. Their voices held a sense of adventure and camaraderie as they recounted journeys across treacherous landscapes and encounters with the denizens of the Old World. #STR_Traveling1
+   Ao redor do fogo crepitante, um grupo de soldados compartilhava histórias de suas viagens e experiências a cavalo. Suas vozes carregavam um senso de aventura e camaradagem enquanto narravam jornadas por paisagens traiçoeiras e encontros com os habitantes do Velho Mundo. #STR_Traveling1
 
-"Keeping a battlehorse healthy," one soldier declared, "that is its own challenge. The bond between rider and steed is a connection unlike any other..." #STR_Traveling2
+"Manter um cavalo de batalha saudável," declarou um soldado, "é um desafio à parte. O vínculo entre cavaleiro e montaria é uma conexão como nenhuma outra..." #STR_Traveling2
 
-As the stories wove their tapestry of adventure, the soldiers found themselves transported to distant lands and untamed wilderness. They contemplated the skills of riding and the unbreakable bond between a rider and their mount, leaving them with a deeper appreciation for the art of traveling on horseback. ##STR_Traveling3
-    
+À medida que as histórias teciam sua tapeçaria de aventura, os soldados se viam transportados a terras distantes e regiões selvagens indomáveis. Eles refletiram sobre as habilidades de equitação e o vínculo inquebrantável entre um cavaleiro e sua montaria, deixando-os com uma maior apreciação pela arte de viajar a cavalo. ##STR_Traveling3
+
     //Give Xp
             ~ GiveSkillExperience("Riding",1500)
             ~ GiveSkillExperience("Athletics",1500)
     -> END
-    
+
 ===Survival===
-    Amidst the gentle crackling of the fire, a group of soldiers shared their insights on surviving in the wilderness. Their voices carried the weight of experience as they recounted tales of resourcefulness and endurance in the face of nature's challenges. #STR_Survival1
+    Meio ao suave crepitar do fogo, um grupo de soldados compartilhava sua sabedoria sobre sobreviver na natureza selvagem. Suas vozes carregavam o peso da experiência enquanto narravam histórias de engenhosidade e resistência diante dos desafios da natureza. #STR_Survival1
 
-"Listen well," one soldier began, his voice steady and assured, "for I shall impart the wisdom of how to properly survival in the thickest wild woods. From foraging for sustenance to navigating the dense forests and treacherous swamps, the key lies in understanding the land's rhythms..." #STR_Survival2
+"Ouçam bem," um soldado começou, sua voz firme e segura, "pois vou transmitir a sabedoria de como sobreviver adequadamente nas matas mais densas. Desde forragear em busca de sustento até navegar pelas florestas densas e pântanos traiçoeiros, a chave está em compreender os ritmos da terra..." #STR_Survival2
 
-As the tales unfolded, the soldiers found themselves immersed in the art of survival, learning to read the signs of nature and adapt to its demands. The stories emphasized the skills of medicine, scouting, and athleticism, leaving the soldiers with a newfound respect for the unforgiving yet awe-inspiring world beyond the safety of civilization. #STR_Survival3
-    
+À medida que as histórias se desenrolavam, os soldados se viam imersos na arte da sobrevivência, aprendendo a ler os sinais da natureza e a se adaptar às suas exigências. As histórias enfatizavam as habilidades de medicina, exploração e atletismo, deixando os soldados com um novo respeito pelo mundo implacável mas inspirador além da segurança da civilização. #STR_Survival3
+
     //Give Xp
             ~ GiveSkillExperience("Medicine",1000)
             ~ GiveSkillExperience("Scouting",1000)
@@ -345,29 +345,3 @@ As the tales unfolded, the soldiers found themselves immersed in the art of surv
 
 
 -> END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
