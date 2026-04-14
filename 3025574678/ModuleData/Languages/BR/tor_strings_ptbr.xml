@@ -289,5 +289,223 @@
     <!-- Combat Messages -->
     <string id="str_tor_stealth_attack_text" text="Ataque furtivo!"/>
 
+    <!--========================================-->
+    <!-- SISTEMA DE ENCANTAMENTO                -->
+    <!--========================================-->
+
+    <!-- TÍTULOS -->
+    <string id="str_tor_enchantmentshop_title_empire" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_vlandia" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_khuzait" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_mousillon" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_battania" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_eonir" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_sturgia" text="Faça sua escolha…"/>
+    <string id="str_tor_enchantmentshop_title_aserai" text="Escolha um logo, tá esperando o quê?!"/>
+    <string id="str_tor_enchantmentshop_title_blessings" text="Faça sua escolha…"/>
+
+    <!-- DESCRIÇÕES -->
+    <string id="str_tor_enchantmentshop_description_empire" text="Selecione um pergaminho arcano para estudar:"/>
+    <string id="str_tor_enchantmentshop_description_vlandia" text="Selecione um tomo abençoado para estudar:"/>
+    <string id="str_tor_enchantmentshop_description_khuzait" text="Selecione um grimório para estudar:"/>
+    <string id="str_tor_enchantmentshop_description_mousillon" text="Selecione um grimório para estudar:"/>
+    <string id="str_tor_enchantmentshop_description_battania" text="Selecione um pergaminho arcano para estudar"/>
+    <string id="str_tor_enchantmentshop_description_eonir" text="Selecione um pergaminho arcano para estudar"/>
+    <string id="str_tor_enchantmentshop_description_sturgia" text="Selecione uma gravura rúnica para estudar:"/>
+    <string id="str_tor_enchantmentshop_description_aserai" text="Pegue uma dessas budingas místicas:"/>
+    <string id="str_tor_enchantmentshop_description_blessings" text="Selecione um tomo abençoado para estudar:"/>
+
+    <!-- RESTRIÇÕES -->
+    <string id="str_tor_enchantmentshop_restriction_Armor" text="Aplica-se a armaduras"/>
+    <string id="str_tor_enchantmentshop_restriction_Melee" text="Aplica-se a armas de corpo a corpo"/>
+    <string id="str_tor_enchantmentshop_restriction_Weapon" text="Aplica-se a qualquer arma"/>
+    <string id="str_tor_enchantmentshop_restriction_Shield" text="Aplica-se a escudos"/>
+    <string id="str_tor_enchantmentshop_restriction_Ammo" text="Aplica-se a munições"/>
+    <string id="str_tor_enchantmentshop_restriction_Ranged" text="Aplica-se a armas à distância"/>
+    <string id="str_tor_enchantmentshop_restriction_Thrown" text="Aplica-se a armas de arremesso"/>
+
+    <!-- MENSAGENS DE UI DE ENCANTAMENTO -->
+    <string id="str_tor_enchanting_title_text" text="Encantamento"/>
+    <string id="str_tor_enchanting_no_blueprints_text" text="Você não conhece nenhum projeto de encantamento."/>
+    <string id="str_tor_enchanting_no_traits_selected_text" text="Nenhum traço selecionado."/>
+    <string id="str_tor_enchanting_missing_ingredients_text" text="Faltam ingredientes."/>
+    <string id="str_tor_enchanting_enter_name_text" text="Insira o nome para o seu item encantado"/>
+    <string id="str_tor_enchanting_failed_text" text="O encantamento falhou."/>
+    <string id="str_tor_enchanting_success_text" text="Encantamento bem-sucedido. O item foi adicionado ao inventário."/>
+    <string id="str_tor_learned_enchantment_text" text="{HERO_NAME} aprendeu o encantamento {ENCHANTMENT_NAME}"/>
+
+    <!-- DOAÇÃO DE ITENS -->
+    <string id="str_tor_enchant_prompt_donate_items_title" text="Doar itens"/>
+    <string id="str_tor_enchant_prompt_donate_items_text" text="Selecione os itens que deseja doar. Você obterá {CUSTOMRESOURCE_ICON} com esta ação. "/>
+
+    <!-- IMPÉRIO -->
+    <string id="str_tor_enchanter_dialog_start_quit_empire" text="Você não está servindo ao Império. Fora daqui."/>
+    <string id="str_tor_enchanter_dialog_start_1_empire" text="Saudações; aqueles leais ao Império são sempre bem-vindos aqui."/>
+    <string id="str_tor_enchanter_dialog_start_2_empire" text="Ah, um colega praticante! Seja muito bem-vindo, há muito o que podemos discutir como colegas."/>
+    <string id="str_tor_enchanter_hub_intro_empire" text="Então, a que devo esta visita?"/>
+    <string id="str_tor_enchanter_hub_reintro_empire" text="Do que mais precisa?"/>
+    <string id="str_tor_enchanter_hub_info_p_empire" text="Pode me ensinar os fundamentos da alquimia?"/>
+    <string id="str_tor_enchanter_hub_blueprints_p_empire" text="Iria gostar de aprender novas fórmulas alquímicas."/>
+    <string id="str_tor_enchanter_hub_donate_items_p_empire" text="Tenho itens mágicos de que não preciso mais; pode dar um bom uso a eles?"/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_empire" text="Posso usar o seu laboratório?"/>
+    <string id="str_tor_enchanter_hub_return_p_empire" text="Devo partir, adeus."/>
+    <string id="str_tor_enchanter_blueprints_empire" text="Vamos examinar a coleção imperial de pergaminhos e tomos."/>
+    <string id="str_tor_enchanter_blueprints_decline_empire" text="Sinto que você não possui o dom da Visão de Bruxo, nem seus companheiros. Deva retornar acompanhado de um mago."/>
+    <string id="str_tor_enchanter_donate_items_1_empire" text="Interessam-me os itens mágicos que você encontra em suas jornadas. O que tem a oferecer?"/>
+    <string id="str_tor_enchanter_donate_items_1_negative_empire" text="Você não tem nada que me interesse. Não desejo ver seus itens encantados, mas sim estudar os artefatos deste mundo."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_empire" text="Deixe-me fornecer estes itens…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_empire" text="Preciso pensar a respeito."/>
+    <string id="str_tor_enchanter_donate_items_2_empire" text="Quais itens você deseja doar?"/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_empire" text="Claro! Na verdade, tenho exatamente o que você precisa para começar; pegue isto, e poderemos discutir tudo com mais detalhes."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_empire" text="Naturalmente. Posso explicar sem grandes dificuldades; o fardo da compreensão recai sobre você. Estude este tomo."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_empire" text="Leia o tomo que lhe dei; ele deve cobrir todos os princípios básicos da alquimia."/>
+
+    <!-- BRETÔNIA -->
+    <string id="str_tor_enchanter_start_p_vlandia" text="Minha senhora, podemos discutir os mistérios do Graal?"/>
+    <string id="str_tor_enchanter_start_enchanter_vlandia" text="Cara Filha do Graal, eu a ajudarei com prazer."/>
+    <string id="str_tor_enchanter_dialog_start_vlandia" text="Amigos da Bretônia são sempre bem-vindos aqui."/>
+    <string id="str_tor_enchanter_dialog_start_quit_vlandia" text="Escória imunda, suma da minha vista."/>
+    <string id="str_tor_enchanter_hub_intro_vlandia" text="O que deseja saber?"/>
+    <string id="str_tor_enchanter_hub_reintro_vlandia" text="Havia algo mais?"/>
+    <string id="str_tor_enchanter_hub_info_p_vlandia" text="Minha senhora, desejo saber mais sobre os ensinamentos da Senhora."/>
+    <string id="str_tor_enchanter_hub_blueprints_p_vlandia" text="Minha senhora, desejo saber mais sobre os tomos sagrados."/>
+    <string id="str_tor_enchanter_hub_donate_items_p_vlandia" text="Minha senhora, aceitaria estes artefatos?"/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_vlandia" text="Posso fazer uso deste altar?"/>
+    <string id="str_tor_enchanter_hub_return_p_vlandia" text="Desejo perguntar sobre outra coisa."/>
+    <string id="str_tor_enchanter_blueprints_vlandia" text="Muito bem, comecemos em nome da Senhora."/>
+    <string id="str_tor_enchanter_blueprints_decline_vlandia" text="Não sinto o dom da Senhora em você. Nem em seus companheiros, aliás. Retorne na companhia de uma Donzela do Graal."/>
+    <string id="str_tor_enchanter_donate_items_1_vlandia" text="Aceitarei com prazer o que não lhe serve mais; no entanto, a Senhora não aceitará itens que você mesmo encantou."/>
+    <string id="str_tor_enchanter_donate_items_1_negative_vlandia" text="Infelizmente, você não carrega nada que seja útil ao reino."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_vlandia" text="Desejo doar os seguintes itens…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_vlandia" text="Perdoe-me, preciso pensar melhor sobre isso."/>
+    <string id="str_tor_enchanter_donate_items_2_vlandia" text="O que você tinha em mente?"/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_vlandia" text="Pegue este tomo de conhecimento. Ele deve responder a todas as suas perguntas."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_vlandia" text="Você já carrega o tomo da Senhora. Estude-o para obter as respostas que busca."/>
+
+    <!-- SYLVANIA -->
+    <string id="str_tor_enchanter_start_p_khuzait" text="Desejo saber mais sobre itens mágicos e amaldiçoados."/>
+    <string id="str_tor_enchanter_start_enchanter_khuzait" text="Saudações, colega praticante das artes das trevas; vamos nos reunir?"/>
+    <string id="str_tor_enchanter_dialog_start_khuzait" text="O que você requer?"/>
+    <string id="str_tor_enchanter_dialog_start_quit_khuzait" text="Não o conheço, estranho; é melhor partir antes que uma grande desgraça caia sobre você."/>
+    <string id="str_tor_enchanter_dialog_start_1_khuzait" text="Saudações, estranho; sinto a escuridão em seu interior."/>
+    <string id="str_tor_enchanter_dialog_start_2_khuzait" text="Colega praticante das artes das trevas, vamos nos reunir?"/>
+    <string id="str_tor_enchanter_hub_intro_khuzait" text="O que você requer?"/>
+    <string id="str_tor_enchanter_hub_reintro_khuzait" text="Do que é que você precisa?"/>
+    <string id="str_tor_enchanter_hub_info_p_khuzait" text="Partilhe comigo seu conhecimento sobre encantamentos e maldições."/>
+    <string id="str_tor_enchanter_hub_blueprints_p_khuzait" text="Mostre-me quais fórmulas mágicas você possui."/>
+    <string id="str_tor_enchanter_hub_donate_items_p_khuzait" text="Pegue estas bugigangas; elas são inadequadas para minha comitiva."/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_khuzait" text="Mostre-me o caminho para o seu altar sombrio."/>
+    <string id="str_tor_enchanter_hub_return_p_khuzait" text="Terminamos."/>
+    <string id="str_tor_enchanter_blueprints_khuzait" text="Vamos mergulhar em grimórios e tomos amaldiçoados."/>
+    <string id="str_tor_enchanter_blueprints_decline_khuzait" text="Não sinto escuridão em você, nem em sua comitiva. Retorne a mim na companhia de um mago."/>
+    <string id="str_tor_enchanter_donate_items_1_khuzait" text="Muito bem, eu os levarei e lhes darei um bom uso."/>
+    <string id="str_tor_enchanter_donate_items_1_negative_khuzait" text="Estes provavelmente não serão úteis para mim ou para meu mestre. Retorne com os tesouros e artefatos deste mundo."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_khuzait" text="Pegue estas relíquias, então."/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_khuzait" text="Acho que prefiro guardá-las por enquanto."/>
+    <string id="str_tor_enchanter_donate_items_2_khuzait" text="Isso é tudo? Vamos prosseguir, então."/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_khuzait" text="Há energias sombrias serpenteando ao seu redor. Partilharei este conhecimento com você."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_khuzait" text="Este tomo contém tudo o que você precisará."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_khuzait" text="O grimório que lhe concedi cobre todos os fundamentos necessários."/>
+
+    <!-- MOUSILLON -->
+    <string id="str_tor_enchanter_blueprints_mousillon" text="Vamos mergulhar em grimórios e tomos amaldiçoados."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_mousillon" text="O grimório que lhe concedi cobre todos os fundamentos necessários."/>
+
+    <!-- ANÕES (DAWI) -->
+    <string id="str_tor_enchanter_start_p_sturgia" text="Desejo saber mais sobre a arte da forja rúnica."/>
+    <string id="str_tor_enchanter_start_enchanter_sturgia" text="Ah, um colega Rhunki, seja muito bem-vindo ao Grongaz."/>
+    <string id="str_tor_enchanter_dialog_start_sturgia" text="Um companheiro Dawi! Bem-vindo ao Grongaz."/>
+    <string id="str_tor_enchanter_dialog_start_quit_sturgia" text="Compartilhar os segredos dos Rhunki envergonharia todo o meu clã, forasteiro. A resposta é nei."/>
+    <string id="str_tor_enchanter_dialog_start_1_sturgia" text="{Player_Clan}, Dawongr! Você tem negócios com os Rhunki?"/>
+    <string id="str_tor_enchanter_dialog_start_2_sturgia" text="Confiável {Player_Clan}! Saiba que os Rhunki consideram nossa parceria uma grande honra!"/>
+    <string id="str_tor_enchanter_hub_intro_sturgia" text="Então, do que é que você precisa?"/>
+    <string id="str_tor_enchanter_hub_reintro_sturgia" text="Havia algo mais?"/>
+    <string id="str_tor_enchanter_hub_info_p_sturgia" text="Pode me ensinar os fundamentos da forja rúnica?"/>
+    <string id="str_tor_enchanter_hub_blueprints_p_sturgia" text="Estou aqui para aprender novas gravuras rúnicas."/>
+    <string id="str_tor_enchanter_hub_donate_items_p_sturgia" text="Tenho itens mágicos de que não preciso mais; pode dar um bom uso a eles?"/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_sturgia" text="Desejo usar sua forja, Mestre Ferreiro."/>
+    <string id="str_tor_enchanter_hub_return_p_sturgia" text="Vamos discutir outros assuntos."/>
+    <string id="str_tor_enchanter_blueprints_sturgia" text="Desejo aprender novas gravuras rúnicas."/>
+    <string id="str_tor_enchanter_blueprints_decline_sturgia" text="Julgando pelas suas capacidades mentais, você é tonto demais para entender até mesmo as runas mais básicas. É melhor continuar usando nossas armas em vez de fabricá-las. Retorne na companhia de um Ferreiro Rúnico."/>
+    <string id="str_tor_enchanter_donate_items_1_sturgia" text="Ficaria feliz em receber e examinar qualquer equipamento mágico que você tenha coletado. O que tem a oferecer?"/>
+    <string id="str_tor_enchanter_donate_items_1_negative_sturgia" text="Você não tem nada que me interesse. Lembre-se, não aceitarei itens que você mesmo fez, pois tudo o que você sabe, nós já sabemos."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_sturgia" text="Deixe-me fornecer estes itens…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_sturgia" text="Preciso pensar a respeito."/>
+    <string id="str_tor_enchanter_donate_items_2_sturgia" text="Quais itens você deseja doar?"/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_sturgia" text="Pegue este Klinkarhun, sobre o qual você poderá construir os alicerces do seu próprio futuro Rhunki."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_sturgia" text="Posso lhe dar um Klinkarhun, sobre o qual você poderá construir os alicerces do seu próprio futuro Rhunki."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_sturgia" text="O Klinkarhun que lhe dei tem tudo o que você precisa para começar."/>
+
+    <!-- PELES-VERDES -->
+    <string id="str_tor_enchanter_start_p_aserai" text="Eu qué sabê das parada mística."/>
+    <string id="str_tor_enchanter_start_enchanter_aserai" text="Veio olhá pro fogo, é?"/>
+    <string id="str_tor_enchanter_dialog_start_aserai" text="Gork e Mork traz coisa grande pros mió de nóis."/>
+    <string id="str_tor_enchanter_dialog_start_quit_aserai" text="Suma daqui! Antes que eu te transforme num squig!"/>
+    <string id="str_tor_enchanter_dialog_start_1_aserai" text="Tu é um bicho grande, tu é. Gork tá contigo."/>
+    <string id="str_tor_enchanter_dialog_start_2_aserai" text="Veio olhá pro fogo, é?"/>
+    <string id="str_tor_enchanter_hub_intro_aserai" text="Guhh, o que tu qué sabê?"/>
+    <string id="str_tor_enchanter_hub_reintro_aserai" text="Que que tu qué?"/>
+    <string id="str_tor_enchanter_hub_info_p_aserai" text="Tô atrás de... errrp... ins-tru-ção..."/>
+    <string id="str_tor_enchanter_hub_blueprints_p_aserai" text="Como faz as coisa ficá brinhante?"/>
+    <string id="str_tor_enchanter_hub_donate_items_p_aserai" text="Tenho uns ferro bão pro Gork e pro Mork."/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_aserai" text="(Olhe para o fogo enquanto o Xamã está ocupado dançando)"/>
+    <string id="str_tor_enchanter_hub_return_p_aserai" text="Nada."/>
+    <string id="str_tor_enchanter_blueprints_aserai" text="Enfie a cabeça na fumaça e dê uma fungada."/>
+    <string id="str_tor_enchanter_blueprints_decline_aserai" text="Não tem nenhum Xamã contigo, vaze."/>
+    <string id="str_tor_enchanter_donate_items_1_aserai" text="Os deuses vão ficá feliz com seu presente."/>
+    <string id="str_tor_enchanter_donate_items_1_negative_aserai" text="Esse ferro mixuruca? Os deuses não qué sabê disso aí não."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_aserai" text="Toma, toma uns ferro pra tu…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_aserai" text="Essas peça são pro Chefe, na verdade…"/>
+    <string id="str_tor_enchanter_donate_items_2_aserai" text="Que que é essa coisa?"/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_aserai" text="Enfie a cabeça na fumaça e dê uma fungada. Tu pode ficá com essa gravura também."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_aserai" text="Tenho essa gravura que não tô usando, tu pode ficá com ela."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_aserai" text="Tu já tem aquela pedra gravada. Vaza!"/>
+
+    <!-- ASRAI -->
+    <string id="str_tor_enchanter_start_p_battania" text="Desejo estudar os artefatos da floresta."/>
+    <string id="str_tor_enchanter_start_enchanter_battania" text="Um colega cantor de feitiços? Um prazer raro nestes tempos."/>
+    <string id="str_tor_enchanter_dialog_start_battania" text="Suas contribuições a estas matas garantiram-lhe certa tolerância."/>
+    <string id="str_tor_enchanter_dialog_start_quit_battania" text="Você invade solo sagrado; parta antes que minha paciência chegue ao fim."/>
+    <string id="str_tor_enchanter_hub_intro_battania" text="Que propósito o traz aqui?"/>
+    <string id="str_tor_enchanter_hub_reintro_battania" text="Que propósito o traz aqui?"/>
+    <string id="str_tor_enchanter_hub_info_p_battania" text="Busco a sabedoria da floresta e seu conhecimento sobre itens mágicos."/>
+    <string id="str_tor_enchanter_hub_blueprints_p_battania" text="Poderia instruir-me sobre métodos de encantamento?"/>
+    <string id="str_tor_enchanter_hub_donate_items_p_battania" text="Por favor, aceite estes presentes, para que possa usá-los na guarda de Athel Loren."/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_battania" text="Posso fazer uso de seus espaços rituais para minhas próprias obras?"/>
+    <string id="str_tor_enchanter_hub_return_p_battania" text="Este fio chegou ao seu fim natural."/>
+    <string id="str_tor_enchanter_blueprints_battania" text="Muito bem, vamos estudar juntos para o bem de Athel Loren."/>
+    <string id="str_tor_enchanter_blueprints_decline_battania" text="Sinto que você não possui o dom da magia em você nem em seus companheiros. Retorne na companhia de um Cantor de Feitiços."/>
+    <string id="str_tor_enchanter_donate_items_1_battania" text="O que é que você deseja renunciar?"/>
+    <string id="str_tor_enchanter_donate_items_1_negative_battania" text="A Floresta não pode fazer uso do que você oferece. Retorne quando encontrar mais artefatos."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_battania" text="Deixe-me ver…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_battania" text="Por favor, dê-me mais tempo para pensar sobre isso."/>
+    <string id="str_tor_enchanter_donate_items_2_battania" text="Será tudo? Muito bem."/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_battania" text="Certamente. Não tenho tempo para transmitir o conhecimento pessoalmente; pegue estes pergaminhos de Argwylon, e minha própria adição, que tenho certeza de que apreciará."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_battania" text="Este pergaminho provém das bibliotecas de Argwylon; pegue-o e estude-o detalhadamente."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_battania" text="Você já carrega o pergaminho de Argwylon, não é mesmo?"/>
+
+    <!-- EONIR -->
+    <string id="str_tor_enchanter_start_p_eonir" text="Pode me contar mais sobre encantamentos?"/>
+    <string id="str_tor_enchanter_start_enchanter_eonir" text="Bem-vindo ao Laurelorn, parente; espero que seu tempo fora de nossas fronteiras tenha sido proveitoso."/>
+    <string id="str_tor_enchanter_dialog_start_eonir" text="Seus feitos nestas matas garantiram-lhe minha atenção, por ora."/>
+    <string id="str_tor_enchanter_dialog_start_quit_eonir" text="Você não é um dos nossos. Parta antes que eu chame os guardas."/>
+    <string id="str_tor_enchanter_hub_intro_eonir" text="Bênçãos de Isha sobre você; que auxílio posso conceder?"/>
+    <string id="str_tor_enchanter_hub_reintro_eonir" text="Bênçãos de Isha sobre você; que auxílio posso conceder?"/>
+    <string id="str_tor_enchanter_hub_info_p_eonir" text="Pode me ajudar a aprender os fundamentos do encantamento?"/>
+    <string id="str_tor_enchanter_hub_blueprints_p_eonir" text="Venho em busca de novas técnicas de encantamento."/>
+    <string id="str_tor_enchanter_hub_donate_items_p_eonir" text="Trago grandes presentes de poder arcano para você e nosso povo."/>
+    <string id="str_tor_enchanter_hub_open_enchanter_p_eonir" text="Posso fazer uso de seus equipamentos de encantamento?"/>
+    <string id="str_tor_enchanter_hub_return_p_eonir" text="Desejo discutir assuntos de diplomacia."/>
+    <string id="str_tor_enchanter_blueprints_eonir" text="Que assim seja; vamos desvendar estes mistérios juntos."/>
+    <string id="str_tor_enchanter_blueprints_decline_eonir" text="Sinto que você não possui o dom da magia em você nem em seus companheiros. Retorne na companhia de um conjurador."/>
+    <string id="str_tor_enchanter_donate_items_1_eonir" text="O que é que você deseja renunciar?"/>
+    <string id="str_tor_enchanter_donate_items_1_negative_eonir" text="Receio que nada do que você carrega tenha valor real para nós."/>
+    <string id="str_tor_enchanter_donate_items_hub_p_eonir" text="Eu estava considerando…"/>
+    <string id="str_tor_enchanter_gift_items_hub_return_p_eonir" text="Perdoe-me, preciso de mais tempo para considerar minhas opções."/>
+    <string id="str_tor_enchanter_donate_items_2_eonir" text="Será tudo? Muito bem."/>
+    <string id="str_tor_enchanter_info_hub_intro_enchanter_first_visit_eonir" text="Pegue este pergaminho com instruções; ele inclui algumas de minhas próprias anotações. Que você viva mil anos, parente."/>
+    <string id="str_tor_enchanter_info_hub_intro_first_visit_eonir" text="Pegue este pergaminho com instruções. Que você viva mil anos, parente."/>
+    <string id="str_tor_enchanter_info_hub_intro_read_book_eonir" text="Espero sinceramente que tenha guardado o pergaminho que lhe confiei…"/>
+
   </strings>
 </base>

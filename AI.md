@@ -195,8 +195,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `ModuleData/Languages/BR/tor_strings_ptbr.xml` (criar com S01, acumular nos seguintes)
 
 - [x] S01 — linhas 1–265 *(UI, Skills, Skill Effects, Traits, Perks, Ability System, SpellBook/PrayerBook UI, notificações, mensagens de combate)*
-- [ ] S02 — linhas 266–550 *(Quests: Specialize Lore / Engineer / Cultists / Plagued Village; Generic Text; Game Mechanics; Greenskin Mechanics; Stats Bonuses; CC Options; Priest Blessings; Skill Training; Magical Items)*
-- [ ] S03 — linhas 551–817 *(Sistema de Encantamento: UI geral, títulos, descrições, restrições, diálogos por cultura: Império, Bretônia, Sylvania, Mousillon, Anões, Peles-verdes, Elfos da Floresta, Eonir)*
+- [x] S02 — linhas 266–550 *(PULADA: já traduzida por outra IA)*
+- [x] S03 — linhas 551–817 *(Sistema de Encantamento: UI geral, títulos, descrições, restrições, diálogos por cultura: Império, Bretônia, Sylvania, Mousillon, Anões, Peles-verdes, Elfos da Floresta, Eonir)*
 - [ ] S04 — linhas 817–1136 *(Oath Gold, Rune Lord Guild, Guild info, Expedições, Cervejeiro, Warrior Guild, Engineer Guild, Tooltips)*
 - [ ] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**
 - [ ] S06 — linhas 1500–1944 *(Diálogos de Cultura — continuação)*
