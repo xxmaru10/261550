@@ -233,8 +233,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 - [x] CC01 — linhas 1–400
 - [x] CC02 — linhas 401–800
-- [ ] CC03 — linhas 801–1200
-- [ ] CC04 — linhas 1201–1563
+- [x] CC03 — linhas 801–1200
+- [x] CC04 — linhas 1201–1563
 
 ---
 
