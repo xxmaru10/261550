@@ -13,7 +13,12 @@
 !**/language_data.xml
 !**/tor_cc_options.xml
 
+# Arquivos de tradução PT-BR (gerados por nós — nunca sobrescritos pelo Steam)
+!**/tor_strings_ptbr.xml
+!**/tor_voiced_strings_ptbr.xml
+!**/tor_concept_strings_ptbr.xml
+
 # Permitir arquivos de gerenciamento
 !AI.md
 !.gitignore
-'!*README*'
+!README.md

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+
+    <!-- ===== NOMES RICOS DE CULTURA (exibidos na seleção de facção) ===== -->
+    <string id="str_tor_culture_rich_name_khuzait"    text="Condes Vampiros" />
+    <string id="str_tor_culture_rich_name_empire"     text="Império dos Homens" />
+    <string id="str_tor_culture_rich_name_vlandia"    text="Bretônia" />
+    <string id="str_tor_culture_rich_name_mousillon"  text="Mousillon" />
+    <string id="str_tor_culture_rich_name_battania"   text="Asrai" />
+    <string id="str_tor_culture_rich_name_eonir"      text="Eonir" />
+    <string id="str_tor_culture_rich_name_chaos_culture" text="Caos" />
+    <string id="str_tor_culture_rich_name_sturgia"    text="Dawi" />
+    <string id="str_tor_culture_rich_name_aserai"     text="Peles-Verdes" />
+
+    <!-- ===== DESCRIÇÕES DE CULTURA (tela de seleção de facção na criação do personagem) ===== -->
+    <string id="str_tor_culture_description_khuzait"
+      text="Os Condes Vampiros são seres sem igual em sua maldade. Buscam derrubar as civilizações dos vivos e substituí-las por um império Morto-Vivo. Cada Vampiro é uma figura única e majestosa, com sua própria personalidade, impulso e ambição. Em contraste, seus servos são cegamente obedientes — fileira após fileira de cadáveres encardidos e cobertos de terra, forçados de volta à vida pelo poder necromântico de seus mestres." />
+    <string id="str_tor_culture_description_empire"
+      text="O Império dos Homens, a vasta nação humana que domina o Velho Mundo, enfrenta uma luta diária pela sobrevivência. Guiados pelo seu Imperador, Karl Franz, seus exércitos são uma prova da disciplina inabalável e das incomparáveis habilidades marciais. Em um mundo repleto de selvagens brutais e monstros sedentos de sangue, o Império persiste graças à renomada disciplina de seus soldados, forjados por um rigoroso treinamento e fortalecidos pela fé inabalável em Sigmar. Um farol de resiliência humana, os soldados do Império exemplificam o espírito indomável do homem que prevalece diante de sua interminável lista de inimigos." />
+    <string id="str_tor_culture_description_vlandia"
+      text="O Reino de Bretônia é uma terra renomada por seus poderosos Cavaleiros e seu forte senso de Cavalaria. Guiados pela Feiticeira Fada e pelas Donzelas da Senhora, os camponeses labutam enquanto seus lordes nobres os protegem dos muitos perigos que ameaçam sua sobrevivência. Em tempos de guerra, todo o reino pode se unir, liderado em cruzada contra seus inimigos pelo Rei Louen Leoncoeur, diante do qual nenhum inimigo conheceu a vitória." />
+    <string id="str_tor_culture_description_mousillon"
+      text="Mousillon, o estado amaldiçoado encravado no coração de Bretônia, lança uma sombra sombria e ominosa sobre a terra. Outrora um orgulhoso ducado, agora é um sombrio testemunho da corrupção que espreita nas sombras. Governado pela Serpente de Mousillon, o reino de pântanos e matagais contrasta com o vibrante cenário da nobre Bretônia. Ainda mais trágica e perturbadora é sua camponesia mutilada, governada não por cavaleiros nobres, mas pelos mortos-vivos retorcidos, cujos cavaleiros negros evocam uma mistura perturbadora de destreza marcial bretônia e poder profano." />
+    <string id="str_tor_culture_description_battania"
+      text="Os Elfos Silvanos são os habitantes élficos de Athel Loren; um povo desconfiado, isolacionista e selvagem que vive envolto pela natureza de Athel Loren. Seu lar mágico na floresta é tão perigoso quanto belo, e sua natureza implacável afiou as habilidades de seu povo até o fio de navalha. Os Asrai vivem sob os ensinamentos de Isha e Kurnous como caçadores e guerreiros que defendem o Tear e o mundo natural, mas vozes mais sombrias sempre buscam tentá-los ao massacre e à violência." />
+    <string id="str_tor_culture_description_eonir"
+      text="Entre Nordland e a Wasteland fica a floresta de Laurelorn e seus habitantes, os orgulhosos Eonir. Eles recusaram-se a fugir do Velho Mundo com o resto de seus parentes e, em vez disso, resistiram e derrotaram o avanço anão em sua floresta. Os Eonir vivem em uma sociedade de castas dividida entre os habitantes da cidade e os da floresta, e mantêm sua segurança por meio de uma diplomacia cuidadosa, tanto com seus vizinhos quanto com facções tão distantes quanto os Asur e os Druchii. Sua governança funciona por meio de conselhos para promover um nível de democracia. Quando chega a hora da batalha, os Eonir convocam tudo, desde a magia mais sombria até os mais puros espíritos da floresta, para garantir a segurança de seu lar." />
+    <string id="str_tor_culture_description_sturgia"
+      text="Os Anões, ou Dawi em sua língua, são uma das raças mais antigas e orgulhosas do mundo. O Eterno Reino dos Anões estava em seu auge quando as nações humanas não eram nada mais que bandos de tribos bárbaras em guerra. Corações resistentes e robustos combinados com um orgulho por vezes excessivo resultam em um povo duro e durável — totalmente incapaz de perdoar. E assim os Dawi registram cada ofensa sofrida nas mãos de outras raças, esperando vingar tais agravos no futuro. Infelizmente, essa atitude implacável e teimosa levou os Anões a uma série de conflitos que eventualmente empurrou sua civilização para o declínio. De 22 grandes Fortalezas Anãs, ou Karaks, apenas 12 permanecem sob controle Dawi — as restantes caíram nas mãos de seus Inimigos Ancestrais: Skaven e Peles-Verdes." />
+    <string id="str_tor_culture_description_chaos_culture"
+      text="Ninguém sabe verdadeiramente a origem do Caos no mundo mortal. Mesmo os estudiosos de longa vida dos Altos Elfos só podem especular sobre onde as forças do Caos se originaram. Guerras, fomes, desastres naturais e o destruidor chamado tempo erodiram quase todos os indícios das raízes do Caos." />
+    <string id="str_tor_culture_description_aserai"
+      text="Orcs e Goblins têm sido um espinho no lado de cada grande e pequeno poder por tanto tempo quanto qualquer um pode lembrar. Não se importando com história ou legado, nos tempos antigos os Peles-Verdes estavam amplamente confinados às Terras do Sul, onde travavam guerras selvagens entre si, indiferentes ao mundo mais amplo. Porém, esse isolamento brutal não durou. Terremotos e atividade vulcânica os empurraram para o norte em vastas hordas furiosas chamadas Waaaghs!, saqueando e queimando tudo em seu caminho. Os Anões, enfraquecidos pela longa e amarga Guerra da Vingança contra os Elfos, pouco podiam fazer contra a maré verde que inundou seus lares, e muitas fortalezas foram perdidas. Desde então, Orcs e Goblins podem ser encontrados em grande número por todo o planeta, superados em número apenas pelos Skaven, com quem frequentemente travam guerras nas profundezas subterrâneas." />
+
+  </strings>
+</base>
