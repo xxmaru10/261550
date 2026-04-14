@@ -222,7 +222,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_specialization_options.xml` | 410 linhas
 **Editar diretamente:** `<Name>`, `<Description>`, `<PositiveEffect>`, `<NegativeEffect>`
 
-- [ ] E01 — linhas 1–210 *(Escolas de Magia: Ghyran/Vida, Aqshy/Fogo, Shyish/Morte, Chamon/Metal, Hysh/Luz, Azyr/Céus, Ghur/Feras, Ulgu/Sombras)*
+- [x] E01 — linhas 1–210 *(Escolas de Magia: Ghyran/Vida, Aqshy/Fogo, Shyish/Morte, Chamon/Metal, Hysh/Luz, Azyr/Céus, Ghur/Feras, Ulgu/Sombras)*
 - [ ] E02 — linhas 211–410 *(Especializações: Vampiros, Sacerdotes, Cavaleiros e demais)*
 
 ---
