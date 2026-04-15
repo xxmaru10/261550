@@ -272,5 +272,124 @@
     <string id="great_cannon_spawner_label_str" text="Posicionar Grande Canhão" />
     <string id="field_trebuchet_spawner_label_str" text="Posicionar Trabuco de Campo" />
     <string id="dwarf_cannon_spawner_label_str" text="Posicionar Canhão Anão" />
+    
+    <string id="anvil_of_doom_spawner_label_str" text="Posicionar Bigorna da Perdição" />
+    
+    <!-- Career Abilities -->
+    <string id="shadowstep_label_str" text="Forma de Névoa" />
+    <string id="righteous_fury_label_str" text="Fúria Justa" />
+    <string id="accusation_str" text="Acusação" />
+    <string id="red_fury_label_str" text="Fúria Vermelha" />
+    <string id="let_them_have_it_label_str" text="Mostrem a eles!" />
+    <string id="axe_of_ulric_label_str" text="Machado de Ulric" />
+    <string id="knightly_charge_label_str" text="Investida de Cavalaria" />
+    
+    <string id="greater_harbinger_label_str" text="Arauto Maior" />
+    <string id="greater_harbinger_description_str" text="Invoca um campeão no local selecionado." />
+    
+    <string id="mindcontrol_label_str" text="Controle Mental" />
+    
+    <string id="blast_of_agony_label_str" text="Explosão de Agonia" />
+    
+    <string id="arcane_conduit_label_str" text="Conduto Arcano" />
+    
+    <string id="doom_seeking_label_str" text="Busca da Perdição" />
+    <string id="doom_seeking_description_str" text="Habilidade de carreira do Matador (não visível)." />
+    
+    <string id="knightly_strike_label_str" text="Golpe de Cavalaria" />
+    <string id="knightly_strike_description_str" text="O mago infunde e revigora seus aliados com energias mágicas puras." />
+    
+    <string id="hawk_eye_label_str" text="Olho de Falcão" />
+    <string id="hawk_eye_description_str" text="As fronteiras de Athel Loren devem permanecer de pé! Invoque seu fiel companheiro, Olho de Falcão! Designe uma área, reduzindo o dano físico corpo a corpo dos inimigos dentro dela. Para cada nível de Exploração, ganhe 0,01% de raio de efeito. (Recarga de 100s)." />
+    
+    <string id="impenetrable_label_str" text="Impenetrável" />
+    <string id="impenetrable_description_str" text="Khazukan Kazakit-HA! Por um breve período, ganhe imunidade total a danos, mas mova-se 25% mais devagar. A duração aumenta para cada nível de Atletismo." />
+    
+    <string id="arrow_of_kurnous_label_str" text="Flecha de Kurnous" />
+    <string id="arrow_of_kurnous_description_str" text="Dispara uma flecha teleguiada devastadora." />
+    
+    <string id="lethal_shot_label_str" text="Tiro Letal" />
+    <string id="lethal_shot_description_str" text="Imbua seu arco com poder mortal. Suas próximas flechas causarão dano aumentado com efeitos baseados no caminho escolhido." />
+    
+    <string id="wrath_of_the_wood_label_str" text="Ira da Floresta" />
+    <string id="wrath_of_the_wood_description_str" text="Invoca dríades no local selecionado." />
+    
+    <string id="fey_paths_label_str" text="Caminhos das Fadas" />
+    <string id="fey_paths_description_str" text="A Dama vaga por caminhos místicos. Teleporta instantaneamente o jogador para o local visado. Carrega com dano causado ou cura realizada por magia." />
+    
+    <string id="comet_of_sigmar_label_str" text="Cometa de Sigmar" />
+    <string id="comet_of_sigmar_description_str" text="O sacerdote arremessa um projétil ígneo que assume a forma do famoso Cometa de Duas Caudas de Sigmar. O Cometa de Sigmar é um projétil sagrado que causa 30 de dano. Pode derrubar unidades ou desmontar cavaleiros. Afeta apenas inimigos." />
+    
+    <string id="healing_hand_label_str" text="Mão Curativa" />
+    <string id="healing_hand_description_str" text="Aliados em um raio de 8 metros recuperam 5 PV a cada 2 segundos por uma duração de 12 segundos." />
+    
+    <string id="armor_of_righteousness_label_str" text="Armadura da Retidão" />
+    <string id="armor_of_righteousness_description_str" text="Aliados em um raio de 15 metros ganham 40% de resistência física por 45 segundos." />
+    
+    <string id="vanquish_label_str" text="Aniquilação" />
+    <string id="vanquish_description_str" text="Encanta as armas de aliados em um raio de 12 metros com o traço Flamejante por 50 segundos. As armas irrompem em fogo e queimam cada inimigo que golpeiam." />
+    
+    <!-- Ulrican Prayers -->
+    <string id="ulric_gift_label_str" text="Dádiva de Ulric" />
+    <string id="ulric_gift_description_str" text="O sacerdote-lobo solta um uivo poderoso e dedica a matança a Ulric. Ganhe +30% de velocidade de movimento e de ataque por 25 segundos." />
+    
+    <string id="heart_of_wolf_label_str" text="Coração do Lobo" />
+    <string id="heart_of_wolf_description_str" text="Os aliados do sacerdote são levados a um frenesi zeloso. Tropas aliadas em um raio de 10 metros ganham +35% de dano físico, além dos traços Inquebrável e Imparável por 20 segundos." />
+    
+    <string id="ice_storm_label_str" text="Tempestade de Gelo" />
+    <string id="ice_storm_description_str" text="O sacerdote-lobo invoca uma tempestade de granizo gélida em uma área. Inimigos sofrem uma penalidade de -50% na velocidade de movimento e de ataque, além de dano ao longo do tempo." />
+    
+    <string id="snow_king_label_str" text="O Decreto do Rei da Neve" />
+    <string id="snow_king_description_str" text="O sacerdote ruge uma grandiosa prece e invoca uma rajada congelante de chamas azuis para purificar a área visada de covardes e fracos. Inimigos afetados sofrem dano e uma penalidade de -50% na velocidade de movimento e de ataque, além de dano ao longo do tempo." />
+    
+    <!-- Bretonnian Prayers -->
+    <string id="aerial_shield_label_str" text="Escudo Aéreo" />
+    <string id="aerial_shield_description_str" text="O poder da Dama faz com que os projéteis inimigos desapareçam no ar. Concede 95% de resistência física à distância em um raio de 12 metros." />
+    
+    <string id="aura_of_the_lady_label_str" text="Aura da Dama" />
+    <string id="aura_of_the_lady_description_str" text="A Dama protege as Donzelas e seus seguidores. Concede 80% de resistência a magia, relâmpagos e fogo em um raio de 15 metros." />
+    
+    <string id="shield_of_combat_label_str" text="Escudo de Combate" />
+    <string id="shield_of_combat_description_str" text="O poder divino da Dama faz com que as armaduras dos aliados desviem os golpes inimigos. Concede 50% de resistência física em um raio de 12 metros." />
+    
+    <string id="ladys_favour_label_str" text="O Favor da Dama" />
+    <string id="ladys_favour_description_str" text="A Donzela conjura uma visão da Dama do Lago para guiar os bretonianos à batalha. Concede um bônus de 25% na velocidade de ataque em um raio de 10 metros." />
+    
+    <!-- Rune Magic -->
+    <string id="oath_and_steel_label_str" text="Runa de Juramento e Aço" />
+    <string id="oath_and_steel_description_str" text="A bênção concedida por Grungni fortalece a malha e a armadura anã, enquanto cada arma e conjunto de armadura recorda os golpes de martelo que os moldaram. Concede 25% de resistência física a Anões próximos. Fortalecido: Concede 20% de dano físico extra a Anões próximos." />
+    
+    <string id="hearth_and_home_label_str" text="Runa do Lar e da Pátria" />
+    <string id="hearth_and_home_description_str" text="Originalmente um presente concedido aos Anões por Valaya, a Runa do Lar e da Pátria acende o orgulho de um Anão em sua fortaleza, clã e ancestrais. Aliados próximos recebem bônus de velocidade de recarga e movimento. Fortalecido: Concede um bônus na velocidade de ataque." />
+    
+    <string id="spellbreaking_label_str" text="Runa de Romper Feitiço" />
+    <string id="spellbreaking_description_str" text="Os Barba-longas mais velhos dizem que esta Runa foi forjada pelos esforços combinados de Grungni e Valaya. O Ferreiro Rúnico libera a runa para interromper conjuradores inimigos — remove efeitos mágicos que afetam unidades aliadas e drena os Ventos da Magia de magos inimigos. Fortalecido: Coloca todas as habilidades dos conjuradores inimigos em espera." />
+    
+    <string id="wrath_and_ruin_label_str" text="Runa da Ira e da Ruína" />
+    <string id="wrath_and_ruin_description_str" text="A bênção de Grimnir canaliza a ira do deus da guerra, fazendo a terra rachar e liberando fogo e enxofre. Causa dano moderado aos inimigos ao redor. Fortalecido: Inimigos afetados sofrem dano ao longo do tempo." />
+    
+    <!-- Big Waaagh! (Greenskin) -->
+    <string id="armed_to_da_teef_label_str" text="Armado até us Dente" />
+    
+    <string id="call_of_da_green_label_str" text="Chamado du Verde" />
+    <string id="call_of_da_green_description_str" text="Foque em sua conexão cum u Grande Verde. Por 15 segundos, Pele-verdes próximos causandu danu geram Ventos da Magia. Cuidado — Pele-verdes morrendu drenam seu podê!" />
+    
+    <string id="gaze_uv_mork_label_str" text="Olhá di Mork" />
+    <string id="gaze_uv_mork_description_str" text="Mork olha atráveis dus óio du Xamã enquanto ele explode us otário cum um fogo verde bem matadô." />
+    
+    <string id="ard_as_nails_label_str" text="Duro feitu Prego" />
+    <string id="ard_as_nails_description_str" text="Enquanto u Xamã tá cercado de rapas de briga, u ju-ju du Waaagh! cobre us garoto, dexandu eles morto de duro." />
+    
+    <string id="brain_bursta_label_str" text="Estoura Cérebro" />
+    <string id="brain_bursta_description_str" text="Enquanto a briga corre, u Xamã junta muito ju-ju du Waaagh!, e solta num GRANDE BOOM que joga us otário nu chão." />
+    
+    <string id="da_hand_uv_gork_label_str" text="A Mão di Gork" />
+    <string id="da_hand_uv_gork_description_str" text="Se a pancadaria tá muito longe, cum a ajuda de Gork u Xamã pode levá us garoto de aqui pra acolá." />
+    
+    <string id="ere_we_go_label_str" text="Vamo simbora!" />
+    <string id="ere_we_go_description_str" text="U Xamã tá ficando pancada das ideia e perdidu num transe. U ju-ju du Grande Waaagh! banha us garoto, dexandu eles mais rápido, mais forte e muito mais matadô." />
+    
+    <string id="foot_uv_gork_label_str" text="Pé di Gork" />
+    <string id="foot_uv_gork_description_str" text="U Xamã se perde na dança, e nu passo certo, u próprio pé de Gork pisa nu chão pra esmagá tudo o que tá embaixo até virá pó." />
   </strings>
 </base>

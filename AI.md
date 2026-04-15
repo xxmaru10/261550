@@ -305,11 +305,13 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] A05 — Bloco 5 de Habilidades (Linhas 2001-2500) -> **CONCLUÍDO**
 - [x] A06 — Bloco 6 de Habilidades (Linhas 2501-3000) -> **CONCLUÍDO**
 - [x] A07 — Bloco 7 de Habilidades (Linhas 3001-3500) -> **CONCLUÍDO**
-- [ ] A08 — Bloco 8 de Habilidades (Linhas 3501-4000)
-- [ ] A09 — Bloco 9 de Habilidades (Linhas 4001-4500)
-- [ ] A10 — Bloco 10 de Habilidades (Linhas 4501-5000)
-- [ ] A11 — Bloco 11 de Habilidades (Linhas 5001-5500)
-- [ ] A12 — Bloco 12 de Habilidades (Linhas 5501-6070)
+- [x] A08 — Bloco 8 de Habilidades (Linhas 3501-4000) -> **CONCLUÍDO**
+- [x] A09 — Bloco 9 de Habilidades (Linhas 4001-4500) -> **CONCLUÍDO**
+- [x] A10 — Bloco 10 de Habilidades (Linhas 4501-5000) -> **CONCLUÍDO**
+- [x] A11 — Bloco 11 de Habilidades (Linhas 5001-5500) -> **CONCLUÍDO**
+- [x] A12 — Bloco 12 de Habilidades (Linhas 5501-6070) -> **CONCLUÍDO**
+
+**STATUS FINAL: 100% TRADUZIDO**
 
 
 ---
