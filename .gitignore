@@ -18,6 +18,8 @@
 !**/tor_strings_ptbr.xml
 !**/tor_voiced_strings_ptbr.xml
 !**/tor_concept_strings_ptbr.xml
+!**/tor_abilitytemplates_ptbr.xml
+!**/tor_ror_settlement_templates_ptbr.xml
 
 # Permitir arquivos de gerenciamento
 !AI.md

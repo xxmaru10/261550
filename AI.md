@@ -245,7 +245,6 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] E02 — linhas 211–410 (Vampiros de Mousillon; Sacerdotes Guerreiros; Ordens de Cavalaria) -> **CONCLUÍDO**
 
 ---
-
 #### 2.2 tor_cc_options.xml — Criação de Personagem
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_cc_options.xml` | 1.563 linhas
 **Editar diretamente:** `<OptionText>` e `<OptionFlavourText>`
@@ -254,8 +253,6 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] CC02 — linhas 401–800
 - [x] CC03 — linhas 801–1200 -> **CONCLUÍDO**
 - [x] CC04 — linhas 1201–1563 -> **CONCLUÍDO**
-
----
 
 #### 2.3 tor_itemtraits.xml — Traços, Encantos, Runas, Livros e Blueprints
 **Arquivo:** `ModuleData/tor_custom_xmls/tor_itemtraits.xml` | 4.672 linhas
@@ -286,6 +283,34 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] T17 - Bloco 17 de Traços (Linhas 3601-4000) -> **CONCLUÍDO**
 - [x] T18 - Bloco 18 de Traços (Linhas 4001-4400) -> **CONCLUÍDO**
 - [x] T19 - Bloco 19 de Traços (Linhas 4401-4672) -> **CONCLUÍDO** (Verificado até o fim do arquivo na versão local)
+
+---
+
+### FASE 4 — Arquivos Adicionais (Missing Files)
+
+#### 4.1 tor_ror_settlement_templates.xml — Regimentos de Renome
+**Fonte:** `ModuleData/tor_custom_xmls/tor_ror_settlement_templates.xml` | 260 linhas
+**Saída:** `ModuleData/Languages/BR/tor_ror_settlement_templates_ptbr.xml` (criar)
+
+- [x] R01 — linhas 1–260 -> **CONCLUÍDO**
+
+#### 4.2 tor_abilitytemplates.xml — Habilidades e Feitiços
+**Fonte:** `ModuleData/tor_custom_xmls/tor_abilitytemplates.xml` | 6.070 linhas
+**Saída:** `ModuleData/Languages/BR/tor_abilitytemplates_ptbr.xml` (criar)
+
+- [x] A01 — Bloco 1 de Habilidades (Linhas 1-500) -> **CONCLUÍDO**
+- [x] A02 — Bloco 2 de Habilidades (Linhas 501-1000) -> **CONCLUÍDO**
+- [x] A03 — Bloco 3 de Habilidades (Linhas 1001-1500) -> **CONCLUÍDO**
+- [x] A04 — Bloco 4 de Habilidades (Linhas 1501-2000) -> **CONCLUÍDO**
+- [x] A05 — Bloco 5 de Habilidades (Linhas 2001-2500) -> **CONCLUÍDO**
+- [x] A06 — Bloco 6 de Habilidades (Linhas 2501-3000) -> **CONCLUÍDO**
+- [x] A07 — Bloco 7 de Habilidades (Linhas 3001-3500) -> **CONCLUÍDO**
+- [ ] A08 — Bloco 8 de Habilidades (Linhas 3501-4000)
+- [ ] A09 — Bloco 9 de Habilidades (Linhas 4001-4500)
+- [ ] A10 — Bloco 10 de Habilidades (Linhas 4501-5000)
+- [ ] A11 — Bloco 11 de Habilidades (Linhas 5001-5500)
+- [ ] A12 — Bloco 12 de Habilidades (Linhas 5501-6070)
+
 
 ---
 
