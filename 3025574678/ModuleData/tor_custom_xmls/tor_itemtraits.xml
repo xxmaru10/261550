@@ -2800,4 +2800,807 @@
       </InventoryScriptArguments>
     </OnInventoryUseScript>
   </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_enchant_shyish_blight" ItemTraitName="Ruína de Shyish" IsCraftable="false" IconName="shyish">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25 de dano mágico extra, inimigos atingidos sofrem uma penalidade de 25% na resistência física"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_enchant_shyish_blight</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>LoreOfDeath</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_enchant_shyish_pall" ItemTraitName="Manto de Shyish" IsCraftable="false" IconName="shyish">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra, ganha bônus acumulativo de 10% de resistência mágica ao matar inimigos. Acumula até 5 vezes e desaparece após um curto período"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_enchant_shyish_pall</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>LoreOfDeath</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_enchant_shyish_withering" ItemTraitName="Atrofia de Shyish" IsCraftable="false" IconName="shyish">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10 de dano mágico extra, 10% de chance de reduzir a velocidade de ataque de inimigos próximos em 15% ao causar dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_enchant_shyish_withering</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>LoreOfDeath</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_enchant_shyish_whisper" ItemTraitName="Sussurro de Shyish" IsCraftable="false" IconName="shyish">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>12 de dano mágico extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_enchant_shyish_whisper</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>LoreOfDeath</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_enchant_shyish_deathsight" ItemTraitName="Visão da Morte de Shyish" IsCraftable="false" IconName="shyish">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"Bloquear ataques de unidades Mortas-vivas tem 50% de chance de aplicar um 'Exorcismo', concedendo 33% de dano mágico corpo a corpo extra por 10 segundos contra o alvo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_enchant_shyish_deathsight</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>50</InventoryScriptArgument>
+        <InventoryScriptArgument>LoreOfDeath</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_beacon" ItemTraitName="Farol de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de resistência mágica extra, 15% de raio de oração extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_beacon</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_retribution" ItemTraitName="Retribuição de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>Ganha um bônus temporário de 10% de dano sagrado ao bloquear golpes de Mortos-vivos e Demônios. Acumula até 5 vezes</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_retribution</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_soulfire" ItemTraitName="Fogo da Alma de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"6% de resistência mágica extra, 3 de PV extra, 10% de chance de emitir uma onda de energia sagrada sempre que for atacado em combate corpo a corpo por Mortos-vivos e Demônios"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_soulfire</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>175</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_light" ItemTraitName="Luz de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"6% de resistência mágica extra, 3 de PV extra, 10% de chance de receber regeneração menor sempre que for atacado em combate corpo a corpo por Mortos-vivos e Demônios"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_light</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_exorcism" ItemTraitName="Exorcismo de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"20 de dano sagrado extra, 10% de chance de causar 100 de dano contra Mortos-vivos e Demônios"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_exorcism</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_sigmar_justice" ItemTraitName="Justiça de Sigmar" IsCraftable="false" IconName="sigmar_comet_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>12 de dano sagrado extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_sigmar_justice</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestSigmar</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_ulric_wrath" ItemTraitName="Ira de Ulric" IsCraftable="false" IconName="whitewolf_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"350% de dano extra contra escudos, 15% de chance de receber um bônus temporário de 2% de velocidade de ataque ao causar dano. Acumula até 5 vezes"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_ulric_wrath</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestUlric</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_ulric_wolf-god_bite_of_the" ItemTraitName="Mordida do Deus-Lobo" IsCraftable="false" IconName="whitewolf_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de ataque extra, 15% de chance de receber um bônus temporário de 6 de dano de gelo ao causar dano. Acumula até 5 vezes"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_ulric_wolf-god_bite_of_the</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestUlric</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_ulric_chill" ItemTraitName="Gelidez de Ulric" IsCraftable="false" IconName="whitewolf_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>15 de dano de gelo extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_ulric_chill</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestUlric</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_ulric_frenzy" ItemTraitName="Frenesi de Ulric" IsCraftable="false" IconName="whitewolf_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência física extra, receber dano corpo a corpo tem 15% de chance de levar aliados próximos a um frenesi de batalha"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_ulric_frenzy</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestUlric</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_ulric_winterfather_gift" ItemTraitName="Dádiva do Pai do Inverno" IsCraftable="false" IconName="whitewolf_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência mágica extra, bônus de 20 pontos na perícia Duas Mãos"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_ulric_winterfather_gift</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestUlric</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_shallya_mercy" ItemTraitName="Misericórdia de Shallya" IsCraftable="false" IconName="shallya_dove_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>6 de PV extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_shallya_mercy</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestShallya</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_shallya_pacifism" ItemTraitName="Pacifismo de Shallya" IsCraftable="false" IconName="shallya_dove_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>Chance de curar 2 de PV ao derrotar inimigos (baseado na probabilidade de nocaute)</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_shallya_pacifism</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>175</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestShallya</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_shallya_purity" ItemTraitName="Pureza de Shallya" IsCraftable="false" IconName="shallya_dove_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>50% de bônus na taxa de cura ao viajar</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_shallya_purity</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestShallya</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_shallya_compassion" ItemTraitName="Compaixão de Shallya" IsCraftable="false" IconName="shallya_dove_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"-50% de PV do escudo, cura completamente o usuário e aliados próximos ao destruir o escudo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_shallya_compassion</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>300</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestShallya</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_emp_blessing_shallya_martyrdom" ItemTraitName="Martírio de Shallya" IsCraftable="false" IconName="shallya_dove_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3 de PV extra, receber dano tem 33% de chance de curar unidades aliadas próximas"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>emp_blessing_shallya_martyrdom</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestShallya</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_eerie_touch" ItemTraitName="Toque do Sobrenatural" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"2% de resistência física extra, bônus de 25 pontos na perícia Montaria"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_eerie_touch</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_fey_guidance" ItemTraitName="Orientação Feérica" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de viagem do grupo extra, 5% de resistência mágica"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_fey_guidance</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_grail_legacy" ItemTraitName="Legado do Graal" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"30 de dano sagrado extra, a arma ganha o atributo Trespassar"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_grail_legacy</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_lady_ward" ItemTraitName="Salvaguarda da Dama" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de resistência mágica extra, uma vez por batalha ferimentos fatais irão reanimá-lo com 50% de PV"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_lady_ward</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_scourge_evil" ItemTraitName="Flagelo do Mal" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de velocidade de ataque extra, 50% de chance de causar 50 de dano sagrado contra Mortos-vivos e Demônios"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_scourge_evil</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>175</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_shield_faith" ItemTraitName="Escudo da Fé" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de resistência física extra, golpes bloqueados reduzem o tempo de recarga de sua Habilidade de Carreira em 1 segundo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_shield_faith</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_pilgrim_tenacity" ItemTraitName="Tenacidade do Peregrino" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>2 de PV extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_pilgrim_tenacity</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_mists_sacred_lake" ItemTraitName="Névoas do Lago Sagrado" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3% de resistência física extra, 15% de raio de oração e magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_mists_sacred_lake</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_bret_blessing_wisdom_virtue" ItemTraitName="Sabedoria e Virtude" IsCraftable="false" IconName="grail">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3 de PV extra, 5% de resistência mágica extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>bret_blessing_wisdom_virtue</InventoryScriptArgument>
+        <InventoryScriptArgument>Faith</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>PriestLady</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_bonds_darkness" ItemTraitName="Vínculos das Trevas" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de bônus no dano mágico, invoca 3 Guerreiros da Cripta para cada inimigo derrubado em combate corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_bonds_darkness</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_call_beyond" ItemTraitName="Chamado do Além" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de bônus no dano mágico, invoca 3 Guardas de Túmulo para cada inimigo derrubado em combate corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_call_beyond</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_unhallowed_pact" ItemTraitName="Pacto Profano" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"-5% de resistência física, 33% de raio de magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_unhallowed_pact</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_drinker_blood" ItemTraitName="Bebedor de Sangue" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra. Recupera 1 de PV para cada instância de dano causado em combate corpo a corpo, ativa abaixo de 50% de PV"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_drinker_blood</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_nightshroud" ItemTraitName="Manto da Noite" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência mágica extra, 15% de chance de reduzir a velocidade de ataque e o dano de inimigos próximos ao receber dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_nightshroud</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_ethereal_whispers" ItemTraitName="Sussurros Etéreos" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência física extra, ao receber dano à distância ganha 50% de imunidade a dano à distância por um curto período"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_ethereal_whispers</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_mockery_asps" ItemTraitName="Zombaria das Áspides" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25 de dano mágico extra, disparos à distância reduzem a resistência física do alvo em 50%"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_mockery_asps</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_touch_jet" ItemTraitName="Toque de Azeviche" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de velocidade de ataque extra, cada golpe tem 10% de chance de causar 20 de dano mágico extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_touch_jet</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_caress_void" ItemTraitName="Carícia do Vazio" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"-10% de resistência física, 10 de Ventos da Magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_caress_void</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_unholy_blessing" ItemTraitName="Bênçãos Profanas" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>15 de dano mágico extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_unholy_blessing</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_chilling_hand" ItemTraitName="Mão Gélida" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano de gelo extra, 10% de chance de reduzir a velocidade de movimento de inimigos próximos a cada golpe"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_chilling_hand</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_bulwark_blood_keep" ItemTraitName="Baluarte do Forte de Sangue" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"20% de PV do escudo extra, 8% de resistência física extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_bulwark_blood_keep</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_crimson_flood" ItemTraitName="A Inundação Carmesim" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25 de dano mágico extra, 10% de chance de disparar uma onda mágica de dano a cada golpe. Cada onda consome 2 de PV do usuário"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_crimson_flood</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_legacy_arkhan" ItemTraitName="Legado de Arkhan" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"12% de bônus no dano mágico, 15% de raio de magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_legacy_arkhan</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_vc_enchant_secrets_wsoran" ItemTraitName="Segredos de W'soran" IsCraftable="false" IconName="darkenergy_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de bônus no dano mágico, 4 de Ventos da Magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>vc_enchant_secrets_wsoran</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>Necromancy</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_blackbriar_kiss" ItemTraitName="Beijo da Espinheira-Negra" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10 de dano físico extra, 10% de penetração de armadura extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_blackbriar_kiss</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_emissaries_mirai" ItemTraitName="Emissários de Mirai" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra, 15% de chance de infligir visões horríveis em uma área ao causar dano. Inimigos próximos sofrem um efeito de dano contínuo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_emissaries_mirai</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_song_doom" ItemTraitName="Canção da Ruína" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10 de dano físico extra, 15% de velocidade de projétil extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_song_doom</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_dusk_wood" ItemTraitName="Crepúsculo das Florestas" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"-8% de resistência física, 8 de Ventos da Magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_dusk_wood</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_moon_stone" ItemTraitName="Pedra da Lua dos Caminhos Ocultos" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de bônus no dano mágico, 12% de velocidade de viagem extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_moon_stone</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_trickery_loec" ItemTraitName="Ardil de Loec" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>50% de dano extra ao atacar inimigos pelas costas. O mesmo bônus se aplica a inimigos desprevenidos atingidos de qualquer ângulo</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_trickery_loec</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_leylines_weave" ItemTraitName="Linhas de Ley e a Trama" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"Ganha 8 de Harmonia Florestal diariamente, 3% de resistência física extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_leylines_weave</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_thorns_nettles" ItemTraitName="&quot;Espinhos, Urtigas e Acúleos&quot;" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"-15% de PV do escudo, causa 40 de dano físico a inimigos bloqueados em combate corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_thorns_nettles</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_tranquillity_cadai" ItemTraitName="Tranquilidade de Cadai" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra e resistência mágica, 30% de chance de conceder às tropas próximas as mesmas bênçãos por um curto período ao causar dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_tranquillity_cadai</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_radiance_woods" ItemTraitName="Resplandor das Florestas" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3% de Salvaguarda, 4 de Ventos da Magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_radiance_woods</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_touch_lileath" ItemTraitName="Toque de Lileath" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência mágica extra, 3 de Ventos da Magia extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_touch_lileath</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_dusk_dawn" ItemTraitName="Crepúsculo e Aurora" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>40 de dano mágico e sagrado extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_dusk_dawn</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_arcane_bodkins" ItemTraitName="Bodkins Arcanos" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>10% de penetração de armadura extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_arcane_bodkins</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
 </ItemTraits>

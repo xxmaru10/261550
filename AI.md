@@ -281,8 +281,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] T12 - Runas Anãs e Livros de Skill (Linhas 1601-2000)
 - [x] T13 - Bloco 13 de Traços (Linhas 2001-2400) -> **CONCLUÍDO**
 - [x] T14 - Bloco 14 de Traços (Linhas 2401-2800) -> **CONCLUÍDO**
-- [ ] T15 - Bloco 15 de Traços (Linhas 2801-3200)
-- [ ] T16 - Bloco 16 de Traços (Linhas 3201-3600)
+- [x] T15 - Bloco 15 de Traços (Linhas 2801-3200) -> **CONCLUÍDO**
+- [x] T16 - Bloco 16 de Traços (Linhas 3201-3600) -> **CONCLUÍDO**
 - [ ] T17 - Bloco 17 de Traços (Linhas 3601-4000)
 - [ ] T18 - Bloco 18 de Traços (Linhas 4001-4400)
 - [ ] T19 - Bloco 19 de Traços (Linhas 4401-4672)
