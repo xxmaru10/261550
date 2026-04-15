@@ -5,7 +5,7 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 ---
 
 > [!IMPORTANT]
-> **AUDITORIA DE PROGRESSO (14/04/2026 — atualizado 16:54):** Sessão focada em `tor_itemtraits.xml`. Blocos T01–T14 traduzidos e integrados ao arquivo local (até linha 2800 da Steam/Original). O arquivo local está XML válido com tag `</ItemTraits>` de fechamento. Próximo passo: retomar em T15 (linha 2801 da Steam = Blueprints de Encantamento - Vampiros/Outros).
+> **AUDITORIA DE PROGRESSO (15/04/2026 — atualizado 09:40):** S15 (Custom Resources, Purity Seals, Damage Types) concluído em `tor_strings.xml`. Próximo passo: S16 (Eventos Narrativos).
 
 ---
 
@@ -213,20 +213,20 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] S02 — linhas 266–550 -> **CONCLUÍDO**
 - [x] S03 — linhas 551–817 (Encantamentos) -> **CONCLUÍDO**
 - [x] S04 — linhas 817–1136 (Guildas Dawi, Ouro do Juramento, Quest de Engenharia) -> **CONCLUÍDO**
-- [ ] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* — **ATENÇÃO: linhas 1197–1216 (nomes e descrições de cultura) já traduzidos no tor_strings_ptbr.xml — pular esses IDs**
-- [ ] S06 — linhas 1500–1944 *(Diálogos de Cultura — continuação)*
-- [ ] S07 — linhas 1945–2215 *(Skills/Crafting/Inventário/Party Screen, Assentamentos Customizados, Village Types, Wanderer Stories)*
-- [ ] S08 — linhas 2215–2471 *(Companheiros do Império: Bright Wizard, Warrior Priest, Witch Hunter, Light Wizard, Celestial Wizard, Engineer, Priestess of Shallya, Huntsman, Metal Wizard, Life Wizard, Beast Wizard, Priest of Ulric, Captain, Imperial Noble)*
-- [ ] S09 — linhas 2471–2773 *(Companheiros: Vampiros 0–4, Bretônia 0–5, Mousillon 0–4)*
-- [ ] S10 — linhas 2773–3040 *(Companheiros: Eonir 0–2, Wood Elf 0–2, Dwarf 0–2, Greenskin 0–3, Chaos 0)*
-- [ ] S11 — linhas 3040–3468 *(Religiões, Career related, Nomes de Grupos de Escolha de Carreira por classe)*
-- [ ] S12 — linhas 3468–3693 *(Descrições de Carreira: Warrior Priest, Warrior Priest of Ulric, Witch Hunter, Imperial Magister, Knight of the Old World)*
-- [ ] S13 — linhas 3693–4053 *(Descrições de Carreira: Mercenary, Necromancer, Vampire Count, Blood Knight, Necrarch, Grail Knight, Grail Damsel, Black Grail Knight)*
-- [ ] S14 — linhas 4053–4534 *(Descrições de Carreira: Waywatcher, Spellsinger, Warden, Grey Lord, Ironbreaker, Slayer, Runelord, Orc Boss, Orc Shaman)*
-- [ ] S15 — linhas 4534–4998 *(Desbloqueios de Carreira, Recompensas, Purity Seal, Spell Damage Display, Damage Types, Career Perks, Recursos Customizados, Chivalry, Oath Gold, Forest Harmony)*
+- [x] S05 — linhas 1137–1500 *(Encontros Customizados, Grail Knight / Mercenary / Grail Damsel dialogs, início Diálogos de Cultura)* -> **CONCLUÍDO**
+- [x] S06 — linhas 1500–1944 -> **CONCLUÍDO** *(Diálogos de Cultura — continuação)*
+- [x] S07 — linhas 1945–2215 *(Skills/Crafting/Inventário/Party Screen, Assentamentos Customizados, Village Types, Wanderer Stories)* -> **CONCLUÍDO**
+- [x] S08 — linhas 2215–2471 *(Companheiros do Império: Bright Wizard, Warrior Priest, Witch Hunter, Light Wizard, Celestial Wizard, Engineer, Priestess of Shallya, Huntsman, Metal Wizard, Life Wizard, Beast Wizard, Priest of Ulric, Captain, Imperial Noble)* -> **CONCLUÍDO**
+- [x] S09 — linhas 2471–2773 *(Companheiros: Vampiros 0–4, Bretônia 0–5, Mousillon 0–4)* -> **CONCLUÍDO**
+- [x] S10 — linhas 2773–3040 *(Companheiros: Eonir 0–2, Wood Elf 0–2, Dwarf 0–2, Greenskin 0–3, Chaos 0)* -> **CONCLUÍDO**
+- [x] S11 — linhas 3040–3468 *(Religiões, Career related, Nomes de Grupos de Escolha de Carreira por classe)* -> **CONCLUÍDO**
+- [x] S12 — linhas 3468–3693 *(Descrições de Carreira: Warrior Priest, Warrior Priest of Ulric, Witch Hunter, Imperial Magister, Knight of the Old World)* -> **CONCLUÍDO**
+- [x] S13 — linhas 3693–4053 *(Descrições de Carreira: Mercenary, Necromancer, Vampire Count, Blood Knight, Necrarch, Grail Knight, Grail Damsel, Black Grail Knight)* -> **CONCLUÍDO**
+- [x] S14 — linhas 4053–4534 *(Descrições de Carreira: Waywatcher, Spellsinger, Warden, Grey Lord, Ironbreaker, Slayer, Runelord, Orc Boss, Orc Shaman)* -> **CONCLUÍDO**
+- [x] S15 — linhas 4534–4998 *(Desbloqueios de Carreira, Recompensas, Purity Seal, Spell Damage Display, Damage Types, Career Perks, Recursos Customizados, Chivalry, Oath Gold, Forest Harmony)* -> **CONCLUÍDO**
 
 > [!NOTE]
-> **Por que S16–S19 estão concluídos antes de S05–S15?** Numa sessão anterior, a tradução foi iniciada pelo final do arquivo (eventos narrativos), pois eram os mais urgentes para o jogador. Retomar **sempre pelo primeiro bloco sem `[x]`** — que atualmente é o **S05**.
+> **Por que S16–S19 estão concluídos antes de S05–S15?** Numa sessão anterior, a tradução foi iniciada pelo final do arquivo (eventos narrativos), pois eram os mais urgentes para o jogador. Retomar **sempre pelo primeiro bloco sem `[x]`** — que atualmente é o **S12**.
 
 - [x] S16 — linhas 4998–5395 (Eventos Narrativos: Battlefield, Cabin, Fair, Duel, Overturned Cart; Sistema Hireling) -> **100%**
 - [x] S17 — linhas 5395–5625 (Prestige Noble, Construções, Mecânicas Peles-verdes, Blood Keep) -> **100%**
@@ -252,8 +252,8 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 - [x] CC01 — linhas 1–400
 - [x] CC02 — linhas 401–800
-- [ ] CC03 — linhas 801–1200
-- [ ] CC04 — linhas 1201–1563
+- [x] CC03 — linhas 801–1200 -> **CONCLUÍDO**
+- [x] CC04 — linhas 1201–1563 -> **CONCLUÍDO**
 
 ---
 
@@ -283,9 +283,9 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] T14 - Bloco 14 de Traços (Linhas 2401-2800) -> **CONCLUÍDO**
 - [x] T15 - Bloco 15 de Traços (Linhas 2801-3200) -> **CONCLUÍDO**
 - [x] T16 - Bloco 16 de Traços (Linhas 3201-3600) -> **CONCLUÍDO**
-- [ ] T17 - Bloco 17 de Traços (Linhas 3601-4000)
-- [ ] T18 - Bloco 18 de Traços (Linhas 4001-4400)
-- [ ] T19 - Bloco 19 de Traços (Linhas 4401-4672)
+- [x] T17 - Bloco 17 de Traços (Linhas 3601-4000) -> **CONCLUÍDO**
+- [x] T18 - Bloco 18 de Traços (Linhas 4001-4400) -> **CONCLUÍDO**
+- [x] T19 - Bloco 19 de Traços (Linhas 4401-4672) -> **CONCLUÍDO** (Verificado até o fim do arquivo na versão local)
 
 ---
 

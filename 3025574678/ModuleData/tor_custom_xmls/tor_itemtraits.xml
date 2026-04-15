@@ -3603,4 +3603,804 @@
       </InventoryScriptArguments>
     </OnInventoryUseScript>
   </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_hagbane_tips" ItemTraitName="Pontas de Praga" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>50% de chance de reduzir a velocidade de movimento do alvo em 40%</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_hagbane_tips</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_moon_fire" ItemTraitName="Disparo de Fogo Lunar" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>20 de dano de fogo extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_moon_fire</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_star_fire" ItemTraitName="Haste de Fogo Estelar" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>25% de penetração de armadura extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_star_fire</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_swift_shiver" ItemTraitName="Estilhaços de Calafrio Célere" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10 de dano mágico extra e 10% de velocidade de projétil extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_swift_shiver</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_we_enchant_trueflight" ItemTraitName="Flechas de Voo Certeiro" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>40% de penetração de armadura extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>we_enchant_trueflight</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_tree_lord" ItemTraitName="Pacto dos Senhores das Árvores" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5 de PV extra, 15% de chance de invocar uma Dríade ao receber dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_tree_lord</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>175</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_quake_hukon" ItemTraitName="Tremor de Hukon" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25% de PV do escudo extra, derruba inimigos ao bloquear ataques corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_quake_hukon</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_morai_heg" ItemTraitName="Esquemas de Morai-heg" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de ataque extra, 500% de dano ao atacar inimigos pelas costas. O mesmo bônus se aplica a inimigos desprevenidos atingidos de qualquer ângulo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_morai_heg</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_oakhart_blessing" ItemTraitName="Bênção de Oakheart" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"4% de resistência física extra, 4% de bônus no dano mágico"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_oakhart_blessing</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_vengeance_khaine" ItemTraitName="Vingança de Khaine" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"8% de velocidade de ataque extra, 15 de dano físico extra, 100% de dano ao atingir a cabeça dos inimigos"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_vengeance_khaine</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_anath_raema" ItemTraitName="Predador de Anath Raema" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra e velocidade de projétil, derruba unidades de cavalaria atingidas"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_anath_raema</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>DarkMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_trance_loec" ItemTraitName="Transe de Loec" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de ataque extra, dano físico e resistência física"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_trance_loec</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_embrace_isha" ItemTraitName="Abraço de Isha" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"4% de Salvaguarda, 10% de chance de recuperar 10 de PV ao receber dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_embrace_isha</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_asrai_enchant_ferocity_kurnous" ItemTraitName="Ferocidade de Kurnous" IsCraftable="false" IconName="harmony_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"30 de dano mágico extra, 50% de velocidade de projétil extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>asrai_enchant_ferocity_kurnous</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_eo_enchant_wisdom_hoeth" ItemTraitName="Sabedoria de Hoeth" IsCraftable="false" IconName="favor_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"7 de Ventos da Magia extra, 5% de bônus no dano mágico"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>eo_enchant_wisdom_hoeth</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_eo_enchant_storms_mathlann" ItemTraitName="Tempestades de Mathlann" IsCraftable="false" IconName="favor_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"50% de resistência a raios, 15% de PV do escudo extra, 25% de chance de invocar um raio ao bloquear dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>eo_enchant_storms_mathlann</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_eo_enchant_flames_asuryan" ItemTraitName="Chamas de Asuryan" IsCraftable="false" IconName="favor_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"60 de dano de fogo extra, 15% de resistência ao fogo extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>eo_enchant_flames_asuryan</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_eo_enchant_legacy_caledor" ItemTraitName="Legado de Caledor" IsCraftable="false" IconName="favor_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"50% de resistência ao fogo, 25% de PV do escudo extra, 25% de chance de conjurar uma explosão de fogo ao bloquear dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>eo_enchant_legacy_caledor</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_eo_enchant_sanctuary_saphery" ItemTraitName="Santuário de Saphery" IsCraftable="false" IconName="favor_icon_100">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>Ao receber dano à distância, ganha imunidade completa a projéteis por 30 segundos</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>eo_enchant_sanctuary_saphery</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>HighMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_brutality_gork" ItemTraitName="Brutalidade de Gork" IsCraftable="false" IconName="gork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano físico extra, 5% de penalidade na velocidade de ataque"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_brutality_gork</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>50</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_tuffness_gork" ItemTraitName="Resistência de Gork" IsCraftable="false" IconName="gork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"4% de resistência física extra, 5% de penalidade na velocidade de movimento"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_tuffness_gork</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_clobberin_shield" ItemTraitName="Escudo de Pancadaria" IsCraftable="false" IconName="gork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15% de PV do escudo extra, 30% de chance de derrubar inimigos ao bloquear ataques corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_clobberin_shield</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_stunties_bane" ItemTraitName="Flagelo dos Tampinhas" IsCraftable="false" IconName="gork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25 de dano físico extra, 200% de dano extra contra escudos, 20% de dano físico extra contra Anões"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_stunties_bane</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_wallopin_krunch" ItemTraitName="Esmagamento de Impacto" IsCraftable="false" IconName="gork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"40 de dano físico extra, a arma recebe o atributo Trespassar"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_wallopin_krunch</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_cunning_mork" ItemTraitName="Astúcia de Mork" IsCraftable="false" IconName="mork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"8% de velocidade de ataque extra, -10 de dano físico"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_cunning_mork</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>50</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_call_great_green" ItemTraitName="Chamado do Grande Verde" IsCraftable="false" IconName="mork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3 de reserva máxima de Ventos da Magia, 4% de resistência mágica extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_call_great_green</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_backstabba_frenzy" ItemTraitName="Frenesi de Esfaqueador" IsCraftable="false" IconName="mork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de ataque extra, 10 de dano físico extra, 400% de dano extra ao atacar inimigos pelas costas. O mesmo bônus se aplica a inimigos desprevenidos atingidos de qualquer ângulo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_backstabba_frenzy</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_gaze_spider_god" ItemTraitName="Olhar do Deus-Aranha" IsCraftable="false" IconName="mork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de velocidade de projétil extra, disparos à distância reduzem a resistência física do alvo em 35%"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_gaze_spider_god</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_gs_enchant_shadow_bad_moon" ItemTraitName="Sombra da Lua Ruim" IsCraftable="false" IconName="mork_icon">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15 de dano mágico extra, magos inimigos que causarem dano com feitiços perdem 30 de Ventos da Magia"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>gs_enchant_shadow_bad_moon</InventoryScriptArgument>
+        <InventoryScriptArgument>Spellcraft</InventoryScriptArgument>
+        <InventoryScriptArgument>175</InventoryScriptArgument>
+        <InventoryScriptArgument>BigWaaagh</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_shielding" ItemTraitName="Runa da Proteção" IsCraftable="false" IconName="rune_shielding">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência física, 33% de PV do escudo extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_shielding</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_stone" ItemTraitName="Runa da Pedra" IsCraftable="false" IconName="rune_stone">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>4% de resistência física extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_stone</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_vigour" ItemTraitName="Runa do Vigor" IsCraftable="false" IconName="rune_vigour">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>5 de PV extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_vigour</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_parrying" ItemTraitName="Runa do Aparo" IsCraftable="false" IconName="rune_parry">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>25% de chance de derrubar inimigos ao bloquear ataques corpo a corpo</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_parrying</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_protection" ItemTraitName="Runa da Proteção" IsCraftable="false" IconName="rune_protection">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de resistência mágica extra, 2 de PV extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_protection</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>50</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_force" ItemTraitName="Runa da Força" IsCraftable="false" IconName="rune_force">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"33% de PV do escudo extra, 70% de chance de derrubar inimigos ao bloquear ataques corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_force</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_iron" ItemTraitName="Runa do Ferro" IsCraftable="false" IconName="rune_iron">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>7% de resistência física extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_iron</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_impact" ItemTraitName="Runa do Impacto" IsCraftable="false" IconName="rune_impact">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de resistência física, 30% de chance de derrubar inimigos ao bloquear ataques corpo a corpo"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_impact</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>100</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_fortitude" ItemTraitName="Runa da Fortitude" IsCraftable="false" IconName="rune_fortitude">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"3% de Salvaguarda, 4 de PV extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_fortitude</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_spell_eating" ItemTraitName="Runa Devoradora de Magia" IsCraftable="false" IconName="rune_spelleating">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de resistência mágica extra, 50% de chance de ganhar 100% de resistência mágica por um curto período ao receber dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_spell_eating</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_preservation" ItemTraitName="Runa da Preservação" IsCraftable="false" IconName="rune_preservation">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"6 de PV extra, 10% de chance de ignorar dano letal e recuperar 5 de PV ao receber dano"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_preservation</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_steel" ItemTraitName="Runa Mestra do Aço" IsCraftable="false" IconName="rune_steel">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>10% de resistência física extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_steel</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_skaldour" ItemTraitName="Runa Mestra de Skaldour" IsCraftable="false" IconName="rune_skaldour">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>100% de resistência ao fogo</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_skaldour</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>275</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_gromril" ItemTraitName="Runa Mestra de Gromril" IsCraftable="false" IconName="rune_gromril">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>5% de Salvaguarda</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_gromril</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_adamant" ItemTraitName="Runa Mestra de Adamante" IsCraftable="false" IconName="rune_adamant">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de Salvaguarda, 50% de PV do escudo extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_adamant</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_striking" ItemTraitName="Runa do Golpe" IsCraftable="false" IconName="rune_striking">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"5% de velocidade de ataque extra, 10% de dano físico extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_striking</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_fire" ItemTraitName="Runa do Fogo" IsCraftable="false" IconName="rune_fire">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>20% de dano de fogo extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_fire</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>50</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_speed" ItemTraitName="Runa da Velocidade" IsCraftable="false" IconName="rune_speed">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>15% de velocidade de ataque extra</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_speed</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>75</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_might" ItemTraitName="Runa do Poder" IsCraftable="false" IconName="rune_might">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"20% de dano físico extra, 15% de penetração de armadura extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_might</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_clear_sights" ItemTraitName="Runa da Visão Clara" IsCraftable="false" IconName="rune_clearsight">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"10% de dano físico extra, 15% de redução no tempo de recarga"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_clear_sights</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>25</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneCraft</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_head_wrecking" ItemTraitName="Runa da Destruição Craniana" IsCraftable="false" IconName="rune_headwrecking">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"15% de velocidade de projétil extra, 200% de dano extra em tiros na cabeça"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_head_wrecking</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_unbinding" ItemTraitName="Runa do Desatamento" IsCraftable="false" IconName="rune_unbinding">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25% de dano mágico extra, 15% de resistência mágica extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_unbinding</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_beastslaying" ItemTraitName="Runa de Matar Bestas" IsCraftable="false" IconName="rune_beastslaying">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>500% de dano contra montarias e inimigos grandes</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_beastslaying</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>125</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_reloading" ItemTraitName="Runa da Recarga" IsCraftable="false" IconName="rune_reloading">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>50% de redução no tempo de recarga</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_reloading</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_cleaving" ItemTraitName="Runa de Trespassar" IsCraftable="false" IconName="rune_cleaving">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25% de dano físico extra, a arma recebe o atributo Trespassar"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_cleaving</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_rune_fury" ItemTraitName="Runa do Furor" IsCraftable="false" IconName="rune_fury">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"25% de velocidade de ataque extra, 15 de dano físico extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_rune_fury</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>150</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_breaking" ItemTraitName="Runa Mestra da Quebra" IsCraftable="false" IconName="rune_breaking">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"500% de dano extra contra escudos, 50% de dano físico extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_breaking</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>200</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_swiftness" ItemTraitName="Runa Mestra da Celeridade" IsCraftable="false" IconName="rune_ switftness">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"50% de velocidade de ataque extra, 15% de dano físico extra"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_swiftness</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>225</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
+  <ItemTrait ItemTraitStringId="learn_dw_master_rune_flight" ItemTraitName="Runa Mestra do Voo" IsCraftable="false" IconName="rune_flight">
+    <ValidItemType>Invalid</ValidItemType>
+    <IngredientItem>Invalid</IngredientItem>
+    <IngredientAmount>-1</IngredientAmount>
+    <ItemTraitDescription>"33% de velocidade de projétil extra, recupera munição de arremesso ao realizar acertos"</ItemTraitDescription>
+    <OnInventoryUseScript InventoryScriptName="TOR_Core.Items.InventoryUseScripts.EnchantmentBlueprintScript">
+      <InventoryScriptArguments>
+        <InventoryScriptArgument>dw_master_rune_flight</InventoryScriptArgument>
+        <InventoryScriptArgument>Crafting</InventoryScriptArgument>
+        <InventoryScriptArgument>250</InventoryScriptArgument>
+        <InventoryScriptArgument>RuneMagic</InventoryScriptArgument>
+      </InventoryScriptArguments>
+    </OnInventoryUseScript>
+  </ItemTrait>
 </ItemTraits>
