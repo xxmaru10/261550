@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <string id="tor_religion_cult_name_cult_of_sigmar_str" text="Culto de Sigmar" />
+    <string id="tor_religion_cult_name_cult_of_taal_str" text="Culto de Taal" />
+    <string id="tor_religion_cult_name_cult_of_ulric_str" text="Culto de Ulric" />
+    <string id="tor_religion_cult_name_cult_of_shallya_str" text="Culto de Shallya" />
+    <string id="tor_religion_cult_name_cult_of_manaan_str" text="Culto de Manann" />
+    <string id="tor_religion_cult_name_cult_of_myrmidia_str" text="Culto de Myrmidia" />
+    <string id="tor_religion_cult_name_cult_of_lady_str" text="Culto da Senhora" />
+    <string id="tor_religion_cult_name_cult_of_nagash_str" text="Filhos de Nagash" />
+    <string id="tor_religion_cult_name_chaos_undivided_str" text="Caos Indiviso" />
+    <string id="tor_religion_cult_name_cult_of_slaanesh_str" text="Culto de Slaanesh" />
+    <string id="tor_religion_cult_name_cult_of_nurgle_str" text="Culto de Nurgle" />
+    <string id="tor_religion_cult_name_cult_of_khorne_str" text="Culto de Khorne" />
+    <string id="tor_religion_cult_name_cult_of_tzeentch_str" text="Culto de Tzeentch" />
+    <string id="tor_religion_cult_name_cult_of_isha_str" text="Culto de Isha" />
+    <string id="tor_religion_cult_name_cult_of_kurnous_str" text="Culto de Kurnous" />
+    <string id="tor_religion_cult_name_cult_of_vaul_str" text="Culto de Vaul" />
+    <string id="tor_religion_cult_name_cult_of_anath_raema_str" text="Culto de Anath Raema" />
+    <string id="tor_religion_cult_name_cult_of_asuryan_str" text="Culto de Asuryan" />
+    <string id="tor_religion_cult_name_cult_of_loec_str" text="Culto de Loec" />
+    <string id="tor_religion_cult_name_cult_of_grimnir_str" text="Culto de Grimnir" />
+    <string id="tor_religion_cult_name_cult_of_valaya_str" text="Culto de Valaya" />
+    <string id="tor_religion_cult_name_cult_of_grungni_str" text="Culto de Grungni" />
+    <string id="tor_religion_cult_name_cult_of_gork_str" text="Culto de Gork" />
+    <string id="tor_religion_cult_name_cult_of_mork_str" text="Culto de Mork" />
+  </strings>
+</base>

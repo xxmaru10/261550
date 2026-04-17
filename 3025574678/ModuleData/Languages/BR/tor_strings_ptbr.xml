@@ -4256,5 +4256,23 @@
     <string id="str_tor_treesymbol_description_wearielsymbol" text="A capacidade de Ventos dos heróis do grupo aumenta em 20 e a regeneração aumenta em 1 dentro de Athel Loren; valores caem pela metade fora. Salários aumentam em 50%." />
     <string id="str_tor_treesymbol_description_wedurthusymbol" text="Limite de Homens-árvore aumentado em 1. Vida aumentada em 25%. Limite do grupo reduzido em 25%. -20% de resistência a fogo." />
     <string id="str_tor_treesymbol_description_wewanderersymbol" text="Baixa Harmonia da Floresta não tem efeito negativo. Ganho de Harmonia da Floresta reduzido em 50%. Salários aumentam em 50%." />
+    <!-- S20 - Diplomacy and Update Strings -->
+    <string id="str_tor_alliance_lore" text="Disposição da facção" />
+    <string id="str_tor_alliance_distance" text="Distância geográfica" />
+    <string id="str_tor_alliance_reliability" text="Confiabilidade do parceiro" />
+    <string id="str_tor_alliance_power" text="Poderio militar" />
+    <string id="str_tor_alliance_position" text="Posicionamento estratégico" />
+    <string id="str_tor_alliance_common_enemy" text="Inimigos em comum" />
+    <string id="str_tor_alliance_entangle" text="Risco de envolvimento" />
+    <string id="str_tor_alliance_protect" text="Instinto de proteção" />
+    <string id="str_tor_alliance_honor" text="Comprometimento da aliança" />
+    <string id="str_tor_alliance_network" text="Rede de alianças" />
+    <string id="str_tor_alliance_relation" text="Relações pessoais" />
+    <string id="str_tor_alliance_chaos" text="As forças do Caos não forjam alianças." />
+    <string id="str_tor_alliance_greenskin" text="Peles-verdes não compreendem alianças." />
+    <string id="str_tor_alliance_limit" text="Limite de alianças atingido" />
+    <string id="str_tor_trade_chaos" text="As forças do Caos não participam de comércio." />
+    <string id="str_tor_trade_greenskin" text="Peles-verdes não compreendem o conceito de comércio." />
+    <string id="str_tor_stats_troll_bonus_text" text="Bônus de Troll" />
   </strings>
 </base>

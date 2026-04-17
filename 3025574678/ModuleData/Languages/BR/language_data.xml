@@ -5,4 +5,5 @@
   <LanguageFile xml_path="BR/tor_concept_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_ror_settlement_templates_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_abilitytemplates_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_religions_ptbr.xml" />
 </LanguageData>

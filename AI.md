@@ -6,9 +6,9 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 
 > [!IMPORTANT]
 > **AUDITORIA DE PROGRESSO (17/04/2026):**
-> - **Pendente Fase 1:** S20 em `tor_strings.xml` (linhas 6.258–6.281, 17 strings de Diplomacia).
-> - **Fases 2–4:** 100% concluídas.
-> - **FASE 5 descoberta em auditoria:** 7 grupos de arquivos GameText nunca rastreados — nomes de tropas, NPCs, reinos, clãs, facções, religiões. Ver seção FASE 5 no final do PROGRESSO.
+> - **Fases 1–4:** 100% concluídas.
+> - **Fase 5:** Iniciada (**REL01 concluído**).
+> - **Pendente Fase 5:** TD01, TP01, KG01, CL01, NPC01, CU01.
 
 ---
 
@@ -300,7 +300,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] S17 — linhas 5395–5625 (Prestige Noble, Construções, Mecânicas Peles-verdes, Blood Keep) -> **100%**
 - [x] S18 — linhas 5625–5865 (Diálogos de Blood Kiss, Spell Trainers, Quests de Classe) -> **100%**
 - [x] S19 — linhas 5865–6257 (Powerstones, Runas de Unidade, Enciclopédia, Personagem, Diplomacia) -> **100%**
-- [ ] S20 — linhas 6258–6281 *(Diplomacia: tor_alliance_*, tor_trade_*, tor_stats_troll_bonus_text — 17 strings adicionadas após update do mod)* -> **PENDENTE**
+- [x] S20 — linhas 6258–6281 *(Diplomacia: tor_alliance_*, tor_trade_*, tor_stats_troll_bonus_text — 17 strings adicionadas após update do mod)* -> **CONCLUÍDO**
 
 ---
 
@@ -468,7 +468,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Arquivo:** `ModuleData/tor_religions.xml` | 559 linhas | **24 chaves GameText** (pequeno)
 **Saída:** `Languages/BR/tor_religions_ptbr.xml` (criar)
 
-- [ ] REL01 — 24 nomes de religiões
+- [x] REL01 — 24 nomes de religiões -> **100%**
 
 ---
 
