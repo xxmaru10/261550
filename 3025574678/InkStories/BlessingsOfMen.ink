@@ -9,15 +9,15 @@ INCLUDE include.ink
 ->START
 
 ===START===
-Para começar, você precisa encontrar tomos sagrados que descrevam ritos e bênçãos individuais. Estes podem ser adquiridos de sacerdotes por toda a terra. No entanto, é provável que se encontre conhecimento perdido ao limpar ameaças perigosas, câmaras e covis encontrados pelo continente.
-Em seguida, você pode aprender bênçãos dos livros adquiridos. Claro, sua fé — ou a de seus companheiros — dita quais bênçãos você pode aprender; por exemplo, sacerdotes de Sigmar ou sacerdotes-lobo só podem invocar os poderes de suas respectivas divindades.
-Uma vez aprendidas, você pode tanto falar com diferentes sacerdotes quanto se dirigir ao distrito dos artesãos em qualquer cidade. Lá, você pode aplicar sua bênção a um item de sua escolha. Esta ação, porém, exige que você possua certos materiais únicos…
+To start, you need to find holy tomes describing individual rites and blessings. These can be purchased from priests across the land. However, it is likely one might encounter lost knowledge when clearing dangerous threats, vaults, and lairs found on the continent.
+Afterwards you can learn blessings from the acquired books. Of course, your faith or your companions dictate what blessings you can learn; for instance, priests of Sigmar or wolf-priests can only invoke the powers of their respective deities.
+Once learned, you can either speak to different priests or head to the artisan district in any town. There, you can apply your blessing to an item of your choosing. This action, however, requires you to possess certain unique materials…
 
-Quanto aos materiais com propriedades mágicas:
-Pergaminhos Arcanos podem ser encontrados entre os despojos dos cultistas das trevas. Aqueles que praticam magia também podem tê-los em sua posse.
-Cristais de Âmbar dizem ter origem na floresta mágica de Athel Loren. Aqueles que espreitam entre as florestas dos Elfos, os estranhos povos e bestas ainda mais estranhas que vagam sob as árvores, certamente terão Âmbar.
-Quanto à Água Benta, você sempre pode ir aos muitos santuários dos homens para adquiri-la, mas viajantes relatam que bandidos e ladrões por toda a Bretônia e as florestas de Laurelorn também podem carregá-la.
-Pedras Preciosas Maravilhosas são tesouros dos Anões. Entretanto, também se pode suspeitar que os repugnantes Peles-verdes carreguem Pedras Preciosas saqueadas em suas batalhas contra o povo das montanhas. Como ferramenta útil, aqueles que praticam magia frequentemente carregam Pedras Preciosas também.
-Poucos na vida se deparam com uma substância tão potente quanto o Sangue de Dragão… Talvez aqueles de mais alta patente militar, valorosos comandantes e lordes, ou aqueles que atingiram o ápice da cavalaria possam ter tal ingrediente raro.
-Quanto à maldita Pedra do Warp, a substância mais vil de todas, é fundamental lembrar que muitas nações civilizadas consideram este material altamente ilegal. Você precisaria lutar às próprias portas do Caos ou abater seus cultistas demoníacos para obtê-la. Para os mais audaciosos, as terras desoladas de Sylvania estão repletas dessa matéria imunda. Mas que os viajantes tomem cuidado: nas terras perpetuamente envoltas em trevas e névoa, os mortos são por vezes mais comuns que os vivos.
+Onto the materials with magical properties:
+Arcane Scrolls might be found amidst the loot of the cultists of darkness. Those who use magic may also have it in their possession.
+Amber Crystals are said to originate from the magical forest of Athel Loren. Those that lurk amidst the forests of the Elves, the strange folk and stranger beasts that roam under the trees, are bound to have Amber.
+When it comes to Blessed Water you can always go to the many shrines of man to acquire some, but travellers report that bandits and thieves across Bretonnia and the forests of Laurelorn may also carry such items.
+Marvelous Gemstones are treasures of Dwarfs. However, one might also suspect the foul Greenskins to carry Gemstones looted in their battles against the mountain folk. As a useful tool, those who use magic often carry Gemstones as well.
+Few in life come across such potent a substance as Dragon Blood… Perhaps those of the highest military ranking, valiant commanders and lords, or those who have reached the pinnacle of knighthood may have such a rare ingredient.
+As for the accursed Warpstone, the vilest substance of all, it is crucial to remember many civilized nations find this material highly illegal. You would need to fight at the very gates of Chaos or slay their fiendish cultists to acquire it. If one is particularly daring, then the blasted lands of Sylvania are rife with the foul stuff. But travellers be warned: In the lands perpetually shrouded in gloom and mist, the dead are more common than the living at times.
     -> END
