@@ -30,7 +30,7 @@ O Bannerlord tem um sistema de localização nativo. Arquivos registrados como `
 
 ## SETUP (já concluído — não repetir)
 
-Todos os arquivos de infraestrutura já existem. O `language_data.xml` atual tem o seguinte conteúdo (não alterar — adicionar novas entradas somente ao iniciar FASE 5):
+Todos os arquivos de infraestrutura já existem. O `language_data_ptbr.xml` (Ativação) atual tem o seguinte conteúdo:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
