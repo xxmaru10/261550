@@ -1,29 +1,4 @@
-# Ignorar tudo por padrão
-*
-# Permitir pastas
-!*/
-!**/ModuleData/
-!**/ModuleData/**/
-
-# Arquivos fonte que precisam ser lidos para tradução (editados inline ou consultados)
-!**/tor_strings.xml
-!**/tor_voiced_strings.xml
-!**/tor_concept_strings.xml
-!**/tor_cc_options.xml
-!**/tor_itemtraits.xml
-!**/tor_specialization_options.xml
-!**/tor_extendeditemproperties.xml
-!**/language_data.xml
-
-# InkStories — eventos narrativos (editados inline)
-!**/InkStories/*.ink
-
-# Arquivos de tradução PT-BR (criados por nós — nunca sobrescritos pelo Steam)
-!**/tor_strings_ptbr.xml
-!**/tor_voiced_strings_ptbr.xml
-!**/tor_concept_strings_ptbr.xml
-
-# Permitir arquivos de gerenciamento
-!AI.md
-!.gitignore
-!README.md
+# Ignorar apenas o que não faz sentido versionar
+*.bin
+*.log
+pegodooriginal/

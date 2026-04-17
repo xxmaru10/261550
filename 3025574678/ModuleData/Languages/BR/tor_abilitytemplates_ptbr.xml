@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <!-- Minor Magic -->
+    <string id="dart_label_str" text="Dardo Mágico" />
+    <string id="dart_label_description_str" text="Arremessa um dardo mágico contra o inimigo. O projétil persegue o alvo e causa 40 de dano em um raio de 3 metros ao impactar." />
+    
+    <string id="ward_of_arrows_label_str" text="Proteção contra Projéteis" />
+    <string id="ward_of_arrows_description_str" text="O conjurador torna-se imune a dano à distância por 15 segundos." />
+    
+    <string id="minor_heal_label_str" text="Cura Menor" />
+    <string id="minor_heal_description_str" text="Cura o conjurador em 3 pontos de vida a cada segundo por 7 segundos." />
+    
+    <string id="foetid_cloud_label_str" text="Nuvem Fétida" />
+    <string id="foetid_cloud_description_str" text="Uma nuvem de gás venenoso de curto alcance e aparência doentia." />
+    
+    <string id="enchant_weapon_label_str" text="Encantar Arma" />
+    <string id="enchant_weapon_description_str" text="Encanta a arma de um aliado alvo para causar dano mágico adicional." />
+    
+    <string id="aura_of_resistance_label_str" text="Aura de Resistência" />
+    <string id="aura_of_resistance_description_str" text="Aliados em um raio de 3 metros recebem 20% de resistência física por 15 segundos." />
+    
+    <string id="strength_of_combat_label_str" text="Força de Combate" />
+    <string id="strength_of_combat_description_str" text="Concede um bônus de 20% de dano físico ao conjurador por 15 segundos." />
+    
+    <string id="dust_storm_label_str" text="Tempestade de Poeira" />
+    <string id="dust_storm_description_str" text="Ventos secos vindos do deserto derrubam as vítimas e causam dano leve." />
+    
+    <!-- Lore of Fire -->
+    <string id="fireball_label_str" text="Bola de Fogo" />
+    <string id="fireball_description_str" text="Não há nada tão acolhedor quanto uma bola de fogo no rosto. Causa 60 de dano em um raio de 4 metros e queima os inimigos por 5 segundos." />
+    
+    <string id="cinder_blast_label_str" text="Explosão de Cinzas" />
+    <string id="cinder_blast_description_str" text="Arremessa fragmentos de lava solidificada contra o inimigo, causando dano moderado no impacto." />
+    
+    <string id="bolt_of_aqshy_label_str" text="Dardo de Aqshy" />
+    <string id="bolt_of_aqshy_description_str" text="Um dardo flamejante de movimento rápido que causa dano moderado ao impactar." />
+    
+    <string id="sear_label_str" text="Cauterizar" />
+    <string id="sear_description_str" text="Atinge o inimigo com um ataque de chamas ardentes de curto alcance que causa dano moderado." />
+    
+    <string id="cascading_fire_cloak_label_str" text="Manto de Fogo Cascata" />
+    <string id="cascading_fire_cloak_description_str" text="O conjurador envolve-se em um manto de chamas mágicas que o protege de dano físico (20%) e de fogo (70%) por 30 segundos. O manto também reflete uma parte do dano recebido em combate corpo a corpo." />
+    
+    <string id="flaming_swords_label_str" text="Espada Flamejante de Rhuin" />
+    <string id="flaming_swords_description_str" text="Encanta as armas de aliados em um raio de 15 metros com o traço Flamejante por 45 segundos. As armas irrompem em fogo e queimam cada inimigo que golpeiam." />
+    
+    <string id="burning_head_label_str" text="A Cabeça Flamejante" />
+    <string id="burning_head_description_str" text="Conjura um grande crânio em chamas que avança queimando tudo em seu caminho." />
+    
+    <string id="flame_storm_label_str" text="Tornado de Fogo" />
+    <string id="flame_storm_description_str" text="Um pilar de chamas ardentes que se move aleatoriamente é invocado no campo de batalha. Carne e pele derretem, enquanto ossos se tornam cinzas." />
+    
+    <!-- Lore of Heavens -->
+    <string id="lightning_bolt_label_str" text="Raio" />
+    <string id="lightning_bolt_description_str" text="Arremessa um raio elétrico contra o inimigo que causa dano moderado ao impactar." />
+    
+    <string id="wind_blast_label_str" text="Explosão de Vento" />
+    <string id="wind_blast_description_str" text="Uma rajada de vento derruba as vítimas e causa dano leve." />
+    
+    <string id="chain_lightning_label_str" text="Relâmpago em Cadeia" />
+    <string id="chain_lightning_description_str" text="Uma esfera de relâmpagos que eletrocuta inimigos em sua área, causando dano moderado." />
+    
+    <string id="harmonic_convergence_label_str" text="Convergência Harmônica" />
+    <string id="harmonic_convergence_description_str" text="Adivinhando sinais favoráveis, o conjurador guia as mentes de seus companheiros guerreiros. Aliados em um raio de 10 metros recebem 50% de resistência física por 50 segundos." />
+    
+    <string id="blizzard_label_str" text="Nevasca de Estilhaços de Gelo" />
+    <string id="blizzard_description_str" text="Nuvens tempestuosas pairam sobre a área, banhando aqueles abaixo com estilhaços de gelo afiados." />
+    
+    <string id="comet_of_casandora_label_str" text="Cometa de Casandora" />
+    <string id="comet_of_casandora_description_str" text="Um grande meteoro atinge a área, matando todos abaixo em uma gigantesca onda de choque." />
+    
+    <string id="thunderbolt_label_str" text="Relâmpago de Urannon" />
+    <string id="thunderbolt_description_str" text="Um único e grande raio cai dos céus com uma carga elétrica considerável." />
+    
+    <string id="curse_of_midnight_wind_label_str" text="Maldição do Vento da Meia-noite" />
+    <string id="curse_of_midnight_wind_description_str" text="O mago profere um feitiço antigo de três palavras, amaldiçoando os inimigos e impondo uma penalidade de 40% na velocidade de movimento e de ataque, bem como no dano causado." />
+    
+    <!-- Lore of Light -->
+    <string id="shem_gaze_label_str" text="Olhar Ardente de Shem" />
+    <string id="shem_gaze_description_str" text="Um feixe de energia purificadora dispara das mãos do conjurador, cauterizando o mal onde quer que atinja." />
+    
+    <string id="healing_light_label_str" text="Luz Curativa" />
+    <string id="healing_light_description_str" text="Aliados na área de efeito regeneram vida ao longo do tempo." />
+    
+    <string id="pha_protection_label_str" text="Proteção de Pha" />
+    <string id="pha_protection_description_str" text="O mago invoca o benevolente Guardião da Luz para proteger seus aliados de danos. Concede 50% de resistência física por uma duração de 50 segundos." />
+    
+    <string id="deathly_shards_label_str" text="Estilhaços Mortais" />
+    <string id="deathly_shards_description_str" text="Estilhaços afiados de luz voam em direção ao alvo, perfurando até as armaduras mais resistentes." />
+    
+    <string id="radiance_pillar_label_str" text="Pilar de Radiação" />
+    <string id="radiance_pillar_description_str" text="Um grande pilar de luz causa dano elevado àqueles pegos no feixe." />
+    
+    <string id="radiant_gaze_label_str" text="Olhar Radiante" />
+    <string id="radiant_gaze_description_str" text="O olhar do mago, infundido com Hysh, gera uma onda de energia mortal que danifica inimigos em seu caminho." />
+    
+    <string id="net_of_amyntok_label_str" text="Rede de Amyntok" />
+    <string id="net_of_amyntok_description_str" text="O mago conjura uma rede arcana na área selecionada. Qualquer inimigo pego no feitiço é imobilizado por 25 segundos." />
+    
+    <string id="bironas_timewarp_label_str" text="Distorção Temporal de Birona" />
+    <string id="bironas_timewarp_description_str" text="Desacelera o tempo, enquanto as unidades ao seu redor se movem sem impedimentos." />
+    
+    <!-- Necromancy -->
+    <string id="nagash_gaze_label_str" text="Olhar de Nagash" />
+    <string id="nagash_gaze_description_str" text="Um dardo de Dhar dispara dos olhos do conjurador; a carne que ele toca escurece e murcha, descascando-se completamente para revelar os ossos brancos e pálidos por baixo." />
+    
+    <string id="summon_skeleton_label_str" text="Erguendo os Mortos" />
+    <string id="summon_skeleton_description_str" text="Ergue ossos antigos do solo para que o Necromante os comande. Invoca 15 Guerreiros Esqueletos." />
+    
+    <string id="shadowblood_label_str" text="Sangue Sombrio" />
+    <string id="shadowblood_description_str" text="Esferas sombrias de sangue seguem o alvo, manchando o solo a cada passo do caminho. Causa dano em uma área média." />
+    
+    <string id="morkharn_label_str" text="Morkharn - Sopro da Escuridão" />
+    <string id="morkharn_description_str" text="O mago atrai tentáculos do Vento da Morte para restaurar seus lacaios e imbuí-los com um vigor profano. Cura aliados ao longo do tempo em um raio de efeito." />
+    
+    <string id="vanhelsdansemacabre_label_str" text="Dança Macabra de Vanhel" />
+    <string id="vanhelsdansemacabre_description_str" text="Os mortos animados são normalmente desajeitados e lentos; este feitiço, porém, confere-lhes graça e velocidade — tornando-os muito mais mortais como resultado." />
+    
+    <string id="wind_of_death_label_str" text="Vento da Morte" />
+    <string id="wind_of_death_description_str" text="Invoca os espíritos dos mortos para consumir as almas dos vivos. Aplica dano moderado enquanto se move por seu caminho." />
+    
+    <string id="grave_call_label_str" text="Chamado do Túmulo" />
+    <string id="grave_call_description_str" text="Extraindo a energia sombria que percorre a terra, o necromante busca corpos há muito falecidos para responder ao seu chamado. Ergue 20 Guardas do Túmulo." />
+    
+    <string id="curse_of_years_label_str" text="Maldição dos Anos" />
+    <string id="curse_of_years_description_str" text="O necromante profere uma maldição antiga que faz o inimigo envelhecer a uma velocidade terrível. Reduz a velocidade de ataque e movimento do inimigo em 50% por uma duração de 30 segundos." />
+    
+    <!-- Lore of Death -->
+    <string id="tasteofdeath_label_str" text="Gosto da Morte" />
+    <string id="taste_of_death_description_str" text="Uma mão esquelética estende-se em direção ao alvo, e sua vida é extinta em um piscar de olhos. Causa dano massivo a um único alvo." />
+    
+    <string id="ashesanddust_label_str" text="Cinzas e Pó" />
+    <string id="ashes_and_dust_description_str" text="O conjurador canaliza uma potente magia da morte e a libera sobre o inimigo, deixando nada além de pó ao vento. Causa dano moderado em uma pequena área." />
+    
+    <string id="purple_sun_label_str" text="Sol Púrpura de Xereus" />
+    <string id="purple_sun_description_str" text="Os ventos de Shyish sopram fortes enquanto um redemoinho cruel de pura morte é conjurado no campo de batalha, sugando as energias vitais de tudo o que toca." />
+    
+    <string id="fate_of_bjuna_label_str" text="Destino de Bjuna" />
+    <string id="fate_of_bjuna_description_str" text="Houve uma vez um poderoso guerreiro que nunca sorria, amaldiçoado com um riso eterno até que seus flancos se rasgassem pelo esforço. Os alvos sofrem dano ao longo do tempo, bem como um efeito de lentidão." />
+    
+    <string id="amaranth_label_str" text="Amarantina" />
+    <string id="amaranth_description_str" text="Os espíritos dos condenados formam uma barreira eficaz contra a magia; os feitiços direcionados ao conjurador falham e perdem 50% de sua potência." />
+    
+    <string id="spirit_leech_label_str" text="Drenar Espírito" />
+    <string id="spirit_leech_description_str" text="Com a morte vem a vida, enquanto o conjurador drena a força vital do inimigo para restaurar sua própria carne murcha. Inimigos de elite fornecem cura maior." />
+    
+    <string id="caress_of_laniph_label_str" text="Carícia de Laniph" />
+    <string id="caress_of_laniph_description_str" text="Com uma mão estendida, os inimigos do conjurador são cercados por uma névoa púrpura que nenhuma armadura pode bloquear. A névoa acaricia suavemente os alvos antes de se solidificar, comprimir e então esmagar a vida do inimigo." />
+    
+    <!-- Dark Magic -->
+    <string id="chillwind_label_str" text="Vento Gélido" />
+    <string id="chillwind_description_str" text="O conjurador ataca o inimigo com um vendaval congelante." />
+    
+    <string id="doom_bolt_label_str" text="Dardo da Perdição" />
+    <string id="doom_bolt_description_str" text="O mago rasga o céu e invoca um dardo que queima com chamas sombrias sobre o inimigo." />
+    
+    <string id="death_spasm_label_str" text="Espasmo da Morte" />
+    <string id="death_spasm_description_str" text="Um dardo estalante de energia negra que explode em uma bola de fogo e incendeia as vítimas." />
+    
+    <string id="soul_rain_label_str" text="Chuva de Almas" />
+    <string id="soul_rain_description_str" text="Uma nuvem negra paira sobre a área alvo, atingindo aqueles abaixo com raios arcanos." />
+    
+    <string id="power_of_darkness_label_str" text="Poder das Trevas" />
+    <string id="power_of_darkness_description_str" text="O conjurador extrai poder instável do Reino do Caos para fortalecer seus aliados. Concede um bônus de 20% de dano físico por uma duração de 35 segundos." />
+    
+    <string id="screaming_skull_label_str" text="Crânio Gritante" />
+    <string id="screaming_skull_description_str" text="Conjura um crânio gritante gotejando ácido que avança danificando tudo em seu caminho." />
+    
+    <string id="black_horror_label_str" text="Horror Negro de Arnzipal" />
+    <string id="black_horror_description_str" text="O conjurador rompe as paredes entre as realidades, e uma nuvem negra de energia turbulenta varre o campo de batalha. Enquanto a escuridão viaja, tentáculos viscosos chicoteiam de suas profundezas, arrastando vítimas desafortunadas aos gritos para um destino desconhecido." />
+    
+    <string id="soul_stealer_label_str" text="Drenagem de Alma" />
+    <string id="soul_stealer_description_str" text="Inimigos afetados sofrem um efeito de drenagem de alma ao longo do tempo, recebendo 12 de dano a cada segundo por uma duração de 12 segundos." />
+    
+    <!-- High Magic -->
+    <string id="apotheosis_label_str" text="Apoteose" />
+    <string id="apotheosis_description_str" text="O mago infunde e revitaliza seus aliados com energias mágicas puras." />
+    
+    <string id="fiery_convocation_label_str" text="Convocação Ígnea" />
+    <string id="fiery_convocation_description_str" text="Profira uma palavra secreta e seus inimigos explodirão em fogo e chamas. Causa grande dano imediato, além de dano ao longo do tempo na área." />
+    
+    <string id="soul_quench_label_str" text="Extinguir Alma" />
+    <string id="soul_quench_description_str" text="Uma esfera brilhante de luz emerge das pontas dos dedos do mago. Inimigos afetados sofrem dano moderado." />
+    
+    <string id="courage_of_aenarion_label_str" text="Coragem de Aenarion" />
+    <string id="courage_of_aenarion_description_str" text="O mago elfo canaliza todos os oito Ventos da Magia e invoca o nome de Aenarion, o primeiro dos Reis Fênix. Aliados ao redor do mago atacam com maior frequência." />
+    
+    <string id="curse_of_arrowattraction_label_str" text="Maldição da Atração de Flechas" />
+    <string id="curse_of_arrowattraction_description_str" text="O Mago lança uma maldição na área — o ar ao redor dos inimigos distorce-se e guia projéteis aliados com uma precisão espantosa." />
+    
+    <string id="tempest_label_str" text="Tempestade" />
+    <string id="tempest_description_str" text="Conjura um vórtice brilhante de luz cintilante contendo todas as oito cores dos Ventos da Magia." />
+    
+    <string id="shield_of_saphery_label_str" text="Escudo de Saphery" />
+    <string id="shield_of_saphery_description_str" text="O conjurador invoca uma cúpula etérea para proteger seus aliados de disparos à distância." />
+    
+    <!-- Lore of Life -->
+    <string id="dwellers_below_label_str" text="Habitantes das Profundezas" />
+    <string id="dwellers_below_description_str" text="Tentáculos emergem do solo, alcançando e atacando inimigos na área. Derruba, desmonta e causa lentidão (80%) nos inimigos, infligindo 10 de dano por segundo durante 15 segundos." />
+    
+    <string id="the_green_eye_label_str" text="O Olho Verde" />
+    <string id="the_green_eye_description_str" text="O conjurador une seus olhos, disparando um único projétil rápido e penetrante na direção visada." />
+    
+    <string id="barkskin_label_str" text="Pele de Árvore" />
+    <string id="barkskin_description_str" text="Endurece a pele dos alvos, tornando-os mais resistentes e fornecendo 50% de resistência física por 80 segundos." />
+    
+    <string id="summer_heat_label_str" text="Calor de Verão" />
+    <string id="summer_heat_description_str" text="Uma pequena área irradia um calor insuportável, causando fadiga, prejudicando a velocidade de movimento em 50% e tornando os inimigos levemente vulneráveis a dano de fogo por 15 segundos." />
+    
+    <string id="regrowth_label_str" text="Crescimento Exuberante" />
+    <string id="regrowth_description_str" text="Invocando o nome de Duthandor, senhor dos antigos santuários selvagens, o mago cura feridas e ossos quebrados de seus camaradas. Aliados em um raio de 3 metros ganham 5 PV por segundo durante 12 segundos." />
+    
+    <string id="drain_life_label_str" text="Drenar Vida" />
+    <string id="drain_life_description_str" text="Suga a umidade e os fluidos do inimigo, causando 5 de dano por segundo por uma duração total de 10 segundos." />
+    
+    <string id="storm_of_renewal_label_str" text="Tempestade de Renovação" />
+    <string id="storm_of_renewal_description_str" text="Energia bruta flui pelo campo de batalha, renovando o vigor perdido e curando feridas. Cura 30 pontos de vida fixos e 10 pontos de vida de todos os alvos aliados dentro da área durante 12 segundos." />
+    
+    <string id="shieldofthorns_label_str" text="Escudo de Espinhos" />
+    <string id="shieldofthorns_description_str" text="Ulexito espinhoso protege os aliados no raio de efeito. Reflete 25% do dano corpo a corpo recebido." />
+    
+    <!-- Lore of Beasts -->
+    <string id="amber_spear_label_str" text="Lança de Âmbar" />
+    <string id="amber_spear_description_str" text="O conjurador arremessa uma lança de âmbar, como um dardo, na direção visada, que penetra múltiplos alvos." />
+    
+    <string id="tangling_thorn_label_str" text="Espinhos Enredantes" />
+    <string id="tangling_thorn_description_str" text="Raízes irrompem do solo, impedindo todos os inimigos de se moverem por uma duração de 10 segundos." />
+    
+    <string id="panns_impenetrable_pelt_label_str" text="Couro Impenetrável de Pann" />
+    <string id="panns_impenetrable_pelt_description_str" text="Uma pele mágica envolve o mago, protegendo-o de dano físico (40%) por uma duração de 40 segundos." />
+    
+    <string id="hail_storm_label_str" text="Tempestade de Granizo" />
+    <string id="hail_storm_description_str" text="Uma tempestade de pedras cai sobre o inimigo, causando dano físico em um certo raio." />
+    
+    <string id="flock_of_doom_label_str" text="Bando da Perdição" />
+    <string id="flock_of_doom_description_str" text="Invoca um pesadelo de corvos na área visada. Inimigos afetados sofrem dano leve ao longo do tempo e sua resistência física é reduzida em 20% por 10 segundos." />
+    
+    <string id="the_beast_unleashed_label_str" text="A Besta Libertada" />
+    <string id="the_beast_unleashed_description_str" text="Libera a selvageria primordial dos aliados do conjurador, levando-os a um frenesi. Concede um bônus de 25% de dano físico e velocidade de ataque por uma duração de 60 segundos." />
+    
+    <string id="curse_of_anraheir_label_str" text="Maldição de Anraheir" />
+    <string id="curse_of_anraheir_description_str" text="Espíritos da floresta atrapalham todos os inimigos capturados na área por 15 segundos, reduzindo o movimento (35%) e a velocidade de ataque (50%), além de causar 3 de dano por segundo." />
+    
+    <!-- Lore of Metal -->
+    <string id="quicksilver_swords_label_str" text="Espadas de Azougue" />
+    <string id="quicksilver_swords_description_str" text="Infunde as armas dos aliados com energias brilhantes — até mesmo uma espada enferrujada torna-se mortal com a ajuda de um Mago do Metal. Unidades aliadas causam 20% de dano mágico e de fogo por uma duração de 60 segundos." />
+    
+    <string id="gleaming_arrow_label_str" text="Flecha Reluzente" />
+    <string id="gleaming_arrow_description_str" text="O Mago Dourado dispara um projétil de energia dourada de sua testa. O míssil persegue o alvo e causa 100 de dano físico." />
+    
+    <string id="meteoric_ironclad_label_str" text="Couraça Meteórica" />
+    <string id="meteoric_ironclad_description_str" text="Aliados são protegidos por um encantamento de ferro e prata. Fornece 60% de resistência física por uma duração de 45 segundos." />
+    
+    <string id="plague_of_rust_label_str" text="Praga da Ferrugem" />
+    <string id="plague_of_rust_description_str" text="Com um movimento do pulso do conjurador, a armadura dos inimigos é consumida pela ferrugem. Impõe uma penalidade de 70% na resistência física por uma duração de 120 segundos." />
+    
+    <string id="gehennas_golden_globe_label_str" text="Globo Dourado de Gehenna" />
+    <string id="gehennas_golden_globe_description_str" text="Um globo de energia cintilante envolve e queima os inimigos vivos. Aqueles desafortunados o suficiente para sobreviver também sofrem lentidão por uma curta duração." />
+    
+    <string id="final_transmutation_label_str" text="Transmutação Final" />
+    <string id="final_transmutation_description_str" text="Ao tecer o brilhante Vento de Chamon, o mago tenta transmutar seus inimigos em estátuas de puro ouro. Causa dano contínuo e desacelera drasticamente os inimigos." />
+    
+    <string id="gehennas_golden_hounds_label_str" text="Cães Dourados de Gehenna" />
+    <string id="gehennas_golden_hounds_description_str" text="O mago invoca um par de enormes cães dourados que se movem em movimento circular." />
+    
+    <!-- Artillery Placement -->
+    <string id="mortar_spawner_label_str" text="Posicionar Morteiro" />
+    <string id="great_cannon_spawner_label_str" text="Posicionar Grande Canhão" />
+    <string id="field_trebuchet_spawner_label_str" text="Posicionar Trabuco de Campo" />
+    <string id="dwarf_cannon_spawner_label_str" text="Posicionar Canhão Anão" />
+    
+    <string id="anvil_of_doom_spawner_label_str" text="Posicionar Bigorna da Perdição" />
+    
+    <!-- Career Abilities -->
+    <string id="shadowstep_label_str" text="Forma de Névoa" />
+    <string id="righteous_fury_label_str" text="Fúria Justa" />
+    <string id="accusation_str" text="Acusação" />
+    <string id="red_fury_label_str" text="Fúria Vermelha" />
+    <string id="let_them_have_it_label_str" text="Mostrem a eles!" />
+    <string id="axe_of_ulric_label_str" text="Machado de Ulric" />
+    <string id="knightly_charge_label_str" text="Investida de Cavalaria" />
+    
+    <string id="greater_harbinger_label_str" text="Arauto Maior" />
+    <string id="greater_harbinger_description_str" text="Invoca um campeão no local selecionado." />
+    
+    <string id="mindcontrol_label_str" text="Controle Mental" />
+    
+    <string id="blast_of_agony_label_str" text="Explosão de Agonia" />
+    
+    <string id="arcane_conduit_label_str" text="Conduto Arcano" />
+    
+    <string id="doom_seeking_label_str" text="Busca da Perdição" />
+    <string id="doom_seeking_description_str" text="Habilidade de carreira do Matador (não visível)." />
+    
+    <string id="knightly_strike_label_str" text="Golpe de Cavalaria" />
+    <string id="knightly_strike_description_str" text="O mago infunde e revigora seus aliados com energias mágicas puras." />
+    
+    <string id="hawk_eye_label_str" text="Olho de Falcão" />
+    <string id="hawk_eye_description_str" text="As fronteiras de Athel Loren devem permanecer de pé! Invoque seu fiel companheiro, Olho de Falcão! Designe uma área, reduzindo o dano físico corpo a corpo dos inimigos dentro dela. Para cada nível de Exploração, ganhe 0,01% de raio de efeito. (Recarga de 100s)." />
+    
+    <string id="impenetrable_label_str" text="Impenetrável" />
+    <string id="impenetrable_description_str" text="Khazukan Kazakit-HA! Por um breve período, ganhe imunidade total a danos, mas mova-se 25% mais devagar. A duração aumenta para cada nível de Atletismo." />
+    
+    <string id="arrow_of_kurnous_label_str" text="Flecha de Kurnous" />
+    <string id="arrow_of_kurnous_description_str" text="Dispara uma flecha teleguiada devastadora." />
+    
+    <string id="lethal_shot_label_str" text="Tiro Letal" />
+    <string id="lethal_shot_description_str" text="Imbua seu arco com poder mortal. Suas próximas flechas causarão dano aumentado com efeitos baseados no caminho escolhido." />
+    
+    <string id="wrath_of_the_wood_label_str" text="Ira da Floresta" />
+    <string id="wrath_of_the_wood_description_str" text="Invoca dríades no local selecionado." />
+    
+    <string id="fey_paths_label_str" text="Caminhos das Fadas" />
+    <string id="fey_paths_description_str" text="A Dama vaga por caminhos místicos. Teleporta instantaneamente o jogador para o local visado. Carrega com dano causado ou cura realizada por magia." />
+    
+    <string id="comet_of_sigmar_label_str" text="Cometa de Sigmar" />
+    <string id="comet_of_sigmar_description_str" text="O sacerdote arremessa um projétil ígneo que assume a forma do famoso Cometa de Duas Caudas de Sigmar. O Cometa de Sigmar é um projétil sagrado que causa 30 de dano. Pode derrubar unidades ou desmontar cavaleiros. Afeta apenas inimigos." />
+    
+    <string id="healing_hand_label_str" text="Mão Curativa" />
+    <string id="healing_hand_description_str" text="Aliados em um raio de 8 metros recuperam 5 PV a cada 2 segundos por uma duração de 12 segundos." />
+    
+    <string id="armor_of_righteousness_label_str" text="Armadura da Retidão" />
+    <string id="armor_of_righteousness_description_str" text="Aliados em um raio de 15 metros ganham 40% de resistência física por 45 segundos." />
+    
+    <string id="vanquish_label_str" text="Aniquilação" />
+    <string id="vanquish_description_str" text="Encanta as armas de aliados em um raio de 12 metros com o traço Flamejante por 50 segundos. As armas irrompem em fogo e queimam cada inimigo que golpeiam." />
+    
+    <!-- Ulrican Prayers -->
+    <string id="ulric_gift_label_str" text="Dádiva de Ulric" />
+    <string id="ulric_gift_description_str" text="O sacerdote-lobo solta um uivo poderoso e dedica a matança a Ulric. Ganhe +30% de velocidade de movimento e de ataque por 25 segundos." />
+    
+    <string id="heart_of_wolf_label_str" text="Coração do Lobo" />
+    <string id="heart_of_wolf_description_str" text="Os aliados do sacerdote são levados a um frenesi zeloso. Tropas aliadas em um raio de 10 metros ganham +35% de dano físico, além dos traços Inquebrável e Imparável por 20 segundos." />
+    
+    <string id="ice_storm_label_str" text="Tempestade de Gelo" />
+    <string id="ice_storm_description_str" text="O sacerdote-lobo invoca uma tempestade de granizo gélida em uma área. Inimigos sofrem uma penalidade de -50% na velocidade de movimento e de ataque, além de dano ao longo do tempo." />
+    
+    <string id="snow_king_label_str" text="O Decreto do Rei da Neve" />
+    <string id="snow_king_description_str" text="O sacerdote ruge uma grandiosa prece e invoca uma rajada congelante de chamas azuis para purificar a área visada de covardes e fracos. Inimigos afetados sofrem dano e uma penalidade de -50% na velocidade de movimento e de ataque, além de dano ao longo do tempo." />
+    
+    <!-- Bretonnian Prayers -->
+    <string id="aerial_shield_label_str" text="Escudo Aéreo" />
+    <string id="aerial_shield_description_str" text="O poder da Dama faz com que os projéteis inimigos desapareçam no ar. Concede 95% de resistência física à distância em um raio de 12 metros." />
+    
+    <string id="aura_of_the_lady_label_str" text="Aura da Dama" />
+    <string id="aura_of_the_lady_description_str" text="A Dama protege as Donzelas e seus seguidores. Concede 80% de resistência a magia, relâmpagos e fogo em um raio de 15 metros." />
+    
+    <string id="shield_of_combat_label_str" text="Escudo de Combate" />
+    <string id="shield_of_combat_description_str" text="O poder divino da Dama faz com que as armaduras dos aliados desviem os golpes inimigos. Concede 50% de resistência física em um raio de 12 metros." />
+    
+    <string id="ladys_favour_label_str" text="O Favor da Dama" />
+    <string id="ladys_favour_description_str" text="A Donzela conjura uma visão da Dama do Lago para guiar os bretonianos à batalha. Concede um bônus de 25% na velocidade de ataque em um raio de 10 metros." />
+    
+    <!-- Rune Magic -->
+    <string id="oath_and_steel_label_str" text="Runa de Juramento e Aço" />
+    <string id="oath_and_steel_description_str" text="A bênção concedida por Grungni fortalece a malha e a armadura anã, enquanto cada arma e conjunto de armadura recorda os golpes de martelo que os moldaram. Concede 25% de resistência física a Anões próximos. Fortalecido: Concede 20% de dano físico extra a Anões próximos." />
+    
+    <string id="hearth_and_home_label_str" text="Runa do Lar e da Pátria" />
+    <string id="hearth_and_home_description_str" text="Originalmente um presente concedido aos Anões por Valaya, a Runa do Lar e da Pátria acende o orgulho de um Anão em sua fortaleza, clã e ancestrais. Aliados próximos recebem bônus de velocidade de recarga e movimento. Fortalecido: Concede um bônus na velocidade de ataque." />
+    
+    <string id="spellbreaking_label_str" text="Runa de Romper Feitiço" />
+    <string id="spellbreaking_description_str" text="Os Barba-longas mais velhos dizem que esta Runa foi forjada pelos esforços combinados de Grungni e Valaya. O Ferreiro Rúnico libera a runa para interromper conjuradores inimigos — remove efeitos mágicos que afetam unidades aliadas e drena os Ventos da Magia de magos inimigos. Fortalecido: Coloca todas as habilidades dos conjuradores inimigos em espera." />
+    
+    <string id="wrath_and_ruin_label_str" text="Runa da Ira e da Ruína" />
+    <string id="wrath_and_ruin_description_str" text="A bênção de Grimnir canaliza a ira do deus da guerra, fazendo a terra rachar e liberando fogo e enxofre. Causa dano moderado aos inimigos ao redor. Fortalecido: Inimigos afetados sofrem dano ao longo do tempo." />
+    
+    <!-- Big Waaagh! (Greenskin) -->
+    <string id="armed_to_da_teef_label_str" text="Armado até us Dente" />
+    
+    <string id="call_of_da_green_label_str" text="Chamado du Verde" />
+    <string id="call_of_da_green_description_str" text="Foque em sua conexão cum u Grande Verde. Por 15 segundos, Pele-verdes próximos causandu danu geram Ventos da Magia. Cuidado — Pele-verdes morrendu drenam seu podê!" />
+    
+    <string id="gaze_uv_mork_label_str" text="Olhá di Mork" />
+    <string id="gaze_uv_mork_description_str" text="Mork olha atráveis dus óio du Xamã enquanto ele explode us otário cum um fogo verde bem matadô." />
+    
+    <string id="ard_as_nails_label_str" text="Duro feitu Prego" />
+    <string id="ard_as_nails_description_str" text="Enquanto u Xamã tá cercado de rapas de briga, u ju-ju du Waaagh! cobre us garoto, dexandu eles morto de duro." />
+    
+    <string id="brain_bursta_label_str" text="Estoura Cérebro" />
+    <string id="brain_bursta_description_str" text="Enquanto a briga corre, u Xamã junta muito ju-ju du Waaagh!, e solta num GRANDE BOOM que joga us otário nu chão." />
+    
+    <string id="da_hand_uv_gork_label_str" text="A Mão di Gork" />
+    <string id="da_hand_uv_gork_description_str" text="Se a pancadaria tá muito longe, cum a ajuda de Gork u Xamã pode levá us garoto de aqui pra acolá." />
+    
+    <string id="ere_we_go_label_str" text="Vamo simbora!" />
+    <string id="ere_we_go_description_str" text="U Xamã tá ficando pancada das ideia e perdidu num transe. U ju-ju du Grande Waaagh! banha us garoto, dexandu eles mais rápido, mais forte e muito mais matadô." />
+    
+    <string id="foot_uv_gork_label_str" text="Pé di Gork" />
+    <string id="foot_uv_gork_description_str" text="U Xamã se perde na dança, e nu passo certo, u próprio pé de Gork pisa nu chão pra esmagá tudo o que tá embaixo até virá pó." />
+  </strings>
+</base>

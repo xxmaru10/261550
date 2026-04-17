@@ -16,13 +16,13 @@
 	<!-- =============================================== -->
 
 	<SpecializationOption Id="lore_of_life" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_life_4" IconSprite="ghyran">
-		<Name>{=tor_lore_life_name}Ghyran, the Green Wind</Name>
-		<Description>{=tor_lore_life_desc}Verdant life along the stream
-										Water flowing through Jade deep
-										Bulwark of life, its keeper too
-										Growing strong at summer’s bloom
+		<Name>{=tor_lore_life_name}Ghyran, o Vento Verde</Name>
+		<Description>{=tor_lore_life_desc}Vida verdejante ao longo da corrente
+										Água fluindo através da Jade profunda
+										Baluarte da vida, e também seu guardião
+										Crescendo forte no florescer do verão
 										
-										Magisters of the Jade College are instinctively drawn to nature and living beings, be it man, animal, or plant. This unique connection also somewhat binds them to the passage of the seasons—weaker and enervated in winter but brimming with vitality during summer. Jade Wizards are unparalleled healers and overseers of all things natural: rivers, fields, forests, and even the soil itself.</Description>
+										Magisters do Colégio de Jade são instintivamente atraídos pela natureza e seres vivos, sejam eles homens, animais ou plantas. Esta conexão única também os vincula de certa forma à passagem das estações — mais fracos e debilitados no inverno, mas repletos de vitalidade durante o verão. Magos de Jade são curandeiros inigualáveis e supervisores de todas as coisas naturais: rios, campos, florestas e até o próprio solo.</Description>
 		<PositiveEffect>{=tor_lore_life_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_life_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -33,13 +33,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_fire" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_fire_4" IconSprite="aqshy">
-		<Name>{=tor_lore_fire_name}Aqshy, the Red Wind</Name>
-		<Description>{=tor_lore_fire_desc}Ever-bright cinders and heat
-										Consume and destroy like wildfire
-										Subdue the blazing Bright magic
-										But take heed, for it is fickle
+		<Name>{=tor_lore_fire_name}Aqshy, o Vento Vermelho</Name>
+		<Description>{=tor_lore_fire_desc}Brasas e calor sempre brilhantes
+										Consomem e destroem como fogo selvagem
+										Subjugue a flamejante magia Brilhante
+										Mas tome cuidado, pois ela é inconstante
 										
-										Within the fiery spires of the Bright College, Bright Wizards, also called Pyromancers, study the red Wind of Aqshy – the most destructive and belligerent of all the 8 Winds. It is no wonder that Magisters of Aqshy are some of the most powerful war wizards the Empire can field. A timely conjured tornado of violent flame and ash could be all that is needed to triumph over the enemies of man.</Description>
+										Dentro das torres de fogo da Ordem Brilhante, os Magos Brilhantes, também chamados de Piromantes, estudam o vento vermelho de Aqshy – o mais destrutivo e beligerante de todos os 8 Ventos. Não é de admirar que os Magisters de Aqshy sejam alguns dos magos de guerra mais poderosos que o Império pode enviar a campo. Um tornado de chamas violentas e cinzas conjurado no momento certo pode ser tudo o que é necessário para triunfar sobre os inimigos da humanidade.</Description>
 		<PositiveEffect>{=tor_lore_fire_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_fire_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -50,13 +50,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_death" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_death_4" IconSprite="shyish">
-		<Name>{=tor_lore_death_name}Shyish, the Purple Wind</Name>
-		<Description>{=tor_lore_death_desc}Pallid faces and death’s door
-										Ashes, dust and time’s flow
-										Chills the soul to the core
-										The Amethyst grip reaches all
+		<Name>{=tor_lore_death_name}Shyish, o Vento Púrpura</Name>
+		<Description>{=tor_lore_death_desc}Rostos pálidos e o limiar da morte
+										Cinzas, poeira e o fluxo do tempo
+										Esfria a alma até o âmago
+										O aperto Ametista alcança a todos
 										
-										Time waits for no one; all succumb to its workings eventually. Amethyst Wizards know this all too well – They are a morbid folk of secretive nature that wield terrible powers. Draining a foe’s soul or causing the skin and muscles to decay are only some of the Spiriters’ abilities. For that and the frequent confusion with Necromancers, the Magisters of Shyish are likely the least trusted of all Imperial Colleges.</Description>
+										O tempo não espera por ninguém; todos sucumbem às suas ações eventualmente. Magos de Ametista sabem disso muito bem — eles são um povo mórbido de natureza secreta que exerce poderes terríveis. Drenar a alma de um inimigo ou fazer com que a pele e os músculos apodreçam são apenas algumas das habilidades dos "Espiritistas". Por isso, e pela frequente confusão com Necromantes, os Magisters de Shyish são provavelmente os menos confiáveis de todos os Colégios Imperiais.</Description>
 		<PositiveEffect>{=tor_lore_death_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_death_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -67,13 +67,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_light" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_light_4" IconSprite="hysh">
-		<Name>{=tor_lore_light_name}Hysh, the White Wind</Name>
-		<Description>{=tor_lore_light_desc}Accept the Wind of Hysh, friend
-										Let it enlighten the mind and soul
-										Let it scour the darkness
-										And be illuminated
+		<Name>{=tor_lore_light_name}Hysh, o Vento Branco</Name>
+		<Description>{=tor_lore_light_desc}Aceite o Vento de Hysh, amigo
+										Deixe-o iluminar a mente e a alma
+										Deixe-o expurgar a escuridão
+										E seja iluminado
 										
-										The wizards of the Light Order are sometimes known as Hierophants or Exorcists. For it is the brilliant, cleansing glimmer of Hysh that purges all things foul, be it Daemons or the Undead. One of the many burdens of White Wizards is to heal, protect, and banish the darkness from this world.</Description>
+										Os magos da Ordem da Luz são às vezes conhecidos como Hierofantes ou Exorcistas. Pois é o brilho resplandecente e purificador de Hysh que expurga todas as coisas imundas, sejam Demônios ou Mortos-vivos. Um dos muitos fardos dos Magos Brancos é curar, proteger e banir a escuridão deste mundo.</Description>
 		<PositiveEffect>{=tor_lore_light_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_light_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -84,13 +84,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_heavens" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_heavens_4" IconSprite="azyr">
-		<Name>{=tor_lore_heavens_name}Azyr, the Blue Wind</Name>
-		<Description>{=tor_lore_heavens_desc}Air and spheres moving high above
-											Thunderstrike and gust of wind
-											Coiling with Celestial magic
-											Of stars, moons and fate itself
+		<Name>{=tor_lore_heavens_name}Azyr, o Vento Azul</Name>
+		<Description>{=tor_lore_heavens_desc}Ar e esferas movendo-se no alto
+											Golpe de trovão e rajada de vento
+											Enrolando-se com a magia Celestial
+											De estrelas, luas e do próprio destino
 											
-											The Astromancers of the Celestial College are experts in divination, manipulating meteorological phenomena and invoking potent curses. They are exceptional researchers  invaluable to any captain who braves the seas of the Old World. One could certainly say the ability to call down bolts of lightning, offer support to one’s allies and hex the foe makes Heavens the most versatile Lore of Magic.</Description>
+											Os Astromantes do Colégio Celestial são especialistas em adivinhação, manipulando fenômenos meteorológicos e invocando maldições potentes. Eles são pesquisadores excepcionais, inestimáveis para qualquer capitão que desafie os mares do Velho Mundo. Certamente poderíamos dizer que a habilidade de conjurar raios, oferecer suporte aos aliados e amaldiçoar o inimigo faz do Saber dos Céus o mais versátil de todos.</Description>
 		<PositiveEffect>{=tor_lore_heavens_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_heavens_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -101,13 +101,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_beasts" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_beasts_4" IconSprite="ghur">
-		<Name>{=tor_lore_beasts_name}Ghur, the Amber Wind</Name>
-		<Description>{=tor_lore_beasts_desc}Solitary, wild, untamed
-											Savage Amber of the pack
-											Amongst the beasts and groves unclaimed
-											A fierce glimmer of eyes jet black
+		<Name>{=tor_lore_beasts_name}Ghur, o Vento Âmbar</Name>
+		<Description>{=tor_lore_beasts_desc}Solitário, selvagem, indomado
+											Âmbar feroz da matilha
+											Entre as feras e bosques não reivindicados
+											Um brilho feroz de olhos negros como azeviche
 											
-											Amber magic is the feral spirit of the Aethyr, the Realms of Chaos—the source of Winds of Magic. Beast Wizards, sometimes called Shamans, are often as ferocious as the Wind of Ghur itself. Tattered robes, unkempt looks, and trinkets of bones and feathers. They are usually loners that excel at commanding wild beasts or cursing the foe. It is also said these Shamans can shape-shift into various animalistic forms.</Description>
+											A magia Âmbar é o espírito selvagem do Aethyr, os Reinos do Caos — a fonte dos Ventos da Magia. Magos de Âmbar, às vezes chamados de Xamãs, são frequentemente tão ferozes quanto o próprio Vento de Ghur. Mantos esfarrapados, aparência descuidada e adornos de ossos e penas. Eles costumam ser solitários que se destacam em comandar feras selvagens ou amaldiçoar o inimigo. Diz-se também que estes Xamãs podem assumir várias formas animais.</Description>
 		<PositiveEffect>{=tor_lore_beasts_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_beasts_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -118,13 +118,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="lore_of_metal" ProfessionRequirement="option_3_empire_magister_apprentice" EquipmentSetId="tor_cc_magister_apprentice_metal_4" IconSprite="chamon">
-		<Name>{=tor_lore_metal_name}Chamon, the Yellow Wind</Name>
-		<Description>{=tor_lore_metal_desc}The Soaring Eagle from the North
-										Seeding the world with metals and ore
-										The inscrutable enigma of matter to unlock
-										On the golden doors of knowledge forevermore knock
+		<Name>{=tor_lore_metal_name}Chamon, o Vento Amarelo</Name>
+		<Description>{=tor_lore_metal_desc}A Águia Altiva vinda do Norte
+										Semeando o mundo com metais e minérios
+										O inescrutável enigma da matéria a desvendar
+										Nas portas douradas do conhecimento para sempre bater
 										
-										Gold Wizards, or Alchemists, are masters of the Lore of Metal and deal with practical aspects of magic such as metallurgy, chemistry, alchemy, or even herbalism. Indeed, to be a Metal Wizard is to pursue logic and rationality above all. This focus on earthly matters is what elevated the Golden Order as the richest of all Imperial Colleges. However, more envious or suspicious minds often accuse Alchemists of turning lead into gold.</Description>
+										Magos Dourados, ou Alquimistas, são mestres do Saber do Metal e lidam com aspectos práticos da magia, como metalurgia, química, alquimia ou até mesmo herborismo. De fato, ser um Mago do Metal é buscar a lógica e a racionalidade acima de tudo. Este foco em assuntos terrenos é o que elevou a Ordem Dourada como o mais rico de todos os Colégios Imperiais. No entanto, mentes mais invejosas ou suspeitas frequentemente acusam os Alquimistas de transformar chumbo em ouro.</Description>
 		<PositiveEffect>{=tor_lore_metal_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_lore_metal_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -139,12 +139,12 @@
 
 	<SpecializationOption Id="bloodline_von_carstein" ProfessionRequirement="option_3_vc_vampire" EquipmentSetId="tor_cc_bloodline_von_carstein_4" RaceId="vampire" IconSprite="voncarstein_icon">
 		<Name>{=tor_vampire_von_carstein_name}Von Carstein</Name>
-		<Description>{=tor_vampire_von_carstein_desc}Ambition marks the blooded path
-													Arrogance like no other hath
-													As you are, so were we
-													As we are, so shall ye
+		<Description>{=tor_vampire_von_carstein_desc}Ambição marca o caminho de sangue
+													Arrogância como nenhuma outra há
+													Como você é, nós fomos um dia
+													Como nós somos, você será
 													
-													The Von Carstein bloodline is steeped in arrogance and boundless ambition, its history marked by wars waged against the realms of men. From their seat in Sylvania, the prideful Von Carsteins weave a vast web of spies and agents across the Old World, ever watchful for the perfect moment to strike. Only a vampire of exceptional cunning can unite them, and even then, treachery is but a dagger’s edge away.</Description>
+													A linhagem Von Carstein é mergulhada em arrogância e ambição sem limites, sua história marcada por guerras travadas contra os reinos dos homens. De sua sede em Sylvania, os orgulhosos Von Carstein tecem uma vasta rede de espiões e agentes por todo o Velho Mundo, sempre vigilantes pelo momento perfeito para atacar. Apenas um vampiro de astúcia excepcional pode uni-los e, mesmo assim, a traição está a apenas um fio de navalha de distância.</Description>
 		<PositiveEffect>{=tor_vampire_von_carstein_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_vampire_von_carstein_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -157,15 +157,15 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="bloodline_blood_dragon" ProfessionRequirement="option_3_vc_vampire" EquipmentSetId="tor_cc_bloodline_blood_dragon_4" RaceId="vampire" IconSprite="blooddragon_icon">
-		<Name>{=tor_vampire_blood_dragon_name}Blood Dragon</Name>
-		<Description>{=tor_vampire_blood_dragon_desc}The Blood Keep’s banner flies in the wind
-													Their heavy charge has the foe pinned
-													They move around from town to town
-													The Knights of Blood run the enemy down
+		<Name>{=tor_vampire_blood_dragon_name}Dragão de Sangue</Name>
+		<Description>{=tor_vampire_blood_dragon_desc}O estandarte do Forte de Sangue voa ao vento
+													Sua carga pesada encurrala o inimigo
+													Eles se movem de cidade em cidade
+													Os Cavaleiros de Sangue atropelam o rival
 													
-													The Blood Dragon bloodline is founded upon uncompromising martial prowess and a ruthless code of honour in battle. Yet their honour is far removed from the chivalry of Bretonnia or the knightly orders of the Empire. The knights of the Ordo Draconis scour the Old World in pursuit of worthy opponents, raiding and pillaging in search of exceptional foes.</Description>
+													A linhagem dos Dragões de Sangue fundamenta-se em uma proeza marcial intransigente e em um código de honra implacável em batalha. No entanto, sua honra está muito distante da cavalaria de Bretônia ou das ordens de cavalaria do Império. Os cavaleiros da Ordo Draconis percorrem o Velho Mundo em busca de oponentes dignos, saqueando e pilhando em busca de inimigos excepcionais.</Description>
 		<PositiveEffect>{=tor_vampire_blood_dragon_positive}</PositiveEffect>
-		<NegativeEffect>{=tor_vampire_blood_dragon_negative}Cannot use magic or acquire spells</NegativeEffect>
+		<NegativeEffect>{=tor_vampire_blood_dragon_negative}Não pode usar magia ou adquirir feitiços</NegativeEffect>
 		<SkillsToIncrease>
 			<string>OneHanded</string>
 			<string>TwoHanded</string>
@@ -179,15 +179,15 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="bloodline_necrarch" ProfessionRequirement="option_3_vc_vampire" EquipmentSetId="tor_cc_bloodline_necrarch_4" RaceId="necrarch" IconSprite="necrarch_icon">
-		<Name>{=tor_vampire_necrarch_name}Necrarch</Name>
-		<Description>{=tor_vampire_necrarch_desc}With crooked hand and slipping mind
-												It goes abroad; it seeks to find
-												The air is cold, the blood runs deep
-												Another tome is theirs to keep
+		<Name>{=tor_vampire_necrarch_name}Necrarca</Name>
+		<Description>{=tor_vampire_necrarch_desc}Com a mão torta e a mente falha
+												Ele viaja; buscando encontrar
+												O ar é frio, o sangue corre fundo
+												Outro tomo para seu domínio
 												
-												The Necrarch bloodline is defined by its relentless pursuit of knowledge and arcane mastery. Necrarch libraries contain grimoires of forbidden lore that predate the fall of ancient empires. Yet with their brilliance comes madness. The Necrarchs are hopelessly deranged, consumed by jealousy and paranoia, and trust neither kin nor servant.</Description>
+												A linhagem Necrarca é definida por sua busca incessante por conhecimento e maestria arcana. As bibliotecas Necrarcas contêm grimórios de saberes proibidos que precedem a queda de impérios antigos. No entanto, com seu brilho vem a loucura. Os Necrarcas são irremediavelmente perturbados, consumidos por ciúmes e paranoia, e não confiam nem em parentes nem em servos.</Description>
 		<PositiveEffect>{=tor_vampire_necrarch_positive}</PositiveEffect>
-		<NegativeEffect>{=tor_vampire_necrarch_negative}Physically feeble and repulsive</NegativeEffect>
+		<NegativeEffect>{=tor_vampire_necrarch_negative}Fisicamente frágil e repulsivo</NegativeEffect>
 		<SkillsToIncrease>
 			<string>-OneHanded</string>
 			<string>-TwoHanded</string>
@@ -210,12 +210,12 @@
 	<!-- Mousillon vampires use same bloodline options -->
 	<SpecializationOption Id="bloodline_von_carstein_mous" ProfessionRequirement="option_3_mousillon_vampire" EquipmentSetId="tor_cc_bloodline_von_carstein_4" RaceId="vampire" IconSprite="voncarstein_icon">
 		<Name>{=tor_vampire_von_carstein_name}Von Carstein</Name>
-		<Description>{=tor_vampire_von_carstein_desc}Ambition marks the blooded path
-													Arrogance like no other hath
-													As you are, so were we
-													As we are, so shall ye
+		<Description>{=tor_vampire_von_carstein_desc}Ambição marca o caminho de sangue
+													Arrogância como nenhuma outra há
+													Como você é, nós fomos um dia
+													Como nós somos, você será
 													
-													The Von Carstein bloodline is steeped in arrogance and boundless ambition, its history marked by wars waged against the realms of men. The prideful Von Carsteins weave a vast web of spies and agents across the Old World, ever watchful for the perfect moment to strike. Only a vampire of exceptional cunning can unite them, and even then, treachery is but a dagger’s edge away.</Description>
+													A linhagem Von Carstein é mergulhada em arrogância e ambição sem limites, sua história marcada por guerras travadas contra os reinos dos homens. Os orgulhosos Von Carstein tecem uma vasta rede de espiões e agentes por todo o Velho Mundo, sempre vigilantes pelo momento perfeito para atacar. Apenas um vampiro de astúcia excepcional pode uni-los e, mesmo assim, a traição está a apenas um fio de navalha de distância.</Description>
 		<PositiveEffect>{=tor_vampire_von_carstein_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_vampire_von_carstein_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -228,15 +228,15 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="bloodline_blood_dragon_mous" ProfessionRequirement="option_3_mousillon_vampire" EquipmentSetId="tor_cc_bloodline_blood_dragon_4" RaceId="vampire" IconSprite="blooddragon_icon">
-		<Name>{=tor_vampire_blood_dragon_name}Blood Dragon</Name>
-		<Description>{=tor_vampire_blood_dragon_desc}The Blood Keep’s banner flies in the wind
-													Their heavy charge has the foe pinned
-													They move around from town to town
-													The Knights of Blood run the enemy down
+		<Name>{=tor_vampire_blood_dragon_name}Dragão de Sangue</Name>
+		<Description>{=tor_vampire_blood_dragon_desc}O estandarte do Forte de Sangue voa ao vento
+													Sua carga pesada encurrala o inimigo
+													Eles se movem de cidade em cidade
+													Os Cavaleiros de Sangue atropelam o rival
 													
-													The Blood Dragon bloodline is founded upon uncompromising martial prowess and a ruthless code of honour in battle. Yet their honour is far removed from the chivalry of Bretonnia or the knightly orders of the Empire. The knights of the Ordo Draconis scour the Old World in pursuit of worthy opponents, raiding and pillaging in search of exceptional foes.</Description>
+													A linhagem dos Dragões de Sangue fundamenta-se em uma proeza marcial intransigente e em um código de honra implacável em batalha. No entanto, sua honra está muito distante da cavalaria de Bretônia ou das ordens de cavalaria do Império. Os cavaleiros da Ordo Draconis percorrem o Velho Mundo em busca de oponentes dignos, saqueando e pilhando em busca de inimigos excepcionais.</Description>
 		<PositiveEffect>{=tor_vampire_blood_dragon_positive}</PositiveEffect>
-		<NegativeEffect>{=tor_vampire_blood_dragon_negative}Cannot use magic or acquire spells</NegativeEffect>
+		<NegativeEffect>{=tor_vampire_blood_dragon_negative}Não pode usar magia ou adquirir feitiços</NegativeEffect>
 		<SkillsToIncrease>
 			<string>OneHanded</string>
 			<string>TwoHanded</string>
@@ -250,15 +250,15 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="bloodline_necrarch_mous" ProfessionRequirement="option_3_mousillon_vampire" EquipmentSetId="tor_cc_bloodline_necrarch_4" RaceId="necrarch" IconSprite="necrarch_icon">
-		<Name>{=tor_vampire_necrarch_name}Necrarch</Name>
-		<Description>{=tor_vampire_necrarch_desc}With crooked hand and slipping mind
-												It goes abroad; it seeks to find
-												The air is cold, the blood runs deep
-												Another tome is theirs to keep
+		<Name>{=tor_vampire_necrarch_name}Necrarca</Name>
+		<Description>{=tor_vampire_necrarch_desc}Com a mão torta e a mente falha
+												Ele viaja; buscando encontrar
+												O ar é frio, o sangue corre fundo
+												Outro tomo para seu domínio
 												
-												The Necrarch bloodline is defined by its relentless pursuit of knowledge and arcane mastery. Necrarch libraries contain grimoires of forbidden lore that predate the fall of ancient empires. Yet with their brilliance comes madness. The Necrarchs are hopelessly deranged, consumed by jealousy and paranoia, and trust neither kin nor servant.</Description>
+												A linhagem Necrarca é definida por sua busca incessante por conhecimento e maestria arcana. As bibliotecas Necrarcas contêm grimórios de saberes proibidos que precedem a queda de impérios antigos. No entanto, com seu brilho vem a loucura. Os Necrarcas são irremediavelmente perturbados, consumidos por ciúmes e paranoia, e não confiam nem em parentes nem em servos.</Description>
 		<PositiveEffect>{=tor_vampire_necrarch_positive}</PositiveEffect>
-		<NegativeEffect>{=tor_vampire_necrarch_negative}Physically feeble and repulsive</NegativeEffect>
+		<NegativeEffect>{=tor_vampire_necrarch_negative}Fisicamente frágil e repulsivo</NegativeEffect>
 		<SkillsToIncrease>
 			<string>-OneHanded</string>
 			<string>-TwoHanded</string>
@@ -283,13 +283,13 @@
 	<!-- =============================================== -->
 
 	<SpecializationOption Id="priest_sigmar" ProfessionRequirement="option_3_empire_priest_acolyte" EquipmentSetId="tor_cc_priest_sigmar_4" IconSprite="sigmar_comet_icon">
-		<Name>{=tor_priest_sigmar_name}Warrior Priest of Sigmar</Name>
-		<Description>{=tor_priest_sigmar_desc}And Sigmar did rescue the high king of the dwarfs
-											And Sigmar did unite the tribes of elder days
-											And Sigmar did ride down the Black Fire Pass
-											And Sigmar did smite the greenskin menace
+		<Name>{=tor_priest_sigmar_name}Sacerdote Guerreiro de Sigmar</Name>
+		<Description>{=tor_priest_sigmar_desc}E Sigmar de fato resgatou o Grande Rei dos anões
+											E Sigmar de fato uniu as tribos dos tempos antigos
+											E Sigmar de fato cavalgou pelo Passo do Fogo Negro
+											E Sigmar de fato esmagou a ameaça pele-verde
 											
-											The Warrior Priests of Sigmar are his divine will made manifest. Pious and unyielding, they speak sermons of fire and zeal. In battle they become instruments of holy destruction; a Warrior Priest can stir courage in even the lowest scum. The Priests’ voices carry the Emperor’s word; blows that would fell giants are turned aside, for the favour of Sigmar shields them.</Description>
+											Os Sacerdotes Guerreiros de Sigmar são sua vontade divina manifesta. Piedosos e inabaláveis, eles proferem sermões de fogo e zelo. En batalha, tornam-se instrumentos de destruição sagrada; um Sacerdote Guerreiro pode despertar coragem até na mais baixa escória. As vozes dos Sacerdotes carregam a palavra do Imperador; golpes que derrubariam gigantes são desviados, pois o favor de Sigmar os protege.</Description>
 		<PositiveEffect>{=tor_priest_sigmar_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_priest_sigmar_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -300,21 +300,19 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="priest_ulric" ProfessionRequirement="option_3_empire_priest_acolyte" EquipmentSetId="tor_cc_priest_ulric_4" IconSprite="ulric_flame_icon">
-		<Name>{=tor_priest_ulric_name}Warrior Priest of Ulric</Name>
-		<Description>{=tor_priest_ulric_desc}Ulric give me the fangs of the wolf
-											Ulric give me the claws of the wolf
-											Ulric give me the coat of the wolf
-											And I will show your enemies the mercy of the wolf
+		<Name>{=tor_priest_ulric_name}Sacerdote Guerreiro de Ulric</Name>
+		<Description>{=tor_priest_ulric_desc}Ulric, dê-me as presas do lobo
+											Ulric, dê-me as garras do lobo
+											Ulric, dê-me o manto do lobo
+											E eu mostrarei aos seus inimigos a misericórdia do lobo
 											
-											Ulric was the foremost deity of mankind long before Sigmar walked the world. He is the patron of war, fury, and the winter’s breath. A deity of the Old Faith, where many gods have faded into obscurity, Ulric is still worshipped throughout the Empire, most fervently in Middenheim. Priests of Ulric can drive their allies into a frenzy, casting aside fear and caution in pursuit of the kill.</Description>
+											Ulric era a divindade principal da humanidade muito antes de Sigmar caminhar pelo mundo. Ele é o patrono da guerra, da fúria e do sopro do inverno. Uma divindade da Velha Fé, onde muitos deuses caíram na obscuridade, Ulric ainda é adorado em todo o Império, com mais fervor em Middenheim. Os Sacerdotes de Ulric podem levar seus aliados ao frenesi, deixando de lado o medo e a cautela em busca da matança.</Description>
 		<PositiveEffect>{=tor_priest_ulric_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_priest_ulric_negative}</NegativeEffect>
 		<SkillsToIncrease>
 			<string></string>
 			<string></string>
 		</SkillsToIncrease>
-		<AttributeToIncrease></AttributeToIncrease>
-		<AttributeToIncrease></AttributeToIncrease>
 		<AttributeToIncrease></AttributeToIncrease>
 	</SpecializationOption>
 
@@ -323,13 +321,13 @@
 	<!-- =============================================== -->
 
 	<SpecializationOption Id="knight_blazing_sun" ProfessionRequirement="option_3_empire_knight" EquipmentSetId="tor_cc_empire_knight_blazing_sun_4" IconSprite="blazingsun_icon">
-		<Name>{=tor_knight_blazing_sun_name}The Order of the Blazing Sun</Name>
-		<Description>{=tor_knight_blazing_sun_desc}With backs to the wall, death had arrived
-												A god’s intervention, the sixty survived
-												The light shone through, their sins undone
-												Praise Myrmidia and praise the sun
+		<Name>{=tor_knight_blazing_sun_name}A Ordem do Sol Flamejante</Name>
+		<Description>{=tor_knight_blazing_sun_desc}Com as costas contra a parede, a morte havia chegado
+												A intervenção de um deus, os sessenta sobreviveram
+												A luz brilhou, seus pecados foram perdoados
+												Louve a Myrmidia e louve o sol
 												
-												This knightly order of the Empire has dedicated itself wholly to the worship of Myrmidia, the southern goddess of war and tactics. Through their deeds, they are largely responsible for the growing reverence of Myrmidia within the Empire. The Knights of Myrmidia often accompany pilgrims who pay good coin to be escorted safely to the southern realms.</Description>
+												Esta ordem de cavalaria do Império dedicou-se inteiramente à adoração de Myrmidia, a deusa sulista da guerra e das táticas. Através de seus feitos, eles são em grande parte responsáveis pela crescente reverência a Myrmidia dentro do Império. Os Cavaleiros de Myrmidia frequentamente acompanham peregrinos que pagam em moeda para serem escoltados com segurança aos reinos do sul.</Description>
 		<PositiveEffect>{=tor_knight_blazing_sun_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_knight_blazing_sun_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -340,13 +338,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="knight_panthers" ProfessionRequirement="option_3_empire_knight" EquipmentSetId="tor_cc_empire_knight_panthers_4" IconSprite="panther_icon">
-		<Name>{=tor_knight_panthers_name}The Knights Panther</Name>
-		<Description>{=tor_knight_panthers_desc}From Araby’s jungles to Empire’s fields
-												The Panther Knights shall never yield
-												Come mutant, heretic, corrupted witch
-												Slay them all, not a brow shall twitch
+		<Name>{=tor_knight_panthers_name}Os Cavaleiros Pantera</Name>
+		<Description>{=tor_knight_panthers_desc}Das selvas de Araby aos campos do Império
+												Os Cavaleiros Pantera jamais se renderão
+												Venha mutante, herético ou bruxa corrompida
+												Abatam todos, nem uma sobrancelha tremelicará
 												
-												This knightly order rose to prominence during the Crusades against Araby, pursuing the Sultan’s followers deep into the jungles. There they were forced to battle not only the foe but also savage beasts, most notably the great spotted jungle cats. To the Arabians’ astonishment, the knights survived these trials, slaying the beasts and draping their pelts as a mark of strength. Since that time, any initiate of the Order must hunt down one of these mighty cats and return with its hide.</Description>
+												Esta ordem de cavalaria ganhou destaque durante as Cruzadas contra Araby, perseguindo os seguidores do Sultão profundamente nas selvas. Lá, foram forçados a lutar não apenas contra o inimigo, mas também contra feras selvagens, notavelmente os grandes felinos manchados da selva. Para o espanto dos árabes, os cavaleiros sobreviveram a essas provações, matando as feras e usando suas peles como marca de força. Desde então, qualquer iniciado da Ordem deve caçar um desses poderosos felinos e retornar com seu couro.</Description>
 		<PositiveEffect>{=tor_knight_panthers_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_knight_panthers_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -357,13 +355,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="knight_white_wolf" ProfessionRequirement="option_3_empire_knight" EquipmentSetId="tor_cc_empire_knight_white_wolf_4" IconSprite="whitewolf_icon">
-		<Name>{=tor_knight_white_wolf_name}Knights of the White Wolf</Name>
-		<Description>{=tor_knight_white_wolf_desc}For Ulric they ride, for Ulric they die
-												They ride under winter’s frozen sky
-												For Ulric they fight, for Ulric they kill
-												For Ulric they brave the blizzard’s chill
+		<Name>{=tor_knight_white_wolf_name}Cavaleiros do Lobo Branco</Name>
+		<Description>{=tor_knight_white_wolf_desc}Por Ulric eles cavalgam, por Ulric eles morrem
+												Eles cavalgam sob o céu congelado do inverno
+												Por Ulric eles lutam, por Ulric eles matam
+												Por Ulric eles desafiam o frio da nevasca
 												
-												One of the most infamous knightly orders of the Empire, the Order of the White Wolf is sworn to the Ar-Ulric, High Priest of the Cult of Ulric, and to Ulric himself. The Knights’ distinctive appearance and brutal fighting style set them apart from all other orders. Clad in heavy armour and draped in the white pelts of mighty wolves, their hair and beards uncut, wild as a northern winter storm.</Description>
+												Uma das ordens de cavalaria mais infames do Império, a Ordem do Lobo Branco é jurada ao Ar-Ulric, Sumo Sacerdote do Culto de Ulric, e ao próprio Ulric. A aparência distinta dos Cavaleiros e seu estilo de luta brutal os diferenciam de todas as outras ordens. Trajados em armaduras pesadas e cobertos pelas peles brancas de lobos poderosos, com cabelos e barbas por cortar, selvagens como uma tempestade de inverno do norte.</Description>
 		<PositiveEffect>{=tor_knight_white_wolf_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_knight_white_wolf_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -374,13 +372,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="knight_griphon" ProfessionRequirement="option_3_empire_knight" EquipmentSetId="tor_cc_empire_knight_griphon_4" IconSprite="griffon_icon">
-		<Name>{=tor_knight_griphon_name}The Order of the Knights Griffon</Name>
-		<Description>{=tor_knight_griphon_desc}Sigmar’s chosen, the holy order
-											Guard the weak, protect the border
-											Ride from the temple, ignite the flame
-											Judgement awaits In Sigmar’s name
+		<Name>{=tor_knight_griphon_name}A Ordem dos Cavaleiros do Grifo</Name>
+		<Description>{=tor_knight_griphon_desc}Os escolhidos de Sigmar, a ordem sagrada
+											Guardam os fracos, protegem a fronteira
+											Cavalguem do templo, acendam a chama
+											O julgamento aguarda em nome de Sigmar
 											
-											This knightly order traces its origins to the reign of Magnus the Pious, in the years following the Great War Against Chaos. They are charged with safeguarding temples, shrines, and sacred relics dedicated to Sigmar. Once headquartered in Nuln, the order relocated when the Emperors chose Altdorf as their seat of power, a shift that sparked a quiet rivalry between the Knights Griffon and the Reiksguard.</Description>
+											Esta ordem de cavalaria remonta ao reinado de Magnus, o Piedoso, nos anos que se seguiram à Grande Guerra Contra o Caos. Eles são encarregados de salvaguardar templos, santuários e relíquias sagradas dedicadas a Sigmar. Antigamente sediada em Nuln, a ordem mudou-se quando os Imperadores escolheram Altdorf como sua sede de poder, uma mudança que desencadeou uma rivalidade silenciosa entre os Cavaleiros do Grifo e a Reiksguard.</Description>
 		<PositiveEffect>{=tor_knight_griphon_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_knight_griphon_negative}</NegativeEffect>
 		<SkillsToIncrease>
@@ -391,13 +389,13 @@
 	</SpecializationOption>
 
 	<SpecializationOption Id="knight_reiksguard" ProfessionRequirement="option_3_empire_knight" EquipmentSetId="tor_cc_empire_knight_reiksguard_4" IconSprite="reiksguard_icon">
-		<Name>{=tor_knight_reiksguard_name}The Grand Order of the Reiksguard</Name>
-		<Description>{=tor_knight_reiksguard_desc}Reikland’s finest, each a mighty knight
-												We come charging in, wearing red and white
-												The emperor's shield, his sword and his soul
-												To guard Sigmar’s crown, our eternal goal
+		<Name>{=tor_knight_reiksguard_name}A Grã-Ordem da Reiksguard</Name>
+		<Description>{=tor_knight_reiksguard_desc}Os melhores de Reikland, cada um um cavaleiro poderoso
+												Chegamos atacando, vestindo vermelho e branco
+												O escudo do imperador, sua espada e sua alma
+												Para guardar a coroa de Sigmar, nossa meta eterna
 												
-												The Reiksguard is a knightly order founded during the reign of Wilhelm the Wise, first of the von Holswig-Schliestein Emperors. Since that age, they have sworn eternal service to his bloodline, acting as the Emperor’s elite guardians and the iron fist of the Imperial throne. To fight amongst the Reiksguard is to bear the honour of Imperial lineage.</Description>
+												A Reiksguard é uma ordem de cavalaria fundada durante o reinado de Wilhelm, o Sábio, o primeiro dos Imperadores da linhagem von Holswig-Schliestein. Desde aquela época, eles juraram serviço eterno à sua linhagem, servindo como os guardiões de elite do Imperador e o punho de ferro do trono Imperial. Lutar nos quadros da Reiksguard é carregar a honra da linhagem Imperial.</Description>
 		<PositiveEffect>{=tor_knight_reiksguard_positive}</PositiveEffect>
 		<NegativeEffect>{=tor_knight_reiksguard_negative}</NegativeEffect>
 		<SkillsToIncrease>

@@ -809,7 +809,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_we_forest_label_str}Sobrevivente da Floresta</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_we_forest_text_str}Você foi criado pela floresta. Levou décadas até ter contato com outros Asrai. Enquanto se adaptava lentamente à sociedade Asrai, você aprendeu a falar com a própria floresta.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_we_forest_text_str}Você foi criado pela floresta. Passaram-se décadas até que você entrasse em contato com outros Asrai. Embora tenha se adaptado lentamente à sociedade Asrai, aprendeu a falar com a própria floresta.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_we_mountain" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_mountain_veteran_1">
@@ -820,8 +820,8 @@
 			<string>TwoHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_we_mountain_label_str}Veterano de Conflitos nas Montanhas</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_we_mountain_text_str}Você enfrentou os resistentes Anões em inúmeras escaramuças nas Montanhas Cinzentas que cercam Athel Loren. Suas experiências nessas batalhas rudes aprimoraram suas habilidades e resiliência, tornando-o um guerreiro da floresta mais resistente do que a maioria.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_we_mountain_label_str}Veterano de Conflitos Montanhosos</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_we_mountain_text_str}Você enfrentou os robustos Anões em inúmeras escaramuças nas Montanhas Cinzentas que cercam Athel Loren. Suas experiências nessas batalhas árduas aprimoraram suas habilidades e resiliência, tornando-o um guerreiro da floresta mais resistente do que a maioria.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_we_noble" Culture="battania" StageNumber="1" EquipmentSetId="tor_cc_we_noble_1">
@@ -845,7 +845,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
 		<OptionText>{=tor_option_1_we_guardian_anmyr_label_str}Guardião de Anmyr</OptionText>
-		<OptionFlavourText>{=tor_option_1_we_guardian_anmyr_text_str}Anmyr, a Fortaleza Definhante, é um reino arruinado e infecto, corrompido pelo sangue imundo de Morghur. Como resultado, grupos de incursão de Homens-Besta acorrem a Anmyr como mariposas para a chama. Você é um dos Asrai que sempre respondeu ao chamado de guerra de Anmyr com zelo e um forte senso de dever. A Fortaleza Definhante não cairá perante feras vis!</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_1_we_guardian_anmyr_text_str}Anmyr, a Fortaleza Definhante (Witherhold), é um reino corrompido e infestado, maculado pelo sangue imundo de Morghur. Como resultado, bandos de Homens-Fera migram para Anmyr como mariposas para a chama. Você é um dos Asrai que sempre responderam ao chamado de armas de Anmyr com zelo e um forte senso de dever. Witherhold não cairá diante de bestas vis!</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!-- Asrai stage 2 -->
@@ -858,8 +858,8 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_we_kurnous_label_str}Kurnous, o Caçador</OptionText>
-		<PositiveEffectText>{=tor_cc_option_2_we_kurnous_effect_str}Desbloqueia o Símbolo do Kithband</PositiveEffectText>
-		<OptionFlavourText>{=tor_option_2_we_kurnous_text_str}O deus da caça e dos reinos selvagens no Panteão Élfico. Todos os Elfos o reverenciam, mas Kurnous é o mais querido pelos Elfos Silvanos, que consideram o deus da caça o pai de sua raça e acreditam que seu estilo de vida é o mais alinhado aos caminhos de Kurnous.</OptionFlavourText>
+		<PositiveEffectText>{=tor_cc_option_2_we_kurnous_effect_str}Desbloqueia o Símbolo da Kithband</PositiveEffectText>
+		<OptionFlavourText>{=tor_option_2_we_kurnous_text_str}O deus da caça e dos reinos selvagens no Panteão Élfico. Todos os Elfos o reverenciam, mas Kurnous é o mais querido pelos Elfos Silvestres, que o consideram o pai de sua raça e acreditam que seu modo de vida é o mais alinhado com os caminhos de Kurnous.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_we_isha" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_isha_2">
@@ -870,9 +870,9 @@
 			<string>Charm</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
-		<PositiveEffectText>{=tor_cc_option_2_we_isha_effect_str}Desbloqueia o Símbolo do Homem-Árvore</PositiveEffectText>
+		<PositiveEffectText>{=tor_cc_option_2_we_isha_effect_str}Desbloqueia o Símbolo Treekin</PositiveEffectText>
 		<OptionText>{=tor_cc_option_2_we_isha_label_str}Isha, a Mãe</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_we_isha_text_str}The Elven goddess of nature, fertility, bountiful harvest, and the protector of the all things natural. Wood Elves firmly believe the Asrai Mage-Queen Ariel is a living avatar of Isha, bringing her will into the realm of mortals.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_we_isha_text_str}A deusa élfica da natureza, fertilidade, colheita abundante e protetora de todas as coisas naturais. Os Elfos Silvestres acreditam firmemente que a Rainha-Maga Asrai Ariel é um avatar vivo de Isha, trazendo sua vontade para o reino dos mortais.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_we_loec" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_loec_2">
@@ -883,9 +883,9 @@
 			<string>Faith</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<PositiveEffectText>{=tor_cc_option_2_we_loec_effect_str}Desbloqueia o Símbolo do Dançarino de Guerra</PositiveEffectText>
+		<PositiveEffectText>{=tor_cc_option_2_we_loec_effect_str}Desbloqueia o Símbolo Wardancer</PositiveEffectText>
 		<OptionText>{=tor_cc_option_2_we_loec_label_str}Loec, o Dançarino das Sombras</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}O deus da trapaça, riso e música, bem como patrono dos Dançarinos de Guerra Asrai. Loec é uma divindade misteriosa, pois seus servos guardam os segredos de seus rituais. Os seguidores do Deus Trapaceiro são famosos por realizar danças intrincadas que recontam a história de Athel Loren. Loec também possui um lado mais sombrio como o deus das sombras, furtividade e vingança.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_we_loec_text_str}O deus da trapaça, do riso e da música, bem como patrono dos Wardancers Asrai. Loec é uma divindade misteriosa, pois seus servos guardam os segredos de seus rituais. Os seguidores do Deus Trapaceiro são famosos por realizar danças intrincadas que recontam a história de Athel Loren. Loec também possui um lado sombrio como o deus das sombras, furtividade e vingança.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -898,8 +898,8 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_we_vaul_label_str}Vaul, o Criador</OptionText>
-		<PositiveEffectText>{=tor_cc_option_2_we_vaul_effect_str}Desbloqueia o Símbolo do Kithband</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_2_we_vaul_text_str}O deus élfico dos ferreiros, artesãos e artífices. Vaul foi ferido por Khaine durante as antigas guerras dos deuses, o que o deixou aleijado e cego. Mas isso não detém o tenaz Deus-Ferreiro, que ainda trabalha dia e noite em benefício de seu povo. Alguns dos mais poderosos artefatos já empunhados vieram da forja de Vaul, incluindo a temida Criadora de Viúvas – a Espada de Khaine.</OptionFlavourText>
+		<PositiveEffectText>{=tor_cc_option_2_we_vaul_effect_str}Desbloqueia o Símbolo da Kithband</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_2_we_vaul_text_str}O deus élfico dos ferreiros, artesãos e artífices. Vaul foi ferido por Khaine durante as guerras antigas dos deuses, o que o deixou aleijado e cego. Mas isso não impede o tenaz Deus-Ferreiro, que ainda trabalha dia e noite em benefício de sua raça. Alguns dos artefatos mais poderosos já empunhados vieram da forja de Vaul, incluindo a temida Widowmaker – a Espada de Khaine.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_we_khaine" Culture="battania" StageNumber="2" EquipmentSetId="tor_cc_khaine_2">
@@ -910,9 +910,9 @@
 			<string>Roguery</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<PositiveEffectText>{=tor_cc_option_2_we_anath_raema_effect_str}Desbloqueia o Símbolo do Kithband</PositiveEffectText>
-		<OptionText>{=tor_cc_option_2_we_anath_raema_label_str}Anath Raema, a Deusa da Caça Selvagem</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_we_anath_raema_text_str}Anath Raema, irmã de Khaine, é o espelho sombrio de Kurnous, uma predadora selvagem cujo único interesse é derramar o sangue de criaturas menores. Embora ela seja publicamente rejeitada em Loren, alguns reinos buscam seu patrocínio, e mais Asrai do que se suspeita dedicam ao menos algumas de suas mortes à Caçadora Selvagem - Tudo o que Anath Raema busca de seus seguidores é a morte da presa; de dragões a ratos, tudo a agrada.</OptionFlavourText>
+		<PositiveEffectText>{=tor_cc_option_2_we_anath_raema_effect_str}Desbloqueia o Símbolo da Kithband</PositiveEffectText>
+		<OptionText>{=tor_cc_option_2_we_anath_raema_label_str}Anath Raema, a Deusa da Caçada Selvagem</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_we_anath_raema_text_str}Anath Raema, irmã de Khaine, é o espelho sombrio de Kurnous, uma predadora selvagem cujo único interesse é derramar o sangue de criaturas inferiores. Embora seja publicamente rejeitada em Loren, alguns reinos buscam seu patrocínio, e mais Asrai do que a maioria suspeitaria dedicam pelo menos algumas de suas mortes à Caçadora Selvagem - Tudo o que Anath Raema busca de seus seguidores é a morte da presa; de dragões a ratos, tudo a agrada.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -925,9 +925,9 @@
 			<string>Faith</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_we_wardancer_label_str}Caminho do Dançarino de Guerra</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_we_wardancer_effect_str}Carreira de Senhor das Clareiras</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_we_wardancer_text_str}Você é um guerreiro, dançando no caminho de Loec. Como um Dançarino de Guerra, sua agilidade e graça em combate são inigualáveis. Você se move com precisão fluida, transformando a batalha em uma dança mortal.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_we_wardancer_label_str}Caminho do Wardancer</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_we_wardancer_effect_str}Carreira de Senhor da Clareira</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_wardancer_text_str}Você é um guerreiro, dançando no caminho de Loec. Como um Wardancer, sua agilidade e graça em combate são incomparáveis. Você se move com precisão fluida, transformando a batalha em uma dança mortal.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_3_we_waywatcher" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_waywatcher_3">
@@ -938,9 +938,9 @@
 			<string>Tactics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Caminho do Vigia do Caminho</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_we_waywatcher_effect_str}Carreira de Vigia do Caminho</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Você é um batedor experiente, protegendo e vigiando a segurança da floresta. Você se torna um com seu arco com uma proeza incomparável.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_we_waywatcher_label_str}Caminho do Vigia de Trilhas</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_we_waywatcher_effect_str}Carreira de Vigia de Trilhas</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_waywatcher_text_str}Você é um batedor experiente, protegendo e vigiando a segurança da floresta. Você se torna um com seu arco, com uma destreza inigualável.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_we_spellsinger" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_spellsinger_3">
@@ -951,9 +951,9 @@
 			<string>Leadership</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_we_spellsinger_label_str}Caminho do Cantor de Feitiços</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_we_spellsinger_effect_str}Carreira de Cantor de Feitiços</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Você é um cantor de feitiços, que estudará a alta magia ou a magia negra. Você compreenderá a natureza desta floresta mágica e a protegerá como a própria rainha maga.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_we_spellsinger_label_str}Caminho do Tecedor de Feitiços</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_we_spellsinger_effect_str}Carreira de Tecedor de Feitiços</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_spellsinger_text_str}Você é um tecedor de feitiços, que estudará a alta magia ou a magia negra. Compreenderá a natureza desta floresta mágica e a protegerá como a própria rainha maga.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_we_gladerider" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_gladerider_3">
@@ -964,9 +964,9 @@
 			<string>Riding</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_we_gladerider_label_str}Caminho do Cavaleiro das Clareiras</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_we_gladerider_effect_str}Carreira de Senhor das Clareiras</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_we_gladerider_text_str}Os Asrai vivem com suas montarias em harmonia como ninguém. Você decidiu em seus primeiros anos tornar-se um com seu cavalo.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_we_gladerider_label_str}Caminho do Cavaleiro da Clareira</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_we_gladerider_effect_str}Carreira de Senhor da Clareira</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_gladerider_text_str}Os Asrai vivem com suas montarias em harmonia como ninguém mais. Você decidiu em seus primeiros anos tornar-se um com seu cavalo.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_we_warden" Culture="battania" StageNumber="3" EquipmentSetId="tor_cc_we_warden_3">
@@ -978,8 +978,8 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_3_we_warden_label_str}Caminho do Guardião</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_we_warden_effect_str}Carreira de Senhor das Clareiras</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_we_warden_3_text_str}Athel Loren precisa de proteção, mesmo por dentro. Como um Guardião, você jura proteger as matas de qualquer ameaça.</OptionFlavourText>
+		<PositiveEffectText>{=tor_cc_option_3_we_warden_effect_str}Carreira de Senhor da Clareira</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_we_warden_3_text_str}Athel Loren precisa de proteção, até mesmo por dentro. Como um Guardião, você jura proteger os bosques de qualquer ameaça.</OptionFlavourText>
 	</CharacterCreationOption> 
 	
 	<!-- Eonir stage 1 -->
@@ -1003,8 +1003,8 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_eo_faniour_label_str}Descendant of Faniour</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_eo_faniour_text_str}Sua família sobreviveu à Guerra das Barbas e escapou para a floresta de Laurelorn como o último bastião dos Asur sobreviventes no Velho Mundo. Nativo da floresta, você passou a maior parte de sua juventude nas alas da floresta de Laurelorn. </OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_eo_faniour_label_str}Descendente de Faniour</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_faniour_text_str}Sua família sobreviveu à Guerra das Barbas e escapou para a floresta de Laurelorn como o último bastião dos Asur sobreviventes no Velho Mundo. Como alguém nascido na floresta, passou a maior parte de sua juventude nos distritos da floresta de Laurelorn.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_eo_harioth" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_harioth_1">
@@ -1028,7 +1028,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_eo_diplomat_label_str}Descendente de Diplomatas Asur</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_eo_diplomat_text_str}Você descende de uma família que até hoje goza de grande renome em Ulthuan, bem como entre os Eonir. Diplomatas do distante continente Asur, bem como o conselho de hoje, costumam ouvir com atenção ao ouvirem seu nome.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_eo_diplomat_text_str}Você descende de uma família que até hoje possui grande renome tanto em Ulthuan quanto entre os Eonir. Diplomatas do distante continente Asur, bem como o conselho atual, costumam ouvir com atenção quando escutam seu nome.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_eo_druchii_foundling" Culture="eonir" StageNumber="1" EquipmentSetId="tor_cc_eo_druchii_foundling_1">
@@ -1040,7 +1040,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_eo_druchii_foundling_label_str}Enjeitado Druchii</OptionText>
-		<OptionFlavourText>{=tor_option_1_eo_druchii_foundling_text_str}Patrulhas costeiras dos Asur atacaram um navio negreiro dos Druchii; enquanto toda a tripulação morreu, encontraram uma criança druchii sobrevivente. Sem saber o que fazer com você, foi levado aos Eonir como órfão. Como parte desta troca, ninguém sabe de onde você vem, mas você está bem ciente do que aconteceu.</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_1_eo_druchii_foundling_text_str}Patrulhas costeiras dos Asur atacaram um navio negreiro dos Druchii e, embora toda a tripulação tenha morrido, encontraram uma criança Druchii sobrevivente. Sem saber o que fazer, você foi levado aos Eonir como órfão. Como parte dessa situação, ninguém sabe de onde você vem, mas você está bem ciente do que aconteceu.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<!-- Eonir stage 2 -->
@@ -1065,7 +1065,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_eo_trader_empire_label_str}Comerciante em Cidades Imperiais</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_eo_trader_empire_text_str}Como um comerciante itinerante, você provavelmente conhece mais humanos do que seu próprio povo. No entanto, aprendeu a fazer seu nome e, por isso, é respeitado tanto por homens quanto por elfos. </OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_trader_empire_text_str}Como um comerciante itinerante, você provavelmente conhece mais humanos do que sua própria raça. No entanto, aprendeu como fazer seu nome e, por isso, é respeitado tanto por homens quanto por elfos.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_eo_witch_king_envoy" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_witch_king_envoy_2">
@@ -1077,7 +1077,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
 		<OptionText>{=tor_option_2_eo_witch_king_envoy_str}Enviado ao Rei Bruxo</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_eo_witch_king_envoy_text_str}A Corte frequentemente o envia em missões à distante Naggaroth ou às suas Arcas Negras navegantes. Suas visitas regulares lhe deram algumas percepções sobre os negócios diários dos druchii.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_witch_king_envoy_text_str}A Corte frequentemente o enviava em missões na distante Naggaroth ou em suas Black Arks errantes. Suas visitas regulares lhe deram algumas percepções sobre os negócios diários dos Druchii.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -1090,7 +1090,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_eo_senat_member_label_str}Membro do Senado</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_eo_senat_member_text_str}Sua competência como guerreiro lhe rendeu um assento no Senado, onde aprendeu os caminhos da diplomacia e como impor suas políticas por meio de argumentos eloquentes e boas maneiras. </OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_senat_member_text_str}Sua competência como guerreiro lhe rendeu um assento no Senado, onde aprendeu as formas da diplomacia e como impor suas políticas através de argumentos eloquentes e boas maneiras.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_eo_protector_wards" Culture="eonir" StageNumber="2" EquipmentSetId="tor_cc_eo_protector_wards_2">
@@ -1101,8 +1101,8 @@
 			<string>Scouting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_eo_protector_wards_label_str}Protetor das Alas</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_eo_protector_wards_text_str}Você passa a maior parte do tempo nas matas, defendendo as Alas contra as ameaças eternas aos Eonir.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_eo_protector_wards_label_str}Protetor dos Distritos</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_eo_protector_wards_text_str}Você passa a maior parte do seu tempo nos bosques, defendendo os Distritos contra as ameaças constantes aos Eonir.</OptionFlavourText>
 	</CharacterCreationOption>
 
 
@@ -1115,9 +1115,9 @@
 			<string>Steward</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<PositiveEffectText>{=tor_cc_option_3_eo_envoy_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<PositiveEffectText>{=tor_cc_option_3_eo_envoy_effect_str}Mercenary Career</PositiveEffectText>
 		<OptionText>{=tor_cc_option_3_eo_envoy_label_str}Enviado Eonir</OptionText>
-		<OptionFlavourText>{=tor_cc_option_3_eo_envoy_text_str}Como Enviado, você serve aos Eonir fora da floresta, lidando com o comércio e as relações com reinos estrangeiros e estados eleitores.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_envoy_text_str}Como Enviado, você serve aos Eonir fora das florestas, lidando com o comércio e relações com reinos estrangeiros e estados eleitores.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_3_eo_ghost_strider" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_ghost_strider_3">
@@ -1128,9 +1128,9 @@
 			<string>Tactics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Control</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_eo_ghost_strider_label_str}Andarilho Fantasma</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_eo_ghost_strider_effect_str}Carreira de Vigia do Caminho</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_eo_ghost_strider_text_str}Os caçadores silenciosos da floresta são temidos por qualquer um que seja inimigo das matas. Você decidiu trilhar o caminho de um guerreiro tão letal. Decidiu tornar-se um Andarilho Fantasma.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_eo_ghost_strider_label_str}Caminhante Fantasmagórico</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_eo_ghost_strider_effect_str}Carreira de Vigia de Trilhas</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_ghost_strider_text_str}Os caçadores silenciosos da floresta são temidos por qualquer um que seja inimigo dos bosques. Você decidiu seguir o caminho de um guerreiro tão mortal. Decidiu se tornar um Caminhante Fantasmagórico (Ghost Strider).</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_eo_kithband_warrior" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_kithband_warrior_3">
@@ -1142,8 +1142,8 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_3_eo_kithband_warrior_label_str}Guerreiro Kithband</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_eo_kithband_warrior_effect_str}Carreira de Mercenário</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_eo_kithband_warrior_text_str}Você luta ao lado de seu povo pela proteção da floresta, não importa o custo. Embora os guerreiros Kithband careçam de certa elegância em comparação a outros elfos, sua inventividade e praticidade os tornam excelentes guerreiros da floresta.</OptionFlavourText>
+		<PositiveEffectText>{=tor_cc_option_3_eo_kithband_warrior_effect_str}Carreira Mercenária</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_kithband_warrior_text_str}Você luta ao lado de seus parentes pela proteção da floresta, custe o que custar. Embora os guerreiros Kithband careçam de certa elegância em comparação com outros elfos, a inventividade e praticidade deles os tornam excelentes guerreiros da floresta.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_eo_greylord_apprentice" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_greylord_apprentice_3">
@@ -1154,9 +1154,9 @@
 			<string>Spellcraft</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_eo_greylord_apprentice_label_str}Aprendiz de Senhor Cinza</OptionText>
+		<OptionText>{=tor_cc_option_3_eo_greylord_apprentice_label_str}Aprendiz do Senhor Cinza</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_eo_greylord_apprentice_effect_str}Carreira de Senhor Cinza</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_eo_greylord_apprentice_text_str}Você decidiu se juntar aos ensinamentos de um dos Senhores da Magia exilados de Ulthuan; embora saibam tudo sobre este mundo e além, os magos seguem um alto interesse no controle de dragões, não importa o custo. </OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_eo_greylord_apprentice_text_str}Você decidiu se juntar aos ensinamentos de um dos Senhores de Magia exilados de Ulthuan; embora saibam tudo sobre este mundo e além, os magos possuem um alto interesse no controle de dragões, não importa o custo.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_eo_eonir_expatriate" Culture="eonir" StageNumber="3" EquipmentSetId="tor_cc_eo_eonir_expatriate_3">
@@ -1167,7 +1167,7 @@
 			<string>OneHanded</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<PositiveEffectText>{=tor_cc_option_3_eo_eonir_expatriate_effect_str}Carreira de Mercenário</PositiveEffectText>
+		<PositiveEffectText>{=tor_cc_option_3_eo_eonir_expatriate_effect_str}Mercenary Career</PositiveEffectText>
 		<OptionText>{=tor_cc_option_3_eo_eonir_expatriate_label_str}Expatriado Eonir</OptionText>
 		<OptionFlavourText>{=tor_cc_option_3_eo_eonir_expatriate_text_str}Você acha que a causa dos Eonir está perdida. Em vez disso, chama as províncias dos humanos de seu lar. Como mercenário ou comerciante, você ganha a vida por conta própria.</OptionFlavourText>
 	</CharacterCreationOption> 
@@ -1181,8 +1181,8 @@
 			<string>Scouting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_dw_miners_label_str}Mineradores Meticulosos e Lapidadores de Gemas</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_dw_miners_text_str}Muitos anões passam o início de suas vidas nas minas, e seu clã não é diferente, embora muitos sigam carreiras distintas depois. Seu clã sempre teve uma conexão estreita com a terra, seja escavando gemas ou lapidando-as.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_dw_miners_label_str}Mineradores Meticulosos e Lapidários</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_dw_miners_text_str}Muitos anões passam o início de suas vidas nas minas, e seu clã não é diferente, embora muitos sigam uma carreira distinta depois. Seu clã sempre teve uma conexão íntima com a terra, seja escavando gemas ou lapidando-as.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_1_dw_brewers" Culture="sturgia" StageNumber="1" EquipmentSetId="tor_cc_dw_brewers_1">
@@ -1193,8 +1193,8 @@
 			<string>Trade</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_dw_brewers_label_str}Cervejeiros e Agricultores Notáveis</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_dw_brewers_text_str}Seu clã é responsável por manter seu povo alimentado e embriagado. Embora não sejam tão habilidosos quanto Josef Bugman, os cervejeiros do seu clã são tratados com reverência. Embora os agricultores não recebam tal tratamento, sabem que a fortaleza depende deles quase tanto quanto dos cervejeiros. Há muitos pastores de cabras e padeiros de pão-de-pedra que carregam o nome do seu clã.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_dw_brewers_label_str}Notáveis Cervejeiros e Fazendeiros</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_dw_brewers_text_str}Seu clã é responsável por manter sua raça alimentada e inebriada. Embora não sejam tão habilidosos quanto Josef Bugman, os cervejeiros do seu clã são tratados com um ar de reverência. Já os fazendeiros não recebem tal tratamento, mas sabem que a Fortaleza depende deles quase tanto quanto dos cervejeiros. Existem muitos pastores de cabras e padeiros de pão-de-pedra que carregam o nome do seu clã.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_1_dw_engineers" Culture="sturgia" StageNumber="1" EquipmentSetId="tor_cc_dw_engineers_1">
@@ -1206,7 +1206,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_dw_engineers_label_str}Engenheiros e Construtores Brilhantes</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_dw_engineers_text_str}O vapor flui pelo sangue do seu clã tanto quanto o álcool. Muitos engenheiros de guildas por toda Karaz Ankor carregam o nome do seu clã. As fortalezas mais inovadoras consideram a Guilda dos Engenheiros crucial, construindo e mantendo máquinas de destruição para serem lanças sobre seus inimigos, enquanto outras fortalezas os empregam para reforçar as muralhas ou esculpir obras de arte nas montanhas.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_dw_engineers_text_str}O vapor flui pelo sangue do seu clã tanto quanto o álcool. Muitos engenheiros de guildas por toda Karaz Ankor levam o nome do seu clã. As fortalezas mais inovadoras consideram a Guilda dos Engenheiros crucial, construindo e mantendo máquinas de destruição para serem lançadas sobre seus inimigos, enquanto outras fortalezas os empregam para reforçar as muralhas ou esculpir obras de arte nas montanhas.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_1_dw_smelters" Culture="sturgia" StageNumber="1" EquipmentSetId="tor_cc_dw_smelters_1">
@@ -1218,7 +1218,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_dw_smelters_label_str}Fundidores de Minério e Ferreiros Habilidosos</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_dw_smelters_text_str}Mestres do aço, seu clã labuta muitas horas nas forjas, cercado por carvão e ferro enquanto forja armas e armaduras. Alguns dos machados mais afiados e armaduras mais resistentes são obras dos parentes do seu clã.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_dw_smelters_text_str}Mestres do aço, seu clã trabalha por longas horas nas forjas rodeadas de carvão e ferro enquanto forjam armas e armaduras. Alguns dos machados mais afiados e das armaduras mais resistentes são obras dos parentes do seu clã.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_1_dw_warriors" Culture="sturgia" StageNumber="1" EquipmentSetId="tor_cc_dw_warriors_1">
@@ -1229,8 +1229,8 @@
 			<string>Crossbow</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_1_dw_warriors_label_str}Guerreiros Letais e Atiradores de Elite</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_dw_warriors_text_str}Quando os clãs são convocados para a guerra, o seu é o primeiro a responder – muitos de seus parentes formam a base do exército anão: fileiras de escudos de aço apoiadas por besteiros e atiradores de olhos de águia. Guerra e vingança estão em seu sangue.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_1_dw_warriors_label_str}Guerreiros Mortais e Atiradores de Elite</OptionText>
+		<OptionFlavourText>{=tor_cc_option_1_dw_warriors_text_str}Quando os clãs são convocados para a guerra, o seu é o primeiro a responder – muitos dos seus parentes compõem a linha de frente do exército anão: fileiras de escudos de aço apoiadas por besteiros e atiradores de olhos de águia. Guerra e vingança estão em seu sangue.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<!-- Dwarves stage 2 -->
@@ -1244,7 +1244,7 @@
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_dw_umgi_label_str}Ignorância dos Umgi</OptionText>
 		<PositiveEffectText>{=tor_cc_option_2_dw_umgi_effect_str}Dobro de Ouro do Juramento obtido em vitórias contra facções humanas.</PositiveEffectText>
-		<OptionFlavourText>{=tor_option_2_umgi_text_str}Humanos malditos, eles querem nosso aço, nosso fogo, nosso álcool. Basta! Por tempo demais os Dawi sofreram com os ignorantes umgi e nada receberam em troca. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_2_umgi_text_str}Humanos malditos, eles querem nosso aço, nosso fogo, nosso álcool. Não mais! Por tempo demais os Dawi sofreram com os ignorantes umgi e não receberam nada em troca. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_2_dw_elgi" Culture="sturgia" StageNumber="2" EquipmentSetId="tor_cc_dw_elgi_2">
@@ -1257,7 +1257,7 @@
 		<AttributeToIncrease>Social</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_dw_elgi_label_str}Arrogância dos Elgi</OptionText>
 		<PositiveEffectText>{=tor_cc_option_2_dw_elgi_effect_str}Dobro de Ouro do Juramento obtido em vitórias contra facções élficas.</PositiveEffectText>
-		<OptionFlavourText>{=tor_option_2_dw_elgi_text_str}Elfos convencidos! Apesar de sua derrota humilhante durante a Guerra da Vingança, os arrogantes embaixadores elgi ainda têm a audácia de passear por nossos Karaks e bajular nossos Reis. De seus anos como jovem anão, você se lembra deste elfo de aparência magra lhe dando um sorriso presunçoso e um olhar transbordando superioridade. Você cultivou amargamente esta memória, pois honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_2_dw_elgi_text_str}Elfos convencidos! Apesar da derrota humilhante durante a Guerra da Vingança, os arrogantes embaixadores elgi ainda têm o descaramento de passear por nossos Karaks e bajular nossos Reis. Desde seus anos de juventude, você se lembra deste elfo de aparência cadavérica lhe dando um sorriso presunçoso e um olhar transbordando superioridade. Você cultivou amargamente essa memória, pois a honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_2_dw_urks" Culture="sturgia" StageNumber="2" EquipmentSetId="tor_cc_dw_urks_2">
@@ -1270,7 +1270,7 @@
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_dw_urks_label_str}Malícia dos Urks e Grobi</OptionText>
 		<PositiveEffectText>{=tor_cc_option_2_dw_urks_effect_str}Dobro de Ouro do Juramento obtido em vitórias contra Peles-verdes.</PositiveEffectText>
-		<OptionFlavourText>{=tor_option_2_dw_urks_text_str}Peles-verdes, o inimigo mais antigo e torpe dos Dawi. Muitos de sua espécie estão registrados nos Livros de Rancores de inúmeras fortalezas, e nem mais uma entrada será tolerada! De agora em diante, os rancores serão riscados dos livros, pois honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_2_dw_urks_text_str}Peles-verdes, o inimigo mais antigo e vil dos Dawi. Muitos de sua espécie estão escritos nos Livros de Rancores de inúmeras fortalezas, e nem mais uma única entrada será tolerada! De agora em diante, os rancores serão riscados dos livros, pois a honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_2_dw_zanguzaz" Culture="sturgia" StageNumber="2" EquipmentSetId="tor_cc_dw_zanguzaz_2">
@@ -1281,9 +1281,9 @@
 			<string>Leadership</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_dw_zanguzaz_label_str}Corrupção de Zanguzaz</OptionText>
+		<OptionText>{=tor_cc_option_2_dw_zanguzaz_label_str}Corrupção dos Zanguzaz</OptionText>
 		<PositiveEffectText>{=tor_cc_option_2_dw_zanguzaz_effect_str}Dobro de Ouro do Juramento obtido em vitórias contra facções de mortos-vivos.</PositiveEffectText>
-		<OptionFlavourText>{=tor_option_2_dw_zanguzaz_text_str}Os mortos-vivos e vampiros sempre foram um espinho no flanco dos Dawi, apesar de haver pouquíssimos registros de anões mortos-vivos. Os uzkular ainda permanecem uma ameaça constante a certos Karaks e fizeram seus lares imundos em outros. Os caminhantes de ossos pertencem ao solo, e seus mestres sugadores de sangue serão reduzidos a pó ou queimados até as cinzas. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
+		<OptionFlavourText>{=tor_option_2_dw_zanguzaz_text_str}Os mortos-vivos e vampiros sempre foram um espinho no flanco dos Dawi, apesar de haver pouquíssimos registros de anões mortos-vivos. Os uzkular ainda permanecem uma ameaça constante a certos Karaks e fizeram seus lares imundos em outros. Os caminhantes-ósseos pertencem ao chão, e seus mestres sugadores de sangue serão reduzidos a pó ou queimados até as cinzas. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_2_dw_thaggoraki" Culture="sturgia" StageNumber="2" EquipmentSetId="tor_cc_dw_thaggoraki_2">
@@ -1295,8 +1295,8 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<PositiveEffectText>{=tor_cc_option_2_dw_thaggoraki_effect_str}Dobro de Ouro do Juramento obtido em vitórias em regiões montanhosas.</PositiveEffectText>
-		<OptionText>{=tor_cc_option_2_dw_thaggoraki_label_str}Ganância de Thaggoraki</OptionText>
-		<OptionFlavourText>{=tor_option_2_dw_thaggoraki_text_str}O flagelo das vias subterrâneas, os vis Skaven não têm um pingo de honra e prefeririam assassinar a todos nós enquanto dormimos do que marchar orgulhosamente para o campo de batalha. Muitos reis nobres e fortalezas impenetráveis caíram perante a garra envenenada dos homens-rato. O Karaz Ankor não estará seguro enquanto sua espécie vil não for erradicada. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_dw_thaggoraki_label_str}Ganância dos Thaggoraki</OptionText>
+		<OptionFlavourText>{=tor_option_2_dw_thaggoraki_text_str}O flagelo do subcaminho, os vis Skaven não têm um pingo de honra e prefeririam assassinar a todos nós enquanto dormimos do que marchar orgulhosamente para o campo de batalha. Muitos reis nobres e fortalezas impenetráveis caíram diante das garras envenenadas dos homens-rato. O Karaz Ankor não estará seguro até que sua espécie vil tenha sido erradicada. Honra é tudo, e cada erro deve ser corrigido!</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<!-- Dwarves stage 3 -->
@@ -1310,7 +1310,7 @@
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<PositiveEffectText>{=tor_cc_option_3_dw_ironbreaker_effect_str}Carreira de Quebra-Ferro</PositiveEffectText>
 		<OptionText>{=tor_cc_option_3_dw_shield_breaker_label_str}Iniciado Quebra-Ferro</OptionText>
-		<OptionFlavourText>{=tor_cc_option_3_ironbreaker_text_str}Você fazia parte de uma unidade de Quebra-Escudos e mantinha a operação de mineração local protegida. Um dia, você testemunhou um regimento de Quebra-Ferros indo mais fundo nos túneis. Impressionado com sua determinação inabalável, você decidiu proteger não apenas seu clã, mas também salvaguardar todo o Karaz Ankor contra o mal das profundezas.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_ironbreaker_text_str}Você fazia parte de uma unidade de Quebradores de Escudos e mantinha o empreendimento de mineração local protegido. Um dia, você testemunhou um regimento de Quebra-Ferros seguindo para as profundezas dos túneis. Atônito com a determinação inabalável deles, você decidiu proteger não apenas seu clã, mas também salvaguardar todo o Karaz Ankor contra o mal das profundezas.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<CharacterCreationOption Id="option_3_dw_rune_smith" Culture="sturgia" StageNumber="3" EquipmentSetId="tor_cc_dw_rune_smith_3">
@@ -1321,9 +1321,9 @@
 			<string>Faith</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_dw_rune_smith_label_str}Estudante de Forja Rúnica</OptionText>
-		<PositiveEffectText>{=tor_cc_option_3_dw_rune_smith_effect_str}Carreira de Ferreiro Rúnico</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_dw_rune_smith_text_str}Desde cedo, as runas o chamaram. Um proeminente Senhor das Runas o acolheu e lhe ensinou tudo o que desejava compartilhar, estabelecendo a base sobre a qual você construirá suas próprias habilidades de forja rúnica.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_3_dw_rune_smith_label_str}Estudante da Arte Rúnica</OptionText>
+		<PositiveEffectText>{=tor_cc_option_3_dw_rune_smith_effect_str}Carreira de Ferreiro das Runas</PositiveEffectText>
+		<OptionFlavourText>{=tor_cc_option_3_dw_rune_smith_text_str}Desde jovem, as runas chamaram por você. Um proeminente Senhor das Runas o acolheu sob sua proteção e lhe ensinou tudo o que desejava compartilhar, lançando as bases sobre as quais você construiria suas próprias habilidades de forja rúnica.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_dw_slayer" Culture="sturgia" StageNumber="3" EquipmentSetId="tor_cc_dw_slayer_3">
@@ -1334,9 +1334,9 @@
 			<string>Athletics</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_dw_slayer_label_str}Matador Peregrino</OptionText>
+		<OptionText>{=tor_cc_option_3_dw_slayer_label_str}Peregrino Matador</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_dw_slayer_effect_str}Carreira de Matador</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_dw_slayer_text_str}O que quer que o tenha levado a fazer o Juramento do Matador é algo conhecido apenas por você. Você raspou a cabeça, exceto pela icônica crista de Matador, e tingiu o cabelo de um vermelho ardente. Com olhos sombrios, você pegou seu machado e partiu pelo mundo, em busca de uma morte digna que finalmente extinguisse sua vergonha e restaurasse a honra de seu clã.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_dw_slayer_text_str}O que quer que tenha levado você a fazer o Juramento do Matador é algo que só você sabe. Você raspou a cabeça, exceto pela icônica crista de Matador, e tingiu o cabelo de vermelho fogo. Com olhos sombrios, você pegou seu machado e partiu pelo mundo, em busca de uma morte digna que finalmente extinguisse sua vergonha e restaurasse a honra de seu clã.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_dw_engineer" Culture="sturgia" StageNumber="3" EquipmentSetId="tor_cc_dw_engineer_3">
@@ -1347,9 +1347,9 @@
 			<string>Engineering</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_dw_engineer_label_str}Artesão Engenheiro</OptionText>
+		<OptionText>{=tor_cc_option_3_dw_engineer_label_str}Aprendiz de Engenheiro</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_dw_engineer_effect_str}Carreira de Mercenário</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_dw_engineer_text_str}Onde outros inventores iniciantes mal conseguiam entender os princípios básicos da engenharia, você já havia decifrado o funcionamento de um motor a vapor para as pás do rotor de um girocóptero. Graças à sua mente afiada, você se destacou na Guilda dos Engenheiros, o que lhe deu a liberdade de perseguir suas próprias ideias criativas.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_dw_engineer_text_str}Enquanto outros inventores iniciantes mal conseguiam entender os princípios básicos da engenharia, você já havia compreendido o funcionamento de um motor a vapor de pás de rotor de girocóptero. Graças à sua mente aguçada, você se destacou na Guilda dos Engenheiros, o que lhe deu a liberdade de perseguir suas próprias ideias criativas.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<CharacterCreationOption Id="option_3_dw_ranger" Culture="sturgia" StageNumber="3" EquipmentSetId="tor_cc_dw_ranger_3">
@@ -1362,7 +1362,7 @@
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<PositiveEffectText>{=tor_cc_option_3_dw_ranger_effect_str}Carreira de Mercenário</PositiveEffectText>
 		<OptionText>{=tor_cc_option_3_dw_ranger_label_str}Patrulheiro Novato</OptionText>
-		<OptionFlavourText>{=tor_cc_option_3_dw_ranger_text_str}Ao contrário da maioria de seus parentes, você demonstrou afinidade com o mundo exterior e passou grande parte do tempo subindo em árvores e caçando animais selvagens nas encostas das montanhas. Não foi surpresa que você se juntasse aos Patrulheiros; seus olhos e ouvidos atentos evitaram muitas emboscadas.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_dw_ranger_text_str}Ao contrário da maioria de seus parentes, você demonstrou afinidade com o mundo exterior e passou grande parte do seu tempo subindo em árvores e caçando animais selvagens nas encostas das montanhas. Não foi surpresa você se juntar aos Patrulheiros; seus olhos e ouvidos atentos evitaram muitas emboscadas.</OptionFlavourText>
 	</CharacterCreationOption> 
 
 	<!-- Orcs stage 1 -->
@@ -1375,7 +1375,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_gs_rocky_terrain_label_str}Terreno Rochoso</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_gs_rocky_terrain_text_str}O terreno rochoso das Montanhas Negras é onde seus esporos caíram. A pedra fria ao seu redor parece ter superdesenvolvido seus músculos, tornando-os maiores e mais fortes. ‘Vai sê dos brutu!’ você pensou ainda dentro de seu casulo fúngico, sentindo seus membros contraírem com um estalo.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_gs_rocky_terrain_text_str}O terreno rochoso das Montanhas Negras foi onde seus esporos caíram. A pedra fria ao seu redor parece ter desenvolvido excessivamente seus músculos, tornando-os maiores e mais fortes. "Vai sê osso duro!" você pensou ainda dentro de seu casulo fúngico, sentindo seus membros se contraindo com um estalo.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_gs_forest_terrain" Culture="aserai" StageNumber="1" EquipmentSetId="tor_cc_gs_forest_terrain_1">
@@ -1387,7 +1387,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_gs_forest_terrain_label_str}Terreno Florestal</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_gs_forest_terrain_text_str}A floresta intrincada que cobre o continente imperial serviu bem para esconder seu casulo fúngico. O que você não sabia – as matas silenciosas transmitiram a você uma habilidade aprimorada de se mover silenciosamente entre as árvores (para um Orc), tornando-o um caçador temível tanto de animais quanto de humanos. Após um saque a uma caravana imperial, seus companheiros Orcs o chamaram de ‘o sorrateiro’.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_gs_forest_terrain_text_str}A floresta intrincada que cobre o continente Imperial serviu bem para esconder seu casulo fúngico. O que você não sabia — os bosques silenciosos lhe transmitiram uma habilidade aprimorada de se mover silenciosamente entre as árvores (para um Orc), tornando-o um caçador temível de animais e humanos. Após um ataque a uma caravana Imperial, seus companheiros Orcs o chamaram de "o sorrateiro".</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_gs_volcanic_terrain" Culture="aserai" StageNumber="1" EquipmentSetId="tor_cc_gs_volcanic_terrain_1">
@@ -1399,7 +1399,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_gs_volcanic_terrain_label_str}Terreno Vulcânico</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_gs_volcanic_terrain_text_str}Seus esporos foram plantados no solo enegrecido das Terras Sombrias, o domínio dos Anões do Caos. Dentro de seu casulo fúngico, uma máquina de guerra perfeita estava crescendo. Quando seu processo de maturação terminou, você quebrou seu útero-cogumelo e soltou um grito de guerra estrondoso: WAAAAAAAAAAAGH!!!</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_gs_volcanic_terrain_text_str}Seus esporos foram plantados no solo enegrecido das Terras Sombrias, o domínio dos Anões do Caos. Dentro de seu casulo fúngico, uma máquina de guerra perfeita estava crescendo. Quando seu processo de maturação chegou ao fim, você rompeu seu útero-cogumelo e soltou um grito de guerra estrondoso: WAAAAAAAAAAAGH!!!</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_gs_arid_terrain" Culture="aserai" StageNumber="1" EquipmentSetId="tor_gs_arid_terrain_1">
@@ -1411,7 +1411,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_gs_arid_terrain_label_str}Terreno Árido</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_gs_arid_terrain_text_str}O calor das Terras Ruins, amplificado pelas piscinas termais subterrâneas, realmente teve alguns efeitos em sua criação, encolhendo seu cérebro a ponto de se assemelhar mais ao cérebro de um Squig do que de um Orc. O que você perdeu em inteligência, porém, ganhou em força física – um ser movido por instintos, pronto para percorrer as terras com os Orcs Selvagens vestidos de ossos, fanáticos supersticiosos de Gork e Mork.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_gs_arid_terrain_text_str}O calor das Terras Ruins, amplificado pelas piscinas quentes subterrâneas, realmente teve alguns efeitos em sua procriação, encolhendo seu cérebro a ponto de se assemelhar mais ao cérebro de um Squig do que ao de um Orc. O que você perdeu em inteligência, porém, ganhou em força física — um ser impulsionado por instintos pronto para vagar pelas terras com Orcs Selvagens vestidos com ossos, fanáticos supersticiosos de Gork e Mork.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_1_gs_snowy_terrain" Culture="aserai" StageNumber="1" EquipmentSetId="tor_cc_gs_snowy_terrain_1">
@@ -1423,7 +1423,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_1_gs_snowy_terrain_label_str}Terreno Nevado</OptionText>
-		<OptionFlavourText>{=tor_cc_option_1_gs_snowy_terrain_text_str}Nas profundezas do coração congelado das Montanhas do Fim do Mundo, seu fungo cresceu coberto pela neve eterna. O clima gélido tornou sua pele ‘muito dura’, sua carne dura como aço. Pouco depois de sair do casulo, você encontrou um acampamento de outros Peles-verdes, prontos para invadir uma cidadela Anã. Você se juntou a eles, lutaram juntos nos túneis subterrâneos e se batizou no sangue dos infelizes anões.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_1_gs_snowy_terrain_text_str}No fundo do coração congelado das Montanhas do Fim do Mundo, seu fungo cresceu coberto pela neve eterna. O clima gélido tornou sua pele "muito dura", sua carne dura como aço. Não demorou muito após sua saída do casulo para você encontrar um acampamento de outros Peles-verdes, prontos para invadir uma cidadela de Anões. Você se juntou a eles, lutou nos túneis subterrâneos e se batizou no sangue dos infelizes nanicos.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<!-- Greenskin stage 2 -->
@@ -1435,8 +1435,8 @@
 			<string>Faith</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_gs_dung_pillar_label_str}Construindo o Maior Pilar de Esterco</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_gs_dung_pillar_text_str}Orcs são notavelmente criativos quando se trata de erguer ídolos para seus deuses, usando quaisquer materiais que encontrem: sucata, cadáveres e, claro, esterco. Grandes montes de excremento moldados em efígies rústicas de cabeças de Orc são construídos por Peles-verdes ansiosos para ganhar o favor de seus deuses. Seu pilar foi, de longe, o maior da tribo, o que só ajudou a provar sua resistência. Gork e Mork certamente ficaram impressionados com um ídolo tão alto erguido em seu nome.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_gs_dung_pillar_label_str}Erguendo o Maior Pilar de Esterco</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_gs_dung_pillar_text_str}Os Orcs são notavelmente criativos quando se trata de erguer ídolos para seus deuses, usando qualquer material que encontrem: sucata, cadáveres e, claro, esterco. Grandes pilhas de excrementos moldadas em efígies rústicas de cabeças de Orc são construídas por Peles-verdes ansiosos para ganhar o favor de seus deuses. Seu pilar foi de longe o maior da tribo, o que apenas ajudou a provar sua resistência. Gork e Mork certamente ficaram impressionados com um ídolo tão alto erguido em seus nomes.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_gs_arm_wrestling" Culture="aserai" StageNumber="2" EquipmentSetId="tor_cc_gs_arm_wrestling_2">
@@ -1448,7 +1448,7 @@
 		</SkillsToIncrease>
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_2_gs_arm_wrestling_label_str}Queda de Braço com um Troll</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_gs_arm_wrestling_text_str}Orcs amam demonstrações de força, e poucas coisas são mais divertidas do que uma boa briga, uma disputa de cabeçadas ou talvez uma queda de braço. É uma ótima maneira de passar o tempo entre os saques, e sua tribo abrigava um Troll particularmente durão. Se um Orc perde, ele geralmente acaba sem um braço, ou pior, mas você conseguiu vencer o bruto estúpido na queda de braço, e sendo o único que não era Chefe na tribo! Muitos Garotos ficaram profundamente impressionados com essa demonstração de proeza física.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_2_gs_arm_wrestling_text_str}Orcs adoram demonstrações de força, e poucas coisas são mais divertidas do que uma boa briga, uma disputa de cabeçadas ou talvez uma queda de braço. É uma ótima maneira de passar o tempo entre ataques, e sua tribo era o lar de um Troll particularmente resistente. Se um Orc perde, ele geralmente acaba sem um braço, ou pior, mas você conseguiu vencer o bruto estúpido na queda de braço, sendo o único que não era um Chefe na tribo! Muitos Garotos ficaram profundamente impressionados com essa demonstração de proeza física.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_gs_eating_snotlings" Culture="aserai" StageNumber="2" EquipmentSetId="tor_cc_gs_eating_snotlings_2">
@@ -1459,8 +1459,8 @@
 			<string>Roguery</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Intelligence</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_gs_eating_snotlings_label_str}Comer um Bando Inteiro de Snotlings de uma Vez</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_gs_eating_snotlings_text_str}Não é pouca coisa devorar um bando inteiro de Snotlings de um só fôlego. Existem contos de Orcs tentando engoli-los inteiros, apenas para serem mortos por dentro quando os pequenos gits contorcidos abrem caminho para fora com as garras. Por essa razão, certamente é sábio mastigar seus Snotlings adequadamente, cuspir os pedaços e inspecioná-los para garantir que pararam de se mover antes de engolir. Durante tais refeições, você aprendeu muito sobre anatomia, e planejar tal refeição gigantesca exigiu ‘umas tátika de verdade’.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_gs_eating_snotlings_label_str}Devorar um Bando Inteiro de Snotlings de uma Vez</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_gs_eating_snotlings_text_str}Não é pouca coisa devorar um bando inteiro de Snotlings de uma só vez. Existem, é claro, histórias de Orcs tentando engoli-los inteiros, apenas para serem mortos por dentro quando os pequenos vermes se contorcendo abrem caminho para fora com as garras. Por essa razão, é certamente sensato mastigar seus Snotlings adequadamente, cuspir os pedaços e inspecioná-los para garantir que parem de se mover antes de engolir. Durante tais refeições, você aprendeu muito sobre anatomia, e planejar uma refeição tão gigantesca exigiu "umas táticaz de verdade".</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_gs_teef_collection" Culture="aserai" StageNumber="2" EquipmentSetId="tor_cc_gs_teef_collection_2">
@@ -1471,8 +1471,8 @@
 			<string>Leadership</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_gs_teef_collection_label_str}Dono da Coleção Mais Bonita de Teef</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_gs_teef_collection_text_str}Teef (dentes) são a moeda de todos os Peles-verdes. Alguns Teef podem comprar carne ou armas e, como os dentes dos Orcs voltam a crescer constantemente, pode-se chamar de uma economia autossustentável. Os Orcs maiores e mais malvados costumam intimidar os indivíduos mais fracos para que entreguem seus Teef, enquanto os tipos mais astutos vasculham o campo de batalha em busca de cadáveres, arrancando seus Teef antes que os corpos esfriem. Você conseguiu acumular a coleção de Teef mais brilhante já vista, principalmente extorquindo Teef de Garotos e Goblins mais fracos, mas isso é irrelevante. Infelizmente, ela foi roubada mais tarde por algum git fedorento. O culpado nunca foi encontrado, mas é natural suspeitar de um Goblin, então esses gits de nariz comprido definitivamente ‘tiveram o que mereciam’.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_gs_teef_collection_label_str}Possuir a Mais Bela Coleção de Dent'z</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_gs_teef_collection_text_str}Dent'z são a moeda de todos os Peles-verdes. Alguns Dent'z podem comprar carne ou armas e, como as presas dos Orcs crescem constantemente de volta, pode-se chamar isso de uma economia autossustentável. Os Orcs maiores e mais perversos geralmente intimidam os indivíduos mais fracos para que entreguem seus Dent'z, enquanto os tipos mais astutos vasculham o campo de batalha em busca de cadáveres, arrancando seus Dent'z antes que os corpos esfriem. Você conseguiu acumular a coleção de Dent'z mais brilhante já vista, principalmente extorquindo Dent'z de Garotos mais fracos e Goblins, mas isso é irrelevante. Infelizmente, ela foi roubada mais tarde por algum miserável fedorento. O culpado nunca foi encontrado, mas é natural suspeitar de um Goblin, então esses vermes de nariz comprido definitivamente "tiveram o que mereciam".</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_2_gs_goblin_throwing" Culture="aserai" StageNumber="2" EquipmentSetId="tor_cc_gs_goblin_throwing_2">
@@ -1483,8 +1483,8 @@
 			<string>Scouting</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Social</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_2_gs_goblin_throwing_label_str}Recordista do Acampamento em Arremesso de Goblins</OptionText>
-		<OptionFlavourText>{=tor_cc_option_2_gs_goblin_throwing_text_str}Para aliviar o tédio, Orcs ou começam uma briga ou tentam encontrar alguém para intimidar. Naturalmente, isso envolve indivíduos impopulares ou mais fracos. Por sorte, os Goblins pertencem a esses dois grupos e são definitivamente abundantes. Orcs frequentemente recorrem ao arremesso de goblins como ‘batedores’. O objetivo é ver quem consegue lançar o pequeno nanico aterrorizado o mais longe e o mais alto. Você conseguiu estabelecer o recorde do acampamento em uma dessas disputas. O que é mais surpreendente: os Goblins muitas vezes se voluntariavam, dizendo que preferiam ver o mundo a arriscar acabar como lanche de Troll. Alguns Goblins até voltaram com notícias da área circundante, estranhamente animados para tentar de novo.</OptionFlavourText>
+		<OptionText>{=tor_cc_option_2_gs_goblin_throwing_label_str}Deter o Recorde do Acampamento em Arremesso de Goblin</OptionText>
+		<OptionFlavourText>{=tor_cc_option_2_gs_goblin_throwing_text_str}Para aliviar o tédio, os Orcs ou começam alguma briga ou tentam encontrar alguém para intimidar. Naturalmente, isso envolve indivíduos impopulares ou mais fracos. Por sorte, os Goblins pertencem a ambos os grupos e são definitivamente abundantes. Os Orcs frequentemente recorrem ao arremesso de goblins como "batedores". O objetivo é ver quem consegue lançar o anãozinho aterrorizado mais longe e mais alto. Você conseguiu estabelecer o recorde do acampamento em um desses concursos. O que é mais surpreendente: os Goblins muitas vezes se voluntariavam, dizendo que preferiam ver o mundo a correr o risco de acabar como lanche de Troll. Alguns Goblins até voltaram com notícias da área circundante, estranhamente animados para tentar de novo.</OptionFlavourText>
 	</CharacterCreationOption>
 	
 	<!-- Greenskin stage 3 -->
@@ -1498,7 +1498,7 @@
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_3_gs_path_of_boss_label_str}Chefes</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_gs_path_of_boss_effect_str}Carreira de Chefe Orc</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_boss_text_str}Para se tornar um Chefe Orc, primeiro é preciso provar seu valor em combate, tanto no campo quanto dentro do acampamento de guerra. Somente através de intimidação, brigas e espancando outros Orcs até a submissão é que um Orc pode ganhar a atenção do Chefe de Guerra. Quando o Chefe de Guerra vê potencial, ele elevará o competidor ao posto de Chefe. Maiores, mais malvados e mais barulhentos do que seus parentes menores, esses brutos aproveitam todas as chances para afirmar sua dominância.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_boss_text_str}Para se tornar um Chefe Orc, deve-se primeiro provar seu valor em batalha, tanto no campo quanto dentro do acampamento de guerra. Somente através da intimidação, brigas e espancamento de outros Orcs até a submissão é que um Orc pode ganhar a atenção do Chefe de Guerra. Quando o Chefe de Guerra vê potencial, ele elevará o competidor ao posto de Chefe. Maiores, mais perversos e mais barulhentos que seus parentes inferiores, esses brutos aproveitam todas as oportunidades para afirmar sua dominância.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_gs_path_of_shaman" Culture="aserai" StageNumber="3" EquipmentSetId="tor_cc_gs_path_of_shaman_3">
@@ -1511,7 +1511,7 @@
 		<AttributeToIncrease>Discipline</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_3_gs_path_of_shaman_label_str}Xamãs</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_gs_path_of_shaman_effect_str}Carreira de Xamã</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_shaman_text_str}O Xamã é tanto um líder espiritual quanto um condutor da energia bruta do Waaagh!. Ao inalar fumaças estranhas e realizar danças peculiares, os Xamãs Peles-verdes podem entrar em transe através do qual comungam com os deuses Peles-verdes. Em batalha, eles canalizam o poder de ‘O Grande Verde’, fazendo cabeças explodirem ou liberando rajadas crepitantes de energia esmeralda pelos olhos. A maioria dos Garotos considera os Xamãs e seus modos estranhos uma completa loucura, mas apenas os mais corajosos (ou talvez os mais tolos) ousariam zombar desses rituais. Orcs são altamente supersticiosos e acreditam que Gork e Mork estão sempre observando – seria melhor não se opor aos seus agentes.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_shaman_text_str}O Xamã é um líder espiritual e um condutor da energia bruta do Waaagh!. Ao inalar vapores estranhos e realizar danças excêntricas, os Xamãs Peles-verdes podem entrar em transe através dos quais se comunicam com os deuses Peles-verdes. Em batalha, eles canalizam o poder do "Grande Verde", fazendo cabeças explodirem ou liberando rajadas estalantes de energia esmeralda pelos olhos. A maioria dos Garotos considera os Xamãs e seus modos estranhos uma loucura completa, mas apenas os mais corajosos (ou talvez os mais tolos) ousariam zombar desses rituais. Orcs são altamente supersticiosos e acreditam que Gork e Mork estão sempre observando — seria melhor não se opor aos seus agentes.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_gs_path_of_bully" Culture="aserai" StageNumber="3" EquipmentSetId="tor_cc_gs_path_of_bully_3">
@@ -1522,9 +1522,9 @@
 			<string>Throwing</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Cunning</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_gs_path_of_bully_label_str}Valentões</OptionText>
+		<OptionText>{=tor_cc_option_3_gs_path_of_bully_label_str}Opressores</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_gs_path_of_bully_effect_str}Carreira de Chefe Orc</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_bully_text_str}O trabalho do Valentão é manter os Goblins na linha, principalmente chutando-os até que eles ‘usem a cuca’. Sob o ‘incentivo’ de um Valentão, os Goblins projetam e constroem máquinas de guerra precárias e máquinas de cerco que acompanham as invasões dos Peles-verdes. Como criaturas naturalmente preguiçosas, os Goblins precisam de cada incentivo à mão para não abandonarem seus postos e simplesmente ficarem deitados o dia todo. Acontece que você era excepcionalmente talentoso em estalar o chicote tanto quanto os crânios dos Goblins.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_bully_text_str}O trabalho do Opressor é manter os Goblins na linha, principalmente chutando-os até que eles "uzem a cabeça". Sob o "incentivo" de um Opressor, os Goblins projetam e constroem máquinas de guerra e engenhos de cerco capengas que acompanham as invasões Peles-verdes. Como criaturas naturalmente preguiçosas, os Goblins precisam de todos os incentivos possíveis para não abandonarem seus postos e simplesmente ficarem deitados o dia todo. Acontece que você era excepcionalmente talentoso em estalar o chicote, bem como em rachar crânios de Goblin.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_gs_path_of_boar_boys" Culture="aserai" StageNumber="3" EquipmentSetId="tor_cc_path_of_boar_boys_3">
@@ -1535,9 +1535,9 @@
 			<string>Riding</string>
 		</SkillsToIncrease>
 		<AttributeToIncrease>Endurance</AttributeToIncrease>
-		<OptionText>{=tor_cc_option_3_gs_path_of_boar_boys_label_str}Garotos do Javali</OptionText>
+		<OptionText>{=tor_cc_option_3_gs_path_of_boar_boys_label_str}Garotos de Javali</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_gs_path_of_boar_boys_effect_str}Carreira de Chefe Orc</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_boar_boys_text_str}Os Garotos do Javali deleitam-se no caos da batalha, avançando de cabeça nas fileiras inimigas montados em suas montarias rosnantes e presunçosas. O crânio espesso e as presas brutais de um javali de guerra podem rasgar armaduras e carne com facilidade, deixando apenas ruína em seu caminho. Poucas visões são mais aterrorizantes do que uma debandada de Garotos do Javali trovejando pelo campo de batalha, uivando por sangue.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_boar_boys_text_str}Os Garotos de Javali deleitam-se no caos da batalha, avançando de cabeça nas fileiras inimigas montados em suas montarias rosnantes e presas. O crânio espesso e as presas brutais de um javali de guerra podem rasgar armaduras e carne com facilidade, deixando apenas ruína em seu caminho. Poucas visões são mais aterrorizantes do que uma debandada de Garotos de Javali trovejando pelo campo de batalha, uivando por sangue.</OptionFlavourText>
 	</CharacterCreationOption>
 
 	<CharacterCreationOption Id="option_3_gs_path_of_savage_boys" Culture="aserai" StageNumber="3" EquipmentSetId="tor_cc_path_of_savage_boys_3">
@@ -1550,7 +1550,7 @@
 		<AttributeToIncrease>Vigor</AttributeToIncrease>
 		<OptionText>{=tor_cc_option_3_gs_path_of_savage_boys_label_str}Garotos Selvagens</OptionText>
 		<PositiveEffectText>{=tor_cc_option_3_gs_path_of_savage_boys_effect_str}Carreira de Chefe Orc</PositiveEffectText>
-		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_savage_boys_text_str}Os Garotos Orcs Selvagens acreditam seguir o verdadeiro caminho do Orc, rejeitando armaduras e metal em favor de pintura de guerra, ossos e armas de madeira. Eles entram em batalha seminus e uivando, cobertos por padrões rodopiantes de pintura que acreditam oferecer a proteção de Gork e Mork. A ferocidade selvagem desses Garotos rurais os torna aliados temidos e imprevisíveis, mesmo para os padrões Orcs.</OptionFlavourText>
+		<OptionFlavourText>{=tor_cc_option_3_gs_path_of_savage_boys_text_str}Os Garotos Orcs Selvagens acreditam seguir o verdadeiro caminho do Orc, rejeitando armaduras e metal em favor de pinturas de guerra, ossos e armas de madeira. Eles marcham para a batalha seminuos e uivando, cobertos por padrões rodopiantes de tinta que acreditam oferecer a proteção de Gork e Mork. A ferocidade selvagem desses Garotos rurais os torna aliados temidos e imprevisíveis, mesmo para os padrões dos Orcs.</OptionFlavourText>
 	</CharacterCreationOption> 
 	
 

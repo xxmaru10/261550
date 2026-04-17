@@ -4,24 +4,24 @@
         <tag language="Português (BR)" />
     </tags>
     <strings>
-        <string id="str_tor_manual_title_not_here" text="Manual de The Old Realms" />
-        <string id="str_tor_manual_description_not_here" text="O Manual de The Old Realms foi movido! {newline}
-	{newline}
-	{newline}
-	Toda a informação referente ao TOR pode ser encontrada em um documento do Google atualizado em tempo real ou no PDF anexo na pasta Core Modules. {newline}
-	{newline}
-	O Manual em PDF pode ser encontrado em: {newline}
-	{newline}
-	Versão fora da Oficina Steam: {newline}
-	...\Mount &amp; Blade II Bannerlord\Modules\TOR_Core {newline}
-	{newline}
-	Versão da Oficina Steam:{newline}
-	Navegue até a página 'The Old Realms Core Module'; haverá um link para o documento do manual. {newline}
-	{newline}
-	{newline}
-	Note que a versão mais atualizada do manual está disponível online e pode conter mais informações do que o documento PDF anexo! Um link para o documento online é fornecido no PDF.{newline}
-	{newline}
-	{newline}
-	Você também pode se juntar ao nosso canal do Discord para mais informações; o link pode ser encontrado no PDF." />
+        <string id="str_tor_manual_title_not_here" text="Manual do Old Realms" />
+        <string id="str_tor_manual_description_not_here" text="O Manual do Old Realms foi movido! {newline}
+{newline}
+{newline}
+Toda a informação sobre o TOR pode ser encontrada em um documento do Google mantido ao vivo ou no PDF anexo na pasta Core Modules. {newline}
+{newline}
+O Manual em PDF pode ser encontrado em: {newline}
+{newline}
+Versão fora do Steam Workshop:  {newline}
+...\Mount &amp; Blade II Bannerlord\Modules\TOR_Core {newline}
+{newline}
+Versão do Steam Workshop:{newline}
+Navegue até a página 'The Old Realms Core Module', onde haverá um link para o documento do manual. {newline}
+{newline}
+{newline}
+Note que a versão mais atualizada do manual está disponível online e pode conter mais informações do que o documento PDF anexo! Um link para o documento online é fornecido no PDF.{newline}
+{newline}
+{newline}
+Você também pode se juntar ao nosso canal do Discord para mais informações; o link pode ser encontrado no PDF." />
     </strings>
 </base>

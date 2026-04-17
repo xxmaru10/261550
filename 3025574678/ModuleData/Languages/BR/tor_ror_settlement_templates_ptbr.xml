@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <!-- Deathjacks -->
+    <string id="str_tor_ror_settlement_text_deathjacks" text="A cidade é o lar dos Deathjacks, um infame e mortal regimento de arqueiros de renome." />
+    <string id="str_tor_ror_settlement_name_deathjacks" text="Deathjacks" />
+    <string id="str_tor_ror_settlement_hqname_deathjacks" text="Quartel dos Deathjacks" />
+
+    <!-- Stir River Patrol -->
+    <string id="str_tor_ror_settlement_text_stir_scout" text="Dentro da cidade você encontra um quartel da Patrulha do Rio Stir; ele tem visto uso constante e abriga patrulheiros exaustos." />
+    <string id="str_tor_ror_settlement_name_stir_scout" text="Patrulha do Rio Stir" />
+    <string id="str_tor_ror_settlement_hqname_stir_scout" text="Quartel da Patrulha do Rio" />
+
+    <!-- Knights of the Blazing Sun -->
+    <string id="str_tor_ror_settlement_text_blazing_sun" text="Dentro da cidade há uma sede dos Cavaleiros do Sol Flamejante." />
+    <string id="str_tor_ror_settlement_name_blazing_sun" text="Cavaleiros do Sol Flamejante" />
+    <string id="str_tor_ror_settlement_hqname_blazing_sun" text="Sede do Sol Flamejante" />
+
+    <!-- Von Kragsburg Guard -->
+    <string id="str_tor_ror_settlement_text_kragsburg" text="A cidade é o lar da Guarda de Von Kragsburg. Seus quartéis são ornamentados, ordenados e limpos." />
+    <string id="str_tor_ror_settlement_name_kragsburg" text="Guarda de Von Kragsburg" />
+    <string id="str_tor_ror_settlement_hqname_kragsburg" text="Quartel de Von Kragsburg" />
+
+    <!-- Imperial Gunnery School of Nuln -->
+    <string id="str_tor_ror_settlement_text_engineer" text="Dentro da cidade, você pode encontrar a Escola de Artilharia Imperial. É uma vasta rede de forjas, fundições e fábricas, operada pelos Armeiros e Engenheiros veteranos do Império." />
+    <string id="str_tor_ror_settlement_name_engineer" text="Escola de Artilharia Imperial de Nuln" />
+    <string id="str_tor_ror_settlement_hqname_engineer" text="Escola de Artilharia Imperial" />
+
+    <!-- Grundel's Defenders -->
+    <string id="str_tor_ror_settlement_text_grundel" text="A cidade abriga os aposentos dos Defensores de Grundel. Um local de descanso temporário, com lanças alinhadas contra as paredes." />
+    <string id="str_tor_ror_settlement_name_grundel" text="Defensores de Grundel" />
+    <string id="str_tor_ror_settlement_hqname_grundel" text="Aposentos dos Defensores" />
+
+    <!-- Blood Dragons -->
+    <string id="str_tor_ror_settlement_text_blooddragon" text="Dentro da cidade há uma sede dos Dragões de Sangue." />
+    <string id="str_tor_ror_settlement_name_blooddragon" text="Dragões de Sangue" />
+    <string id="str_tor_ror_settlement_hqname_blooddragon" text="Sede dos Dragões de Sangue" />
+
+    <!-- Forgotten Legion of Castle Sternieste -->
+    <string id="str_tor_ror_settlement_text_sternieste" text="Perto da aldeia, a Legião Esquecida do Castelo Sternieste aguarda em sua cripta, pronta para ser erguida." />
+    <string id="str_tor_ror_settlement_name_sternieste" text="Legião Esquecida do Castelo Sternieste" />
+    <string id="str_tor_ror_settlement_hqname_sternieste" text="Cripta da Legião Esquecida" />
+
+    <!-- Konigstein Stalkers -->
+    <string id="str_tor_ror_settlement_text_konigstein" text="Sob a cidade, em uma cripta antiga, os Perseguidores de Konigstein aguardam seu novo mestre." />
+    <string id="str_tor_ror_settlement_name_konigstein" text="Perseguidores de Konigstein" />
+    <string id="str_tor_ror_settlement_hqname_konigstein" text="Cripta de Konigstein" />
+
+    <!-- Longshanks -->
+    <string id="str_tor_ror_settlement_text_longshank" text="A aldeia abriga um acampamento dos Longshanks. Apesar de sua vida de viagens constantes, jurando nunca permanecer em lugar algum por muito tempo, acampamentos como este ainda podem ser encontrados quando este povo resiliente descansa suas pernas cansadas." />
+    <string id="str_tor_ror_settlement_name_longshank" text="Longshanks" />
+    <string id="str_tor_ror_settlement_hqname_longshank" text="Acampamento Longshanks" />
+
+    <!-- Horned Hunters of Taal -->
+    <string id="str_tor_ror_settlement_text_taal" text="A aldeia abriga um acampamento de Caçadores de Chifres. Apesar das incursões profundas nos bosques de Talabecland, viajando para longe da civilização para honrar Taal, os Caçadores são vistos passando por este acampamento para descansar." />
+    <string id="str_tor_ror_settlement_name_taal" text="Caçadores de Chifres de Taal" />
+    <string id="str_tor_ror_settlement_hqname_taal" text="Acampamento de Caçadores de Chifres" />
+
+    <!-- Altdorf Company of Honour -->
+    <string id="str_tor_ror_settlement_text_altdorf" text="Lar da renomada e amada Companhia de Honra de Altdorf, os 'Filhos do Reik'; apenas os melhores podem lutar ao lado destes guerreiros veneráveis." />
+    <string id="str_tor_ror_settlement_name_altdorf" text="Companhia de Honra de Altdorf" />
+    <string id="str_tor_ror_settlement_hqname_altdorf" text="Quartel da Companhia" />
+
+    <!-- Knights Griffon -->
+    <string id="str_tor_ror_settlement_text_griffon" text="Dentro da grande Catedral de Sigmar, reside o quartel dos Cavaleiros do Grifo. Os cavaleiros mais mortais do Império." />
+    <string id="str_tor_ror_settlement_name_griffon" text="Cavaleiros do Grifo" />
+    <string id="str_tor_ror_settlement_hqname_griffon" text="Catedral de Sigmar" />
+
+    <!-- Reiksguard Knights -->
+    <string id="str_tor_ror_settlement_text_reiksguard" text="Devido à proximidade de Grünburg com o Castelo Reikguard, o quartel-general da Grande Ordem dos Cavaleiros da Reiksguard, alguns dos melhores cavaleiros do Império costumam patrulhar estas estradas." />
+    <string id="str_tor_ror_settlement_name_reiksguard" text="Cavaleiros da Reiksguard" />
+    <string id="str_tor_ror_settlement_hqname_reiksguard" text="Quartel-general dos Cavaleiros da Reiksguard" />
+
+    <!-- Hergig Jaegerkorps -->
+    <string id="str_tor_ror_settlement_text_hochland_scout" text="Hergig é o lar dos Jaegerkorps de Hergig. Estes atiradores de elite estão sempre treinando sua pontaria precisa. Eles podem ser encontrados no alojamento de caça dos korps de Hergig." />
+    <string id="str_tor_ror_settlement_name_hochland_scout" text="Os Jaegerkorps de Hergig" />
+    <string id="str_tor_ror_settlement_hqname_hochland_scout" text="Alojamento de Caça de Hergig" />
+
+    <!-- Ostland Black Guard -->
+    <string id="str_tor_ror_settlement_text_ostland_shield" text="Os devotos de Morr estão lutando no pátio da capela, aprimorando suas habilidades com montantes. Abençoados pelo sacerdote de Morr e com duas moedas de prata no bolso, eles estão prontos para a batalha." />
+    <string id="str_tor_ror_settlement_name_ostland_shield" text="Guarda Negra de Ostland" />
+    <string id="str_tor_ror_settlement_hqname_ostland_shield" text="Capela de Morr" />
+
+    <!-- Gunderman's Surefires -->
+    <string id="str_tor_ror_settlement_text_drakwald_patrol" text="A aldeia é o lar de um posto avançado da patrulha de Drakwald; os Atiradores Certeiros de Gunderman estão prontos para partir." />
+    <string id="str_tor_ror_settlement_name_drakwald_patrol" text="Atiradores Certeiros de Gunderman" />
+    <string id="str_tor_ror_settlement_hqname_drakwald_patrol" text="Posto Avançado dos Atiradores Certeiros de Gunderman" />
+
+    <!-- Van Klumpf Buccaneers -->
+    <string id="str_tor_ror_settlement_text_marienburg_sailor" text="Dentro do porto de Marienburg, os Bucaneiros de Van Klumpf podem ser encontrados em seu navio, prontos para zarpar." />
+    <string id="str_tor_ror_settlement_name_marienburg_sailor" text="Bucaneiros de Van Klumpf" />
+    <string id="str_tor_ror_settlement_hqname_marienburg_sailor" text="Taverna dos Bucaneiros de Van Klumpf" />
+
+    <!-- Nordland Seahawks -->
+    <string id="str_tor_ror_settlement_text_nordland_mariner" text="A cidade é o lar dos famosos Falcões do Mar de Nordland, prontos para abordar qualquer navio nórdico." />
+    <string id="str_tor_ror_settlement_name_nordland_mariner" text="Falcões do Mar de Nordland" />
+    <string id="str_tor_ror_settlement_hqname_nordland_mariner" text="Quartel dos Falcões do Mar de Nordland" />
+
+    <!-- Bowman of Bergerac -->
+    <string id="str_tor_ror_settlement_text_bergerac" text="Ao redor de Bergerac, você nota o acampamento dos famosos Arqueiros de Bergerac." />
+    <string id="str_tor_ror_settlement_name_bergerac" text="Arqueiros de Bergerac" />
+    <string id="str_tor_ror_settlement_hqname_bergerac" text="Acampamento dos Arqueiros de Bergerac" />
+
+    <!-- Cultists of Maisontaal -->
+    <string id="str_tor_ror_settlement_text_maisontaal" text="Dentro da Abadia de Maisontaal, você encontra os cultistas devotos de Taal de Maisontaal." />
+    <string id="str_tor_ror_settlement_name_maisontaal" text="Cultistas de Maisontaal" />
+    <string id="str_tor_ror_settlement_hqname_maisontaal" text="Abadia de Maisontaal" />
+
+    <!-- Peasant Knights of Wainfleet -->
+    <string id="str_tor_ror_settlement_text_peasant_squire" text="A aldeia é o lar da Mansão de Geg. Pouco mais que um barraco, é, no entanto, o lar dos nada majestosos Cavaleiros Camponeses de Wainfleet." />
+    <string id="str_tor_ror_settlement_name_peasant_squire" text="Cavaleiros Camponeses de Wainfleet" />
+    <string id="str_tor_ror_settlement_hqname_peasant_squire" text="Mansão de Geg" />
+
+    <!-- Corduin's Knightly Mariners -->
+    <string id="str_tor_ror_settlement_text_anguille_sailor" text="Dentro dos quartéis do cais residem os bravos marinheiros cavalheirescos de Corduin; eles estão prontos para zarpar para seu próximo trabalho." />
+    <string id="str_tor_ror_settlement_name_anguille_sailor" text="Marinheiros Cavalheirescos de Corduin" />
+    <string id="str_tor_ror_settlement_hqname_anguille_sailor" text="Quartel do Cais de L'Anguille" />
+
+    <!-- Knights of the white wolf -->
+    <string id="str_tor_ror_settlement_text_wolfkin" text="Dentro de Middenheim, o culto de Ulric reina. No templo de Ulric, os seguidores mais devotos de Ulric estão prontos, sedentos por batalha." />
+    <string id="str_tor_ror_settlement_name_wolfkin" text="Cavaleiros do Lobo Branco" />
+    <string id="str_tor_ror_settlement_hqname_wolfkin" text="Grande Templo de Ulric" />
+
+    <!-- Kharmourt's blades -->
+    <string id="str_tor_ror_settlement_text_kharmourt" text="Nos quartéis do Castelo Carcasonne, as Lâminas de Kharmourt podem ser encontradas, o orgulho pessoal do Barão Larieu de Kharmourt." />
+    <string id="str_tor_ror_settlement_name_kharmourt" text="Lâminas de Kharmourt" />
+    <string id="str_tor_ror_settlement_hqname_kharmourt" text="Quartel de Kharmourt" />
+
+    <!-- Beastslayers of bastonne -->
+    <string id="str_tor_ror_settlement_text_bastonne_squire" text="Dentro da Corte de Bastonne, você pode encontrar os Matadores de Feras de Bastonne; tal como seu temível senhor suserano, eles se destacam em combater monstros perigosos." />
+    <string id="str_tor_ror_settlement_name_bastonne_squire" text="Matadores de Feras de Bastonne" />
+    <string id="str_tor_ror_settlement_hqname_bastonne_squire" text="Corte de Bastonne" />
+
+    <!-- Wardens of Montfort -->
+    <string id="str_tor_ror_settlement_text_mounted_bowman" text="Nos estábulos do castelo, os Guardiões cuidam de seus cavalos e preparam seus arcos; os infames Guardiões de Montfort estão prontos para proteger seu país." />
+    <string id="str_tor_ror_settlement_name_mounted_bowman" text="Guardiões de Montfort" />
+    <string id="str_tor_ror_settlement_hqname_mounted_bowman" text="Estábulos do Castelo de Montfort" />
+
+    <!-- Knights of the lionhearted -->
+    <string id="str_tor_ror_settlement_text_lionhearted" text="Do Castelo Lyonesse, lar do primeiro grande companheiro, Thierulf, o Coração de Leão, vêm os mais ferozes cavaleiros da Bretônia. Eles podem ser encontrados na Capela da Senhora." />
+    <string id="str_tor_ror_settlement_name_lionhearted" text="Cavaleiros do Coração de Leão" />
+    <string id="str_tor_ror_settlement_hqname_lionhearted" text="Capela da Senhora" />
+
+    <!-- Wildwood Rangers -->
+    <string id="str_tor_ror_settlement_text_wildwood_ranger" text="Nem todos os Espíritos da Floresta desejam coexistir com os Asrai. Habitantes malevolentes e perturbados da floresta são banidos para a Mata Selvagem, onde os patrulheiros de elite da Mata Selvagem mantêm sua vigília eterna." />
+    <string id="str_tor_ror_settlement_name_wildwood_ranger" text="Patrulheiros da Mata Selvagem" />
+    <string id="str_tor_ror_settlement_hqname_wildwood_ranger" text="Mata Selvagem" />
+
+    <!-- Asrai Wardancers -->
+    <string id="str_tor_ror_settlement_text_loec" text="Fyr Darric, a Floresta do Trapaceiro, abriga a maior concentração de trupes de Dançarinos de Guerra vagando por Athel Loren. Música e risos frequentemente podem ser ouvidos nesta região, mas nem todas as coisas são o que parecem à primeira vista." />
+    <string id="str_tor_ror_settlement_name_loec" text="Dançarinos de Guerra Asrai" />
+    <string id="str_tor_ror_settlement_hqname_loec" text="A Floresta do Trapaceiro" />
+
+    <!-- Wild Riders of Kurnous -->
+    <string id="str_tor_ror_settlement_text_wild_rider" text="Aqui, na Clareira do Rei, os impulsivos Cavaleiros Selvagens, sem proferir uma palavra, aguardam o renascimento de seu mestre, Orion. Seu único desejo é cavalgar na Caçada Selvagem ao lado do Rei nos Bosques." />
+    <string id="str_tor_ror_settlement_name_wild_rider" text="Cavaleiros Selvagens de Kurnous" />
+    <string id="str_tor_ror_settlement_hqname_wild_rider" text="Santuário de Kurnous" />
+
+    <!-- Slayer -->
+    <string id="str_tor_ror_settlement_text_slayer_keep" text="A Fortaleza do Matador. A jornada de redenção de todo Matador começa aqui." />
+    <string id="str_tor_ror_settlement_name_slayer" text="Matador" />
+    <string id="str_tor_ror_settlement_hqname_slayer" text="Fortaleza do Matador" />
+  </strings>
+</base>

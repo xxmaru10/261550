@@ -4,36 +4,36 @@
         <tag language="Português (BR)" />
     </tags>
     <strings>
-        <string id="ccultist_robbery" text="Outro tolo adentra nosso domínio. Entregue seu ouro ou perca sua vida!" />
-        <string id="v_first_meeting" text="O que deseja de mim?" />
-        <string id="v_annoyed_first_meeting" text="Quem é você para se aproximar de mim? Fale, minha paciência se esgota." />
-        <string id="v_fealty" text="{STR_SALUTATION}... Eu lhe ofereço minha lealdade." />
-        <string id="v_whoislay" text="Alto lá! Quem é você? Desejo saber quem estou prestes a abater." />
-        <string id="v_beensometime" text="{STR_SALUTATION}. Faz algum tempo." />
-        <string id="v_yourstocommand" text="{STR_SALUTATION}... Estou sob seu comando." />
+        <string id="ccultist_robbery" text="Outro tolo entra em nosso domínio. Entregue seu ouro ou perca sua vida!" />
+        <string id="v_first_meeting" text="O que você quer de mim?" />
+        <string id="v_annoyed_first_meeting" text="Quem é você para se aproximar de mim? Fale, minha paciência está se esgotando." />
+        <string id="v_fealty" text="{STR_SALUTATION}... eu lhe ofereço minha lealdade." />
+        <string id="v_whoislay" text="Pare aí! Quem é você? Gostaria de saber quem estou matando." />
+        <string id="v_beensometime" text="{STR_SALUTATION}. Já faz algum tempo." />
+        <string id="v_yourstocommand" text="{STR_SALUTATION}... estou sob o seu comando." />
         <string id="v_atyourservice" text="Estou à sua inteira disposição. Como posso servir?" />
-        <string id="v_unburied" text="{STR_SALUTATION}... Eu me certificarei de que você permaneça insepulto após cair." />
-        <string id="v_perish" text="Diga o que quiser; depois, você perecerá." />
-        <string id="v_diejoinarmy" text="Se você morrer com honra hoje, juntar-se-á aos meus exércitos na morte." />
-        <string id="e_first_meeting" text="Você está diante de um abençoado, mas não sei quem você é para fazê-lo. Fale, ou suma da minha vista." />
-        <string id="e_first_meeting_renowned" text="Estamos cientes de suas medíocres conquistas. O que deseja dos filhos e filhas de Athel Loren, efêmero?" />
+        <string id="v_unburied" text="{STR_SALUTATION}... eu garantirei que você permaneça insepulto após cair." />
+        <string id="v_perish" text="Diga o que quiser, depois você perecerá." />
+        <string id="v_diejoinarmy" text="Se você morrer bem hoje, juntar-se-á aos meus exércitos na morte." />
+        <string id="e_first_meeting" text="Você está diante dos abençoados, mas não sei quem você é para fazê-lo. Fale ou saia da minha vista." />
+        <string id="e_first_meeting_renowned" text="Estamos cientes de suas minguadas realizações. O que você deseja dos filhos e filhas de Athel Loren, efêmero?" />
         <string id="e_first_meeting_kin" text="Isha o saúda, Parente." />
-        <string id="e_met_before" text="Saudações. O que o traz diante dos Asrai neste dia?" />
+        <string id="e_met_before" text="Saudações. O que o traz perante os Asrai hoje?" />
         <string id="e_met_before_kin" text="Isha o saúda, Parente." />
         <string id="e_met_before_friendly" text="Que Isha o abençoe, amigo. O que deseja?" />
-        <string id="e_wary_1" text="Diga-me, que pobre criatura Morai-Heg amaldiçoou em meu caminho?" />
+        <string id="e_wary_1" text="Diga-me, peço, que pobre criatura Morai-Heg amaldiçoou em meu caminho." />
         <string id="e_wary_2" text="Os filhos de Orion e Ariel o saúdam. Fale rápido, pois estou ocupado." />
-        <string id="e_wary_3" text="Estrangeiro, você desperdiça um tempo precioso, mas eu o ouvirei. Fale. Rápido." />
-        <string id="e_hostile_1" text="Pensei que Ereth Khial o tivesse levado. O que deseja, abominação?" />
-        <string id="e_hostile_2" text="Lileath ordena que eu ouça sua língua venenosa, do contrário, eu já a teria cortado fora." />
+        <string id="e_wary_3" text="Forasteiro, você desperdiça tempo precioso, mas eu o ouvirei. Fale. Rápido." />
+        <string id="e_hostile_1" text="Pensei que Ereth Khial o tivesse levado. O que é, demônio?" />
+        <string id="e_hostile_2" text="Lileath ordena que eu ouça sua língua venenosa, ou eu já a teria cortado fora." />
         <string id="e_under_command" text="Que Isha o abençoe, amigo. O que deseja?" />
         <string id="e_attacking_1" text="Kurnous nos ordenou caçar hoje. Parece que encontramos a presa. Fale, enquanto pode." />
         <string id="e_attacking_2" text="Eldrazor verá batalha hoje; se é o que busca, os Asrai a darão." />
-        <string id="e_attacking_3" text="É cruel que Khaine o traga para sua morte; o que deseja dizer antes do seu fim?" />
-        <string id="e_attacking_4" text="Ouvirei suas palavras vis, apenas para tornar minha vingança uma oferenda mais doce a Drakira." />
-        <string id="e_attacking_5" text="Louvem Drakira! Meu inimigo mais odiado entrega-se a mim; diga suas últimas palavras, então retorne ao seu exército e aguarde o massacre." />
-        <string id="e_attacking_6" text="Meus parentes discutem se você é um prêmio digno de Kurnous ou Anath Raema; fale enquanto decido quem deve ficar com você." />
-        <string id="e_defending_1" text="Inimigo dos Asrai, não apressarei a morte dos meus parentes, se você não o fizer pelos seus. Vamos conversar." />
-        <string id="e_defending_2" text="Lileath deseja que vejamos a verdade do povo; rogo que a sua verdade seja pacífica." />
+        <string id="e_attacking_3" text="É cruel que Khaine o traga à sua morte; o que deseja dizer antes do seu fim?" />
+        <string id="e_attacking_4" text="Ouvirei suas palavras imundas, apenas para tornar minha vingança uma oferenda mais doce a Drakira." />
+        <string id="e_attacking_5" text="Louvem Drakira! Meu inimigo mais odiado se entrega a mim; diga suas últimas palavras, então retorne ao seu exército e aguarde o massacre." />
+        <string id="e_attacking_6" text="Meus parentes discutem se você é um prêmio digno de Kurnous ou Anath Raema; fale enquanto decido quem ficará com você." />
+        <string id="e_defending_1" text="Inimigo dos Asrai, não apressarei a morte de meu povo se você não apressar a do seu. Vamos conversar." />
+        <string id="e_defending_2" text="Lileath deseja que vejamos a verdade das pessoas; rezo para que a sua verdade seja pacífica." />
     </strings>
 </base>

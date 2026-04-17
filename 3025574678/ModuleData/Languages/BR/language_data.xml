@@ -3,4 +3,6 @@
   <LanguageFile xml_path="BR/tor_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_voiced_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_concept_strings_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_ror_settlement_templates_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_abilitytemplates_ptbr.xml" />
 </LanguageData>
