@@ -42,13 +42,13 @@
 
 # ── Fase 5 — fontes adicionais (adicionar conforme avançar) ──
 # Descomentar quando o arquivo correspondente começar a ser traduzido:
-# !3025574678/ModuleData/tor_troopdefinitions.xml
-# !3025574678/ModuleData/tor_kingdoms.xml
-# !3025574678/ModuleData/tor_clans.xml
+!3025574678/ModuleData/tor_troopdefinitions.xml
+!3025574678/ModuleData/tor_kingdoms.xml
+!3025574678/ModuleData/tor_clans.xml
 !3025574678/ModuleData/tor_religions.xml
 # !3025574678/ModuleData/tor_cultures.xml
 # !3025574678/ModuleData/tor_npccharacters/
-# !3025574678/ModuleData/tor_npccharacters/tor_campaign_lords.xml
-# !3025574678/ModuleData/tor_npccharacters/tor_charactertemplates.xml
-# !3025574678/ModuleData/tor_townspeople/
-# !3025574678/ModuleData/tor_townspeople/*.xml
+!3025574678/ModuleData/tor_npccharacters/tor_campaign_lords.xml
+!3025574678/ModuleData/tor_npccharacters/tor_charactertemplates.xml
+!3025574678/ModuleData/tor_townspeople/
+!3025574678/ModuleData/tor_townspeople/*.xml

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!-- Empire Lords - Averland -->
+    <string id="str_tor_emp_lord_averland_factionleader" text="Conde Eleitor Marius Leitdorf" />
+    <string id="str_tor_emp_lord_moot_factionleader" text="Ancião Hisme Stoutheart" />
+    <string id="str_tor_emp_lord_college_magic_1" text="Patriarca Supremo Balthazar Gelt" />
+    <string id="str_tor_emp_lord_college_magic_2" text="Albrecht Helseher" />
+    <string id="str_tor_emp_lord_college_magic_3" text="Haqiqah Al-Hikmah" />
+    <string id="str_tor_emp_lord_college_magic_4" text="Benedict Stross" />
+    <string id="str_tor_emp_lord_averland_first_2" text="Filibert Leitdorf" />
+    <string id="str_tor_emp_lord_averland_first_3" text="Kastor Leitdorf" />
+    <string id="str_tor_emp_lord_averland_first_4" text="Condessa Camilla von Sachs" />
+    <string id="str_tor_emp_lord_averland_first_5" text="Barão Boris Ulbricht" />
+    <string id="str_tor_emp_lord_averland_first_6" text="Conde Dieter von Heine" />
+    <string id="str_tor_emp_lord_averland_first_7" text="Ferdinand Leitdorf" />
+    <string id="str_tor_emp_lord_averland_second_1" text="Condessa Ludmilla Alptraum" />
+    <string id="str_tor_emp_lord_averland_second_2" text="Condessa Marlene Alptraum" />
+    <string id="str_tor_emp_lord_averland_second_3" text="Ferenc Alptraum" />
+    <string id="str_tor_emp_lord_averland_second_4" text="Mathias Alptraum" />
+    <string id="str_tor_emp_lord_averland_second_5" text="Clothilde Alptraum" />
+    <string id="str_tor_emp_lord_averland_third_1" text="Condessa Selena von Kusch" />
+    <string id="str_tor_emp_lord_averland_third_2" text="Barão Sigmund Hindenberg" />
+    <string id="str_tor_emp_lord_averland_third_3" text="Baronesa Elise Alder" />
+    <string id="str_tor_emp_lord_averland_third_4" text="Mathias Von Grünwald" />
+    <string id="str_tor_emp_lord_averland_third_5" text="Gottfried Von Grünwald" />
+    <string id="str_tor_emp_lord_averland_kobs_1" text="Siegfried Trappenfeld" />
+
+    <!-- Empire Lords - Reikland -->
+    <string id="str_tor_emp_lord_reikland_factionleader" text="Imperador Karl Franz von Holswig-Schliestein" />
+    <string id="str_tor_emp_lord_reikland_first_2" text="Grão-Marechal Kurt Helborg" />
+    <string id="str_tor_emp_lord_reikland_first_3" text="Ludwig Schwarzhelm" />
+
+    <!-- Empire Lords - Cult of Sigmar -->
+    <string id="str_tor_emp_lord_sigmarcult_1" text="Luthor Huss" />
+    <string id="str_tor_emp_lord_sigmarcult_2" text="Grande Teogonista Volkmar, o Severo" />
+    <string id="str_tor_emp_lord_sigmarcult_3" text="Adso Theiss" />
+
+    <!-- Empire Lords - Stirland -->
+    <string id="str_tor_emp_lord_stirland_factionleader" text="Conde Eleitor Alberich Haupt-Anderssen" />
+    <string id="str_tor_emp_lord_stirland_first_2" text="Rudolf Haupt-Anderssen" />
+    <string id="str_tor_emp_lord_stirland_first_3" text="Barão Anton Kiesinger" />
+    <string id="str_tor_emp_lord_stirland_first_4" text="Condessa Petra Harden" />
+    <string id="str_tor_emp_lord_stirland_first_5" text="Conde Artur von Treitschke" />
+    <string id="str_tor_emp_lord_stirland_first_6" text="Barão Immanuel Krebs" />
+    <string id="str_tor_emp_lord_stirland_first_7" text="Erich von Halstedt" />
+    <string id="str_tor_emp_lord_stirland_first_8" text="Otto Bachrach" />
+    <string id="str_tor_emp_lord_stirland_second_1" text="Conde Petr von Stolpe" />
+    <string id="str_tor_emp_lord_stirland_second_2" text="Lorde Voss von Teufeltal" />
+    <string id="str_tor_emp_lord_stirland_second_3" text="Sir Rolph Van Loenen" />
+    <string id="str_tor_emp_lord_stirland_second_4" text="Darius Geistwächt" />
+    <string id="str_tor_emp_lord_stirland_third_1" text="Alexandra von Münsterberg" />
+    <string id="str_tor_emp_lord_stirland_third_2" text="Conde Andreas Von Webern" />
+    <string id="str_tor_emp_lord_stirland_third_3" text="Alto Capitular Marobaude" />
+
+    <!-- Empire Lords - Wissenland -->
+    <string id="str_tor_emp_lord_wissenland_factionleader" text="Condessa Eleitora Emmanuelle von Liebwitz" />
+    <string id="str_tor_emp_lord_wissenland_first_2" text="Visconde Leos von Liebwitz" />
+    <string id="str_tor_emp_lord_wissenland_first_3" text="Conde Bruno Pfeifracher" />
+    <string id="str_tor_emp_lord_wissenland_first_4" text="Elspeth Von Draken" />
+    <string id="str_tor_emp_lord_wasteland_first_4" text="Governador Ludwig de Beq" />
+
+    <!-- Empire Lords - Other Faction Leaders -->
+    <string id="str_tor_emp_lord_talabecland_factionleader" text="Conde Eleitor Helmut Feuerbach" />
+    <string id="str_tor_emp_lord_talabecland_second_4" text="Barão Kurt Bruckner" />
+    <string id="str_tor_emp_lord_middenland_factionleader" text="Conde Eleitor Boris Todbringer" />
+    <string id="str_tor_emp_lord_ostermark_factionleader" text="Conde Eleitor Wolfram Hertwig" />
+    <string id="str_tor_emp_lord_hochland_factionleader" text="Conde Eleitor Aldebrand von Ludenhof" />
+    <string id="str_tor_emp_lord_hochland_second_4" text="Marechal dos Caçadores Kurt Fellhard" />
+    <string id="str_tor_emp_lord_nordland_factionleader" text="Conde Eleitor Theoderic Gausser" />
+    <string id="str_tor_emp_lord_ostland_factionleader" text="Conde Eleitor Valmir von Raukov" />
+
+    <!-- Bretonnian Lords -->
+    <string id="str_tor_br_lord_parravon_factionleader" text="Duque Cassyon de Parravon" />
+    <string id="str_tor_br_lord_montfort_factionleader" text="Duque Folcard de Montfort" />
+    <string id="str_tor_br_lord_bastonne_factionleader" text="Duque Bohemond Beastslayer" />
+    <string id="str_tor_br_lord_bordeleaux_factionleader" text="Duque Alberic de Bordeleaux" />
+    <string id="str_tor_br_lord_carcassonne_factionleader" text="Duque Huebald de Carcassonne" />
+    <string id="str_tor_br_lord_brionne_factionleader" text="Duque Theodoric de Brionne" />
+    <string id="str_tor_br_lord_aquitaine_factionleader" text="Duque Armand de Aquitaine" />
+    <string id="str_tor_br_lord_quenelles_factionleader" text="Duque Tancred II de Quenelles" />
+    <string id="str_tor_br_lord_anguille_factionleader" text="Duque Taubert de L'Anguille" />
+    <string id="str_tor_br_lord_lyonesse_factionleader" text="Duque Adalhard de Lyonesse" />
+    <string id="str_tor_br_lord_artois_factionleader" text="Duque Chilfroy de Artois" />
+    <string id="str_tor_br_lord_gisoreux_factionleader" text="Duque Hagen de Gisoreux" />
+
+    <!-- Wanderer Templates (from tor_charactertemplates.xml) -->
+    <string id="str_tor_wanderer_empire_0" text="{FIRSTNAME}, o Mago Brilhante" />
+    <string id="str_tor_wanderer_empire_1" text="{FIRSTNAME}, o Sacerdote de Sigmar" />
+    <string id="str_tor_wanderer_empire_2" text="{FIRSTNAME}, o Caçador de Bruxas" />
+    <string id="str_tor_wanderer_empire_3" text="{FIRSTNAME}, o Mago da Luz" />
+    <string id="str_tor_wanderer_empire_4" text="{FIRSTNAME}, o Mago Celestial" />
+    <string id="str_tor_wanderer_empire_5" text="{FIRSTNAME}, o Engenheiro" />
+    <string id="str_tor_wanderer_empire_6" text="{FIRSTNAME}, a Sacerdotisa de Shallya" />
+    <string id="str_tor_wanderer_empire_7" text="{FIRSTNAME}, o Caçador" />
+    <string id="str_tor_wanderer_empire_8" text="{FIRSTNAME}, o Mago do Ouro" />
+    <string id="str_tor_wanderer_empire_9" text="{FIRSTNAME}, o Mago da Vida" />
+    <string id="str_tor_wanderer_empire_10" text="{FIRSTNAME}, o Mago das Feras" />
+    <string id="str_tor_wanderer_empire_11" text="{FIRSTNAME}, o Sacerdote de Ulric" />
+    <string id="str_tor_wanderer_empire_12" text="{FIRSTNAME}, o Capitão do Império" />
+    <string id="str_tor_wanderer_empire_13" text="{FIRSTNAME}, o Nobre do Império" />
+    <string id="str_tor_wanderer_bretonnia_0" text="{FIRSTNAME}, o Cavaleiro Bretoniano" />
+    <string id="str_tor_wanderer_bretonnia_1" text="{FIRSTNAME}, a Donzela da Dama" />
+    <string id="str_tor_wanderer_bretonnia_2" text="{FIRSTNAME}, o Yeoman" />
+    <string id="str_tor_wanderer_bretonnia_3" text="{FIRSTNAME}, o Herrimault" />
+    <string id="str_tor_wanderer_bretonnia_4" text="{FIRSTNAME}, o Guardião das Muralhas" />
+    <string id="str_tor_wanderer_bretonnia_5" text="{FIRSTNAME}, o Mercador" />
+    <string id="str_tor_wanderer_mousillon_0" text="{FIRSTNAME}, o Cavaleiro Caído" />
+    <string id="str_tor_wanderer_mousillon_1" text="{FIRSTNAME}, o Necromante de Mousillon" />
+    <string id="str_tor_wanderer_mousillon_2" text="{FIRSTNAME}, a Bruxa de Cerca" />
+    <string id="str_tor_wanderer_mousillon_3" text="{FIRSTNAME}, o Contrabandista" />
+    <string id="str_tor_wanderer_mousillon_4" text="{FIRSTNAME}, o Vampiro de Mousillon" />
+  </strings>
+</base>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!-- Empire -->
+    <string id="str_tor_kingdom_name_averland" text="Averland" />
+    <string id="str_tor_kingdom_shortname_averland" text="Averland" />
+    <string id="str_tor_kingdom_title_averland" text="Averland" />
+    <string id="str_tor_kingdom_rulertitle_averland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_stirland" text="Stirland" />
+    <string id="str_tor_kingdom_shortname_stirland" text="Stirland" />
+    <string id="str_tor_kingdom_title_stirland" text="Stirland" />
+    <string id="tor_kingdom_rulertitle_stirland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_wissenland" text="Wissenland" />
+    <string id="str_tor_kingdom_shortname_wissenland" text="Wissenland" />
+    <string id="str_tor_kingdom_title_wissenland" text="Wissenland" />
+    <string id="str_tor_kingdom_rulertitle_wissenland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_talabecland" text="Talabecland" />
+    <string id="str_tor_kingdom_shortname_talabecland" text="Talabecland" />
+    <string id="str_tor_kingdom_title_talabecland" text="Talabecland" />
+    <string id="str_tor_kingdom_rulertitle_talabecland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_reikland" text="Reikland" />
+    <string id="str_tor_kingdom_shortname_reikland" text="Reikland" />
+    <string id="str_tor_kingdom_title_reikland" text="Reikland" />
+    <string id="str_tor_kingdom_rulertitle_reikland" text="Imperador" />
+
+    <string id="str_tor_kingdom_name_middenland" text="Middenland" />
+    <string id="str_tor_kingdom_shortname_middenland" text="Middenland" />
+    <string id="str_tor_kingdom_title_middenland" text="Middenland" />
+    <string id="str_tor_kingdom_rulertitle_middenland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_ostenmark" text="Ostermark" />
+    <string id="str_tor_kingdom_shortname_ostenmark" text="Ostermark" />
+    <string id="str_tor_kingdom_title_ostenmark" text="Ostermark" />
+    <string id="str_tor_kingdom_rulertitle_ostenmark" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_hochland" text="Hochland" />
+    <string id="str_tor_kingdom_shortname_hochland" text="Hochland" />
+    <string id="str_tor_kingdom_title_hochland" text="Hochland" />
+    <string id="str_tor_kingdom_rulertitle_hochland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_nordland" text="Nordland" />
+    <string id="str_tor_kingdom_shortname_nordland" text="Nordland" />
+    <string id="str_tor_kingdom_title_nordland" text="Nordland" />
+    <string id="str_tor_kingdom_rulertitle_nordland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_ostland" text="Ostland" />
+    <string id="str_tor_kingdom_shortname_ostland" text="Ostland" />
+    <string id="str_tor_kingdom_title_ostland" text="Ostland" />
+    <string id="str_tor_kingdom_rulertitle_ostland" text="Conde Eleitor" />
+
+    <string id="str_tor_kingdom_name_brasskeep" text="Repugnantes da Fortaleza de Latão" />
+    <string id="str_tor_kingdom_shortname_brasskeep" text="Repugnantes" />
+    <string id="str_tor_kingdom_title_brasskeep" text="Fortaleza de Latão" />
+    <string id="str_tor_kingdom_rulertitle_brasskeep" text="Campeão do Caos" />
+
+    <string id="str_tor_kingdom_name_wasteland" text="As Terras Desoladas" />
+    <string id="str_tor_kingdom_shortname_wasteland" text="Terras Desoladas" />
+    <string id="str_tor_kingdom_title_wasteland" text="Terras Desoladas" />
+    <string id="str_tor_kingdom_rulertitle_wasteland" text="Estatuder" />
+
+    <string id="str_tor_kingdom_name_moot" text="O Moot" />
+    <string id="str_tor_kingdom_shortname_moot" text="Moot" />
+    <string id="str_tor_kingdom_title_moot" text="O Moot" />
+    <string id="str_tor_kingdom_rulertitle_moot" text="Lorde" />
+
+    <!-- Bretonnia -->
+    <string id="str_tor_kingdom_name_couronne" text="Ducado de Couronne" />
+    <string id="str_tor_kingdom_shortname_couronne" text="Couronne" />
+    <string id="str_tor_kingdom_title_couronne" text="Couronne" />
+    <string id="str_tor_kingdom_rulertitle_couronne" text="Duque" />
+
+    <string id="str_tor_kingdom_name_languille" text="Ducado de L'Anguille" />
+    <string id="str_tor_kingdom_shortname_languille" text="L'Anguille" />
+    <string id="str_tor_kingdom_title_languille" text="L'Anguille" />
+    <string id="str_tor_kingdom_rulertitle_languille" text="Duque" />
+
+    <string id="str_tor_kingdom_name_lyonesse" text="Ducado de Lyonesse" />
+    <string id="str_tor_kingdom_shortname_lyonesse" text="Lyonesse" />
+    <string id="str_tor_kingdom_title_lyonesse" text="Lyonesse" />
+    <string id="str_tor_kingdom_rulertitle_lyonesse" text="Duque" />
+
+    <string id="str_tor_kingdom_name_artois" text="Ducado de Artois" />
+    <string id="str_tor_kingdom_shortname_artois" text="Artois" />
+    <string id="str_tor_kingdom_title_artois" text="Artois" />
+    <string id="str_tor_kingdom_rulertitle_artois" text="Duque" />
+
+    <string id="str_tor_kingdom_name_giroseux" text="Ducado de Gisoreux" />
+    <string id="str_tor_kingdom_shortname_giroseux" text="Gisoreux" />
+    <string id="str_tor_kingdom_title_giroseux" text="Gisoreux" />
+    <string id="str_tor_kingdom_rulertitle_giroseux" text="Duque" />
+
+    <string id="str_tor_kingdom_name_parravon" text="Ducado de Parravon" />
+    <string id="str_tor_kingdom_shortname_parravon" text="Parravon" />
+    <string id="str_tor_kingdom_title_parravon" text="Parravon" />
+    <string id="str_tor_kingdom_rulertitle_parravon" text="Duque" />
+
+    <string id="str_tor_kingdom_name_montfort" text="Ducado de Montfort" />
+    <string id="str_tor_kingdom_shortname_montfort" text="Montfort" />
+    <string id="str_tor_kingdom_title_montfort" text="Montfort" />
+    <string id="str_tor_kingdom_rulertitle_montfort" text="Duque" />
+
+    <string id="str_tor_kingdom_name_bastonne" text="Ducado de Bastonne" />
+    <string id="str_tor_kingdom_shortname_bastonne" text="Bastonne" />
+    <string id="str_tor_kingdom_title_bastonne" text="Bastonne" />
+    <string id="str_tor_kingdom_rulertitle_bastonne" text="Duque" />
+
+    <string id="str_tor_kingdom_name_bordeleaux" text="Ducado de Bordeleaux" />
+    <string id="str_tor_kingdom_shortname_bordeleaux" text="Bordeleaux" />
+    <string id="str_tor_kingdom_title_bordeleaux" text="Bordeleaux" />
+    <string id="str_tor_kingdom_rulertitle_bordeleaux" text="Duque" />
+
+    <string id="str_tor_kingdom_name_carcasonne" text="Ducado de Carcassonne" />
+    <string id="str_tor_kingdom_shortname_carcasonne" text="Carcassonne" />
+    <string id="str_tor_kingdom_title_carcasonne" text="Carcassonne" />
+    <string id="str_tor_kingdom_rulertitle_carcasonne" text="Duque" />
+
+    <string id="str_tor_kingdom_name_aquitaine" text="Ducado de Aquitaine" />
+    <string id="str_tor_kingdom_shortname_aquitaine" text="Aquitaine" />
+    <string id="str_tor_kingdom_title_aquitaine" text="Aquitaine" />
+    <string id="str_tor_kingdom_rulertitle_aquitaine" text="Duque" />
+
+    <string id="str_tor_kingdom_name_brionne" text="Ducado de Brionne" />
+    <string id="str_tor_kingdom_shortname_brionne" text="Brionne" />
+    <string id="str_tor_kingdom_title_brionne" text="Brionne" />
+    <string id="str_tor_kingdom_rulertitle_brionne" text="Duque" />
+
+    <string id="str_tor_kingdom_name_quenelles" text="Ducado de Quenelles" />
+    <string id="str_tor_kingdom_shortname_quenelles" text="Quenelles" />
+    <string id="str_tor_kingdom_title_quenelles" text="Quenelles" />
+    <string id="str_tor_kingdom_rulertitle_quenelles" text="Duque" />
+
+    <!-- Undead / Other -->
+    <string id="str_tor_kingdom_name_sylvania" text="Silvânia" />
+    <string id="str_tor_kingdom_shortname_sylvania" text="Silvânia" />
+    <string id="str_tor_kingdom_title_sylvania" text="Silvânia" />
+    <string id="str_tor_kingdom_rulertitle_sylvania" text="Conde Vampiro" />
+
+    <string id="str_tor_kingdom_name_blooddragons" text="Ordem do Dragão de Sangue" />
+    <string id="str_tor_kingdom_shortname_blooddragons" text="Dragões de Sangue" />
+    <string id="str_tor_kingdom_title_blooddragons" text="Fortaleza de Sangue" />
+    <string id="str_tor_kingdom_rulertitle_blooddragons" text="Grão-Mestre" />
+
+    <string id="str_tor_kingdom_name_necrarchs" text="Escribas do Grimoire Necronium" />
+    <string id="str_tor_kingdom_shortname_necrarchs" text="Necrarcos" />
+    <string id="str_tor_kingdom_title_necrarchs" text="Torre das Sombras" />
+    <string id="str_tor_kingdom_rulertitle_necrarchs" text="Grão-Mestre" />
+
+    <string id="str_tor_kingdom_name_mousillon" text="Ducado de Mousillon" />
+    <string id="str_tor_kingdom_shortname_mousillon" text="Mousillon" />
+    <string id="str_tor_kingdom_title_mousillon" text="Mousillon" />
+    <string id="str_tor_kingdom_rulertitle_mousillon" text="Duque" />
+
+    <!-- Elves -->
+    <string id="str_tor_kingdom_name_athelloren" text="Reinos de Athel Loren" />
+    <string id="str_tor_kingdom_shortname_athelloren" text="Athel Loren" />
+    <string id="str_tor_kingdom_title_athelloren" text="Athel Loren" />
+    <string id="str_tor_kingdom_rulertitle_athelloren" text="Highborn" />
+
+    <string id="str_tor_kingdom_name_laurelorn" text="Protetorados de Laurelorn" />
+    <string id="str_tor_kingdom_shortname_laurelorn" text="Laurelorn" />
+    <string id="str_tor_kingdom_title_laurelorn" text="Laurelorn" />
+    <string id="str_tor_kingdom_rulertitle_laurelorn" text="Highborn" />
+
+    <!-- Dwarfs -->
+    <string id="str_tor_kingdom_name_karak_kadrin" text="Karak Kadrin" />
+    <string id="str_tor_kingdom_shortname_karak_kadrin" text="Karak Kadrin" />
+    <string id="str_tor_kingdom_title_karak_kadrin" text="Karak Kadrin" />
+
+    <string id="str_tor_kingdom_name_karak_angazhar" text="Karak Angazhar" />
+    <string id="str_tor_kingdom_shortname_karak_angazhar" text="Karak Angazhar" />
+    <string id="str_tor_kingdom_title_karak_angazhar" text="Karak Angazhar" />
+    <string id="str_tor_kingdom_rulertitle_karak_angazhar" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_azgaraz" text="Karak Azgaraz" />
+    <string id="str_tor_kingdom_shortname_karak_azgaraz" text="Karak Azgaraz" />
+    <string id="str_tor_kingdom_title_karak_azgaraz" text="Karak Azgaraz" />
+    <string id="str_tor_kingdom_rulertitle_karak_azgaraz" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_eksfilaz" text="Karak Eksfilaz" />
+    <string id="str_tor_kingdom_shortname_karak_eksfilaz" text="Karak Eksfilaz" />
+    <string id="str_tor_kingdom_title_karak_eksfilaz" text="Karak Eksfilaz" />
+    <string id="str_tor_kingdom_rulertitle_karak_eksfilaz" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_gantuk" text="Karak Gantuk" />
+    <string id="str_tor_kingdom_shortname_karak_gantuk" text="Karak Gantuk" />
+    <string id="str_tor_kingdom_title_karak_gantuk" text="Karak Gantuk" />
+    <string id="str_tor_kingdom_rulertitle_karak_gantuk" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_hirn" text="Karak Hirn" />
+    <string id="str_tor_kingdom_shortname_karak_hirn" text="Karak Hirn" />
+    <string id="str_tor_kingdom_title_karak_hirn" text="Karak Hirn" />
+    <string id="str_tor_kingdom_rulertitle_karak_hirn" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_izor" text="Karak Izor" />
+    <string id="str_tor_kingdom_shortname_karak_izor" text="Karak Izor" />
+    <string id="str_tor_kingdom_title_karak_izor" text="Karak Izor" />
+    <string id="str_tor_kingdom_rulertitle_karak_izor" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_kaferkammaz" text="Karak Kaferkammaz" />
+    <string id="str_tor_kingdom_shortname_karak_kaferkammaz" text="Karak Kaferkammaz" />
+    <string id="str_tor_kingdom_title_karak_kaferkammaz" text="Karak Kaferkammaz" />
+    <string id="str_tor_kingdom_rulertitle_karak_kaferkammaz" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_norn" text="Karak Norn" />
+    <string id="str_tor_kingdom_shortname_karak_norn" text="Karak Norn" />
+    <string id="str_tor_kingdom_title_karak_norn" text="Karak Norn" />
+    <string id="str_tor_kingdom_rulertitle_karak_norn" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_zhufbar" text="Karak Zhufbar" />
+    <string id="str_tor_kingdom_shortname_karak_zhufbar" text="Karak Zhufbar" />
+    <string id="str_tor_kingdom_title_karak_zhufbar" text="Karak Zhufbar" />
+    <string id="str_tor_kingdom_rulertitle_karak_zhufbar" text="Rei" />
+
+    <string id="str_tor_kingdom_name_karak_ziflin" text="Karak Ziflin" />
+    <string id="str_tor_kingdom_shortname_karak_ziflin" text="Karak Ziflin" />
+    <string id="str_tor_kingdom_title_karak_ziflin" text="Karak Ziflin" />
+    <string id="str_tor_kingdom_rulertitle_karak_ziflin" text="Rei" />
+
+    <!-- Greenskins -->
+    <string id="str_tor_kingdom_name_bad_axes" text="Tribo dos Machados Ruins" />
+    <string id="str_tor_kingdom_shortname_bad_axes" text="Machados Ruins" />
+    <string id="str_tor_kingdom_title_bad_axes" text="Tribo dos Machados Ruins" />
+    <string id="str_tor_kingdom_rulertitle_bad_axes" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_black_sunz" text="Tribo dos Sóis Negros" />
+    <string id="str_tor_kingdom_shortname_black_sunz" text="Sóis Negros" />
+    <string id="str_tor_kingdom_title_black_sunz" text="Tribo dos Sóis Negros" />
+    <string id="str_tor_kingdom_rulertitle_black_sunz" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_crooked_eye" text="Tribo do Olho Torto" />
+    <string id="str_tor_kingdom_shortname_crooked_eye" text="Olho Torto" />
+    <string id="str_tor_kingdom_title_crooked_eye" text="Tribo do Olho Torto" />
+    <string id="str_tor_kingdom_rulertitle_crooked_eye" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_deff_grindaz" text="Tribo dos Trituradores da Morte" />
+    <string id="str_tor_kingdom_shortname_deff_grindaz" text="Trituradores da Morte" />
+    <string id="str_tor_kingdom_title_deff_grindaz" text="Tribo dos Trituradores da Morte" />
+    <string id="str_tor_kingdom_rulertitle_deff_grindaz" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_iron_tribe" text="Tribo de Ferro" />
+    <string id="str_tor_kingdom_shortname_iron_tribe" text="Tribo de Ferro" />
+    <string id="str_tor_kingdom_title_iron_tribe" text="Tribo de Ferro" />
+    <string id="str_tor_kingdom_rulertitle_iron_tribe" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_massif_choppas" text="Tribo dos Cutelos do Maciço" />
+    <string id="str_tor_kingdom_shortname_massif_choppas" text="Cutelos do Maciço" />
+    <string id="str_tor_kingdom_title_massif_choppas" text="Tribo dos Cutelos do Maciço" />
+    <string id="str_tor_kingdom_rulertitle_massif_choppas" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_neck_snappers" text="Tribo dos Quebra-Pescoços" />
+    <string id="str_tor_kingdom_shortname_neck_snappers" text="Quebra-Pescoços" />
+    <string id="str_tor_kingdom_title_neck_snappers" text="Tribo dos Quebra-Pescoços" />
+    <string id="str_tor_kingdom_rulertitle_neck_snappers" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_skull_smasherz" text="Tribo dos Esmaga-Crânios" />
+    <string id="str_tor_kingdom_shortname_skull_smasherz" text="Esmaga-Crânios" />
+    <string id="str_tor_kingdom_title_skull_smasherz" text="Tribo dos Esmaga-Crânios" />
+    <string id="str_tor_kingdom_rulertitle_skull_smasherz" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_bloody_spearz" text="Tribo das Lanças Sangrentas" />
+    <string id="str_tor_kingdom_shortname_bloody_spearz" text="Lanças Sangrentas" />
+    <string id="str_tor_kingdom_title_bloody_spearz" text="Tribo das Lanças Sangrentas" />
+    <string id="str_tor_kingdom_rulertitle_bloody_spearz" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_red_eye" text="Tribo do Olho Vermelho" />
+    <string id="str_tor_kingdom_shortname_red_eye" text="Olho Vermelho" />
+    <string id="str_tor_kingdom_title_red_eye" text="Tribo do Olho Vermelho" />
+    <string id="str_tor_kingdom_rulertitle_red_eye" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_black_pit" text="Culto da Aranha" />
+    <string id="str_tor_kingdom_shortname_black_pit" text="Culto da Aranha" />
+    <string id="str_tor_kingdom_title_black_pit" text="Culto da Aranha" />
+    <string id="str_tor_kingdom_rulertitle_black_pit" text="Chefe de Guerra" />
+
+    <string id="str_tor_kingdom_name_reavaz" text="Reavaz" />
+    <string id="str_tor_kingdom_shortname_reavaz" text="Reavaz" />
+    <string id="str_tor_kingdom_title_reavaz" text="Reavaz" />
+    <string id="str_tor_kingdom_rulertitle_reavaz" text="Chefe de Guerra" />
+  </strings>
+</base>

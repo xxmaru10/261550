@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+    <!-- Bandits / Minor Factions -->
+    <string id="str_tor_clan_looters" text="Saqueadores Goblins" />
+    <string id="str_tor_clan_mountain_bandits" text="Desertores do Império" />
+    <string id="str_tor_clan_forest_bandits" text="Cultistas do Caos" />
+    <string id="str_tor_clan_steppe_bandits" text="Bando de Guerra Ungor" />
+    <string id="str_tor_clan_norsca_raiders" text="Saqueadores Norscanos" />
+    <string id="str_tor_clan_desert_bandits" text="Foras-da-lei Bretonianos" />
+    <string id="str_tor_clan_greenskin_bandits" text="Saqueadores Orcs" />
+
+    <!-- Averland -->
+    <string id="str_tor_clan_averland_clan_1_name" text="Leitdorf" />
+    <string id="str_tor_clan_averland_clan_2_name" text="Alptraum" />
+    <string id="str_tor_clan_averland_clan_3_name" text="O Tratado de Averland" />
+    <string id="str_tor_clan_averland_clan_4_name" text="Cavaleiros do Sol Flamejante" />
+
+    <!-- Sylvania -->
+    <string id="str_tor_clan_sylvania_clan_1_name" text="Os Von Carstein" />
+    <string id="str_tor_clan_sylvania_clan_2_name" text="Linhagem do Pesadelo" />
+    <string id="str_tor_clan_sylvania_clan_3_name" text="A Ordem Escarlate" />
+    <string id="str_tor_clan_sylvania_clan_4_name" text="Sangue de Traidor" />
+
+    <!-- Undead / Necrarchs -->
+    <string id="str_tor_clan_blooddragons_clan_1_name" text="Ordem do Dragão de Sangue" />
+    <string id="str_tor_clan_necrarch_clan_1_name" text="A Torre das Sombras" />
+    <string id="str_tor_clan_necrarch_clan_2_name" text="Restos do Hospício de Lembrook" />
+
+    <!-- Stirland -->
+    <string id="str_tor_clan_stirland_clan_1_name" text="Haupt-Anderssen" />
+    <string id="str_tor_clan_stirland_clan_2_name" text="Homens de Morr" />
+    <string id="str_tor_clan_stirland_clan_3_name" text="Stirland do Sul" />
+
+    <!-- Wissenland -->
+    <string id="str_tor_clan_wissenland_clan_1_name" text="von Liebwitz" />
+    <string id="str_tor_clan_wissenland_clan_2_name" text="Toppenheimer" />
+    <string id="str_tor_clan_wissenland_clan_3_name" text="Sollander" />
+
+    <!-- Talabecland -->
+    <string id="str_tor_clan_talabecland_clan_1_name" text="Escolhidos de Taal" />
+    <string id="str_tor_clan_talabecland_clan_2_name" text="Grenzwacht" />
+    <string id="str_tor_clan_talabecland_clan_3_name" text="Rindenhaut" />
+
+    <!-- Reikland -->
+    <string id="str_tor_clan_reikland_clan_1_name" text="von Holswig-Schliestein" />
+    <string id="str_tor_clan_reikland_clan_2_name" text="von Wallenstein" />
+    <string id="str_tor_clan_reikland_clan_3_name" text="von Mackensen" />
+    <string id="str_tor_clan_reikland_clan_4_name" text="von Saponatheim" />
+
+    <!-- Middenland -->
+    <string id="str_tor_clan_middenland_clan_1_name" text="Todbringer" />
+    <string id="str_tor_clan_middenland_clan_2_name" text="von Bildhofen" />
+    <string id="str_tor_clan_middenland_clan_3_name" text="Guarda de Drakwald" />
+
+    <!-- Ostermark -->
+    <string id="str_tor_clan_ostermark_clan_1_name" text="Hertwig" />
+    <string id="str_tor_clan_ostermark_clan_2_name" text="Schweissbrau" />
+    <string id="str_tor_clan_ostermark_clan_3_name" text="Siebentod" />
+
+    <!-- Hochland -->
+    <string id="str_tor_clan_hochland_clan_1_name" text="von Ludenhof" />
+    <string id="str_tor_clan_hochland_clan_2_name" text="von Halberwald" />
+    <string id="str_tor_clan_hochland_clan_3_name" text="von Hohenstein" />
+
+    <!-- Nordland -->
+    <string id="str_tor_clan_nordland_clan_1_name" text="Gausser" />
+    <string id="str_tor_clan_nordland_clan_2_name" text="Salzblut" />
+    <string id="str_tor_clan_nordland_clan_3_name" text="Meergott" />
+
+    <!-- Ostland -->
+    <string id="str_tor_clan_ostland_clan_1_name" text="von Raukov" />
+    <string id="str_tor_clan_ostland_clan_2_name" text="von Strudt" />
+    <string id="str_tor_clan_ostland_clan_3_name" text="Lordes da Marca do Norte" />
+    <string id="str_tor_clan_ostland_clan_4_name" text="Liga de Talabec do Norte" />
+
+    <!-- Brass Keep -->
+    <string id="str_tor_clan_brasskeep_clan_1_name" text="Os Repugnantes" />
+
+    <!-- Wasteland -->
+    <string id="str_tor_clan_wasteland_clan_1_name" text="van de Kuypers" />
+    <string id="str_tor_clan_wasteland_clan_2_name" text="Culto de Manann" />
+    <string id="str_tor_clan_wasteland_clan_3_name" text="den Euwe" />
+    <string id="str_tor_clan_wasteland_clan_4_name" text="van Haagen" />
+
+    <!-- Couronne -->
+    <string id="str_tor_clan_couronne_clan_1_name" text="de Couronne" />
+    <string id="str_tor_clan_couronne_clan_2_name" text="Cavaleiros de Honra" />
+    <string id="str_tor_clan_couronne_clan_3_name" text="Os Destemidos de Montmirail" />
+
+    <!-- Anguille -->
+    <string id="str_tor_clan_anguille_clan_1_name" text="d'Anguille" />
+    <string id="str_tor_clan_anguille_clan_2_name" text="Irmandade do Farol" />
+
+    <!-- Lyonesse -->
+    <string id="str_tor_clan_lyonesse_clan_1_name" text="de Lyonesse" />
+
+    <!-- Artois -->
+    <string id="str_tor_clan_artois_clan_1_name" text="d'Artois" />
+
+    <!-- Gisoreux -->
+    <string id="str_tor_clan_gisoreux_clan_1_name" text="de Gisoreux" />
+
+    <!-- Parravon -->
+    <string id="str_tor_clan_parravon_clan_1_name" text="de Parravon" />
+
+    <!-- Montfort -->
+    <string id="str_tor_clan_montfort_clan_1_name" text="de Montfort" />
+
+    <!-- Bastonne -->
+    <string id="str_tor_clan_bastonne_clan_1_name" text="de Bastonne" />
+    <string id="str_tor_clan_bastonne_clan_2_name" text="de Garamont" />
+
+    <!-- Bordeleaux -->
+    <string id="str_tor_clan_bordeleaux_clan_1_name" text="de Bordeleaux" />
+
+    <!-- Brionne -->
+    <string id="str_tor_clan_brionne_clan_1_name" text="de Brionne" />
+
+    <!-- Quenelles -->
+    <string id="str_tor_clan_quenelles_clan_1_name" text="de Quenelles" />
+    <string id="str_tor_clan_quenelles_clan_2_name" text="Amados da Fada" />
+
+    <!-- Aquitaine -->
+    <string id="str_tor_clan_aquitaine_clan_1_name" text="de Aquitaine" />
+
+    <!-- Carcassonne -->
+    <string id="str_tor_clan_carcassonne_clan_1_name" text="de Carcassonne" />
+    <string id="str_tor_clan_carcassonne_clan_2_name" text="Escolhidos da Dama" />
+
+    <!-- Mousillon -->
+    <string id="str_tor_clan_mousillon_clan_1_name" text="de Mousillon" />
+    <string id="str_tor_clan_mousillon_clan_2_name" text="Castelo Hane" />
+
+    <!-- Moot -->
+    <string id="str_tor_clan_moot_clan_1_name" text="Halflings" />
+
+    <!-- Wood Elves -->
+    <string id="str_tor_clan_athel_loren_clan_1_name" text="Talsyn" />
+    <string id="str_tor_clan_athel_loren_clan_2_name" text="Anmyr" />
+    <string id="str_tor_clan_athel_loren_clan_3_name" text="Atylwyth" />
+    <string id="str_tor_clan_athel_loren_clan_4_name" text="Argwylon" />
+    <string id="str_tor_clan_athel_loren_clan_5_name" text="Arranoc" />
+    <string id="str_tor_clan_athel_loren_clan_6_name" text="Cavaroc" />
+    <string id="str_tor_clan_athel_loren_clan_7_name" text="Cythral" />
+    <string id="str_tor_clan_athel_loren_clan_8_name" text="Fyr Darric" />
+    <string id="str_tor_clan_athel_loren_clan_9_name" text="Modryn" />
+    <string id="str_tor_clan_athel_loren_clan_10_name" text="Tirsyth" />
+    <string id="str_tor_clan_athel_loren_clan_11_name" text="Torgovann" />
+    <string id="str_tor_clan_athel_loren_clan_12_name" text="Wydrioth" />
+    <string id="str_tor_clan_athel_loren_clan_13_name" text="Irmãs do Crepúsculo" />
+
+    <!-- Eonir -->
+    <string id="str_tor_clan_laurelorn_clan_1_name" text="Guardiões do Sol" />
+    <string id="str_tor_clan_laurelorn_clan_2_name" text="Guardiões das Chuvas" />
+    <string id="str_tor_clan_laurelorn_clan_3_name" text="Guardiões das Tempestades" />
+    <string id="str_tor_clan_laurelorn_clan_4_name" text="Guardiões das Geadas" />
+
+    <!-- Dwarfs -->
+    <string id="str_tor_clan_karak_kadrin_clan_1_name" text="Clã Angrulok" />
+    <string id="str_tor_clan_karak_kadrin_clan_2_name" text="Clã Azrilgrund" />
+    <string id="str_tor_clan_karak_angazhar_clan_1_name" text="Clã Branmakaz" />
+    <string id="str_tor_clan_karak_azgaraz_clan_1_name" text="Clã Azgaraz" />
+    <string id="str_tor_clan_karak_eksfilaz_clan_1_name" text="Clã Steelclad" />
+    <string id="str_tor_clan_karak_gantuk_clan_1_name" text="Clã Grundbak" />
+    <string id="str_tor_clan_karak_hirn_clan_1_name" text="Clã Drazhkarak" />
+    <string id="str_tor_clan_karak_izor_clan_1_name" text="Clã Izorgrung" />
+    <string id="str_tor_clan_karak_kaferkammaz_clan_1_name" text="Clã Zantromm" />
+    <string id="str_tor_clan_karak_norn_clan_1_name" text="Clã Angskrund" />
+    <string id="str_tor_clan_karak_zhubar_clan_1_name" text="Clã Zhufgrom" />
+    <string id="str_tor_clan_karak_ziflin_clan_1_name" text="Clã Mão de Granito" />
+
+    <!-- Greenskins -->
+    <string id="str_tor_clan_bad_axes_clan_1_name" text="Machados Ruins" />
+    <string id="str_tor_clan_bad_axes_clan_2_name" text="Git-Bitaz" />
+    <string id="str_tor_clan_black_sunz_clan_1_name" text="Sóis Negros" />
+    <string id="str_tor_clan_black_sunz_clan_2_name" text="Cabeças Espinhosas" />
+    <string id="str_tor_clan_crooked_eye_clan_1_name" text="Olho Torto" />
+    <string id="str_tor_clan_crooked_eye_clan_2_name" text="Mãos da Perdição" />
+    <string id="str_tor_clan_deff_grindaz_clan_1_name" text="Trituradores da Morte" />
+    <string id="str_tor_clan_deff_grindaz_clan_2_name" text="Rachadores de Git Magricelas" />
+    <string id="str_tor_clan_massif_choppas_clan_1_name" text="Cutelos do Maciço" />
+    <string id="str_tor_clan_massif_choppas_clan_2_name" text="Rochedos Verdes" />
+    <string id="str_tor_clan_neck_snappers_clan_1_name" text="Quebra-Pescoços" />
+    <string id="str_tor_clan_neck_snappers_clan_2_name" text="Tribo dos Ossos Vermelhos" />
+    <string id="str_tor_clan_iron_tribe_clan_1_name" text="Orcs de Ferro" />
+    <string id="str_tor_clan_iron_tribe_clan_2_name" text="Peles de Rocha" />
+    <string id="str_tor_clan_skull_smasherz_clan_1_name" text="Esmaga-Crânios" />
+    <string id="str_tor_clan_skull_smasherz_clan_2_name" text="Tribo dos Picos Cinzentos" />
+    <string id="str_tor_clan_bloody_spearz_clan_1_name" text="Lanças Sangrentas" />
+    <string id="str_tor_clan_bloody_spearz_clan_2_name" text="Adagas Gotejantes" />
+    <string id="str_tor_clan_red_eye_clan_1_name" text="Olho Vermelho" />
+    <string id="str_tor_clan_red_eye_clan_2_name" text="Gits Sangrentos" />
+    <string id="str_tor_clan_reavaz_clan_1_name" text="Reavaz" />
+    <string id="str_tor_clan_black_pit_clan_1_name" text="Veneno Vermelho" />
+
+    <!-- Chaos / Beastmen / Trolls / Dark Elves -->
+    <string id="str_tor_clan_chaos_clan_1_name" text="Caos" />
+    <string id="str_tor_clan_beastmen_clan_1_name" text="Homens-Fera" />
+    <string id="str_tor_clan_troll_clan_1_name" text="Trolls das Cavernas" />
+    <string id="str_tor_clan_druchii_clan_1_name" text="Escravistas Druchii" />
+    <string id="str_tor_clan_empire_deserter_clan_1_name" text="Clã de Desertores do Império" />
+
+    <!-- Dogs of War / Mercs -->
+    <string id="str_tor_clan_troubadours_clan_1_name" text="de Troubadour" />
+    <string id="str_tor_clan_bowmen_bergerac_clan_1_name" text="Arqueiros de Bergerac" />
+    <string id="str_tor_clan_pesant_knight_clan_1_name" text="Irmandade do Cavaleiro Camponês" />
+    <string id="str_tor_clan_college_magic_clan_1_name" text="Colégios Imperiais de Magia" />
+    <string id="str_tor_clan_sigmar_clan_1_name" text="O Culto de Sigmar" />
+    <string id="str_tor_clan_dog_clan_1_name" text="Sitiadores de Braganza" />
+    <string id="str_tor_clan_dog_clan_2_name" text="A Companhia Amaldiçoada" />
+    <string id="str_tor_clan_dog_clan_3_name" text="Companhia do Leopardo de Leopold" />
+    <string id="str_tor_clan_dog_clan_4_name" text="Venatores de Voland" />
+    <string id="str_tor_clan_dog_clan_5_name" text="Atiradores de Miragliano" />
+    <string id="str_tor_clan_dog_clan_6_name" text="Guarda Republicana de Ricco" />
+    <string id="str_tor_clan_dog_clan_7_name" text="Cães do Deserto de Al Muktar" />
+
+    <!-- Named Chaos Cults -->
+    <string id="str_tor_clan_chs_cult_1_name" text="Culto da Roda Quebrada" />
+    <string id="str_tor_clan_chs_cult_2_name" text="Culto da Iluminação" />
+    <string id="str_tor_clan_chs_cult_3_name" text="Fraternidade da Segunda Carne" />
+  </strings>
+</base>

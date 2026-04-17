@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="Português (BR)" />
+  </tags>
+  <strings>
+    <!-- Asrai / Wood Elf -->
+    <string id="str_blacksmith_woodelf" text="Ferreiro Asrai" />
+    <string id="str_weaponsmith_woodelf" text="Armeiro Asrai" />
+    <string id="str_armorer_woodelf" text="Fabricante de Armaduras Asrai" />
+    <string id="str_townsman_woodelf" text="Habitante dos Salões" />
+    <string id="str_townswoman_woodelf" text="Habitante dos Salões" />
+    <string id="str_beggar_woodelf" text="Mendigo Asrai" />
+    <string id="str_female_beggar_woodelf" text="Mendiga Asrai" />
+    <string id="str_barber_woodelf" text="Cabeleireiro Asrai" />
+    <string id="str_taverngamehost_woodelf" text="Anfitrião de Jogos Asrai" />
+    <string id="str_tournament_master_woodelf" text="Mestre de Torneio" />
+    <string id="str_female_dancer_woodelf" text="Dançarina Asrai" />
+    <string id="str_village_woman_woodelf" text="Aldeã Asrai" />
+    <string id="str_shop_worker_woodelf" text="Trabalhador de Loja Asrai" />
+    <string id="str_tavernkeeper_woodelf" text="Taberneiro Asrai" />
+    <string id="str_musician_woodelf" text="Músico Asrai" />
+    <string id="str_merchant_woodelf" text="Mercador Asrai" />
+    <string id="str_horseMerchant_woodelf" text="Mercador de Cavalos Asrai" />
+    <string id="str_merchant_notary_woodelf" text="Tabelião Mercantil Asrai" />
+    <string id="str_artisan_notary_woodelf" text="Tabelião Artesão Asrai" />
+    <string id="str_rural_notable_notary_woodelf" text="Tabelião Rural Asrai" />
+    <string id="str_ransom_broker_woodelf" text="Corretor de Resgates Asrai" />
+    <string id="str_gangleader_bodyguard_woodelf" text="Ladino Asrai" />
+    <string id="str_spc_notable_asrai_merch1" text="Mercador Asrai Irônico" />
+    <string id="str_spc_notable_asrai_merch2" text="Mercador Asrai Brusco" />
+    <string id="str_spc_notable_asrai_merch3" text="Mercador Asrai Ousado" />
+    <string id="str_spc_notable_asrai_merch4" text="Mercador Asrai de Fala Mansa" />
+    <string id="str_spc_notable_asrai_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_spc_notable_asrai_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_spc_notable_asrai_1b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_spc_notable_asrai_2" text="Pregador Puritano" />
+    <string id="str_spc_notable_asrai_3" text="Pregadora Rebelde" />
+    <string id="str_spc_asrai_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_spc_asrai_gangleader_2" text="Líder de Gangue" />
+    <string id="str_spc_asrai_gangleader_3" text="Líder de Gangue" />
+    <string id="str_spc_notable_asrai_artisan_1" text="Artesão Asrai" />
+    <string id="str_spc_notable_asrai_artisan_2" text="Artesão Asrai" />
+    <string id="str_spc_notable_asrai_rural_1" text="Yeoman Asrai" />
+    <string id="str_spc_notable_asrai_rural_2" text="Yeoman Asrai" />
+    <string id="str_asrai_headman_1" text="Alcaide Rebelde Asrai" />
+    <string id="str_asrai_headman_2" text="Alcaide Conservador Asrai" />
+    <string id="str_asrai_headman_3" text="Alcaide Dissimulado Asrai" />
+    <string id="str_prison_guard_asrai" text="Guarda Prisional" />
+
+    <!-- Blood Dragons / Imperial Undergrowth -->
+    <string id="str_tor_notable_blooddragons_0" text="Mercador Imperial Cauteloso" />
+    <string id="str_tor_notable_blooddragons_0b" text="{FIRSTNAME}, o Vinicultor" />
+    <string id="str_tor_notable_blooddragons_1" text="Mercador Imperial Implacável" />
+    <string id="str_tor_notable_blooddragons_1b" text="Mercador Imperial Frio" />
+    <string id="str_tor_notable_blooddragons_2" text="{FIRSTNAME}, o Salineiro" />
+    <string id="str_tor_notable_blooddragons_2b" text="Mercador Imperial Cauteloso" />
+    <string id="str_tor_notable_blooddragons_3" text="Mercador Imperial Autodidata" />
+    <string id="str_tor_notable_blooddragons_3b" text="Mercador Imperial Jocoso" />
+    <string id="str_tor_notable_blooddragons_4" text="Mercadora Imperial Herdeira" />
+    <string id="str_tor_notable_blooddragons_4b" text="Mercadora Imperial Dissimulada" />
+    <string id="str_tor_notable_blooddragons_5" text="Pregador Imperial Messiânico" />
+    <string id="str_tor_notable_blooddragons_6" text="Pregador Imperial Puritano" />
+    <string id="str_tor_notable_blooddragons_7" text="Mística Imperial" />
+    <string id="str_tor_notable_blooddragons_8" text="Líder de Operários Imperial Ríspido" />
+    <string id="str_tor_notable_blooddragons_9" text="Líder de Operários Imperial Extrovertido" />
+    <string id="str_tor_notable_blooddragons_gl1" text="Líder de Gangue Imperial Protetor" />
+    <string id="str_tor_notable_blooddragons_10" text="Líder de Gangue Imperial Irônico" />
+    <string id="str_tor_notable_blooddragons_11" text="Líder de Gangue Imperial Intimidador" />
+    <string id="str_tor_notable_blooddragons_gl4" text="Líder de Gangue Imperial Bestial" />
+    <string id="str_tor_notable_blooddragons_12" text="Líder de Gangue Imperial" />
+    <string id="str_tor_notable_blooddragons_13" text="Líder de Gangue Imperial Ameaçadora" />
+    <string id="str_tor_notable_blooddragons_21" text="Notável Rural Imperial Ríspido" />
+    <string id="22" text="Notável Rural Imperial Amigável" />
+    <string id="str_tor_blooddragons_headman_1" text="Alcaide Imperial Rebelde" />
+    <string id="str_tor_blooddragons_headman_2" text="Alcaide Imperial Conservador" />
+    <string id="str_tor_blooddragons_headman_3" text="Alcaide Imperial Dissimulado" />
+
+    <!-- Bretonnia -->
+    <string id="str_spc_notable_bretonnia_merch1" text="Mercador Bretão Irônico" />
+    <string id="str_spc_notable_bretonnia_merch2" text="Mercador Bretão Brusco" />
+    <string id="str_spc_notable_bretonnia_merch3" text="Mercador Bretão Ousado" />
+    <string id="str_spc_notable_bretonnia_merch4" text="Mercador Bretão de Fala Mansa" />
+    <string id="str_spc_notable_bretonnia_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_spc_notable_bretonnia_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_spc_notable_bretonnia_1b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_spc_notable_bretonnia_2" text="Pregador Puritano" />
+    <string id="str_spc_notable_bretonnia_3" text="Pregadora Rebelde" />
+    <string id="str_spc_bretonnia_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_spc_bretonnia_gangleader_2" text="Líder de Gangue" />
+    <string id="str_spc_bretonnia_gangleader_3" text="Líder de Gangue" />
+    <string id="str_spc_notable_bretonnia_artisan_1" text="Artesão Bretão" />
+    <string id="str_spc_notable_bretonnia_artisan_2" text="Artesão Bretão" />
+    <string id="str_spc_notable_bretonnia_rural_1" text="Yeoman Bretão" />
+    <string id="str_spc_notable_bretonnia_rural_2" text="Yeoman Bretão" />
+    <string id="str_spc_bretonnia_headman_1" text="Alcaide Bretão Rebelde" />
+    <string id="str_spc_bretonnia_headman_2" text="Alcaide Bretão Conservador" />
+    <string id="str_spc_bre_headman_3" text="Alcaide Bretão Dissimulado" />
+
+    <!-- Chaos -->
+    <string id="str_spc_notable_chaos_merch1" text="Mercador do Caos Irônico" />
+    <string id="str_spc_notable_chaos_merch2" text="Mercador do Caos Brusco" />
+    <string id="str_spc_notable_chaos_merch3" text="Mercador do Caos Ousado" />
+    <string id="str_spc_notable_chaos_merch4" text="Mercador do Caos de Fala Mansa" />
+    <string id="str_spc_notable_chaos_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_spc_notable_chaos_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_spc_notable_chaos_1b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_spc_notable_chaos_2" text="Pregador Puritano" />
+    <string id="str_spc_notable_chaos_3" text="Pregadora Rebelde" />
+    <string id="str_spc_chaos_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_spc_chaos_gangleader_2" text="Líder de Gangue" />
+    <string id="str_spc_chaos_gangleader_3" text="Líder de Gangue" />
+    <string id="str_spc_notable_chaos_artisan_1" text="Artesão do Caos" />
+    <string id="str_spc_notable_chaos_artisan_2" text="Artesão do Caos" />
+    <string id="str_spc_notable_chaos_rural_1" text="Yeoman do Caos" />
+    <string id="str_spc_notable_chaos_rural_3" text="Yeoman do Caos" />
+    <string id="str_spc_chaos_headman_1" text="Alcaide do Caos Rebelde" />
+    <string id="str_spc_chaos_headman_2" text="Alcaide do Caos Conservador" />
+    <string id="str_spc_chaos_headman_3" text="Alcaide do Caos Dissimulado" />
+
+    <!-- Dawi / Dwarfs -->
+    <string id="str_taverngamehost_dawi" text="Anfitrião de Jogos" />
+    <string id="str_blacksmith_dawi" text="Ferreiro Dawi" />
+    <string id="str_weaponsmith_dawi" text="Armeiro Dawi" />
+    <string id="str_armorer_dawi" text="Fabricante de Armaduras Dawi" />
+    <string id="str_townsman_dawi" text="Anão" />
+    <string id="str_townswoman_dawi" text="Anão" />
+    <string id="str_villager_dawi" text="Anão" />
+    <string id="str_village_woman_dawi" text="Anão" />
+    <string id="str_barber_dawi" text="Barbeiro Dawi" />
+    <string id="str_shop_worker_dawi" text="Trabalhador de Loja Dawi" />
+    <string id="str_tavernkeeper_dawi" text="Taberneiro Dawi" />
+    <string id="str_musician_dawi" text="Músico Dawi" />
+    <string id="str_wench_dawi" text="Serva de Taverna Dawi" />
+    <string id="str_dancer_dawi" text="Dançarino Dawi" />
+    <string id="str_beggar_dawi" text="Mendigo Dawi" />
+    <string id="str_merchant_dawi" text="Mercador Dawi" />
+    <string id="str_horseMerchant_dawi" text="Mercador de Cavalos Dawi" />
+    <string id="str_merchant_notary_dawi" text="Tabelião Mercantil Dawi" />
+    <string id="str_artisan_notary_dawi" text="Tabelião Artesão Dawi" />
+    <string id="str_rural_notable_notary_dawi" text="Tabelião Rural Dawi" />
+    <string id="str_ransom_broker_dawi" text="Corretor de Resgates Dawi" />
+    <string id="str_prison_guard_dawi" text="Guarda Prisional" />
+    <string id="str_tournament_master_dawi" text="Mestre de Torneio" />
+    <string id="str_gangleader_bodyguard_dawi" text="Líder de Gangue Dawi" />
+    <string id="str_tor_notable_dawi_merch1" text="Mercador Dawi Irônico" />
+    <string id="str_tor_notable_dawi_merch2" text="Mercador Dawi Brusco" />
+    <string id="str_tor_notable_dawi_merch3" text="Mercador Dawi Ousado" />
+    <string id="str_tor_notable_dawi_merch4" text="Mercador Dawi de Fala Mansa" />
+    <string id="str_tor_notable_dawi_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_tor_notable_dawi_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_tor_notable_dawi_b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_tor_notable_dawi_2" text="Pregador Puritano" />
+    <string id="str_tor_notable_dawi_3" text="Pregadora Rebelde" />
+    <string id="str_tor_dawi_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_tor_dawi_gangleader_2" text="Líder de Gangue" />
+    <string id="str_tor_dawi_gangleader_3" text="Líder de Gangue" />
+    <string id="str_tor_notable_dawi_artisan_1" text="Artesão Dawi" />
+    <string id="str_tor_notable_dawi_artisan_2" text="Artesão Dawi" />
+    <string id="str_tor_notable_dawi_rural_1" text="Yeoman Dawi" />
+    <string id="str_tor_notable_dawi_rural_2" text="Yeoman Dawi" />
+    <string id="str_dawi_headman_1" text="Alcaide Dawi Rebelde" />
+    <string id="str_dawi_headman_2" text="Alcaide Dawi Conservador" />
+    <string id="str_dawi_headman_3" text="Alcaide Dawi Dissimulado" />
+
+    <!-- Empire -->
+    <string id="XgjXfmM1" text="Guarda Prisional" />
+    <string id="muu5cofb" text="Cidadão" />
+    <string id="thbcgVVO" text="Comerciante" />
+    <string id="str_tor_notable_empire_0" text="Mercador Imperial Cauteloso" />
+    <string id="str_tor_notable_empire_0b" text="{FIRSTNAME}, o Vinicultor" />
+    <string id="str_tor_notable_empire_1" text="Mercador Imperial Implacável" />
+    <string id="str_tor_notable_empire_1b" text="Mercador Imperial Frio" />
+    <string id="str_tor_notable_empire_2" text="{FIRSTNAME}, o Salineiro" />
+    <string id="str_tor_notable_empire_2b" text="Mercador Imperial Cauteloso" />
+    <string id="str_tor_notable_empire_3" text="Mercador Imperial Autodidata" />
+    <string id="str_tor_notable_empire_3b" text="Mercador Imperial Jocoso" />
+    <string id="str_tor_notable_empire_4" text="Mercadora Imperial Herdeira" />
+    <string id="str_tor_notable_empire_4b" text="Mercadora Imperial Dissimulada" />
+    <string id="str_tor_notable_empire_5" text="Pregador Imperial Messiânico" />
+    <string id="str_tor_notable_empire_6" text="Pregador Imperial Puritano" />
+    <string id="str_tor_notable_empire_7" text="Mística Imperial" />
+    <string id="str_tor_notable_empire_8" text="Líder de Operários Imperial Ríspido" />
+    <string id="str_tor_notable_empire_9" text="Líder de Operários Imperial Extrovertido" />
+    <string id="str_tor_notable_empire_gl1" text="Líder de Gangue Imperial Protetor" />
+    <string id="str_tor_notable_empire_10" text="Líder de Gangue Imperial Irônico" />
+    <string id="str_tor_notable_empire_11" text="Líder de Gangue Imperial Intimidador" />
+    <string id="str_tor_notable_empire_gl4" text="Líder de Gangue Imperial Bestial" />
+    <string id="str_tor_notable_empire_12" text="Líder de Gangue Imperial" />
+    <string id="str_tor_notable_empire_13" text="Líder de Gangue Imperial Ameaçadora" />
+    <string id="str_tor_notable_empire_21" text="Notável Rural Imperial Ríspido" />
+    <string id="str_tor_notable_empire_22" text="Notável Rural Imperial Amigável" />
+    <string id="str_tor_empire_headman_1" text="Alcaide Imperial Rebelde" />
+    <string id="str_tor_empire_headman_2" text="Alcaide Imperial Conservador" />
+    <string id="str_tor_empire_headman_3" text="Alcaide Imperial Dissimulado" />
+
+    <!-- Eonir / Elves -->
+    <string id="str_blacksmith_eonir" text="Ferreiro Eonir" />
+    <string id="str_weaponsmith_eonir" text="Armeiro Eonir" />
+    <string id="str_armorer_eonir" text="Fabricante de Armaduras Eonir" />
+    <string id="str_townsman_eonir" text="Toriour (Habitante)" />
+    <string id="str_townswoman_eonir" text="Toriour" />
+    <string id="str_villager_eonir" text="Faniour (Aldeão)" />
+    <string id="str_village_woman_eonir" text="Faniour" />
+    <string id="str_barber_eonir" text="Barbeiro Eonir" />
+    <string id="str_shop_worker_eonir" text="Trabalhador de Loja Eonir" />
+    <string id="str_tavernkeeper_eonir" text="Taberneiro Eonir" />
+    <string id="str_taverngamehost_eonir" text="Anfitrião de Jogos Eonir" />
+    <string id="str_musician_eonir" text="Músico Eonir" />
+    <string id="str_wench_eonir" text="Serva de Taverna Eonir" />
+    <string id="str_dancer_eonir" text="Dançarina Eonir" />
+    <string id="str_merchant_eonir" text="Mercador Eonir" />
+    <string id="str_horseMerchant_eonir" text="Mercador de Cavalos Eonir" />
+    <string id="str_merchant_notary_eonir" text="Tabelião Mercantil Eonir" />
+    <string id="str_artisan_notary_eonir" text="Tabelião Artesão Eonir" />
+    <string id="str_rural_notable_notary_eonir" text="Tabelião Rural Eonir" />
+    <string id="str_ransom_broker_eonir" text="Corretor de Resgates Eonir" />
+    <string id="str_prison_guard_eonir" text="Guarda Prisional" />
+    <string id="str_tournament_master_eonir" text="Mestre de Torneio" />
+    <string id="str_gangleader_bodyguard_eonir" text="Líder de Gangue Eonir" />
+    <string id="str_spc_notable_eonir_merch1" text="Mercador Eonir Irônico" />
+    <string id="str_spc_notable_eonir_merch2" text="Mercador Eonir Brusco" />
+    <string id="str_spc_notable_eonir_merch3" text="Mercador Eonir Ousado" />
+    <string id="str_spc_notable_eonir_merch4" text="Mercador Eonir de Fala Mansa" />
+    <string id="str_spc_notable_eonir_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_spc_notable_eonir_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_spc_notable_eonir_b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_spc_notable_eonir_2" text="Pregador Puritano" />
+    <string id="str_spc_notable_eonir_3" text="Pregadora Rebelde" />
+    <string id="str_spc_eonir_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_spc_eonir_gangleader_2" text="Líder de Gangue" />
+    <string id="str_spc_eonir_gangleader_3" text="Líder de Gangue" />
+    <string id="str_spc_notable_eonir_artisan_1" text="Artesão Eonir" />
+    <string id="str_spc_notable_eonir_artisan_2" text="Artesão Eonir" />
+    <string id="str_spc_notable_eonir_rural_1" text="Yeoman Eonir" />
+    <string id="str_spc_notable_eonir_rural_2" text="Yeoman Eonir" />
+    <string id="str_eonir_headman_1" text="Alcaide Eonir Rebelde" />
+    <string id="str_eonir_headman_2" text="Alcaide Eonir Conservador" />
+    <string id="str_eonir_headman_3" text="Alcaide Eonir Dissimulado" />
+
+    <!-- Greenskins / Orcs -->
+    <string id="str_blacksmith_greenskins" text="Ferreiro Orc" />
+    <string id="str_weaponsmith_greenskins" text="Armeiro Orc" />
+    <string id="str_armorer_greenskins" text="Fabricante de Armaduras Orc" />
+    <string id="str_townsman_greenskins" text="Orc" />
+    <string id="str_townswoman_greenskins" text="Orc" />
+    <string id="str_villager_greenskins" text="Orc" />
+    <string id="str_village_woman_greenskins" text="Orc" />
+    <string id="str_barber_greenskins" text="Barbeiro Orc" />
+    <string id="str_shop_worker_greenskins" text="Trabalhador de Loja Orc" />
+    <string id="str_tavernkeeper_greenskins" text="Taberneiro Orc" />
+    <string id="str_taverngamehost_greenskins" text="Anfitrião de Jogos" />
+    <string id="str_musician_greenskins" text="Músico Orc" />
+    <string id="str_wench_greenskins" text="Serva de Taverna Orc" />
+    <string id="str_dancer_greenskins" text="Dançarino Orc" />
+    <string id="str_beggar_greenskins" text="Mendigo Orc" />
+    <string id="str_merchant_greenskins" text="Mercador Orc" />
+    <string id="str_horseMerchant_greenskins" text="Mercador de Cavalos Orc" />
+    <string id="str_merchant_notary_greenskins" text="Tabelião Mercantil Orc" />
+    <string id="str_artisan_notary_greenskins" text="Tabelião Artesão Orc" />
+    <string id="str_rural_notable_notary_greenskins" text="Tabelião Rural Orc" />
+    <string id="str_ransom_broker_greenskins" text="Corretor de Resgates Orc" />
+    <string id="str_prison_guard_greenskins" text="Guarda Prisional" />
+    <string id="str_tournament_master_greenskins" text="Mestre de Torneio" />
+    <string id="str_gangleader_bodyguard_greenskins" text="Líder de Gangue Orc" />
+    <string id="str_tor_notable_greenskins_merch1" text="Mercador Orc Irônico" />
+    <string id="str_tor_notable_greenskins_merch2" text="Mercador Orc Brusco" />
+    <string id="str_tor_notable_greenskins_merch3" text="Mercador Orc Ousado" />
+    <string id="str_tor_notable_greenskins_merch4" text="Mercador Orc de Fala Mansa" />
+    <string id="str_tor_notable_greenskins_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_tor_notable_greenskins_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_tor_notable_greenskins_b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_tor_notable_greenskins_2" text="Pregador Orc" />
+    <string id="str_tor_notable_greenskins_3" text="Pregador Rebelde Orc" />
+    <string id="str_tor_greenskins_gangleader_1" text="Líder de Gangue Padrão Orc" />
+    <string id="str_tor_greenskins_gangleader_2" text="Líder de Gangue Orc" />
+    <string id="str_tor_greenskins_gangleader_3" text="Líder de Gangue Orc" />
+    <string id="str_tor_notable_greenskins_artisan_1" text="Artesão Orc" />
+    <string id="str_tor_notable_greenskins_artisan_2" text="Artesão Orc" />
+    <string id="str_tor_notable_greenskins_rural_1" text="Yeoman Orc" />
+    <string id="str_tor_notable_greenskins_rural_2" text="Yeoman Orc" />
+    <string id="str_greenskins_headman_1" text="Alcaide Orc Rebelde" />
+    <string id="str_greenskins_headman_2" text="Alcaide Orc Conservador" />
+    <string id="str_greenskins_headman_3" text="Alcaide Orc Dissimulado" />
+
+    <!-- Mousillon -->
+    <string id="str_spc_notable_mousillon_merch1" text="Mercador de Mousillon Irônico" />
+    <string id="str_spc_notable_mousillon_merch2" text="Mercador de Mousillon Brusco" />
+    <string id="str_spc_notable_mousillon_merch3" text="Mercador de Mousillon Ousado" />
+    <string id="str_spc_notable_mousillon_merch4" text="Mercador de Mousillon de Fala Mansa" />
+    <string id="str_spc_notable_mousillon_merch5" text="{FIRSTNAME}, o Despenseiro" />
+    <string id="str_spc_notable_mousillon_1" text="{FIRSTNAME}, o Armazenista" />
+    <string id="str_spc_notable_mousillon_1b" text="{FIRSTNAME}, a Herdeira" />
+    <string id="str_spc_notable_mousillon_2" text="Pregador Puritano" />
+    <string id="str_spc_notable_mousillon_3" text="Pregadora Rebelde" />
+    <string id="str_spc_mousillon_gangleader_1" text="Líder de Gangue Padrão" />
+    <string id="str_spc_mousillon_gangleader_2" text="Líder de Gangue" />
+    <string id="str_spc_mousillon_gangleader_3" text="Líder de Gangue" />
+    <string id="str_spc_notable_mousillon_artisan_1" text="Artesão de Mousillon" />
+    <string id="str_spc_notable_mousillon_artisan_2" text="Artesão de Mousillon" />
+    <string id="str_spc_notable_mousillon_rural_1" text="Yeoman de Mousillon" />
+    <string id="str_spc_notable_mousillon_rural_2" text="Yeoman de Mousillon" />
+    <string id="str_spc_mousillon_headman_1" text="Alcaide de Mousillon Rebelde" />
+    <string id="str_spc_mousillon_headman_2" text="Alcaide de Mousillon Conservador" />
+    <string id="str_spc_mousillon_headman_3" text="Alcaide de Mousillon Dissimulado" />
+
+    <!-- Sylvania -->
+    <string id="str_tor_notable_sylvania_0" text="Mercador Silvano Cauteloso" />
+    <string id="str_tor_notable_sylvania_0b" text="{FIRSTNAME}, o Vinicultor" />
+    <string id="str_tor_notable_sylvania_1" text="Mercador Silvano Implacável" />
+    <string id="str_tor_notable_sylvania_1b" text="Mercador Silvano Frio" />
+    <string id="str_tor_notable_sylvania_2" text="{FIRSTNAME}, o Salineiro" />
+    <string id="str_tor_notable_sylvania_2b" text="Mercador Silvano Cauteloso" />
+    <string id="str_tor_notable_sylvania_3" text="Mercador Silvano Autodidata" />
+    <string id="str_tor_notable_sylvania_3b" text="Mercador Silvano Jocoso" />
+    <string id="str_tor_notable_sylvania_4" text="Mercadora Silvana Herdeira" />
+    <string id="str_tor_notable_sylvania_4b" text="Mercadora Silvana Dissimulada" />
+    <string id="str_tor_notable_sylvania_5" text="Pregador Silvano Messiânico" />
+    <string id="str_tor_notable_sylvania_6" text="Pregador Silvano Puritano" />
+    <string id="str_tor_notable_sylvania_7" text="Mística Silvana" />
+    <string id="str_tor_notable_sylvania_8" text="Líder de Operários Silvano Ríspido" />
+    <string id="str_tor_notable_sylvania_9" text="Líder de Operários Silvano Extrovertido" />
+    <string id="str_tor_notable_sylvania_gl1" text="Líder de Gangue Silvano Protetor" />
+    <string id="str_tor_notable_sylvania_10" text="Líder de Gangue Silvano Irônico" />
+    <string id="str_tor_notable_sylvania_11" text="Líder de Gangue Silvano Intimidador" />
+    <string id="str_tor_notable_sylvania_gl4" text="Líder de Gangue Silvano Bestial" />
+    <string id="str_tor_notable_sylvania_12" text="Líder de Gangue Silvana" />
+    <string id="str_tor_notable_sylvania_13" text="Líder de Gangue Silvana Ameaçadora" />
+    <string id="str_tor_notable_sylvania_21" text="Notável Rural Silvano Ríspido" />
+    <string id="str_tor_notable_sylvania_22" text="Notável Rural Silvano Amigável" />
+    <string id="str_tor_sylvania_headman_1" text="Alcaide Silvano Rebelde" />
+    <string id="str_tor_sylvania_headman_2" text="Alcaide Silvano Conservador" />
+    <string id="str_tor_sylvania_headman_3" text="Alcaide Silvano Dissimulado" />
+  </strings>
+</base>

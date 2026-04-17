@@ -423,7 +423,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `Languages/BR/tor_troopdefinitions_ptbr.xml` (criar)
 **Exemplos:** `Empire Recruit`, `Bright Wizard`, `Ironbreaker`, `Orc Boss` — visíveis na tela de batalha e exército.
 
-- [ ] TD01 — todas as 432 entradas de nomes de tropa
+- [x] TD01 — todas as 432 entradas de nomes de tropa -> **100%**
 
 ---
 
@@ -432,7 +432,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `Languages/BR/tor_townspeople_ptbr.xml` (criar, consolidar os 12 arquivos em um)
 **Exemplos:** `Prison Guard`, `Townsman`, `Trader`, `Cautious imperial merchant` — visíveis em interações nas cidades.
 
-- [ ] TP01 — todas as 309 entradas de papéis e descrições de NPCs
+- [x] TP01 — todas as 309 entradas de papéis e descrições de NPCs -> **100%**
 
 ---
 
@@ -442,7 +442,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Nota:** Incluir apenas `name=`, `shortname=`, `title=`, `rulertitle=`. Os campos `text=` são descrições enciclopédicas de lore — excluídos por escopo.
 **Exemplos visíveis:** `Averland`, `Empire of Men`, `Elector Count` (no mapa e diplomacia).
 
-- [ ] KG01 — nomes e títulos dos reinos (excluir campos `text=`)
+- [x] KG01 — nomes e títulos dos reinos (excluir campos `text=`) -> **100%**
 
 ---
 
@@ -451,7 +451,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `Languages/BR/tor_clans_ptbr.xml` (criar)
 **Nota:** Verificar quais campos são nomes próprios (não traduzir) vs. títulos/descrições (traduzir).
 
-- [ ] CL01 — nomes e descrições de clãs
+- [x] CL01 — nomes dos clãs (excluir campos `text=`) -> **100%**
 
 ---
 
@@ -460,7 +460,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `Languages/BR/tor_npccharacters_ptbr.xml` (criar)
 **Nota:** São nomes com títulos (`Elector Count Marius Leitdorf`, `Supreme Patriarch Balthazar Gelt`). Traduzir apenas títulos, manter nomes próprios.
 
-- [ ] NPC01 — títulos de lordes e templates
+- [ ] NPC01 — títulos de lordes e templates -> **15%**
 
 ---
 
