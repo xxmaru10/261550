@@ -1,4 +1,54 @@
-# Ignorar apenas o que não faz sentido versionar
-*.bin
-*.log
-pegodooriginal/
+# ============================================================
+# WHITELIST — só os arquivos de tradução entram no git.
+# Tudo o que não estiver listado abaixo é ignorado por padrão.
+# ============================================================
+
+# Ignorar tudo
+*
+
+# ── Arquivos raiz do projeto ─────────────────────────────────
+!.gitignore
+!AI.md
+!README.md
+
+# ── Mod 3025574678 (The Old Realms — Warhammer) ──────────────
+!3025574678/
+
+# Eventos narrativos (.ink) — fonte para tradução via GameText
+!3025574678/InkStories/
+!3025574678/InkStories/*.ink
+
+# Pasta de idiomas
+!3025574678/ModuleData/
+!3025574678/ModuleData/Languages/
+!3025574678/ModuleData/Languages/language_data.xml
+
+# Saídas PT-BR (arquivos que criamos — qualquer .xml na pasta BR/)
+!3025574678/ModuleData/Languages/BR/
+!3025574678/ModuleData/Languages/BR/*.xml
+
+# Fonte principal de strings (GameText — Tipo 1)
+!3025574678/ModuleData/tor_strings.xml
+!3025574678/ModuleData/tor_voiced_strings.xml
+!3025574678/ModuleData/tor_concept_strings.xml
+
+# Arquivos editados inline (Tipo 2) + fontes de referência (Tipo 4)
+!3025574678/ModuleData/tor_custom_xmls/
+!3025574678/ModuleData/tor_custom_xmls/tor_itemtraits.xml
+!3025574678/ModuleData/tor_custom_xmls/tor_cc_options.xml
+!3025574678/ModuleData/tor_custom_xmls/tor_specialization_options.xml
+!3025574678/ModuleData/tor_custom_xmls/tor_abilitytemplates.xml
+!3025574678/ModuleData/tor_custom_xmls/tor_ror_settlement_templates.xml
+
+# ── Fase 5 — fontes adicionais (adicionar conforme avançar) ──
+# Descomentar quando o arquivo correspondente começar a ser traduzido:
+# !3025574678/ModuleData/tor_troopdefinitions.xml
+# !3025574678/ModuleData/tor_kingdoms.xml
+# !3025574678/ModuleData/tor_clans.xml
+# !3025574678/ModuleData/tor_religions.xml
+# !3025574678/ModuleData/tor_cultures.xml
+# !3025574678/ModuleData/tor_npccharacters/
+# !3025574678/ModuleData/tor_npccharacters/tor_campaign_lords.xml
+# !3025574678/ModuleData/tor_npccharacters/tor_charactertemplates.xml
+# !3025574678/ModuleData/tor_townspeople/
+# !3025574678/ModuleData/tor_townspeople/*.xml

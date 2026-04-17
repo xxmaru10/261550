@@ -5,7 +5,10 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 ---
 
 > [!IMPORTANT]
-> **AUDITORIA DE PROGRESSO (15/04/2026 — atualizado 09:40):** S15 (Custom Resources, Purity Seals, Damage Types) concluído em `tor_strings.xml`. Próximo passo: S16 (Eventos Narrativos).
+> **AUDITORIA DE PROGRESSO (17/04/2026):**
+> - **Pendente Fase 1:** S20 em `tor_strings.xml` (linhas 6.258–6.281, 17 strings de Diplomacia).
+> - **Fases 2–4:** 100% concluídas.
+> - **FASE 5 descoberta em auditoria:** 7 grupos de arquivos GameText nunca rastreados — nomes de tropas, NPCs, reinos, clãs, facções, religiões. Ver seção FASE 5 no final do PROGRESSO.
 
 ---
 
@@ -28,20 +31,20 @@ O Bannerlord tem um sistema de localização nativo. Arquivos registrados como `
 
 ## SETUP (já concluído — não repetir)
 
-- [x] Criado `3025574678/ModuleData/Languages/BR/language_data.xml` — registra os arquivos PT-BR no jogo
-- [x] Criar `3025574678/ModuleData/Languages/BR/tor_concept_strings_ptbr.xml` ← primeiro a fazer
-- [x] Criar `3025574678/ModuleData/Languages/BR/tor_voiced_strings_ptbr.xml`
-- [x] Criado `3025574678/ModuleData/Languages/BR/tor_strings_ptbr.xml` — **PARCIAL**: contém apenas descrições e nomes de cultura (linhas 1197–1216 do tor_strings.xml). Ao trabalhar nos blocos S04/S05, verificar se os IDs já estão no arquivo antes de re-traduzir.
+Todos os arquivos de infraestrutura já existem. O `language_data.xml` atual tem o seguinte conteúdo (não alterar — adicionar novas entradas somente ao iniciar FASE 5):
 
-O `language_data.xml` já existe com o seguinte conteúdo (não alterar):
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData id="Português (BR)">
   <LanguageFile xml_path="BR/tor_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_voiced_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_concept_strings_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_ror_settlement_templates_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_abilitytemplates_ptbr.xml" />
 </LanguageData>
 ```
+
+> **Caminho completo a partir da raiz do repositório:** todos os caminhos neste arquivo usam raiz `3025574678/` implícita. Exemplo: `ModuleData/tor_strings.xml` = `3025574678/ModuleData/tor_strings.xml`.
 
 ---
 
@@ -123,6 +126,34 @@ Esses arquivos não têm `{=...}`. O sistema de localização nativo não os sup
 
 ---
 
+### Tipo 4 — GameText em Atributos XML (FASE 5)
+
+Os arquivos da FASE 5 (`tor_troopdefinitions.xml`, `tor_kingdoms.xml`, `tor_cultures.xml`, etc.) são registrados no `SubModule.xml` como `NPCCharacters`, `Kingdoms`, `SPCultures`, etc. O texto traduzível está em **atributos XML**, não em nós de texto como `tor_strings.xml`.
+
+**Formato fonte (exemplos por arquivo):**
+```xml
+<!-- tor_troopdefinitions.xml / tor_npccharacters / tor_townspeople -->
+<NPCCharacter name="{=KEY}Empire Recruit" ... />
+
+<!-- tor_kingdoms.xml -->
+<Kingdom name="{=KEY}Empire of Men" shortname="{=KEY}Empire" title="{=KEY}Elector Count" rulertitle="{=KEY}Kaiser" ... />
+
+<!-- tor_clans.xml -->
+<Clan name="{=KEY}House von Carstein" ... />
+
+<!-- tor_religions.xml -->
+<Religion name="{=KEY}Sigmar" ... />
+
+<!-- tor_cultures.xml (apenas nomes de facção/cultura — ignorar _male_/_female_/_last_) -->
+<CultureObject name="{=KEY}Empire of Men" ... />
+```
+
+**Regra:** extrair o `KEY` de cada `{=KEY}` e traduzir o texto que vem depois. Os campos `text=` longos (descrições de lore) **não são traduzidos** — escopo do projeto é conteúdo visível ao jogador, não enciclopédia.
+
+**Formato de saída:** idêntico ao Tipo 1 (GameText) — arquivo `*_ptbr.xml` em `Languages/BR/`.
+
+---
+
 ### Tipo 3 — Ink (InkStories/*.ink)
 
 Traduzir: texto narrativo simples e o texto dentro de `[colchetes]` nas escolhas.
@@ -144,29 +175,66 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 ## GLOSSÁRIO
 
+> Referência oficial PT-BR: [Total War: Warhammer (honga.net)](https://www.honga.net/totalwar/warhammer/faction.php?l=pt-BR) e Warhammer: Vermintide 2. Termos marcados com ⚠️ divergem da localização oficial — ver nota.
+
+### Facções e Culturas
+
 | Termo Original | Tradução | Notas |
 | :--- | :--- | :--- |
-| The Empire | O Império | I maiúsculo sempre |
-| Warp / Imaterium | Warp / O Imatério | Manter "Warp" em contexto técnico |
-| Witch Hunter | Caçador de Bruxas | |
-| Winds of Magic | Ventos da Magia | |
+| The Empire | O Império | I maiúsculo sempre — confirmado TW:WH |
+| Bretonnia | Bretônia | Confirmado TW:WH |
+| Vampire Counts | Condes Vampiro | Confirmado TW:WH |
+| Blood Dragons | Dragões de Sangue | |
+| Greenskins | Peles-verdes | Confirmado TW:WH e Warhammer Online |
+| Warriors of Chaos | Guerreiros do Caos | Confirmado TW:WH |
+| Beastmen | Homens-fera | Confirmado TW:WH |
 | Chaos | Caos | |
-| Sigmar | Sigmar | Não traduzir |
+| Kislev / Mousillon / Eonir | Kislev / Mousillon / Eonir | Manter — nomes próprios da ambientação |
+| Sigmar / Ulric / Shallya / Nurgle / Tzeentch / Khorne | *(idem)* | Não traduzir — nomes de divindades e deuses do Caos |
 | Old Ones | Antigos | |
-| Greenskins | Peles-verdes | |
+
+### Títulos e Cargos
+
+| Termo Original | Tradução | Notas |
+| :--- | :--- | :--- |
+| Elector Count | Conde Eleitor | Traduzir título; manter nome próprio (ex: "Conde Eleitor Marius Leitdorf") |
+| Supreme Patriarch | Patriarca Supremo | |
+| Grail Knight | Cavaleiro do Graal | Confirmado TW:WH |
+| Green Knight | O Cavaleiro Verde | Confirmado TW:WH |
+| Witch Hunter | Caçador de Bruxas | Confirmado TW:WH e Vermintide 2 |
+| Warrior Priest | Sacerdote Guerreiro | Confirmado TW:WH e Vermintide 2 |
+| Runelord | Senhor das Runas | Confirmado TW:WH |
+| Ironbreaker | Quebra-Ferro | Não confirmado em TW:WH; mantido por consistência |
+| Slayer | Matador | Vermintide 2 PT-BR mantém "Slayer", mas os arquivos já traduzidos do mod usam "Matador" consistentemente (7+ ocorrências em tor_abilitytemplates_ptbr.xml, tor_strings_ptbr.xml, tor_cc_options.xml) — manter "Matador" |
+| Warden | Guardião | |
+| Grey Lord | Senhor Cinza | |
+| Lady of the Lake | Dama do Lago | |
+| Career | Carreira | |
+
+### Tropas e Unidades
+
+| Termo Original | Tradução | Notas |
+| :--- | :--- | :--- |
+| State Troops | Tropas Estaduais | Confirmado TW:WH |
+| Halberdiers | Alabardeiros | Confirmado TW:WH |
+| Greatswords | Espadões | Confirmado TW:WH |
+| Demigryph Knights | Cavaleiros de Semigrifos | Confirmado TW:WH |
+| Empire Recruit | Recruta Imperial | |
+| Prison Guard | Guarda Prisional | Para NPCs de cidades |
+| Townsman | Cidadão | Para NPCs de cidades |
+| Trader / Merchant | Comerciante | Para NPCs de cidades |
+
+### Mecânicas de Jogo
+
+| Termo Original | Tradução | Notas |
+| :--- | :--- | :--- |
+| Warp / Imaterium | Warp / O Imatério | Manter "Warp" em contexto técnico |
+| Winds of Magic | Ventos da Magia | |
 | Lore of Magic | Saber da Magia | Ex: Saber do Fogo |
-| State Troops | Tropas Estaduais | |
 | Spellcraft | Arte Arcana | |
 | Miscast | Falha de Conjuração | |
 | Winds of Magic recharge | Recarga dos Ventos | |
-| Career | Carreira | |
 | Oath Gold | Ouro do Juramento | |
-| Grail Knight | Cavaleiro do Graal | |
-| Runelord | Senhor das Runas | |
-| Ironbreaker | Quebra-Ferro | |
-| Slayer | Matador | |
-| Warden | Guardião | |
-| Grey Lord | Senhor Cinza | |
 | Ward Save | Salvaguarda | Bônus contra qualquer tipo de dano |
 | Cleave | Trespassar | Atributo de arma que acerta múltiplos inimigos |
 | Enchantment Blueprint | Projeto de Encantamento | Pergaminho que ensina uma receita |
@@ -206,7 +274,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 ---
 
 #### 1.3 tor_strings.xml — Strings Principais
-**Fonte:** `ModuleData/tor_strings.xml` | 6.257 linhas
+**Fonte:** `ModuleData/tor_strings.xml` | ~~6.257 linhas~~ → **6.281 linhas** (update do mod adicionou 17 strings de Diplomacia)
 **Saída:** `ModuleData/Languages/BR/tor_strings_ptbr.xml` (criar com S01, acumular nos seguintes)
 
 - [x] S01 — linhas 1–265 -> **CONCLUÍDO**
@@ -226,12 +294,13 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] S15 — linhas 4534–4998 *(Desbloqueios de Carreira, Recompensas, Purity Seal, Spell Damage Display, Damage Types, Career Perks, Recursos Customizados, Chivalry, Oath Gold, Forest Harmony)* -> **CONCLUÍDO**
 
 > [!NOTE]
-> **Por que S16–S19 estão concluídos antes de S05–S15?** Numa sessão anterior, a tradução foi iniciada pelo final do arquivo (eventos narrativos), pois eram os mais urgentes para o jogador. Retomar **sempre pelo primeiro bloco sem `[x]`** — que atualmente é o **S12**.
+> **Por que S16–S19 estão concluídos antes de S05–S15?** Numa sessão anterior, a tradução foi iniciada pelo final do arquivo (eventos narrativos), pois eram os mais urgentes para o jogador. Retomar **sempre pelo primeiro bloco sem `[x]`** — atualmente é o **S20**.
 
 - [x] S16 — linhas 4998–5395 (Eventos Narrativos: Battlefield, Cabin, Fair, Duel, Overturned Cart; Sistema Hireling) -> **100%**
 - [x] S17 — linhas 5395–5625 (Prestige Noble, Construções, Mecânicas Peles-verdes, Blood Keep) -> **100%**
 - [x] S18 — linhas 5625–5865 (Diálogos de Blood Kiss, Spell Trainers, Quests de Classe) -> **100%**
 - [x] S19 — linhas 5865–6257 (Powerstones, Runas de Unidade, Enciclopédia, Personagem, Diplomacia) -> **100%**
+- [ ] S20 — linhas 6258–6281 *(Diplomacia: tor_alliance_*, tor_trade_*, tor_stats_troll_bonus_text — 17 strings adicionadas após update do mod)* -> **PENDENTE**
 
 ---
 
@@ -255,7 +324,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] CC04 — linhas 1201–1563 -> **CONCLUÍDO**
 
 #### 2.3 tor_itemtraits.xml — Traços, Encantos, Runas, Livros e Blueprints
-**Arquivo:** `ModuleData/tor_custom_xmls/tor_itemtraits.xml` | 4.672 linhas
+**Arquivo:** `ModuleData/tor_custom_xmls/tor_itemtraits.xml` | ~~4.672 linhas~~ → **4.406 linhas** (mod removeu ~266 linhas em update — tail verificado, tradução integral ainda presente)
 **Editar diretamente:** `<ItemTraitName>` e `<ItemTraitDescription>`
 
 > O arquivo contém **4 tipos de conteúdo** — todos usam as mesmas tags, mas com semântica diferente:
@@ -282,7 +351,18 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 - [x] T16 - Bloco 16 de Traços (Linhas 3201-3600) -> **CONCLUÍDO**
 - [x] T17 - Bloco 17 de Traços (Linhas 3601-4000) -> **CONCLUÍDO**
 - [x] T18 - Bloco 18 de Traços (Linhas 4001-4400) -> **CONCLUÍDO**
-- [x] T19 - Bloco 19 de Traços (Linhas 4401-4672) -> **CONCLUÍDO** (Verificado até o fim do arquivo na versão local)
+- [x] T19 - Bloco 19 de Traços (Linhas 4401-4406) -> **CONCLUÍDO** (arquivo encolheu para 4.406 linhas após update; tail verificado traduzido)
+
+---
+
+### FASE 3 — Eventos Narrativos (Ink, edição direta)
+
+**Diretório:** `3025574678/InkStories/` | ~128 linhas por arquivo
+**Cada arquivo = uma chamada.**
+**Não traduzir:** `include.ink` (funções técnicas) e `Template.ink` (template vazio).
+
+> **Nota Técnica:** Os eventos abaixo, originalmente listados como arquivos `.ink`, foram integrados ao `tor_strings.xml` (Blocos S16-S18). Traduzir via sistema GameText.
+> Battlefield, BlessingsOfMen, CabinInTheWoodsLocked, CampFireLearning, CultistInOurMidst, DawiAndRuneMagic, Duel, EnchantingAndArtifacts, Fair, FozzriksFortress, Meadow, Minstrel, Miracle, MorrsliebWaxes, NurgleCultists, OrcBossQuest1, OrcBossQuest2, OrcEnchantmentStone, OrcShamanPrayerPrompt, OrcShamanQuest1InitialVision, OrcShamanQuest2InitialVision, OverturnedCart, Pond, ProtectOurDead, TheHangedMen, TravelingMerchant.
 
 ---
 
@@ -313,17 +393,101 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 
 **STATUS FINAL: 100% TRADUZIDO**
 
+---
+
+### FASE 5 — Arquivos GameText Adicionais (descobertos em auditoria 17/04/2026)
+
+> Esses arquivos usam `{=KEY}Texto` mas **não estão em `tor_strings.xml`** — cada um precisa de um arquivo de saída separado em `Languages/BR/` e registro no `language_data.xml`.
+> O usuário deve decidir a prioridade de cada bloco conforme o escopo do projeto.
+> Ver **Tipo 4** na seção TIPOS DE ARQUIVO para o formato de fonte e saída.
+
+> [!IMPORTANT]
+> **Antes de iniciar qualquer bloco da FASE 5** — dois passos obrigatórios:
+>
+> **Passo 1 — Descomentar no `.gitignore`** (raiz do repositório, fora de `3025574678/`):
+> Localizar a linha comentada correspondente ao arquivo e remover o `# ` do início.
+> Exemplo para TD01: `# !3025574678/ModuleData/tor_troopdefinitions.xml` → `!3025574678/ModuleData/tor_troopdefinitions.xml`
+>
+> **Passo 2 — Adicionar entrada no `language_data.xml`:**
+> Arquivo: `3025574678/ModuleData/Languages/language_data.xml`
+> Adicionar uma linha `<LanguageFile>` antes de `</LanguageData>`:
+> ```xml
+> <LanguageFile xml_path="BR/tor_troopdefinitions_ptbr.xml" />
+> ```
+> (substituir `tor_troopdefinitions_ptbr.xml` pelo nome do arquivo de saída do bloco atual)
+>
+> Só então iniciar a tradução e criar o arquivo de saída em `Languages/BR/`.
+
+#### 5.1 tor_troopdefinitions.xml — Nomes de Tropas
+**Arquivo:** `ModuleData/tor_troopdefinitions.xml` | 5.389 linhas | **432 chaves GameText**
+**Saída:** `Languages/BR/tor_troopdefinitions_ptbr.xml` (criar)
+**Exemplos:** `Empire Recruit`, `Bright Wizard`, `Ironbreaker`, `Orc Boss` — visíveis na tela de batalha e exército.
+
+- [ ] TD01 — todas as 432 entradas de nomes de tropa
 
 ---
 
-### FASE 3 — Eventos Narrativos (Ink, edição direta)
+#### 5.2 tor_townspeople — Papéis de NPCs nas Cidades
+**Arquivos:** `ModuleData/tor_townspeople/*.xml` (12 arquivos) | total: **309 chaves GameText**
+**Saída:** `Languages/BR/tor_townspeople_ptbr.xml` (criar, consolidar os 12 arquivos em um)
+**Exemplos:** `Prison Guard`, `Townsman`, `Trader`, `Cautious imperial merchant` — visíveis em interações nas cidades.
 
-**Diretório:** `3025574678/InkStories/` | ~128 linhas por arquivo
-**Cada arquivo = uma chamada.**
-**Não traduzir:** `include.ink` (funções técnicas) e `Template.ink` (template vazio).
+- [ ] TP01 — todas as 309 entradas de papéis e descrições de NPCs
 
-> **Nota Técnica:** Os eventos abaixo, originalmente listados como arquivos `.ink`, foram integrados ao `tor_strings.xml` (Blocos S16-S18). Traduzir via sistema GameText.
-> Battlefield, BlessingsOfMen, CabinInTheWoodsLocked, CampFireLearning, CultistInOurMidst, DawiAndRuneMagic, Duel, EnchantingAndArtifacts, Fair, FozzriksFortress, Meadow, Minstrel, Miracle, MorrsliebWaxes, NurgleCultists, OrcBossQuest1, OrcBossQuest2, OrcEnchantmentStone, OrcShamanPrayerPrompt, OrcShamanQuest1InitialVision, OrcShamanQuest2InitialVision, OverturnedCart, Pond, ProtectOurDead, TheHangedMen, TravelingMerchant.
+---
+
+#### 5.3 tor_kingdoms.xml — Reinos e Títulos
+**Arquivo:** `ModuleData/tor_kingdoms.xml` | 1.294 linhas | **275 chaves GameText**
+**Saída:** `Languages/BR/tor_kingdoms_ptbr.xml` (criar)
+**Nota:** Incluir apenas `name=`, `shortname=`, `title=`, `rulertitle=`. Os campos `text=` são descrições enciclopédicas de lore — excluídos por escopo.
+**Exemplos visíveis:** `Averland`, `Empire of Men`, `Elector Count` (no mapa e diplomacia).
+
+- [ ] KG01 — nomes e títulos dos reinos (excluir campos `text=`)
+
+---
+
+#### 5.4 tor_clans.xml — Clãs
+**Arquivo:** `ModuleData/tor_clans.xml` | 1.789 linhas | **284 chaves GameText**
+**Saída:** `Languages/BR/tor_clans_ptbr.xml` (criar)
+**Nota:** Verificar quais campos são nomes próprios (não traduzir) vs. títulos/descrições (traduzir).
+
+- [ ] CL01 — nomes e descrições de clãs
+
+---
+
+#### 5.5 tor_npccharacters — Lordes e Templates de Companheiros
+**Arquivos:** `ModuleData/tor_npccharacters/tor_campaign_lords.xml` (751 chaves) e `tor_charactertemplates.xml` (154 chaves)
+**Saída:** `Languages/BR/tor_npccharacters_ptbr.xml` (criar)
+**Nota:** São nomes com títulos (`Elector Count Marius Leitdorf`, `Supreme Patriarch Balthazar Gelt`). Traduzir apenas títulos, manter nomes próprios.
+
+- [ ] NPC01 — títulos de lordes e templates
+
+---
+
+#### 5.6 tor_religions.xml — Religiões
+**Arquivo:** `ModuleData/tor_religions.xml` | 559 linhas | **24 chaves GameText** (pequeno)
+**Saída:** `Languages/BR/tor_religions_ptbr.xml` (criar)
+
+- [ ] REL01 — 24 nomes de religiões
+
+---
+
+#### 5.7 tor_cultures.xml — Nomes de Facções/Culturas
+**Arquivo:** `ModuleData/tor_cultures.xml` | 7.385 linhas | **93 chaves relevantes** (de 5.470 totais)
+**Nota importante:** 5.377 das 5.470 chaves são **listas de nomes próprios de personagens** (_male_*, _female_*, _last_*) — não traduzir, são nomes do universo Warhammer.
+As 93 chaves restantes são nomes de facções/culturas visíveis no jogo (`Empire of Men`, `Vampire Counts`, `Greenskins`, etc.).
+**Saída:** `Languages/BR/tor_cultures_ptbr.xml` (criar)
+
+> [!NOTE]
+> **Criação de personagem em inglês:** A tela de seleção de cultura na criação de personagem exibe os nomes em inglês porque `tor_cultures.xml` está registrado como `SPCultures` no `SubModule.xml` e ainda não foi traduzido. Concluir CU01 resolve esse problema — os nomes de facção/cultura passarão a aparecer em português nessa tela.
+
+- [ ] CU01 — ~93 nomes de facções e culturas (excluir listas de nomes _male_/_female_/_last_)
+
+---
+
+> **Arquivos de baixíssima prioridade / decisão do usuário:**
+> - `tor_lords.xml` — 17 chaves (nomes de lordes, quase todos nomes próprios)
+> - `tor_settlements.xml` — 3.904 chaves (nomes de assentamentos — nomes próprios do universo Warhammer como "Altdorf", "Oak of Ages"; excluir salvo decisão contrária)
 
 ---
 
@@ -336,6 +500,9 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 | `tor_extendedunitproperties.xml` | Dados de stats de unidades, sem texto |
 | `tor_statuseffects.xml` | Dados de efeitos de status, sem texto |
 | `tor_factionbanneroverrides.xml`, `tor_animation_triggers.xml`, `tor_config.xml` | Dados técnicos, sem texto |
+| `tor_heroes.xml` | 751 chaves — todas são biografias enciclopédicas (`str_encyclopedia_*`), lore in-universe excluído por escopo |
+| `tor_cultures.xml` listas de nomes | 5.377 chaves `_male_*/_female_*/_last_*` — nomes próprios do universo Warhammer, não traduzir |
+| `tor_settlements.xml` | 3.904 chaves — nomes próprios de assentamentos Warhammer (Altdorf, Oak of Ages, etc.). Baixíssima prioridade salvo decisão do usuário |
 
 ---
 
