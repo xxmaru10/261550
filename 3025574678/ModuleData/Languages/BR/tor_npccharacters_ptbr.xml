@@ -110,5 +110,143 @@
     <string id="str_tor_wanderer_mousillon_2" text="{FIRSTNAME}, a Bruxa de Cerca" />
     <string id="str_tor_wanderer_mousillon_3" text="{FIRSTNAME}, o Contrabandista" />
     <string id="str_tor_wanderer_mousillon_4" text="{FIRSTNAME}, o Vampiro de Mousillon" />
+
+    <!-- Wanderer Templates (from tor_charactertemplates.xml) - Continuação -->
+    <string id="str_tor_wanderer_vampire_0" text="{FIRSTNAME}, o Necromante" />
+    <string id="str_tor_wanderer_vampire_1" text="{FIRSTNAME}, o Vampiro" />
+    <string id="str_tor_wanderer_vampire_2" text="{FIRSTNAME}, o Rei Espectro" />
+    <string id="str_tor_wanderer_vampire_3" text="{FIRSTNAME}, a Condessa Lahmiana" />
+    <string id="str_tor_wanderer_vampire_4" text="{FIRSTNAME}, a Vidente Strigany" />
+    
+    <string id="str_tor_wanderer_woodelf_0" text="{FIRSTNAME}, a Cantorcanto" />
+    <string id="str_tor_wanderer_woodelf_1" text="{FIRSTNAME}, a Capitã da Clareira" />
+    <string id="str_tor_wanderer_woodelf_2" text="{FIRSTNAME}, o Vigilante do Caminho" />
+    
+    <string id="str_tor_wanderer_eonir_0" text="{FIRSTNAME}, o Andarilho Fantasma" />
+    <string id="str_tor_wanderer_eonir_1" text="{FIRSTNAME}, o Mago Guardião" />
+    <string id="str_tor_wanderer_eonir_2" text="{FIRSTNAME}, a Enviada" />
+    
+    <string id="str_tor_wanderer_dawi_0" text="{FIRSTNAME}, o Thane" />
+    <string id="str_tor_wanderer_dawi_1" text="{FIRSTNAME}, o Forjador de Runas" />
+    <string id="str_tor_wanderer_dawi_2" text="{FIRSTNAME}, o Engenheiro Anão" />
+    
+    <string id="str_tor_wanderer_greenskins_0" text="{FIRSTNAME}, o Chefão" />
+    <string id="str_tor_wanderer_greenskins_1" text="{FIRSTNAME}, o Xamã" />
+    <string id="str_tor_wanderer_greenskins_2" text="{FIRSTNAME}, o Brutamontes" />
+    <string id="str_tor_wanderer_greenskins_3" text="{FIRSTNAME}, o Gambiarrista" />
+
+    <!-- Vampire Counts Lords - Sylvania & Blood Dragons -->
+    <string id="str_tor_vc_lord_sylvania_factionleader" text="Mannfred von Carstein" />
+    <string id="str_tor_vc_lord_sylvania_first_2" text="Isabella von Carstein" />
+    <string id="str_tor_vc_lord_sylvania_first_3" text="Gorthor, o Cruel" />
+    <string id="str_tor_vc_lord_blooddragons_factionleader" text="Walach Harkon" />
+    <string id="str_tor_vc_lord_necrarch_first_factionleader" text="Zacharias, o Eterno" />
+    <string id="str_tor_vc_lord_mousillon_factionleader" text="O Cavaleiro Vermelho" />
+    <string id="str_tor_vc_lord_sylvania_fourth_1" text="Gorgivich Krakvald" />
+    <string id="str_tor_vc_lord_sylvania_fourth_2" text="Sir Tiberius Kael" />
+
+    <!-- Wood Elves Lords - Athel Loren -->
+    <string id="str_tor_we_lord_athel_loren_factionleader" text="Araloth, o Audaz" />
+    <string id="str_tor_we_lord_athel_loren_first_2" text="Scarloc, o Andarilho" />
+    <string id="str_tor_we_lord_athel_loren_second_1" text="Senhora Tevaril" />
+    <string id="str_tor_we_lord_athel_loren_eleventh_1" text="Lorde Daith" />
+    <string id="str_tor_we_lord_athel_loren_thirteenth_1" text="Arahan" />
+    <string id="str_tor_we_lord_athel_loren_thirteenth_2" text="Naestra" />
+
+    <!-- Greenskins Lords -->
+    <string id="str_tor_greenskin_lord_red_eye_factionleader" text="Senhor da Guerra O’nery Backslider" />
+    <string id="str_tor_greenskin_lord_red_eye_second_1" text="Chefão Ragga, o Vermelho" />
+    <string id="str_tor_greenskin_lord_red_eye_second_2" text="Chefão Gorkil, o Janota" />
+    <string id="str_tor_troll_lord_factionleader" text="Thrugg" />
+
+    <!-- Dwarf Lords (Dawi) - Karak Kadrin, Zhufbar, Izor, etc. -->
+    <string id="str_tor_dw_lord_karak_kadrin_factionleader" text="Rei Matador Ungrim Ironfist" />
+    <string id="str_tor_dw_lord_karak_kadrin_first_2" text="Garagrim Ironfist" />
+    <string id="str_tor_dw_lord_karak_izor_factionleader" text="Rei Kazador Thunderhorn" />
+    <string id="str_tor_dw_lord_karak_norn_factionleader" text="Rei Brokk Ironpick" />
+    <string id="str_tor_dw_lord_karak_zhufbar_factionleader" text="Rei Morgrim Ironforge" />
+    <string id="str_tor_dw_lord_karak_zhufbar_first_2" text="Mestre Engenheiro Grimm Burloksson" />
+    <string id="str_tor_dw_lord_karak_zhufbar_first_3" text="Mestre da Guilda Burlok Damminsonn" />
+    <string id="str_tor_dw_lord_karak_ziflin_factionleader" text="Rei Rorek Granitehand" />
+    <string id="str_tor_dw_lord_karak_ziflin_first_9" text="Senhor das Runas Gottri Logansson" />
+    <string id="str_tor_dw_lord_karak_norn_first_5" text="Lorde Dorrik Griefwielder" />
+    <string id="str_tor_dw_lord_karak_norn_first_7" text="Lorde Kazrik Grimtone" />
+    <string id="str_tor_dw_lord_karak_zhufbar_first_9" text="Ancião Hruunor, o Resmungão" />
+
+    <!-- Empire Secondary Noble Houses (By Faction) -->
+    <!-- Reikland Houses -->
+    <string id="str_tor_emp_lord_reikland_first_4" text="Conde Luitpold von Holswig-Schliestein" />
+    <string id="str_tor_emp_lord_reikland_first_5" text="Barão Aldrev von Tassenink" />
+    <string id="str_tor_emp_lord_reikland_second_1" text="Conde Sigismund von Reikdorf" />
+    <string id="str_tor_emp_lord_reikland_second_2" text="Barão Rickard von Reikdorf" />
+    
+    <!-- Middenland Houses -->
+    <string id="str_tor_emp_lord_middenland_first_2" text="Barão Niklaus von Raukov" />
+    <string id="str_tor_emp_lord_middenland_first_3" text="Conde Leopold von Bildhofen" />
+    <string id="str_tor_emp_lord_middenland_second_1" text="Barão Siegfried von Kessel" />
+
+    <!-- Talabecland Houses -->
+    <string id="str_tor_emp_lord_talabecland_first_2" text="Conde Valmir von Raukov" />
+    <string id="str_tor_emp_lord_talabecland_first_3" text="Barão Dieter von Krieger" />
+    
+    <!-- Westerland/Marienburg -->
+    <string id="str_tor_emp_lord_wasteland_factionleader" text="Diretor Executivo Paulus van der Maas" />
+    <string id="str_tor_emp_lord_wasteland_first_2" text="Burgomestre de Marienburg" />
+
+    <!-- Mousillon Lords - The Cursed Faction -->
+    <string id="str_tor_m_lord_mousillon_factionleader" text="O Serpente de Mousillon" />
+    <string id="str_tor_m_lord_mousillon_first_9" text="O Duque Negro" />
+    <string id="str_tor_m_lord_mousillon_first_7" text="Ser Gaheris, o Temido" />
+    <string id="str_tor_m_lord_mousillon_second_2" text="Ser Eustache da Lâmina Enferrujada" />
+    <string id="str_tor_m_lord_mousillon_second_3" text="Ser Gefrelar de Mousillon" />
+    <string id="str_tor_m_lord_mousillon_first_5" text="Ser Garreth da Rosa Negra" />
+
+    <!-- Bretonnia Secondary Lords -->
+    <string id="str_tor_br_lord_anguille_second_2" text="Mestre do Porto Ericht von Friesen" />
+    <string id="str_tor_br_lord_lyonesse_first_6" text="Roland, o Marechal" />
+    <string id="str_tor_br_lord_lyonesse_first_5" text="Henry, o Vermelho" />
+    <string id="str_tor_br_lord_artois_first_2" text="Conde Tobias Larret" />
+    <string id="str_tor_br_lord_gisoreux_first_3" text="Lorde Intendente Hincmar" />
+    <string id="str_tor_br_lord_gisoreux_first_7" text="Brigitte, a Verde" />
+
+    <!-- Empire Secondary Noble Houses (By Faction) - Final Batch -->
+    <!-- Hochland Noble Houses -->
+    <string id="str_tor_emp_lord_hochland_first_2" text="Barão Ludenhof" />
+    <string id="str_tor_emp_lord_hochland_first_3" text="Barão von Teisenberg" />
+    
+    <!-- Nordland Noble Houses -->
+    <string id="str_tor_emp_lord_nordland_first_2" text="Barão Niklaus Gausser" />
+    <string id="str_tor_emp_lord_nordland_first_3" text="Conde Werner von Gausser" />
+    
+    <!-- Ostland Noble Houses -->
+    <string id="str_tor_emp_lord_ostland_first_2" text="Conde Valmir von Raukov" />
+    <string id="str_tor_emp_lord_ostland_first_3" text="Barão Oleg von Raukov" />
+    <string id="str_tor_emp_lord_ostland_first_4" text="Barão Kaspar von Velten" />
+
+    <!-- Vampire Counts Secondary -->
+    <string id="str_tor_vc_lord_sylvania_third_1" text="Barão Derek von Bitte" />
+    <string id="str_tor_vc_lord_sylvania_third_3" text="Ruven, o Enlouquecido" />
+
+    <!-- Special Character Templates - Guilds, Envoys and Trainers -->
+    <!-- Dawi Guilds -->
+    <string id="str_tor_dawi_runelord_trainer_0" text="{FIRSTNAME}, da Guilda dos Forjadores de Runas" />
+    <string id="str_tor_dawi_engineers_guild_npc_0" text="{FIRSTNAME}, da Guilda dos Engenheiros" />
+    <string id="str_tor_dawi_miner_guild_npc_0" text="{FIRSTNAME}, da Guilda dos Mineradores" />
+    <string id="str_tor_dawi_brewers_guild_npc_0" text="{FIRSTNAME}, da Guilda dos Cervejeiros" />
+    <string id="str_tor_dawi_warriors_guild_npc_0" text="{FIRSTNAME}, da Guilda dos Guerreiros" />
+
+    <!-- Envoys and Ambassadors -->
+    <string id="str_tor_eonir_druchii_envoy_0" text="Enviado do Rei Bruxo" />
+    <string id="str_tor_eonir_asur_envoy_0" text="Enviado do Rei Fênix" />
+    <string id="str_tor_eonir_empire_envoy_0" text="Enviado do Império" />
+    <string id="str_tor_eonir_spellsinger_envoy_0" text="Guardião da Floresta" />
+
+    <!-- Greenskin Special NPCs -->
+    <string id="str_tor_spelltrainer_greenskins_0" text="{FIRSTNAME}, o Xamã Pele-verde" />
+    <string id="str_tor_kwartamasta_greenskins_0" text="Kwartamasta {FIRSTNAME}" />
+
+
+
+
   </strings>
 </base>

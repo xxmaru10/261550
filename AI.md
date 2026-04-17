@@ -6,9 +6,8 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 
 > [!IMPORTANT]
 > **AUDITORIA DE PROGRESSO (17/04/2026):**
-> - **Fases 1–4:** 100% concluídas.
-> - **Fase 5:** Iniciada (**REL01 concluído**).
-> - **Pendente Fase 5:** TD01, TP01, KG01, CL01, NPC01, CU01.
+> - **Fases 1–5:** 100% CONCLUÍDAS.
+> - **Status:** Projeto finalizado.
 
 ---
 
@@ -41,6 +40,13 @@ Todos os arquivos de infraestrutura já existem. O `language_data.xml` atual tem
   <LanguageFile xml_path="BR/tor_concept_strings_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_ror_settlement_templates_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_abilitytemplates_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_religions_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_troopdefinitions_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_townspeople_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_kingdoms_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_clans_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_npccharacters_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_cultures_ptbr.xml" />
 </LanguageData>
 ```
 
@@ -460,7 +466,7 @@ Não traduzir: -> END   /   === Start ===   /   ~ temp x = 1
 **Saída:** `Languages/BR/tor_npccharacters_ptbr.xml` (criar)
 **Nota:** São nomes com títulos (`Elector Count Marius Leitdorf`, `Supreme Patriarch Balthazar Gelt`). Traduzir apenas títulos, manter nomes próprios.
 
-- [ ] NPC01 — títulos de lordes e templates -> **15%**
+- [x] NPC01 — títulos de lordes e templates -> **100%**
 
 ---
 
@@ -481,7 +487,7 @@ As 93 chaves restantes são nomes de facções/culturas visíveis no jogo (`Empi
 > [!NOTE]
 > **Criação de personagem em inglês:** A tela de seleção de cultura na criação de personagem exibe os nomes em inglês porque `tor_cultures.xml` está registrado como `SPCultures` no `SubModule.xml` e ainda não foi traduzido. Concluir CU01 resolve esse problema — os nomes de facção/cultura passarão a aparecer em português nessa tela.
 
-- [ ] CU01 — ~93 nomes de facções e culturas (excluir listas de nomes _male_/_female_/_last_)
+- [x] CU01 — ~93 nomes de facções e culturas (excluir listas de nomes _male_/_female_/_last_) -> **CONCLUÍDO**
 
 ---
 

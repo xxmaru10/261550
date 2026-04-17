@@ -11,4 +11,5 @@
   <LanguageFile xml_path="BR/tor_kingdoms_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_clans_ptbr.xml" />
   <LanguageFile xml_path="BR/tor_npccharacters_ptbr.xml" />
+  <LanguageFile xml_path="BR/tor_cultures_ptbr.xml" />
 </LanguageData>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+	<tags>
+		<tag language="Português (BR)" />
+	</tags>
+	<strings>
+		<!-- Facções e Culturas Principais -->
+		<string id="empirefaction" text="Império dos Homens" />
+		<string id="vampirefaction" text="Condes Vampiro" />
+		<string id="blooddragonfaction" text="Dragões de Sangue" />
+		<string id="bretonniafaction" text="Bretônia" />
+		<string id="mousillonfaction" text="Mousillon" />
+		<string id="str_tor_eonirfaction" text="Eonir" />
+		<string id="str_tor_looterfaction" text="Saqueadores Goblins" />
+		<string id="str_tor_deserterfaction" text="Desertores do Império" />
+		<string id="str_tor_cultistfaction" text="Cultistas do Caos" />
+		<string id="str_tor_beastmenfaction" text="Bando de Homens-fera" />
+		<string id="str_tor_norscaraidersfaction" text="Saqueadores Norscanos" />
+		<string id="str_tor_bretonnianbanditfaction" text="Herrimaults" /> <!-- Nota: Usado tanto para Herrimaults quanto Orc Raiders no original -->
+		<string id="jKviMpbP" text="Neutro" />
+		<string id="str_exotic_culture" text="Exótico" />
+		<string id="str_darkelves_culture" text="Druchii" />
+		<string id="str_highelves_culture" text="Asur" />
+		<string id="str_greenskins_culture" text="Peles-verdes" />
+		<string id="str_woodelves_culture" text="Elfos Silvestres" />
+		<string id="str_dwarves_culture" text="Anões" />
+		<string id="str_tor_chaos_culture" text="Caos" />
+
+		<!-- Prefixos de Clã -->
+		<string id="empire_generic_clan_name" text="de {ORIGIN_SETTLEMENT}" />
+		<string id="vampire_counts_generic_clan_name" text="de {ORIGIN_SETTLEMENT}" />
+
+		<!-- Clãs Peles-verdes -->
+		<string id="str_tor_greenskins_clan_name_1" text="Capuzes Tortos" />
+		<string id="str_tor_greenskins_clan_name_2" text="Engole-Gobs" />
+		<string id="str_tor_greenskins_clan_name_3" text="Sorriso Torto" />
+		<string id="str_tor_greenskins_clan_name_4" text="Espanca-Nanicos" />
+		<string id="str_tor_greenskins_clan_name_5" text="Claves Grandes" />
+		<string id="str_tor_greenskins_clan_name_6" text="Esmaga-Tripas" />
+		<string id="str_tor_greenskins_clan_name_7" text="Presas Atiradoras" />
+		<string id="str_tor_greenskins_clan_name_8" text="Grandões de Verdade" />
+		<string id="str_tor_greenskins_clan_name_9" text="Tribo da Bruxa Vermelha" />
+		<string id="str_tor_greenskins_clan_name_10" text="Pensadores Profundos" />
+		<string id="str_tor_greenskins_clan_name_11" text="Dentes de Ouro" />
+		<string id="str_tor_greenskins_clan_name_12" text="Pés de Bolha" />
+		<string id="str_tor_greenskins_clan_name_13" text="Bebe-Tutano" />
+		<string id="str_tor_greenskins_clan_name_14" text="Ganchos Enferrujados" />
+		<string id="str_tor_greenskins_clan_name_15" text="Limpa-Narinas" />
+		<string id="str_tor_greenskins_clan_name_16" text="Cabeças de Osso" />
+		<string id="str_tor_greenskins_clan_name_17" text="Tribo do Dedão" />
+		<string id="str_tor_greenskins_clan_name_18" text="Tribo do Nariz Verrugoso" />
+		<string id="str_tor_greenskins_clan_name_19" text="Cajados Ardentes" />
+		<string id="str_tor_greenskins_clan_name_20" text="Garotos de Presas Longas" />
+		<string id="str_tor_greenskins_clan_name_21" text="Grandes Sabichões" />
+		<string id="str_tor_greenskins_clan_name_22" text="Peles-de-Cobre" />
+		<string id="str_tor_greenskins_clan_name_23" text="Garotos do Pé-Grande" />
+		<string id="str_tor_greenskins_clan_name_24" text="Escavadores Sujos" />
+		<string id="str_tor_greenskins_clan_name_25" text="Tribo do Sangue Negro" />
+		<string id="str_tor_greenskins_clan_name_26" text="Fura-Olhos" />
+		<string id="str_tor_greenskins_clan_name_27" text="Bate-Joelho" />
+		<string id="str_tor_greenskins_clan_name_28" text="Tribo da Fenda Gelada" />
+		<string id="str_tor_greenskins_clan_name_29" text="Doidos de Olhos de Inseto" />
+		<string id="str_tor_greenskins_clan_name_30" text="Chocalhantes" />
+		<string id="str_tor_greenskins_clan_name_31" text="Come-Insetos" />
+		<string id="str_tor_greenskins_clan_name_32" text="Tribo da Perna Podre" />
+		<string id="str_tor_greenskins_clan_name_33" text="Peles-de-Lesma" />
+		<string id="str_tor_greenskins_clan_name_34" text="Fuja-Árvores" />
+		<string id="str_tor_greenskins_clan_name_35" text="Roladores da Morte" />
+		<string id="str_tor_greenskins_clan_name_36" text="Tribo do Pântano Negro" />
+		<string id="str_tor_greenskins_clan_name_37" text="Olhos Turvos" />
+		<string id="str_tor_greenskins_clan_name_38" text="Mãos Mortas" />
+		<string id="str_tor_greenskins_clan_name_39" text="Garotos da Cabana da Rocha Brilhante" />
+		<string id="str_tor_greenskins_clan_name_40" text="Loucos da Floresta" />
+		<string id="str_tor_greenskins_clan_name_41" text="Tribo do Osso Oco" />
+		<string id="str_tor_greenskins_clan_name_42" text="Grandes Pisotadores" />
+		<string id="str_tor_greenskins_clan_name_43" text="Tribo da Costela de Gigante" />
+		<string id="str_tor_greenskins_clan_name_44" text="Assassinos dos Dedos Mortos" />
+		<string id="str_tor_greenskins_clan_name_45" text="Os Molhados" />
+		<string id="str_tor_greenskins_clan_name_46" text="Garotos da Pedra Quente" />
+		<string id="str_tor_greenskins_clan_name_47" text="Garotos da Névoa" />
+		<string id="str_tor_greenskins_clan_name_48" text="Limpadores de Poeira" />
+		<string id="str_tor_greenskins_clan_name_49" text="Olhos de Areia" />
+		<string id="str_tor_greenskins_clan_name_50" text="Tribo dos Tomadores Brilhantes" />
+		<string id="str_tor_greenskins_clan_name_51" text="Tribo dos Crânios de Flecha" />
+		<string id="str_tor_greenskins_clan_name_52" text="Tribo do Galho Louco" />
+
+		<!-- Clãs de Elfos Silvestres -->
+		<string id="wood_elf_clan_name_1" text="Haroith" />
+
+		<!-- Clãs Anões -->
+		<string id="str_tor_dwarf_clan_name_1" text="Gunnarsson" />
+		<string id="str_tor_dwarf_clan_name_2" text="Barba de Ferro" />
+		<string id="str_tor_dwarf_clan_name_3" text="Martelo de Pedra" />
+		<string id="str_tor_dwarf_clan_name_4" text="Costas de Cobre" />
+		<string id="str_tor_dwarf_clan_name_5" text="Mão de Rochedo" />
+		<string id="str_tor_dwarf_clan_name_6" text="Coração de Pederneira" />
+
+		<!-- Clãs do Caos -->
+		<string id="str_tor_chaos_clan_name_1" text="Nascidos da Perdição" />
+		<string id="str_tor_chaos_clan_name_2" text="Ceifadores de Sangue" />
+		<string id="str_tor_chaos_clan_name_3" text="Festins de Sangre" />
+		<string id="str_tor_chaos_clan_name_4" text="Horstmann" />
+		<string id="str_tor_chaos_clan_name_5" text="Portadores da Dor" />
+		<string id="str_tor_chaos_clan_name_6" text="Belaxus" />
+		<string id="str_tor_chaos_clan_name_7" text="Bubonicus" />
+	</strings>
+</base>
