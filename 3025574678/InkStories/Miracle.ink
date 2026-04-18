@@ -1,5 +1,5 @@
 //Global story tags
-# title: A miracle of faith
+# title: Um Milagre de F�
 # frequency: Special
 # development: false
 # illustration: tresure_chest
@@ -11,10 +11,10 @@ INCLUDE include.ink
 
 ===START===
 ~ GiveMiracleItem()
-You stand before the altar of the deity you have long revered, feeling a mix of reverence and anticipation. The air is thick with a sense of ancient power, and you can't help but feel a tinge of excitement. #STR_Start1
-As you kneel before the altar, you close your eyes and utter a heartfelt prayer. You recount your commitment and your unwavering faith. The words flow from your lips like a melody, carrying your devotion to the heavens. #STR_Start2
-A warm and gentle presence envelops you, as if the very air itself is responding to your devotion. You open your eyes to see a radiant light descending from above, bathing you in its ethereal glow. The light forms into a shimmering figure. #STR_Start3
-With a graceful gesture, the figure extends a hand toward you, palm open. In their hand, you see a radiant, pulsating artifact — a divine gift #STR_Start4
-You feel a mixture of awe and gratitude as you reach out and take the item from the figure's hand. Its warmth surges through you, filling you with a sense of empowerment and purpose. #STR_Start5
-As you leave the shrine, the world around you seems brighter, as if the very essence of your deity's blessing has illuminated your path. With the divine gift in your possession, you step into the future with confidence, ready to face whatever challenges may come, knowing that you are not alone. #STR_Start6
+Você está diante do altar da divindade que há muito reverencia, sentindo uma mistura de reverência e antecipação. O ar está pesado com uma sensação de poder antigo, e você não pode deixar de sentir uma pontada de excitação. #STR_Start1
+Ao se ajoelhar diante do altar, você fecha os olhos e profere uma oração sincera. Você reafirma seu compromisso e sua fé inabalável. As palavras fluem de seus lábios como uma melodia, carregando sua devoção aos céus. #STR_Start2
+Uma presença calorosa e suave o envolve, como se o próprio ar estivesse respondendo à sua devoção. Você abre os olhos para ver uma luz radiante descendo do alto, banhando-o em seu brilho etéreo. A luz toma a forma de uma figura cintilante. #STR_Start3
+Com um gesto gracioso, a figura estende uma mão em sua direção, com a palma aberta. Em sua mão, você vê um artefato radiante e pulsante — um presente divino. #STR_Start4
+Você sente uma mistura de temor e gratidão ao estender a mão e pegar o item da mão da figura. Seu calor percorre seu corpo, preenchendo-o com uma sensação de fortalecimento e propósito. #STR_Start5
+Ao deixar o santuário, o mundo ao seu redor parece mais brilhante, como se a própria essência da bênção de sua divindade tivesse iluminado seu caminho. Com o presente divino em sua posse, você segue em direção ao futuro com confiança, pronto para enfrentar quaisquer desafios que venham, sabendo que não está sozinho. #STR_Start6
 ->END

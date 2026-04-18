@@ -1,5 +1,5 @@
 //Global story tags
-# title: Protect Our Dead
+# title: Protejam Nossos Mortos
 # frequency: Uncommon
 # development: true
 # illustration: campfirenight
@@ -29,18 +29,18 @@ VAR RaiseDeadSkillCheckTest = false
 ->START
 
 ===START===
-At the end of the days march, your men are setting up camp. You know sunset will come soon, and these lands are dangerous, especially at night. #STR_Start1
-Suddenly, one of your men shouts a warning. Glancing up, you see a local villager approaching. He appears to be unarmed. #illustration: stranger #STR_Start2
-The man explains that a recently arrived necromancer has started raising the dead from the village cemetery. Although the villager is quite poor, he says they will pay a modest reward to anyone who slays the necromancer. #STR_Start3 
+Ao final da marcha do dia, seus homens estão montando acampamento. Você sabe que o pôr do sol virá em breve, e estas terras são perigosas, especialmente à noite. #STR_Start1
+De repente, um de seus homens grita um aviso. Olhando para cima, você vê um aldeão local se aproximando. Ele parece estar desarmado. #illustration: stranger #STR_Start2
+O homem explica que um necromante recém-chegado começou a erguer os mortos do cemitério da aldeia. Embora o aldeão seja bastante pobre, ele diz que pagarão uma recompensa modesta a quem matar o necromante. #STR_Start3 
 -> choices
 
     =choices
-    *[We will kill this necromancer for you.] ->accept
-    *[This is an outrage, those skeletons should belong to me!] ->accept
-    *[Perhaps another time. We have more urgent matters to attend to.] -> deny
+    *[Nós mataremos este necromante para você.] ->accept
+    *[Isto é um ultraje, aqueles esqueletos deveriam me pertencer!] ->accept
+    *[Talvez em outra hora. Temos assuntos mais urgentes para tratar.] -> deny
     
     =accept
-    The village explains that the necromancer comes every night with a few skeletons. With this knowledge, you make a plan to ambush him in the graveyard.  #STR_Accept1
+    O aldeão explica que o necromante aparece todas as noites com alguns esqueletos. Com esse conhecimento, você traça um plano para emboscá-lo no cemitério.  #STR_Accept1
     
     ->enterArena
     
@@ -50,24 +50,25 @@ The man explains that a recently arrived necromancer has started raising the dea
     =enterArena
     //~ OpenGraveyardMission()
     ...
-    {PlayerWin: As the necromancer falls, you give thanks to insert_deity_name. #STR_PlayerWin1}
+    {PlayerWin: Conforme o necromante cai, você agradece a insert_deity_name. #STR_PlayerWin1}
 
     ->BattleResult
     
 ===BattleResult===
-        *[Return to the village and claim the reward {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
+        *[Retornar à aldeia e reivindicar a recompensa {GiveGold(500)}{GiveSkillExperience("Faith",1000)}]
 		-> END
 		
         //Necromancer option
-        *{PartyCanRaiseDead}[Attempt to bind the defeated skeletons to your will, {print_party_skill_chance("Spellcraft", 25)}]
+        *{PartyCanRaiseDead}[Tentar vincular os esqueletos derrotados à sua vontade, {print_party_skill_chance("Spellcraft", 25)}]
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
         =raiseSucceed
-        Having successfully raised the dead, you search the necromancer for anything of value. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
+        Tendo erguido os mortos com sucesso, você revira o necromante em busca de algo de valor. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerSuccess
             
             ~ChangePartyTroopCount("tor_vc_skeleton",8)
             -> END
         
         =raiseFail
-        You may have failed to raise the dead, but at least the necromancer left a useful staff behind. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
+        Você pode ter falhado em erguer os mortos, mas ao menos o necromante deixou um cajado útil para trás. {GiveItem("tor_vc_weapon_staff_nm_001", 1)} #STR_HelpNecromancerFail
             -> END
+

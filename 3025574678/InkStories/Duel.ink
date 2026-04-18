@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Art of the blade
+# title: A Arte da L�mina
 # frequency: Special
 # development: false
 # illustration: roadpoint2
@@ -20,40 +20,40 @@ VAR DeniedBefore = true
 ->START
 
 ===START===
-As you continue your travels along a meandering road, the soft whispers of the breeze accompany your every step.#STR_Start1
-Suddenly, the rhythmic beat of approaching footsteps captures your attention. Glancing up, {not MetBefore: you spot a mysterious figure approaching with confident strides. As they draw nearer, the glint of a finely crafted rapier catches your eye. The stranger stops before you, a warm smile on their face as they appraise you.}{MetBefore:  you spot the familiar figure of Vittorio de Luca, the renowned Tilean duelist, making his way towards your group with confident strides. {not DeniedBefore: Memories of your previous encounter flood back, the thrill of the first duel still lingering in your mind.}} #illustration: stranger #STR_Start2
-{not MetBefore: "Ah, what a stroke of luck to meet a band of worthy warriors on this lonely path," they say. "I am Vittorio de Luca, a master of the blade from the distant lands of Tilea. I have journeyed far and wide, seeking a worthy adversary who can match my skills in combat. And now, fate has led me to you. Care to prove your skills in a friendly duel, with a little wager to make it exciting?"#STR_Start3NotMetBefore} 
-{MetBefore: As Vittorio draws nearer, the glint of his finely crafted rapier catches your eye, and a warm smile spreads across his face as he appraises you. "Ah, what a stroke of luck to meet again on this lonely path," he says, his voice carrying a playful undertone. "I see the fire of a warrior still burns within you. {not DeniedBefore: Care to prove your skills once more in a rematch?"} {DeniedBefore: Care to prove your skills this time around?}#STR_Start3MetBefore} 
+Conforme você continua sua jornada por uma estrada sinuosa, os sussurros suaves da brisa acompanham cada passo seu.#STR_Start1
+De repente, o som rítmico de passos se aproximando captura sua atenção. Olhando para cima, {not MetBefore: você avista uma figura misteriosa se aproximando com passos confiantes. À medida que se aproxima, o brilho de um florete finamente trabalhado chama sua atenção. O estranho para diante de você, com um sorriso caloroso no rosto enquanto o avalia.}{MetBefore: você avista a figura familiar de Vittorio de Luca, o renomado duelista tileano, caminhando em direção ao seu grupo com passos confiantes. {not DeniedBefore: Memórias de seu encontro anterior retornam, a emoção do primeiro duelo ainda presente em sua mente.}} #illustration: stranger #STR_Start2
+{not MetBefore: "Ah, que golpe de sorte encontrar um bando de guerreiros dignos neste caminho solitário," diz ele. "Sou Vittorio de Luca, um mestre da lâmina vindo das terras distantes de Tileia. Viajei por toda parte, buscando um adversário digno que possa igualar minhas habilidades em combate. E agora, o destino me trouxe até você. Gostaria de provar suas habilidades em um duelo amigável, com uma pequena aposta para torná-lo emocionante?"#STR_Start3NotMetBefore} 
+{MetBefore: Conforme Vittorio se aproxima, o brilho de seu florete finamente trabalhado chama sua atenção, e um sorriso caloroso se espalha em seu rosto enquanto ele o avalia. "Ah, que sorte nos encontrarmos novamente neste caminho solitário," diz ele, sua voz carregando um tom brincalhão. "Vejo que o fogo de um guerreiro ainda queima em você. {not DeniedBefore: Gostaria de provar suas habilidades mais uma vez em uma revanche?"} {DeniedBefore: Gostaria de provar suas habilidades desta vez?}#STR_Start3MetBefore} 
 ~ SetPlayerCustomTag("MetVittorio") 
 -> choices
 
 =choices
-*[Accept the challenge.] ->accept
-*[Perhaps another time. We have no time to waste.] -> deny
+*[Aceitar o desafio.] ->accept
+*[Talvez em outra hora. Não temos tempo a perder.] -> deny
 
 =accept
-{not MetBefore: Intrigued by the proposition, you return their smile, curious about the stakes they propose. #STR_AcceptNotMetBefore1}
-{not MetBefore: "A duel with a wager? I'm listening," you reply, open to the idea. #STR_AcceptNotMetBefore2}
-{not MetBefore: The duelist's eyes sparkle with anticipation as they explain the terms. "If you win, I shall offer a sum of 5000 gold coins as a testament to your skill. Should I prove triumphant, I ask for nothing more than the honor of having tested my skills against yours."#STR_AcceptNotMetBefore3}
-With a gleam of excitement in your eyes, you accept the duelist's challenge, and a determined smile crosses your face. "Very well," you say, "I accept your offer, Vittorio de Luca. Let us make this duel one to remember {MetBefore: once more}." #STR_Accept1
-As your fellow warriors cheer in support, you order them to make camp by the roadside, turning the clearing into an impromptu arena. #illustration: meadow #STR_Accept2
-With the arena ready, you step into the center, your heart pounding with anticipation. Your fellow warriors gather around, forming a circle to watch the contest, their expressions a mix of excitement and pride. #STR_Accept3
+{not MetBefore: Intrigado pela proposta, você retribui o sorriso, curioso sobre os riscos que ele propõe. #STR_AcceptNotMetBefore1}
+{not MetBefore: "Um duelo com uma aposta? Estou ouvindo," você responde, aberto à ideia. #STR_AcceptNotMetBefore2}
+{not MetBefore: Os olhos do duelista brilham de antecipação enquanto ele explica os termos. "Se você vencer, oferecerei uma soma de 5.000 moedas de ouro como prova de sua habilidade. Caso eu saia triunfante, não peço nada além da honra de ter testado minhas habilidades contra as suas."#STR_AcceptNotMetBefore3}
+Com um brilho de excitação nos olhos, você aceita o desafio do duelista e um sorriso determinado cruza seu rosto. "Muito bem," você diz, "eu aceito sua oferta, Vittorio de Luca. Vamos fazer deste duelo um evento para se lembrar {MetBefore: mais uma vez}." #STR_Accept1
+Enquanto seus companheiros guerreiros vibram em apoio, você ordena que montem acampamento à beira da estrada, transformando a clareira em uma arena improvisada. #illustration: meadow #STR_Accept2
+Com a arena pronta, você caminha para o centro, seu coração batendo forte de antecipação. Seus companheiros guerreiros se reúnem ao redor, formando um círculo para assistir à disputa, com expressões de entusiasmo e orgulho. #STR_Accept3
 ->enterArena
 
 =deny
 ~ SetPlayerCustomTag("DeniedVittorio")
-Vittorio's expression remains composed, but a subtle smirk plays at the corners of his lips. #STR_Deny1
-"A pity," he responds, his voice laced with a touch of condescension. "I had hoped to find someone worthy of my time, but it seems the rumours surrounding your prowess have been exaggerated." #STR_Deny2
-With an air of haughty elegance, Vittorio de Luca concludes the encounter by offering a disdainful bow, his movements exuding unquestionable superiority. #STR_Deny3
+A expressão de Vittorio permanece composta, mas um leve sorriso sarcástico brinca nos cantos de seus lábios. #STR_Deny1
+"Uma pena," responde ele, sua voz carregada com um toque de condescendência. "Eu esperava encontrar alguém digno do meu tempo, mas parece que os boatos sobre sua proeza foram exagerados." #STR_Deny2
+Com um ar de elegância arrogante, Vittorio de Luca encerra o encontro oferecendo uma reverência desdenhosa, seus movimentos exalando uma superioridade inquestionável. #STR_Deny3
 ->END
 
 =enterArena
 ~ OpenDuelMission()
 ...
-{PlayerWin: As the clash of swords subsides, the cheering of your fellow warriors fills the air, echoing in the aftermath of your hard-fought victory. {SetPlayerCustomTag("DefeatedVittorio")}#STR_PlayerWin1}
-{PlayerWin: You stand at the center of the makeshift fighting pit, your chest heaving with exertion and triumph. Vittorio de Luca, the renowned Tilean duelist, extends a hand in a gesture of respect, a genuine smile lighting up his face. "Well fought," he says, his voice filled with admiration.#STR_PlayerWin2}
-{PlayerWin: The camaraderie between your party and Vittorio solidifies as he graciously presents you 5000 gold coins, honoring his wager and acknowledging your skill. {GiveGold(5000)}#STR_PlayerWin3} 
-{not PlayerWin: As the duel concludes, the air is thick with a mix of emotions. Your fellow warriors watch in silent respect as Vittorio de Luca, the renowned Tilean duelist, emerges victorious from the fierce contest.#STR_PlayerLost1}
-{not PlayerWin:You step back, acknowledging his skill with a nod of admiration. Vittorio stands at the center of the makeshift fighting pit, his rapier gleaming in the fading light, a victorious smile gracing his face. "A formidable opponent indeed," he says, his voice carrying a sense of pride in his achievement. "You fought valiantly, but this time, the victory is mine."#STR_PlayerLost2}
-Vittorio de Luca bids your band a respectful farewell. His graceful demeanor and the elegance of his words remain unchanged despite the outcome of the duel. #STR_DuelEnd
+{PlayerWin: Conforme o tilintar das espadas cessa, os gritos de alegria de seus companheiros guerreiros preenchem o ar, ecoando após sua vitória arduamente conquistada. {SetPlayerCustomTag("DefeatedVittorio")}#STR_PlayerWin1}
+{PlayerWin: Você permanece no centro do campo de luta improvisado, com o peito ofegante de esforço e triunfo. Vittorio de Luca, o renomado duelista tileano, estende a mão em um gesto de respeito, com um sorriso genuíno iluminando seu rosto. "Bem lutado," diz ele, sua voz cheia de admiração.#STR_PlayerWin2}
+{PlayerWin: A camaradagem entre seu grupo e Vittorio se solidifica enquanto ele graciosamente lhe apresenta 5.000 moedas de ouro, honrando sua aposta e reconhecendo sua habilidade. {GiveGold(5000)}#STR_PlayerWin3} 
+{not PlayerWin: Quando o duelo termina, o ar fica pesado com uma mistura de emoções. Seus companheiros guerreiros assistem em silêncio respeitoso enquanto Vittorio de Luca, o renomado duelista tileano, emerge vitorioso da disputa feroz.#STR_PlayerLost1}
+{not PlayerWin:Você recua, reconhecendo a habilidade dele com um aceno de admiração. Vittorio permanece no centro do campo de luta improvisado, seu florete brilhando na luz fraca, com um sorriso vitorioso em seu rosto. "Um oponente formidável, de fato," diz ele, sua voz carregando um senso de orgulho em sua conquista. "Você lutou bravamente, mas desta vez, a vitória é minha."#STR_PlayerLost2}
+Vittorio de Luca despede-se respeitosamente do seu bando. Seu comportamento gracioso e a elegância de suas palavras permanecem inalterados, independentemente do resultado do duelo. #STR_DuelEnd
 ->END

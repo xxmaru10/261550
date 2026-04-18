@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Dark Moon Rises
+# title: A Lua Sombria Ascende
 # frequency: Special
 # development: false
 # illustration: morrslieb_comet
@@ -38,14 +38,15 @@
 
 ===Start===
 {ResetRaiderSites()}
-A sickly green glow comes over the horizon, Morrslieb the Dark Moon is rising. Its mocking presence fills the sky, growing brighter as it bathes the world in its foul, tainted light., All across the land, dark magic begins to pool in places no sane man would dare to tread, causing the Winds of Magic to become erratic. #STR_START1
-The worshippers of darkness will seize upon this night to advance their twisted schemes and agendas. Beastmen gather howling and chanting, cultists undertake all manner of blasphemous ceremonies, and daemons start to walk the material plane stalking for prey. #STR_START2
-If one was to dare look directly at the moon they could swear it was smiling, smirking ominously at the terror it was to bring upon the world. However, if those who had looked upon it kept watching they would have seen this smile fade, turning into an almost angry frown as the moon found itself no longer alone in the sky. #STR_START3
-The Twin Tailed Comet burned bright across the heavens, almost as if to challenge Morrslieb. Casting its own light upon the dark moon as their paths crossed in the sky, the comet seemed to dampen the effect of Morrslieb's chaotic glow. #STR_START4
-As the night wore on, both of the celestial bodies would find their way over the horizon, and the next day would begin. #STR_START5
-Herdstones have been repopulated and Chaos Portals have reopened. #STR_START6
+Um brilho verde doentio surge no horizonte; Morrslieb, a Lua Negra, está em ascensão. Sua presença zombeteira preenche o céu, tornando-se mais brilhante conforme banha o mundo em sua luz imunda e maculada. Por toda a terra, a magia negra começa a se acumular em lugares onde nenhum homem são ousaria pisar, fazendo com que os Ventos da Magia tornem-se erráticos. #STR_START1
+Os adoradores das trevas aproveitarão esta noite para avançar seus planos e agendas distorcidas. Homens-fera se reúnem uivando e entoando cânticos, cultistas realizam todo tipo de cerimônias blasfemas e demônios começam a caminhar no plano material à espreita de presas. #STR_START2
+Se alguém ousasse olhar diretamente para a lua, juraria que ela estava sorrindo, com um esgar sinistro diante do terror que traria ao mundo. No entanto, se aqueles que a olharam continuassem observando, teriam visto esse sorriso desaparecer, transformando-se em uma carranca quase furiosa à medida que a lua se via não mais sozinha no céu. #STR_START3
+O Cometa de Duas Caudas brilhou intensamente através dos céus, quase como se para desafiar Morrslieb. Lançando sua própria luz sobre a lua negra enquanto seus caminhos se cruzavam no firmamento, o cometa parecia amortecer o efeito do brilho caótico de Morrslieb. #STR_START4
+Conforme a noite passava, ambos os corpos celestes seguiram seu caminho além do horizonte, e o dia seguinte começaria. #STR_START5
+As Pedras de Rebanho (Herdstones) foram repovoadas e os Portais do Caos reabriram. #STR_START6
 
 -> END
+
 
 
 

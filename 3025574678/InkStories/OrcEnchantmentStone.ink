@@ -1,5 +1,5 @@
 //Global story tags
-# title: 'Ow to make speshul fings
+# title: Pedra de Encantamento
 # frequency: Special
 # development: false
 # illustration: gs_enchant_tablet_1
@@ -10,19 +10,19 @@ INCLUDE include.ink
 
 ===START===
 #illustration: gs_enchant_tablet_1
-You'z got yerself a flat stone wiv piktures on it. Dis side shows some shinee fings an' squiggly lines - looks like magic stuff, innit? 
-+ [Turn da fing o'er]->SecondSide
-+ [Stoopid fing, go away]->END
+Cê achou uma pedra chata com uns desenho nela. Esse lado mostra umas coisa brilhante e umas linha torta — parece coisa de magia, né? 
++ [Virá essa coisa]->SecondSide
++ [Coisa burra, vai embora]->END
 
 ===SecondSide===
 #illustration: gs_enchant_tablet_2
-Turned it o'er, ya did! Dis side's got different piktures - more shinee bits an' some proppa choppa at da end wiv sparkles on it! 
-+ [Turn da fing o'er again]->ThirdSide
-+ [Stoopid fing, go away]->END
+Viro ela, né! Esse lado tem desenho diferente — mais coisa brilhante e um picadô de verdade no fim com uns brilinho nele! 
++ [Virá essa coisa de novo]->ThirdSide
++ [Coisa burra, vai embora]->END
 
 ===ThirdSide===
 #illustration: none
-You'z lookin' fer sumfin'? Stone carvin' can't 'ave 3 sides, ya git! 
+Cê tá procurando o quê? Pedra não pode tê 3 lado, seu tonto! 
 
-+ [Turn da fing o'er AGAIN]->START
-+ [Stoopid fing, go away]->END
++ [Virá essa coisa de NOVO]->START
++ [Coisa burra, vai embora]->END

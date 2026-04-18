@@ -7,9 +7,211 @@ Objetivo: traduzir apenas o conteúdo com o qual o jogador interage diretamente 
 > [!IMPORTANT]
 > **AUDITORIA DE PROGRESSO (17/04/2026):**
 > - **Fases 1–5:** 100% CONCLUÍDAS.
-> - **Status:** Projeto finalizado.
+> - **Status:** ATIVO — Foco em Eventos Interativos (Core/Armory/Env).
 
 ---
+
+## ESCOPO DO PROJETO — TOR (Parts 1, 2 e 3)
+
+Este projeto foca na tradução dos eventos interativos nas pastas:
+
+- 3025574678 (Core)
+- 3025575223 (Armory)
+- 3025579210 (Environment)
+
+## 📊 PROGRESSO GLOBAL (EVENTOS INTERATIVOS)
+
+| Mod Part | Categoria | ID | Progresso | Status |
+|---|---|---|---|---|
+| **Core** | **Eventos Narrativos (Ink)** | **INK** | **100%** | ✅ Concluído |
+| **Armory** | Itens & Traços | IT01 | 0% | ⌛ Pendente |
+| **Env** | Locais (POIs) | EN01 | 0% | ⌛ Pendente |
+
+---
+
+## 🗺️ MAPA DE TRADUÇÃO — FASE 3: INK STORIES
+
+*Nota: Descobriu-se que a maioria das 28 histórias em Ink ainda não foi traduzida e requer edição direta.*
+
+| Arquivo | Título (Localizado) | Status |
+| :--- | :--- | :--- |
+| `Battlefield.ink` | Campo de Batalha | ✅ Traduzido |
+| `BlessingsOfMen.ink` | Bençãos de Homens | ✅ Traduzido |
+| `CabinInTheWoodsLocked.ink` | Cabana Trancada | ✅ Traduzido |
+| `CampFireLearning.ink` | Aprendizado na Fogueira | ✅ Traduzido |
+| `CultistInOurMidst.ink` | Cultista Infiltrado | ✅ Traduzido |
+| `DawiAndRuneMagic.ink` | Magia de Runa Anã | ✅ Traduzido |
+| `Duel.ink` | A Arte da Lâmina | ✅ Traduzido |
+| `EnchantingAndArtifacts.ink`| Encantamentos | ✅ Traduzido |
+| `Fair.ink` | A Feira na Floresta | ✅ Traduzido |
+| `FozzriksFortress.ink` | Fortaleza de Fozzrik | ✅ Traduzido |
+| `Meadow.ink` | O Prado | ✅ Traduzido |
+| `Minstrel.ink` | Trovadores Viajantes | ✅ Traduzido |
+| `Miracle.ink` | Um Milagre de Fé | ✅ Traduzido |
+| `MorrsliebWaxes.ink` | A Lua Sombria Ascende | ✅ Traduzido |
+| `NurgleCultists.ink` | A Vila Pesteada | ✅ Traduzido |
+| `OrcBossQuest1.ink` | O Despertar do Chefe | ✅ Traduzido |
+| `OrcBossQuest2.ink` | A Ascensão do Grande Chefe | ✅ Traduzido |
+| `OrcEnchantmentStone.ink` | Pedra de Encantamento | ✅ Traduzido |
+| `OrcShamanPrayerPrompt.ink`| O Chamado dos Deuses | ✅ Traduzido |
+| `OrcShamanQuest1InitialVision.ink`| Visão de Gork e Mork | ✅ Traduzido |
+| `OrcShamanQuest2InitialVision.ink`| Os Deuses Exigem Mais | ✅ Traduzido |
+| `OverturnedCart.ink` | Carroça Virada | ✅ Traduzido |
+| `Pond.ink` | O Lago | ✅ Traduzido |
+| `ProtectOurDead.ink` | Protejam Nossos Mortos | ✅ Traduzido |
+| `TheHangedMen.ink` | Os Homens Enforcados | ✅ Traduzido |
+| `TravelingMerchant.ink` | Mercador Viajante | ✅ Traduzido |
+
+> [!TIP]
+> **Total:** 26 traduzidos / 0 pendentes. **Fase 3 Concluída!** 🏆 Próxima Etapa: Iniciar tradução da Armory (Itens & Traços).
+
+---
+
+## 🛠️ FLUXO DE TRABALHO (EDITION INLINE)
+1. Traduzir o texto literário dentro do arquivo `.ink`.
+2. **Preservar** tags técnicas como `->`, `===`, `*`, `~`.
+3. **Preservar** o ID ao final da linha (ex: `#STR_Start1`).
+4. Tom: Dark Fantasy solene/arcaico.
+
+---
+
+### Snapshot atual do escopo:
+
+
+- `PT = 89` strings
+- `RU = 1197` strings
+- gap atual estimado: `1108` IDs ainda nao cobertos em PT-BR
+
+Consequencia pratica:
+
+- qualquer ID ausente em `strings_PT.xml` pode aparecer em ingles no jogo
+- por isso o trabalho deve ser feito por lotes tematicos, nao por edicoes aleatorias
+
+### Prioridade de traducao
+
+#### Lote A1 - Livros e cronicas interativas
+
+Escopo confirmado:
+
+- `AIInfluence_DeathHistory_*`
+
+Diretriz:
+
+- usar tom literario, solene e imersivo
+- este bloco serve como referencia de voz para outros textos de livro/cronica
+- revisar apenas se aparecer ingles residual no jogo
+
+#### Lote A2 - Leitura de eventos mundiais
+
+Prioridade alta para o fluxo de leitura e navegacao:
+
+- `AIInfluence_WorldEventsTitle`
+- `AIInfluence_WorldEventsButton`
+- `AIInfluence_WorldEvent`
+- `AIInfluence_Category_*`
+- `AIInfluence_Action_*`
+- `AIInfluence_ReasonHeader`
+- `AIInfluence_EconomicEffect_*`
+
+Diretriz:
+
+- manter leitura rapida
+- privilegiar clareza de interface
+- nomes de faccoes e reinos precisam ficar consistentes com o restante da traducao
+
+#### Lote A3 - Eventos dinamicos e quest-event
+
+Traduzir logo apos o Lote A2:
+
+- `AIInfluence_DynamicEvents*`
+- `AIInfluence_Enable*Events*`
+- `AIInfluence_Force*Event*`
+- `AIInfluence_ViewActiveEvents*`
+- `AIInfluence_QuestGiverDied`
+
+Diretriz:
+
+- mesmo quando forem strings de configuracao, priorizar primeiro as que aparecem em popup, janela ou fluxo narrativo
+
+#### Lote A4 - Cartas de doenca e eventos especiais
+
+Traduzir apos estabilizar A3:
+
+- `AIInfluence_Disease_*`
+
+Diretriz:
+
+- tratar como evento contextual de gameplay
+- manter termos curtos e legiveis em cards e janelas pequenas
+
+#### Lote A5 - Conteudo novo descoberto in game
+
+Qualquer string nova entra no backlog se estiver ligada a:
+
+- `Book`
+- `History`
+- `Chronicle`
+- `Quest`
+- `Event`
+- `Journal`
+- `Diary`
+- `Page`
+- `Tome`
+- `Codex`
+
+### Regras tecnicas do AIInfluence
+
+- nunca alterar o atributo `id`
+- nunca duplicar IDs em `strings_PT.xml`
+- preservar placeholders exatamente como vierem: `"{NAME}"`, `"{DAYS}"`, `"{SOURCE}"`, `"{TARGETS}"`, `"{COUNT}"`, `"{PAGE}"`, `"{TOTAL}"`, etc.
+- preservar quebras de linha, escapes e formato XML
+- manter comentarios de secao para facilitar manutencao futura
+- nao editar `language_data.xml` do AIInfluence sem necessidade real de estrutura
+
+### Regras de estilo do AIInfluence
+
+- PT-BR natural e consistente
+- livro/cronica: tom solene e narrativo
+- evento/quest: texto claro e objetivo
+- botoes: curtos e diretos
+- erro/sistema: simples e sem floreio
+- nomes proprios, faccoes, lugares e termos canonicos devem permanecer consistentes com o jogo/mod
+
+Evitar:
+
+- traducao literal palavra por palavra
+- textos longos demais para UI
+- misturar tom formal e casual no mesmo fluxo
+- inventar contexto nao presente no original
+
+### Fluxo de trabalho para o AIInfluence
+
+1. Levantar os IDs ausentes do lote.
+2. Confirmar em que tela, livro ou evento eles aparecem.
+3. Recuperar o sentido original em ingles, se possivel.
+4. Traduzir o bloco inteiro em `3584621421/ModuleData/Languages/PT/strings_PT.xml`.
+5. Revisar placeholders, quebras de linha e consistencia terminologica.
+6. Testar o fluxo correspondente no jogo, quando houver gatilho disponivel.
+7. Atualizar este arquivo com o estado do lote: `pendente`, `em revisao` ou `feito`.
+
+### Estado atual dos lotes AIInfluence
+
+- `A1 - DeathHistory / livro de cronica`: base existente; revisar apenas se houver ingles residual
+- `A2 - World Events`: parcialmente traduzido
+- `A3 - Dynamic Events / quest-event`: pendente
+- `A4 - Disease event cards`: pendente
+- `A5 - Novos livros/eventos descobertos in game`: backlog aberto
+
+### Checklist rapido de QA para AIInfluence
+
+Antes de fechar um lote:
+
+- todos os IDs do lote foram incluidos?
+- placeholders foram preservados exatamente?
+- o texto cabe bem em janela, popup e botao?
+- o trecho ficou natural em PT-BR?
+- o fluxo deixou de aparecer em ingles no jogo?
+- houve quebra visual ou de XML?
 
 ## CONTEXTO DO PROJETO
 

@@ -1,5 +1,5 @@
 //Global story tags
-# title: Roadside Accident
+# title: Carro�a Virada
 # frequency: Common
 # development: false
 # illustration: cart_accident
@@ -52,31 +52,31 @@ INCLUDE include.ink
         VAR InjuryText1 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText1 = "uninjured"
+                    ~InjuryText1 = "ileso"
                 -1: 
-                    ~InjuryText1 = "mildly injured"
+                    ~InjuryText1 = "levemente ferido"
                 -2: 
-                    ~InjuryText1 = "severely injured"
+                    ~InjuryText1 = "gravemente ferido"
             }
         
         VAR InjuryText2 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText2 = "asks"
+                    ~InjuryText2 = "pede"
                 -1: 
-                    ~InjuryText2 = "begs"
+                    ~InjuryText2 = "implora"
                 -2: 
-                    ~InjuryText2 = "gasps"
+                    ~InjuryText2 = "ofega"
             }
         
         VAR InjuryText3 = ""
             {InjuryRoll:
                 -0: 
-                    ~InjuryText3 = "gets up"
+                    ~InjuryText3 = "se levanta"
                 -1: 
-                    ~InjuryText3 = "barely gets up"
+                    ~InjuryText3 = "mal consegue se levantar"
                 -2: 
-                    ~InjuryText3 = "lays there trying not to die"
+                    ~InjuryText3 = "permanece ali tentando não morrer"
             }
             
         VAR InjuryText4 = ""
@@ -84,9 +84,9 @@ INCLUDE include.ink
                 -0: 
                     ~InjuryText4 = ""
                 -1: 
-                    ~InjuryText4 = "seems to get a bit depressed knowing that he will be crippled for at least some time"
+                    ~InjuryText4 = "parece ficar um pouco deprimido sabendo que ficará incapacitado por algum tempo"
                 -2: 
-                    ~InjuryText4 = "dies"
+                    ~InjuryText4 = "morre"
             }
     
         VAR HorsesAround = 0
@@ -102,21 +102,21 @@ INCLUDE include.ink
         VAR Profession = ""
             {ProfessionRoll:
                 -0: 
-                    ~Profession = "merchant"
+                    ~Profession = "mercante"
                 -1: 
-                    ~Profession = "farmer"
+                    ~Profession = "fazendeiro"
                 -2: 
-                    ~Profession = "blacksmith"
+                    ~Profession = "ferreiro"
             }
         
         VAR RewardText = ""
             {ProfessionRoll:
                 -0: 
-                    ~RewardText = "500 gold"
+                    ~RewardText = "500 moedas de ouro"
                 -1: 
-                    ~RewardText = "5 grain"
+                    ~RewardText = "5 sacos de grãos"
                 -2: 
-                    ~RewardText = "2 steel ingots"
+                    ~RewardText = "2 lingotes de aço"
             }
 
         VAR HasExtorted = false
@@ -146,72 +146,72 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you see a cart in the distance. #STR_Start1
-    As you get closer you can see that it had broken down and tipped over. #STR_Start2
-    {HorsesAround: You can also see some horses grazing on grass in a nearby field, presumably these were pulling the cart prior to the incident. #STR_StartHorse}
+    Enquanto seu grupo viaja, você vê uma carroça à distância. #STR_Start1
+    Ao se aproximar, você percebe que ela quebrou e tombou. #STR_Start2
+    {HorsesAround: Você também nota alguns cavalos pastando em um campo próximo; presumivelmente, eles estavam puxando a carroça antes do incidente. #STR_StartHorse}
 
-    *[Approach the cart]->Approach
-    *[Go on your way] You decide to ignore the overturned cart and continue your journey. ->END
+    *[Aproximar-se da carroça]->Approach
+    *[Seguir seu caminho] Você decide ignorar a carroça tombada e continuar sua jornada. ->END
 
 ===Approach===
 
-    You approach the cart and find a man stuck underneath. When he sees you approaching he calls out for help. #STR_Approach1
-    You notice that the man trapped under the cart is {InjuryText1}. #STR_Approach2
-    As you get close he {InjuryText2} to you, "Please help me".  #STR_Approach3
-    What will you do? #STR_Approach4
+    Você se aproxima da carroça e encontra um homem preso debaixo dela. Quando ele vê você se aproximando, grita por socorro. #STR_Approach1
+    Você nota que o homem preso sob a carroça está {InjuryText1}. #STR_Approach2
+    Conforme você se aproxima, ele {InjuryText2} para você: "Por favor, me ajude".  #STR_Approach3
+    O que você fará? #STR_Approach4
     ->choices
     
     =choices
-        *[Ask what he can do for you if you help him] #STR_RewardForHelp0
-            You ask the man what he can do for you. #STR_RewardForHelp1
-            The man replies, "I am just a simple {Profession} from {Settlement}, I cannot give you a reward other than my thanks." #STR_RewardForHelp2
-            After a moment he says, "I am a friend of {Notable} and I will put in a good word for you." #STR_RewardForHelp3
-            While he is talking you can't help but notice there still seems to be some cargo in the cart. #STR_RewardForHelp4
+        *[Perguntar o que ele pode fazer por você se o ajudar] #STR_RewardForHelp0
+            Você pergunta ao homem o que ele pode fazer por você. #STR_RewardForHelp1
+            O homem responde: "Sou apenas um simples {Profession} de {Settlement}. Não posso lhe dar outra recompensa além do meu agradecimento." #STR_RewardForHelp2
+            Após um momento, ele diz: "Sou amigo de {Notable} e falarei bem de você." #STR_RewardForHelp3
+            Enquanto ele fala, você não pode deixar de notar que ainda parece haver alguma carga na carroça. #STR_RewardForHelp4
             ~HasAsked = true
             ->choices
         
-            *{not HasAsked}[Help him (Mercy++)]
-                You decide to help him. #STR_HelpNoReward1
+            *{not HasAsked}[Ajudá-lo (Misericórdia++)]
+                Você decide ajudá-lo. #STR_HelpNoReward1
                 ~ AddTraitInfluence("Mercy", 160)
                 ->AfterLift
                 
-            *{HasAsked}[Help him (+Relations with {Notable}, Mercy+)]
-                You decide to help him. #STR_HelpRelation1
+            *{HasAsked}[Ajudá-lo (+Relações com {Notable}, Misericórdia+)]
+                Você decide ajudá-lo. #STR_HelpRelation1
                 ~ AddTraitInfluence("Mercy", 80)
                 ~ NotableChange = true
                 ->AfterLift
         
-            *{HasAsked}[Extort him for a reward (Mercy-)]
-                You tell the {Profession} that he shouldn't be so modest. He is clearly a man of some means and can easily spare {RewardText} as compensation for the assistance. #STR_HelpExtort1
-                The man, believing he has no other option, agrees. #STR_HelpExtort2
+            *{HasAsked}[Extorqui-lo por uma recompensa (Misericórdia-)]
+                Você diz ao {Profession} que ele não deve ser tão modesto. Ele é claramente um homem de algumas posses e pode facilmente ceder {RewardText} como compensação pela assistência. #STR_HelpExtort1
+                O homem, acreditando não ter outra opção, concorda. #STR_HelpExtort2
                 ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ->AfterLift
             
-            *{HasAsked && HorsesAround}[Demand one of the horses (Mercy-)]
-                You say that since he is clearly incapable of controlling two horses and therefore should be fine giving you one as payment. #STR_HelpExtortHorse1
-                The man, seeing as he has no other option, agrees. #STR_HelpExtortHorse2
+            *{HasAsked && HorsesAround}[Exigir um dos cavalos (Misericórdia-)]
+                Você diz que, como ele claramente é incapaz de controlar dois cavalos, não deve haver problema em lhe dar um como pagamento. #STR_HelpExtortHorse1
+                O homem, vendo que não tem outra opção, concorda. #STR_HelpExtortHorse2
                 ~ AddTraitInfluence("Mercy", -80)
                 ~ HasExtorted = true
                 ~ SetTextVariable("HasExtorted1",HasExtorted)
                 ~ SetTextVariable("HasExtorted2",HasExtorted)
                 ->AfterLift
         
-            *{HorsesAround}[Take the horses and leave (Mercy--)]
-                You decide that rather than help the man you would rather go and tame the two horses, as they are clearly wild horses, who in no way have had any previous owner this is perfectly legal. #STR_HelpTakeHorse1
-                After you have gotten a handle on the horses and are heading off, you can hear the cries of the trapped man begging you to come back and help, fade into the distance. #STR_HelpTakeHorse1
+            *{HorsesAround}[Levar os cavalos e partir (Misericórdia--)]
+                Você decide que, em vez de ajudar o homem, prefere ir domar os dois cavalos; como são claramente cavalos selvagens que de forma alguma tiveram dono anterior, isso é perfeitamente legal. #STR_HelpTakeHorse1
+                Depois de assumir o controle dos cavalos e partir, você ouve os gritos do homem preso implorando para você voltar e ajudar, sumindo na distância. #STR_HelpTakeHorse1
                 ~ AddTraitInfluence("Mercy", -160)
                 ~ GiveItem("old_horse",2)
                 ->END
                 
         //Necromancer option
-            *{PartyCanRaiseDead}[Kill the man, raise his corpse as a skeleton, {HorsesAround: take the horses,} and loot his cart (Mercy---) {print_party_skill_chance("Spellcraft", 25)}]
-                A brilliant idea comes to your mind. Since the man is clearly worthless as a cart driver, perhaps he can find value by becoming one of your undead minions. #STR_HelpNecromancer1
-                In one swift motion you kill the man and go about raising him as a skeleton. Your party makes an attempt and {RaiseDeadSkillCheckTest: succeeds | fails }.#STR_HelpNecromancerSummon
+            *{PartyCanRaiseDead}[Matar o homem, erguer seu cadáver como um esqueleto, {HorsesAround: levar os cavalos,} e saquear sua carroça (Misericórdia---) {print_party_skill_chance("Spellcraft", 25)}]
+                Uma ideia brilhante lhe ocorre. Como o homem é claramente inútil como condutor de carroça, talvez ele possa encontrar valor tornando-se um de seus lacaios mortos-vivos. #STR_HelpNecromancer1
+                Em um movimento rápido, você mata o homem e passa a erguê-lo como um esqueleto. Seu grupo faz uma tentativa e {RaiseDeadSkillCheckTest: tem sucesso | falha }.#STR_HelpNecromancerSummon
                 {RaiseDeadSkillCheckTest: -> raiseSucceed | -> raiseFail}
     
     =raiseSucceed
-    Having successfully raised the dead, you decide to celebrate by taking all the man's possessions. #STR_HelpNecromancerSuccess
+    Tendo erguido o morto com sucesso, você decide celebrar pegando todos os pertences do homem. #STR_HelpNecromancerSuccess
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -225,7 +225,7 @@ INCLUDE include.ink
         -> END
     
     =raiseFail
-    Having failed you decide to take all the dead man's possessions as compensation for wasting your time. #STR_HelpNecromancerFail
+    Tendo falhado, você decide pegar todos os pertences do homem morto como compensação por perder seu tempo. #STR_HelpNecromancerFail
         {ProfessionRoll:
             -0: 
                 ~GiveGold(500)
@@ -238,7 +238,7 @@ INCLUDE include.ink
         -> END
 
 ===AfterLift===
-    Your party lifts the cart off the man and he {InjuryText3}. #STR_AfterLiftMedicine1
+    Seu grupo levanta a carroça de cima do homem e ele {InjuryText3}. #STR_AfterLiftMedicine1
 
     //Is Injured?
         {InjuryRoll:
@@ -247,22 +247,22 @@ INCLUDE include.ink
         }
 
         =Injury
-            How will you treat his injury? #STR_AfterLiftMedicine2
-                *[Treat him with medicine {MedicineSkillCheckText}]
-                    Your best doctor goes to work attempting to fix the man up. #STR_AfterLiftMedicine
+            Como você tratará o ferimento dele? #STR_AfterLiftMedicine2
+                *[Tratá-lo com medicina {MedicineSkillCheckText}]
+                    Seu melhor médico começa a trabalhar tentando tratar o homem. #STR_AfterLiftMedicine
                         {MedicineSkillCheckTest: ->Success | ->Fail}
                         
-                *{LoreOfLifeInParty}[Treat him with magic {SpellcraftSkillCheckText}]
-                    A spellcaster in your party calls upon the winds of Ghyran to mend the man's wounds. #STR_AfterLiftMagic
+                *{LoreOfLifeInParty}[Tratá-lo com magia {SpellcraftSkillCheckText}]
+                    Um conjurador em seu grupo evoca os ventos de Ghyran para curar as feridas do homem. #STR_AfterLiftMagic
                         {SpellcraftSkillCheckTest: ->Success | ->Fail}
                     
         =Success
-            Your treatment succeeds and the man will now be fine. #STR_AfterLiftHealSuccess
+            Seu tratamento é bem-sucedido e o homem ficará bem agora. #STR_AfterLiftHealSuccess
                 ~ BonusRoll = RANDOM(0,100)
                 ->Reward
             
         =Fail
-            Your treatment fails and the man {InjuryText4}. #STR_AfterLiftHealFail
+            Seu tratamento falha e o homem {InjuryText4}. #STR_AfterLiftHealFail
                 {InjuryRoll:
                     -2:
                         ~ ManAlive = false
@@ -274,9 +274,9 @@ INCLUDE include.ink
     {ManAlive:->LiveReward|->DeadReward}
 
     =LiveReward
-        Having been saved, the man {HasExtorted: begrudgingly} thanks you for your help{HasExtorted: and gives you the promised reward }.#STR_RewardAlive1 
-        {NotableChange: As he starts gathering his things he says, "I will tell {Notable} of your deeds as soon as I am home."#STR_RewardAliveNotable} 
-        {HasExtorted == false && BonusRoll >=50: The man pausing for a moment says, "I know I said I didn't have much but please take this ({RewardText}). It's the least I can do for your kindness."#STR_RewardAliveChance} 
+        Tendo sido salvo, o homem agradece {HasExtorted: relutantemente} por sua ajuda{HasExtorted: e lhe entrega a recompensa prometida}.#STR_RewardAlive1 
+        {NotableChange: Enquanto ele começa a recolher suas coisas, diz: "Contarei a {Notable} sobre seus feitos assim que chegar em casa."#STR_RewardAliveNotable} 
+        {HasExtorted == false && BonusRoll >=50: O homem, parando por um momento, diz: "Eu sei que disse que não tinha muito, mas por favor, aceite isto ({RewardText}). É o mínimo que posso fazer por sua bondade."#STR_RewardAliveChance} 
         
         {HasExtorted || (not HasExtorted && BonusRoll >=50):
             -true:
@@ -293,13 +293,13 @@ INCLUDE include.ink
         ->END
         
     =DeadReward
-        What will your party do next? #STR_RewardDead1 
-            *[Bury the man (Mercy+)]
-                You decide to bury the man, hoping that he can find peace. #STR_RewardDeadBury 
+        O que seu grupo fará a seguir? #STR_RewardDead1 
+            *[Enterrar o homem (Misericórdia+)]
+                Você decide enterrar o homem, esperando que ele possa encontrar paz. #STR_RewardDeadBury 
                 {AddTraitInfluence("Mercy", 160)}
                 ->DeadReward
-            *[Loot the cart {HorsesAround: and take the horses} ({RewardText}{HorsesAround:, +2 tier 0 horses})]
-                Now that the man has passed he obviously will not need the supplies anymore. #STR_RewardDeadLoot 
+            *[Saquear a carroça {HorsesAround: e levar os cavalos} ({RewardText}{HorsesAround:, +2 cavalos tier 0})]
+                Agora que o homem faleceu, ele obviamente não precisará mais dos suprimentos. #STR_RewardDeadLoot 
                 {ProfessionRoll:
                     -0: 
                         ~GiveGold(500)
@@ -310,15 +310,16 @@ INCLUDE include.ink
                 }
                 {HorsesAround: {GiveItem("old_horse",2)}}
                 ->DeadReward
-            *{PartyCanRaiseDead}[Raise him as a skeleton (+1 skeleton){RaiseDeadSkillCheckText}]
-                Since a dead man has no use for his body you decide to raise it as a skeleton. #STR_RewardDeadRiseDead 
-                Your party makes an attempt and {RaiseDeadSkillCheckTest: succeeds| fails}. #STR_RewardRiseDead2
+            *{PartyCanRaiseDead}[Erguê-lo como um esqueleto (+1 esqueleto){RaiseDeadSkillCheckText}]
+                Como um homem morto não tem uso para seu corpo, você decide erguê-lo como um esqueleto. #STR_RewardDeadRiseDead 
+                Seu grupo faz uma tentativa e {RaiseDeadSkillCheckTest: tem sucesso| falha}. #STR_RewardRiseDead2
                 
                 {RaiseDeadSkillCheckTest:
-                    -true: The man's body stands up and shambles off to join the rest of your army. #STR_RewardDeadRiseDeadSuccess
+                    -true: O corpo do homem se ergue e se arrasta para se juntar ao resto do seu exército. #STR_RewardDeadRiseDeadSuccess
                         ~ ChangePartyTroopCount("tor_vc_skeleton",1)
                 }
                 ->DeadReward
-            *[Move along (leave)]
-                You decide that it is time to move on and continue your journey. #STR_RewardDeadLeave
+            *[Partir (sair)]
+                Você decide que é hora de seguir em frente e continuar sua jornada. #STR_RewardDeadLeave
                 ->END
+

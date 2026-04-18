@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Gods Demand More!
+# title: Os Deuses Exigem Mais
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -9,23 +9,23 @@ INCLUDE include.ink
 ->START
 
 ===START===
-You have returned to the shrine. Your Waaagh! ju-jus have grown, your faith has deepened, and the gods have truly blessed you. The time has come to make your visions a reality.
+Você retornou ao santuário. Seus patuás de Waaagh! cresceram, sua fé se aprofundou e os deuses realmente o abençoaram. Chegou a hora de transformar suas visões em realidade.
 
-Once more, you approach the largest dung-pile and inhale deeply, drifting again into the realm of Gork and Mork.
+Mais uma vez, você se aproxima da maior pilha de esterco e inala profundamente, derivando novamente para o reino de Gork e Mork.
 
-The gods momentarily cease their bashing and seem pleased, but only now have you been granted the true chance to prove yourself.
+Os deuses cessam momentaneamente seus espancamentos e parecem satisfeitos, mas só agora você recebeu a verdadeira chance de provar seu valor.
 
-Visions flood your green mind once more: more battles, more foes to smash, more tribes to unite under the true banner of Gork and Mork. Burning cities crumble beneath your  Waaagh!, and dwarf holds are overrun and broken.
+Visões inundam sua mente verde mais uma vez: mais batalhas, mais inimigos para esmagar, mais tribos para unir sob o verdadeiro estandarte de Gork e Mork. Cidades em chamas desmoronam sob sua Waaagh!, e fortalezas anãs são invadidas e destruídas.
 
-Their weak gods are humiliated, their shrines defiled and buried beneath reeking dungpiles. And there you stand again, at the heart of it all, witnessing the collapse of a vast temple complex as it is torn apart stone by stone.
+Seus deuses fracos são humilhados, seus santuários profanados e enterrados sob pilhas de esterco fedorentas. E lá está você novamente, no coração de tudo, testemunhando o colapso de um vasto complexo de templos sendo despedaçado pedra por pedra.
 
-All the other shamans and boys fall on their knees, and recognize you as the TRUE prophet of Gork and Mork, the GREENEST prophet.
+Todos os outros xamãs e rapazes caem de joelhos e o reconhecem como o VERDADEIRO profeta de Gork e Mork, o profeta MAIS VERDE.
 
-Then you awaken.
+Então você acorda.
 
-The lads awaits your instructions. The time has come to drown the world in green, and the Twin Gods shall dance amidst the ashes of dead empires.
+A rapaziada aguarda suas instruções. Chegou a hora de afogar o mundo em verde, e os Deuses Gêmeos dançarão em meio às cinzas de impérios mortos.
 
-+ [FER GORK AN' MORK!! WAAAAAAAAAAAAAAAGH!!!]
++ [PUR GORK E MORK!! WAAAAAAAAAAAAAAAGH!!!]
     ~ StartQuest("Quests.Careers.OrcShamanQuest2")
     ~ CloseStory()
     -> END

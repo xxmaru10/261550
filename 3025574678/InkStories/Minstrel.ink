@@ -1,5 +1,5 @@
 //Global story tags
-# title: Traveling Troubadours
+# title: Trovadores Viajantes
 # frequency: Special
 # development: false
 # illustration: minstrel
@@ -11,25 +11,25 @@ INCLUDE include.ink
 
 ===START===
 ~ PlayMusic("west_bretonnia")
-During your travels, your ears catch the lively chatter of a group of troubadours engaged in an animated conversation. Their vibrant attire and energetic gestures suggest a shared passion for their craft. Curiosity beckons you closer, and as you approach, their discussion shifts seamlessly into an improvised performance. #STR_Start1
+Durante suas viagens, seus ouvidos captam o falatório animado de um grupo de trovadores engajados em uma conversa entusiasmada. Seus trajes vibrantes e gestos enérgicos sugerem uma paixão compartilhada pelo seu ofício. A curiosidade o leva para mais perto e, conforme você se aproxima, a discussão deles flui perfeitamente para uma performance improvisada. #STR_Start1
 
-Captivated by their harmonious voices, you decide to stay and listen. The troubadours' music weaves a narrative that transcends mere words. The rhythm of their song pulls you into a shared moment, where the world's worries and uncertainties seem to fade away. #STR_Start2
+Cativado por suas vozes harmoniosas, você decide ficar e ouvir. A música dos trovadores tece uma narrativa que transcende meras palavras. O ritmo da canção o atrai para um momento compartilhado, onde as preocupações e incertezas do mundo parecem desaparecer. #STR_Start2
 
-As their performance reaches its climax, the troubadours' gazes meet, their smiles reflecting the joy they find in their artistic exchange. And then, with a final, triumphant note, their song comes to an end. #STR_Start3
+Conforme a performance atinge o clímax, os olhares dos trovadores se cruzam, seus sorrisos refletindo a alegria que encontram em sua troca artística. E então, com uma nota final e triunfante, a canção chega ao fim. #STR_Start3
 
-*[Clap and applaud] -> Applaud
-*[Express your appreciation] -> Appreciate
+*[Aplaudir e ovacionar] -> Applaud
+*[Expressar sua apreciação] -> Appreciate
 
 ===Applaud===
-Caught up in the magic of the moment, you find yourself clapping along with the gathered crowd, an unspoken acknowledgement of the beauty you've all just experienced. #STR_Applaud1
+Envolvido pela magia do momento, você se vê aplaudindo junto com a multidão reunida, um reconhecimento silencioso da beleza que todos acabaram de experienciar. #STR_Applaud1
 ->Leave
 
 ===Appreciate===
-Your heart full of gratitude, you express your deep appreciation for the troubadours' performance. They exchange a knowing glance, their smiles warm and genuine.
+Com o coração cheio de gratidão, você expressa sua profunda apreciação pela performance dos trovadores. Eles trocam um olhar conhecedor, com sorrisos calorosos e genuínos.
 #STR_Appreciate2
 ->Leave
 
 ===Leave===
-With a final nod of appreciation, you leave the troubadours to continue their musical journey, carrying the memory of their impromptu performance with you as you resume your own path. #STR_Leave1
-(Clicking on "End" will stop the music if it's still playing.) #STR_Leave2
+Com um último aceno de apreço, você deixa os trovadores seguirem sua jornada musical, levando consigo a memória da performance improvisada enquanto retoma seu próprio caminho. #STR_Leave1
+(Clicar em "Fim" interromperá a música se ela ainda estiver tocando.) #STR_Leave2
 ->END

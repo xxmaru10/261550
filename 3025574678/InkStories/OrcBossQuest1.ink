@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Boss Awakens
+# title: O Despertar do Chefe
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,18 +12,18 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-It comes suddenly, not quite a thought, not quite a feeling. Something closer to instinct. Your heart rate quickens. There is something stirring inside you: excitement. Urgency. You need to move. You need to KILL.
+Isso vem de repente, não exatamente um pensamento, nem exatamente um sentimento. Algo mais próximo do instinto. Seu coração acelera. Há algo se agitando dentro de você: excitação. Urgência. Você precisa se mexer. Você precisa MATÁ.
 
-A voice whispers, then roars. It urges you on.
+Uma voz sussurra, depois ruge. Ela te impulsiona.
 
-“Bigga… betta… stronga… kill… KILL… WAAAAAAAAAAAAAGH!”
+“Maió… mió… mais forte… matá… MATÁ… WAAAAAAAAAAAAAGH!”
 
-A sign from the gods? The voice leads you, drives you. To ignore it would be to invite the wrath of Gork and Mork themselves.
+Um sinal dos deuses? A voz te guia, te conduz. Ignorá-la seria convidar a ira dos próprios Gork e Mork.
 
-You have been chosen. YOU. Given a chance to prove yourself before the gods.
-You must rise up. Face challenges. Smash everything. But above all, you must KILL.
+Você foi escolhido. VOCÊ. Recebeu a chance de se provar diante dos deuses.
+Você deve se erguer. Encarar desafios. Esmagar tudo. Mas, acima de tudo, você deve MATÁ.
 
-+ [LET’S DO DIS!]
++ [BORA FAZÊ ISSO!]
     ~ StartQuest("Quests.Careers.OrcBossQuest1")
     ~ CloseStory()
     -> END

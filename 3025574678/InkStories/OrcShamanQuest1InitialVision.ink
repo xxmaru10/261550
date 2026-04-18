@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Vision of Gork and Mork
+# title: Vis�o de Gork e Mork
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -9,26 +9,27 @@ INCLUDE include.ink
 ->START
 
 ===START===
-You have found the shrine, crude idols of Gork and Mork, carved from towering piles of rock and dung.
+Você encontrou o santuário: ídolos toscos de Gork e Mork, entalhados em pilhas imensas de rocha e esterco.
 
-Scattered around them lie weapons and armour unlike anything you have seen before. Some you recognise as dwarf-made, but others are beyond your comprehension.
+Espalhados ao redor deles jazem armas e armaduras diferentes de tudo o que você já viu. Algumas você reconhece como sendo de fabricação anã, mas outras estão além da sua compreensão.
 
-You step forward alone. The closer you get, the more pungent the stench becomes. Reaching the largest dung-pile, you inhale the rancid fumes deeply. They flood your senses and knock you out cold.
+Você dá um passo à frente sozinho. Quanto mais se aproxima, mais pungente se torna o fedor. Alcançando a maior pilha de esterco, você inala profundamente os vapores rançosos. Eles inundam seus sentidos e o deixam inconsciente.
 
-Then THEY appear.
+Então, ELES aparecem.
 
-Two green gigantic silhouettes wrestling and smashing into each other relentlessly.
+Duas silhuetas verdes gigantescas lutando e se esmagando implacavelmente.
 
-Otherworldly voices and sights fill your thick skull, accompanied by incoherent bellowing and roaring laughter: Burning cities, the thunder of pounding drums, the green tide marching as it tramples corpses and shattered banners beneath its feet. The idols of weak, pathetic gods, human and dwarf alike, are cast down into the dirt, broken apart or reshaped into crude figures of Gork and Mork.
+Vozes e visões de outro mundo preenchem seu crânio grosso, acompanhadas por berros incoerentes e risadas estrondosas: cidades queimando, o trovão de tambores batendo, a maré verde marchando enquanto pisotreia cadáveres e estandartes despedaçados sob seus pés. Os ídolos de deuses fracos e patéticos, tanto humanos quanto anões, são jogados na sujeira, quebrados ou remodelados em figuras rudes de Gork e Mork.
 
-Amidst the ruins and the feasting boys, you see a figure, dancing, cackling madly as crackling green bolts of energy rain across the battlefield.
+Em meio às ruínas e aos rapazes festejando, você vê uma figura, dançando, gargalhando loucamente enquanto raios verdes de energia caem como chuva pelo campo de batalha.
 
-It is you.
+É você.
 
-Then you awaken.
+Então você acorda.
 
-The air trembles with anticipation. And your destiny is clear.
+O ar treme de antecipação. E seu destino está claro.
 
-+ [I'Z GUNNA BE DA BEST SHAMAN DERE EVER WAS!!!]
++ [EU VÔ SÊ O MIÓ XAMÃ QUE JÁ TEVE!!!]
     ~ CloseStory()
     -> END
+

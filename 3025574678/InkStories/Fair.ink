@@ -1,5 +1,5 @@
 //Global story tags
-# title: A Fair in the Woods
+# title: A Feira na Floresta
 # frequency: Uncommon
 # development: false
 # illustration: trader
@@ -21,105 +21,106 @@ VAR TurnipPrice = 50
 
 
 
-As your army travels, a sudden clearing reveals a surprising sight – a bustling fair known as the Morrslieb Revelry. Tents stand proud, colors dancing in the dappled sunlight. Laughter mingles with the snorts of horses, the heart of this joyous gathering. #STR_Start1
+Enquanto seu exército viaja, uma clareira repentina revela uma visão surpreendente — uma feira agitada conhecida como a Folia de Morrslieb. Tendas erguem-se orgulhosas, cores dançando sob a luz do sol filtrada pelas árvores. Risos misturam-se aos bufos dos cavalos, o coração desta reunião alegre. #STR_Start1
 
-Merchants beckon, their eyes alight with mischief, hawking horses at a discount from the standard rates you'd find in the scrolls. The air carries the tempting scents of roasted meat, frothy ale, and tangy wine. Amidst the merry crowd, a farmer grins, offering a turnip that oddly resembles the famed twin-tailed comet. Yours for a mere penny, a chance to possess this curious marvel. #STR_Start2
+Mercadores acenam, seus olhos brilhando de travessura, vendendo cavalos com desconto em relação às taxas padrão que você encontraria nos pergaminhos. O ar carrega os aromas tentadores de carne assada, cerveja espumante e vinho encorpado. Em meio à multidão festiva, um fazendeiro sorri, oferecendo um nabo que estranhamente se assemelha ao famoso cometa de duas caudas. Seu por apenas um centavo, uma chance de possuir esta curiosa maravilha. #STR_Start2
     ->choices
 
     =choices
-    * [Join the crowd at the horse market.]->HorseStalls 
-    * [Savor the flavors of the fair.]->FoodStalls
-    * [Test your luck at the horse races.]->HorseRaces
-    * [Examine the peculiar turnip.]->Turnip
-    * [Continue your journey through the woods.]->Leave
+    * [Juntar-se à multidão no mercado de cavalos.]->HorseStalls 
+    * [Saborear os sabores da feira.]->FoodStalls
+    * [Testar sua sorte nas corridas de cavalos.]->HorseRaces
+    * [Examinar o nabo peculiar.]->Turnip
+    * [Continuar sua jornada pela floresta.]->Leave
 
 ===HorseStalls===
-The fair's heart beats strongest at the horse market. Proud stallions prance, their eyes fierce and wild. One horse, in particular, captures your attention. It has a sleek, ebony coat that glistens in the sunlight, and its eyes seem to hold a knowing glint. #STR_HorseStalls1
+O coração da feira bate mais forte no mercado de cavalos. Garanhões orgulhosos empinam, seus olhos ferozes e selvagens. Um cavalo, em particular, captura sua atenção. Ele tem uma pelagem de ébano lisa que brilha sob a luz do sol, e seus olhos parecem conter um brilho conhecedor. #STR_HorseStalls1
     ->choices
 
     =choices
-    + [Take the merchant's deal for the horse. ({HorsePrice} gold)]->BuyHorse
-    * [Persuade the merchant to lower the price. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
-    * [Return to the fair's heart.]->Start.choices
+    + [Aceitar o acordo do mercador pelo cavalo. ({HorsePrice} moedas de ouro)]->BuyHorse
+    * [Persuadir o mercador a baixar o preço. {print_player_skill_chance("Charm",150)}]->PersuadeMerchant
+    * [Retornar ao coração da feira.]->Start.choices
 
 ===BuyHorse===
-{HasEnoughGold(HorsePrice): You strike a deal with the merchant. You exchange coins for a sturdy saddle and reins. With a surge of anticipation, you mount the horse. The connection between you is immediate, the horse seems to respond to your touch with trust and eagerness. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | You don't have enough gold. #STR_BuyHorse1NOTENOUGHGOLD }  #STR_BuyHorse1
+{HasEnoughGold(HorsePrice): Você fecha negócio com o mercador. Você troca moedas por uma sela resistente e rédeas. Com uma onda de antecipação, você monta no cavalo. A conexão entre vocês é imediata; o cavalo parece responder ao seu toque com confiança e entusiasmo. {GiveGold(-HorsePrice)} {GiveItem("t2_empire_horse",1)} | Você não tem ouro suficiente. #STR_BuyHorse1NOTENOUGHGOLD }  #STR_BuyHorse1
 
-* [Return to the revelry]->Start.choices
+* [Retornar à folia]->Start.choices
 
 ===PersuadeMerchant===
 {perform_player_skill_check("Charm",150): -> success | -> fail}
 
     =success
-    Your words work their magic, and the merchant agrees to lower the price by 50%. The merchant grumbles but respects your negotiating skills. #STR_PersuadeMerchant_Success
+    Suas palavras fazem mágica e o mercador concorda em baixar o preço em 50%. O mercador resmunga, mas respeita suas habilidades de negociação. #STR_PersuadeMerchant_Success
     ~HorsePrice = 1000
     ->HorseStalls.choices
 
     =fail
-    Despite your best attempts to haggle, the merchant remains firm on the price. #STR_PersuadeMerchant_Fail
+    Apesar de suas melhores tentativas de pechinchar, o mercador permanece firme no preço. #STR_PersuadeMerchant_Fail
     ->HorseStalls.choices
     
 
 ===FoodStalls===
-Scents swirl and tempt, guiding you to a feast of flavors. Meats sizzle and ale froths – a carnival for the senses. There's plenty of food available, and it's your choice to partake. #STR_FoodStalls1
+Aromas giram e tentam, guiando você para um banquete de sabores. Carnes chiam e a cerveja espuma — um carnaval para os sentidos. Há comida abundante disponível, e a escolha de participar é sua. #STR_FoodStalls1
 
-* [Indulge in the fair's feast. ({FoodPrice} gold)]->BuyFood
-* [Carry on, resisting the temptation.]->Start
+* [Deliciar-se com o banquete da feira. ({FoodPrice} moedas de ouro)]->BuyFood
+* [Seguir adiante, resistindo à tentação.]->Start
 
 ===BuyFood===
-{HasEnoughGold(FoodPrice): Indulgence wins. You feast, the fair's flavors a delightful symphony on your tongue. Merchants nod their approval as you partake. {GiveGold(-FoodPrice)} | You don't have enough gold. #STR_BuyFood1NOTENOUGHGOLD}#STR_BuyFood1
+{HasEnoughGold(FoodPrice): A indulgência vence. Você banqueteia, os sabores da feira são uma sinfonia deliciosa em sua língua. Mercadores acenam em aprovação enquanto você participa. {GiveGold(-FoodPrice)} | Você não tem ouro suficiente. #STR_BuyFood1NOTENOUGHGOLD}#STR_BuyFood1
 
-* [Return to the merriment.]->Start.choices
+* [Retornar à diversão.]->Start.choices
 
 ===HorseRaces===
-Cheers erupt from an amphitheater. Horses thunder, riders urging them to glory. #STR_HorseRaces
+Gritos de alegria irrompem de um anfiteatro. Cavalos trovejam, cavaleiros instando-os à glória. #STR_HorseRaces
 ->choices
 
     =choices
-    * [Place a wager on a racing horse. ({HorseBetPrice} gold - payout 5x on win)]->PlaceBet
-    * [You decide that you shouldn't test your luck.]->Start.choices
+    * [Fazer uma aposta em um cavalo de corrida. ({HorseBetPrice} moedas de ouro — pagamento de 5x em caso de vitória)]->PlaceBet
+    * [Você decide que não deve testar sua sorte.]->Start.choices
 
 ===PlaceBet===
-{not HasEnoughGold(HorseBetPrice): You don't have enough gold. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices } 
+{not HasEnoughGold(HorseBetPrice): Você não tem ouro suficiente. #STR_PlaceBet_NOTENOUGHGOLD -> HorseRaces.choices } 
 ~GiveGold(-HorseBetPrice)
 {WinHorseRace: ->success | ->fail}
     =success
-    Your heart races as you place your wager. The horse you chose surges forward, and luck dances in your favor. Laughter and clinking coins surround you. #STR_PlaceBet_Success
+    Seu coração acelera ao fazer sua aposta. O cavalo que você escolheu avança impetuoso, e a sorte dança a seu favor. Risos e o tilintar de moedas cercam você. #STR_PlaceBet_Success
     ~ GiveGold(HorseBetPayout)
-    * [Return to the merry crowd.]->Start.choices
+    * [Retornar à multidão de foliões.]->Start.choices
 
     =fail
-    Your heart races as you place your wager. The horse you chose quickly surges forward at first, but the other riders soon catch up. Eventually, your horse slows down to the point of only earning a late place. Laughter and clinking coins surround you.
+    Seu coração acelera ao fazer sua aposta. O cavalo que você escolheu avança rápido no início, mas os outros cavaleiros logo o alcançam. Eventualmente, seu cavalo diminui o ritmo a ponto de conquistar apenas uma posição tardia. Risos e o tilintar de moedas cercam você.
         #STR_PlaceBet_Fail
-    * [Return to the merry crowd.]->Start.choices
+    * [Retornar à multidão de foliões.]->Start.choices
 
 ===Turnip===
-Intrigue tugs at your senses as you gaze upon the comet-shaped turnip – a whimsical marvel. A farmer grins, inviting you to join a raffle. #STR_Turnip1
+A intriga aguça seus sentidos enquanto você contempla o nabo em forma de cometa — uma maravilha excêntrica. Um fazendeiro sorri, convidando-o a participar de uma rifa. #STR_Turnip1
     ->choices
 
     =choices
-    * [Try your luck with a raffle ticket. ({TurnipPrice} gold)]->BuyTicket
-    * [Use your perception to find hidden clues about the turnip. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
-    * [Move on, leaving the curious turnip behind.]->Start.choices
+    * [Tentar a sorte com um bilhete de rifa. ({TurnipPrice} moedas de ouro)]->BuyTicket
+    * [Usar sua percepção para encontrar pistas escondidas sobre o nabo. {print_player_skill_chance("Roguery", 80)}]->PerceiveTurnip
+    * [Seguir em frente, deixando o curioso nabo para trás.]->Start.choices
 
 ===BuyTicket===
-{HasEnoughGold(TurnipPrice): With a coin and a smile, you secure your chance at the raffle. Who knows? The comet-kissed turnip might be yours after all. {GiveGold(-TurnipPrice)} | You don't have enough gold. #STR_BuyTicket1NOTENOUGHGOLD  -> Turnip.choices}  #STR_BuyTicket1
+{HasEnoughGold(TurnipPrice): Com uma moeda e um sorriso, você garante sua chance na rifa. Quem sabe? O nabo beijado pelo cometa pode ser seu, afinal. {GiveGold(-TurnipPrice)} | Você não tem ouro suficiente. #STR_BuyTicket1NOTENOUGHGOLD  -> Turnip.choices}  #STR_BuyTicket1
 
-With anticipation in the air, the raffle commences, and as the announcer calls out the winning ticket number, you hold your breath. However, luck is not on your side this time. The winning number isn't yours, and a twinge of disappointment washes over you. #STR_BuyTicket2
+Com antecipação no ar, a rifa começa e, quando o locutor anuncia o número do bilhete premiado, você segura o fôlego. No entanto, a sorte não está do seu lado desta vez. O número vencedor não é o seu, e uma pontada de decepção o atinge. #STR_BuyTicket2
 
-* [Return to the mirthful revelry.]->Start.choices
+* [Retornar à folia festiva.]->Start.choices
 
 === PerceiveTurnip ===
 {perform_player_skill_check("Roguery", 80): -> success | ->fail}
 
     =success
-    Your sharp eyes pick up on subtle details that others might miss. The turnip seems to have no strange markings that hint at its significance. It's completely ordinary.   #STR_PerceiveTurnip_Success
+    Seus olhos aguçados percebem detalhes sutis que outros podem deixar passar. O nabo parece não ter marcações estranhas que sugiram sua importância. É completamente comum.   #STR_PerceiveTurnip_Success
     ->Turnip.choices
     
     =fail
-    Your examination doesn't reveal anything unusual about the turnip. #STR_PerceiveTurnip_Success
+    Seu exame não revela nada de incomum no nabo. #STR_PerceiveTurnip_Success
     ->Turnip.choices
 
 ===Leave===
-As the fair's merriment fades, you step back into the embrace of the wilderness, leaving the laughter of the fair's revelry behind. #STR_Leave1
+Conforme a alegria da feira desaparece, você retorna ao abraço da natureza selvagem, deixando para trás os risos da folia. #STR_Leave1
 ->END
+

@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Pond
+# title: O Lago
 # frequency: Common
 # development: false
 # illustration: pond
@@ -177,24 +177,24 @@
 
 ===Start===
 
-    As your party is traveling you come across a tranquil scene that steals your breath away. Before you stretches a serene pond, a hidden gem amidst the wilderness. The water is calm and clear, reflecting the azure sky above. Lush vegetation surrounds the pond, offering a peaceful sanctuary. #STR_Start1
-    {IsNight(): Silver moonlight | Golden sunlight} filters through the trees, casting a glow on the water's surface. The air carries the gentle scent of nature, a soothing balm for your weary senses. Birds sing melodious tunes, contributing to the serene atmosphere. #STR_Start2
+    Enquanto seu grupo viaja, você se depara com uma cena tranquila que o deixa sem fôlego. Diante de vocês estende-se um lago sereno, uma joia escondida em meio à selva. A água é calma e límpida, refletindo o céu azul acima. Uma vegetação exuberante cerca o lago, oferecendo um santuário de paz. #STR_Start1
+    {IsNight(): O luar prateado | A luz dourada do sol} filtra-se através das árvores, lançando um brilho sobre a superfície da água. O ar carrega o aroma suave da natureza, um bálsamo calmante para seus sentidos desgastados. Pássaros cantam melodias suaves, contribuindo para a atmosfera serena. #STR_Start2
 
-    As you stand there, captivated by the sight, your men catch up to you. Their faces, etched with exhaustion, light up with wonder and relief. Even the typically reserved member of your group manages a small smile. #STR_Start3
+    Enquanto você permanece ali, cativado pela visão, seus homens o alcançam. Seus rostos, marcados pela exaustão, iluminam-se de admiração e alívio. Até mesmo o membro mais reservado de seu grupo esboça um pequeno sorriso. #STR_Start3
     
-    Your second places a hand on your shoulder, their voice carrying a rare note of lightness. "A moment of respite by the pond. What do you say?" #STR_Start4
+    Seu segundo em comando coloca a mão em seu ombro, com a voz carregando uma rara nota de leveza. "Um momento de descanso à beira do lago. O que me diz?" #STR_Start4
         ->choice1
         
     =choice1
-        What will you have your party do? #STR_Start4 
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 50% chance (Improved by Lore of Life)| 25% chance} to succeed at harvesting various wild plants)] 
+        O que você ordenará que seu grupo faça? #STR_Start4 
+            *[Procurar plantas silvestres (Diferentes tentativas com {LoreOfLifeInParty: 50% de chance (Melhorado pelo Saber da Vida)| 25% de chance} de sucesso na colheita)] 
                 
-                You order your party to forage for wild plants. #STR_Forage1
+                Você ordena que seu grupo procure por plantas silvestres. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_ForageLoreOfLife1
+                            Um mago em seu grupo clama pelo Vento de Ghyran para auxiliar seus homens na busca. #STR_ForageLoreOfLife1
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -202,30 +202,28 @@
                     
                 ->ForageLoop
 
-            *[Fish (Multiple chances to get Fish (50% success chance))] 
+            *[Pescar (Múltiplas chances de obter Peixe (50% de chance de sucesso))] 
             
-            You have your men go fishing. #STR_Fish1
+            Você coloca seus homens para pescar. #STR_Fish1
                 
                 ->FishLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Fazer seus homens descansarem (Companheiros curados e tropas feridas recuperadas {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better. #STR_Rest1
+                Você tenta dar um descanso aos seus homens, esperando que o breve repouso ajude em sua recuperação. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
-                        Your party takes advantage of the break to take care of the wounded. #STR_RestMedicineSuccess
+                        Seu grupo aproveita a pausa para cuidar dos feridos. #STR_RestMedicineSuccess
                         ~ HealPartyToFull()
                     -false:
-                    Just as the men start to tend to the wounded, the ground suddenly shakes beneath you, and a roar fills the air. A cascade of earth and rocks crashes into the pond, caused by a landslide along the shore. The water churns, swallowing a part of the land it had eroded over time. #STR_RestMedicineFail
+                    Exatamente quando os homens começam a cuidar dos feridos, o chão treme repentinamente sob seus pés e um estrondo preenche o ar. Uma cascata de terra e rochas despenca no lago, causada por um deslizamento na margem. A água agita-se, engolindo parte da terra que havia sofrido erosão ao longo do tempo. #STR_RestMedicineFail
                     -else: "ERROR"
                 }
                 
-               
-                
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Sair] Você decide que seu grupo não tem tempo para descansar e parte imediatamente.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -250,9 +248,9 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed.
+                    A busca não rende resultados; seus homens retornam de mãos vazias.
                 -1:
-                    Your men find some wild rice. (+1 Grain)
+                    Seus homens encontram arroz silvestre. (+1 Grão)
                     ~ GiveItem("grain",1)
             }
             
@@ -277,10 +275,10 @@
         //Reward
             {
                 - AttemptSuccessful == true:
-                    Your men catch some fish (+1 Fish).
+                    Seus homens pescam alguns peixes (+1 Peixe).
                     ~ GiveItem("fish",1)
                 - AttemptSuccessful == false:
-                     Your men catch nothing.
+                     Seus homens não pescam nada.
                 -else: ERROR
             }
                     
@@ -290,8 +288,9 @@
     ->END
     
 ===Leave===
-    Having spent your time by the pond you decide to head off.
+    Tendo passado seu tempo à beira do lago, você decide partir.
 
     ~ MakePartyDisorganized()
     
 -> END
+

@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Campfire
+# title: Aprendizado na Fogueira
 # frequency: Special
 # development: false
 # illustration: campfirenight
@@ -66,11 +66,11 @@
 
                 {MeleeWeaponRandom:
                     -1:
-                        ~ MeleeWeaponText = "One Handed"
+                        ~ MeleeWeaponText = "Uma Mão"
                     -2:
-                        ~ MeleeWeaponText = "Two Handed"
+                        ~ MeleeWeaponText = "Duas Mãos"
                     -3:
-                        ~ MeleeWeaponText = "Polearm"
+                        ~ MeleeWeaponText = "Armas de Haste"
                 }
 
 
@@ -81,13 +81,13 @@
 
                 {RangedWeaponRandom:
                     -1:
-                        ~ RangedWeaponText = "Bow"
+                        ~ RangedWeaponText = "Arco"
                     -2:
-                        ~ RangedWeaponText = "Crossbow"
+                        ~ RangedWeaponText = "Besta"
                     -3:
-                        ~ RangedWeaponText = "Throwing"
+                        ~ RangedWeaponText = "Arremesso"
                     -4:
-                        ~ RangedWeaponText = "Gunpowder"
+                        ~ RangedWeaponText = "Pólvora"
                 }
 
     //Group 1
@@ -101,29 +101,29 @@
             {StorySelect:
                 -0: ERROR
                 -1:
-                    ~ StoryName = "The Hunt"
+                    ~ StoryName = "A Caçada"
                     ~ StoryBranch = ->TheHunt
-                    ~ StoryXpText = "(+1000 XP for Scouting, {RangedWeaponText}, and Tactics)"
+                    ~ StoryXpText = "(+1000 XP para Exploração, {RangedWeaponText} e Tática)"
                 -2:
-                    ~ StoryName = "The Ambush"
+                    ~ StoryName = "A Emboscada"
                     ~ StoryBranch = ->TheAmbush
-                    ~ StoryXpText = "(+1000 XP for Leadership, Tactics, and Roguery)"
+                    ~ StoryXpText = "(+1000 XP para Liderança, Tática e Ladinagem)"
                 -3:
-                    ~ StoryName = "The Charge"
+                    ~ StoryName = "A Carga"
                     ~ StoryBranch = ->TheCharge
-                    ~ StoryXpText = "(+1000 XP for Riding, Polearm, and Leadership)"
+                    ~ StoryXpText = "(+1000 XP para Equitação, Armas de Haste e Liderança)"
                 -4:
-                    ~ StoryName = "Holding the Line"
+                    ~ StoryName = "Mantendo a Linha"
                     ~ StoryBranch = ->HoldingTheLine
-                    ~ StoryXpText = "(+1000 XP for {MeleeWeaponText}, Leadership, and Tactics)"
+                    ~ StoryXpText = "(+1000 XP para {MeleeWeaponText}, Liderança e Tática)"
                 -5:
-                    ~ StoryName = "The Brawl"
+                    ~ StoryName = "A Briga"
                     ~ StoryBranch = ->TheBrawl
-                    ~ StoryXpText = "(+1000 XP for all melee weapon skills)"
+                    ~ StoryXpText = "(+1000 XP para todas as habilidades de combate corpo a corpo)"
                 -6:
-                    ~ StoryName = "The Shootout"
+                    ~ StoryName = "O Tiroteio"
                     ~ StoryBranch = ->TheShootout
-                    ~ StoryXpText = "(+750 XP for all ranged weapon skills)"
+                    ~ StoryXpText = "(+750 XP para todas as habilidades à distância)"
             }
 
     //Group 2
@@ -137,25 +137,25 @@
             {DiscussionSelect:
                 -0: ERROR
                 -1:
-                    ~ DiscussionName = "Great Rulers"
+                    ~ DiscussionName = "Grandes Governantes"
                     ~ DiscussionBranch = ->GreatRulers
-                    ~ DiscussionXpText = "(+1000 XP for Steward, Leadership, and Charm)"
+                    ~ DiscussionXpText = "(+1000 XP para Intendência, Liderança e Carisma)"
                 -2:
-                    ~ DiscussionName = "Craftsman"
+                    ~ DiscussionName = "Artesãos"
                     ~ DiscussionBranch = ->Craftsman
-                    ~ DiscussionXpText = "(+1500 XP for Smithing and Engineering)"
+                    ~ DiscussionXpText = "(+1500 XP para Engenharia e Ferraria)"
                 -3:
-                    ~ DiscussionName = "Negotiation"
+                    ~ DiscussionName = "Negociação"
                     ~ DiscussionBranch = ->Negotiation
-                    ~ DiscussionXpText = "(+1000 XP for Charm, Trade, and Roguery)"
+                    ~ DiscussionXpText = "(+1000 XP para Carisma, Comércio e Ladinagem)"
                 -4:
-                    ~ DiscussionName = "Traveling"
+                    ~ DiscussionName = "Viagens"
                     ~ DiscussionBranch = ->Traveling
-                    ~ DiscussionXpText = "(+1500 XP for Riding and Athletics)"
+                    ~ DiscussionXpText = "(+1500 XP para Equitação e Atletismo)"
                 -5:
-                    ~ DiscussionName = "Survival"
+                    ~ DiscussionName = "Sobrevivência"
                     ~ DiscussionBranch = ->Survival
-                    ~ DiscussionXpText = "(+1000 XP for Medicine, Scouting, and Athletics)"
+                    ~ DiscussionXpText = "(+1000 XP para Medicina, Exploração e Atletismo)"
             }
 
 
@@ -345,3 +345,4 @@ Os soldados inclinaram-se, cativados pelas histórias de sagacidade e gracejo qu
 
 
 -> END
+

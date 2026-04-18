@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Big Boss Rises
+# title: A Ascens�o do Grande Chefe
 # frequency: Special
 # development: false
 # illustration: orc_boss_career_2
@@ -12,23 +12,23 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-Under the watchful gaze of Gork and Mork you have proven yourself time and time again. You are a Boss, a warrior, you are death upon the battlefield and countless corpses lie in your wake.
+Sob o olhar atento de Gork e Mork, você se provou repetidas vezes. Você é um Chefe, um guerreiro, você é a morte no campo de batalha e incontáveis cadáveres jazem em seu rastro.
 
-Your mob of boys follows you, fears you, respects you. They know you will lead them to the biggest fights and the greatest loot.
+Seu bando de mulekes te segue, te teme, te respeita. Eles sabem que você os guiará para as maiores lutas e os melhores saques.
 
-You have become a boss among bosses, but the gods are not satisfied, never are, never will. There is more to be done.
+Você se tornou um chefe entre chefes, mas os deuses não estão satisfeitos — nunca estão, nunca estarão. Ainda há mais a ser feito.
 
-+ [I'Z GUNNA BE DA BIGGEST DERE EVER WAS!!]
++ [EU VÔ SÊ O MAIÓ QUE JÁ TEVE!!]
     -> confirm_big_boss
 
 ===confirm_big_boss===
-You look to your boys, they are restless, they are ready. You look to the horizon, the road has been long, it's littered with loot, shinies and the corpses of all the runts that oppose you.
+Você olha para seus mulekes; eles estão inquietos, estão prontos. Você olha para o horizonte; a estrada tem sido longa, está repleta de saques, brilhantes e os cadáveres de todos os nanicos que se opuseram a você.
 
-No enemy dares to face you in open battle, so you must take the fight to them, tear them from their walls and drag them screaming from their homes.
+Nenhum inimigo ousa te encarar em batalha aberta, então você deve levar a luta até eles, arrancá-los de suas muralhas e arrastá-los gritando de suas casas.
 
-The time is now, the green tide under your command will drown the world.
+A hora é agora, a maré verde sob seu comando vai afogar o mundo.
 
-+ [CRUSH 'EM ALL!! WAAAAAAAAAAAAAAAAGH!!!]
++ [ESMAGÁ TODO MUNDO!! WAAAAAAAAAAAAAAAAGH!!!]
     ~ StartQuest("Quests.Careers.OrcBossQuest2")
     ~ CloseStory()
     -> END

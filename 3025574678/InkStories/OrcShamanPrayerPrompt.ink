@@ -1,5 +1,5 @@
 //Global story tags
-# title: Da Calling of Da Gods
+# title: O Chamado dos Deuses
 # frequency: Special
 # development: false
 # illustration: orc_shaman_career_2
@@ -12,17 +12,18 @@ VAR QuestToStart = ""
 ->START
 
 ===START===
-After a night of prolonged dancing, you wake up with a horrible headache. You haved dealt with headaches before but this is different.
+Depois de uma noite de dança prolongada, você acorda com uma dor de cabeça horrível. Você já teve dores de cabeça antes, mas esta é diferente.
 
-It’s a throbbing pain, as if the gods themselves are shaking you around.
+É uma dor latejante, como se os próprios deuses estivessem sacudindo você.
 
-Some boys gather around you, watching in awe and fear. You fall to your knees and vomit green bile onto the earth.
+Alguns rapazes se reúnem ao seu redor, observando com admiração e medo. Você cai de joelhos e vomita bile verde na terra.
 
-In the foul-smelling mush you see meat chunks and bone splinters arranged in an image of a shrine, idols to Gork and Mork.
+Na papa malcheirosa, você vê pedaços de carne e lascas de osso organizados na imagem de um santuário, ídolos para Gork e Mork.
 
-The gods are calling, it is time to answer.
+Os deuses estão chamando, é hora de responder.
 
-+ [Where’s dis bloody place!?]
++ [Onde fica esse lugar lazarento!?]
     ~ StartQuest("Quests.Careers.OrcShamanQuest1")
     ~ CloseStory()
     -> END
+

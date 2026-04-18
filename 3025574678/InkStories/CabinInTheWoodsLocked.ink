@@ -1,5 +1,5 @@
 //Global story tags
-# title: Cabin In The Woods
+# title: Cabana Trancada
 # frequency: Common
 # development: false
 # illustration: roadpoint2
@@ -58,11 +58,11 @@ INCLUDE include.ink
     VAR LockText = ""
         {
             - LockQuality == 1:
-                ~ LockText = "weak"
+                ~ LockText = "fraca"
             - LockQuality == 2:
-                ~ LockText = "average"
+                ~ LockText = "comum"
             - LockQuality == 3:
-                ~ LockText = "strong"
+                ~ LockText = "forte"
         }
         
     ~ SetTextVariable("LockText",LockQuality)
@@ -76,11 +76,11 @@ INCLUDE include.ink
     VAR DoorText = ""
         {
             - DoorQuality == 1:
-                ~ DoorText = "weak"
+                ~ DoorText = "fraca"
             - DoorQuality == 2:
-                ~ DoorText = "average"
+                ~ DoorText = "comum"
             - DoorQuality == 3:
-                ~ DoorText = "strong"
+                ~ DoorText = "forte"
         }
 
     ~ SetTextVariable("DoorText",DoorQuality)
@@ -91,11 +91,11 @@ INCLUDE include.ink
         VAR RewardText = ""
             {
                 - RewardRoll == 0:
-                    ~ RewardText = "5 grain"
+                    ~ RewardText = "5 sacos de grãos"
                 - RewardRoll == 1:
-                    ~ RewardText = "2 steel ingots"
+                    ~ RewardText = "2 lingotes de aço"
                 - RewardRoll == 2:
-                    ~ RewardText = "500 gold"
+                    ~ RewardText = "500 moedas de ouro"
             }
             
     ~ SetTextVariable("RewardText",RewardRoll)
@@ -117,50 +117,50 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    As your party is travelling along you come across a cabin in the woods. #STR_Start1
+    Enquanto seu grupo viaja, vocês encontram uma cabana na floresta. #STR_Start1
     
-    *[Approach the cabin]->Approach
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Aproximar-se da cabana]->Approach
+    *[Seguir seu caminho (Sair)]Você decide que é melhor seguir em frente por ora.->END
     
 ===Approach===
 
-As you approach the cabin you can see that it is heavily boarded up. The only door on the cabin seems to be locked tight. As you examine the door you see that the door is {DoorText} and that the lock on it is {LockText}. #STR_Approach1
+Ao se aproximar da cabana, você vê que ela está fortemente lacrada com tábuas. A única porta da cabana parece estar bem trancada. Ao examinar a porta, você percebe que ela é {DoorText} e que a fechadura nela é {LockText}. #STR_Approach1
 ->choice1  
 
     =choice1
-    What will your party do?
-    *[Knock on the door]You knock but no one answers.->Approach.choice1
+    O que seu grupo fará?
+    *[Bater na porta]Você bate, mas ninguém responde.->Approach.choice1
     
     //Pick the lock (Roguery)
-        *[Pick the lock on the door {PartyRogueryCheckText}]
-            Your party's best "rogue" attempts to pick the lock.
-            {PartyRogueryCheckTest: Your party succeeds in getting through the lock. ->Inside | Your party fails to pick the lock. ->Approach.choice1}
+        *[Arrombar a fechadura da porta {PartyRogueryCheckText}]
+            O melhor "ladino" do seu grupo tenta arrombar a fechadura.
+            {PartyRogueryCheckTest: Seu grupo consegue passar pela fechadura. ->Inside | Seu grupo falha em arrombar a fechadura. ->Approach.choice1}
         
     //Disassemble the Lock (Engineering)
-        *[Disassemble the lock {PartyEngineeringCheckText}]
-            Your party's best engineer attempts to disassemble the lock.
-            {PartyEngineeringCheckTest: Using a selection of their finest tools including screwdrivers, chisels, and a sledgehammer; your engineer masterfully disassembles the lock, so "thorough" is the disassembly that the lock will never be put back together. ->Inside | Your party fails to disassemble the lock. ->Approach.choice1}
+        *[Desmontar a fechadura {PartyEngineeringCheckText}]
+            O melhor engenheiro do seu grupo tenta desmontar a fechadura.
+            {PartyEngineeringCheckTest: Usando uma seleção de suas melhores ferramentas, incluindo chaves de fenda, cinzeis e uma marreta; seu engenheiro desmonta a fechadura com maestria; a desmontagem é tão "minuciosa" que a fechadura nunca mais será montada. ->Inside | Seu grupo falha em desmontar a fechadura. ->Approach.choice1}
     
     //Blow up the door (Spellcraft)
-        *{PartyCanCastSpell == true}[Blow up the door {PartySpellcraftCheckText}]
-            Your party's best mage attempts to blow up the door with magic.
-            {PartySpellcraftCheckTest: Your party blows the door clean off its hinges. ->Inside |Your party fails to blow up the door. ->Approach.choice1}
+        *{PartyCanCastSpell == true}[Explodir a porta {PartySpellcraftCheckText}]
+            O melhor mago do seu grupo tenta explodir a porta com magia.
+            {PartySpellcraftCheckTest: Seu grupo explode a porta arrancando-a das dobradiças. ->Inside |Seu grupo falha em explodir a porta. ->Approach.choice1}
             
     //Break down the door (Vigor)
-        *[Break down the door {PartyVigorCheckText}]
-            Your party's strongest member attempts to break down the door.
-            {PartyVigorCheckTest: Your party bashes the door clean off its hinges. ->Inside |Your party fails to break down the door. ->Approach.choice1}
+        *[Derrubar a porta {PartyVigorCheckText}]
+            O membro mais forte do seu grupo tenta derrubar a porta.
+            {PartyVigorCheckTest: Seu grupo arrebenta a porta arrancando-a das dobradiças. ->Inside |Seu grupo falha em derrubar a porta. ->Approach.choice1}
 
-    *[Go on your way (Leave)]You decide it is better to move on for now.->END
+    *[Seguir seu caminho (Sair)]Você decide que é melhor seguir em frente por ora.->END
 
 ===Inside===
 
-Your party gets inside the cabin and find that someone or something has stored some supplies here. #STR_Inside1
+Seu grupo entra na cabana e descobre que alguém ou algo armazenou alguns suprimentos aqui. #STR_Inside1
 ->choice2 
 
     =choice2
-        *[Take the supplies ({RewardText})]
-            You take the {RewardText} and add it to your supplies before continuing on your way.
+        *[Pegar os suprimentos ({RewardText})]
+            Você pega {RewardText} e adiciona aos seus suprimentos antes de continuar seu caminho.
             {RewardRoll:
                 -0: 
                     ~ GiveItem("grain",5)
@@ -171,4 +171,5 @@ Your party gets inside the cabin and find that someone or something has stored s
             }
             ->END
         
-        *[Leave]You decide to leave the supplies and head on your way.->END
+        *[Sair]Você decide deixar os suprimentos e seguir seu caminho.->END
+

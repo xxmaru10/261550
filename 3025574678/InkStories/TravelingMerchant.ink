@@ -1,5 +1,5 @@
 //Global story tags
-# title: Traveling Merchant
+# title: Mercador Viajante
 # frequency: Abundant
 # development: false
 # illustration: trader
@@ -9,18 +9,19 @@ INCLUDE include.ink
 ->START
 
 ===START===
-While journeying along the dusty roads, a unique sight unfolds before your eyes — a colorful caravan, a mobile emporium amidst the quiet landscape. #STR_Start1
-As you draw near, a traveling merchant approaches. With a welcoming smile, he introduces you to tales of distant realms and beckons you to take a look at his wares. #STR_Start2
+Enquanto viaja pelas estradas empoeiradas, uma visão única se revela diante de seus olhos — uma caravana colorida, um empório móvel em meio à paisagem silenciosa. #STR_Start1
+Ao se aproximar, um mercador viajante vem ao seu encontro. Com um sorriso acolhedor, ele compartilha contos de reinos distantes e o convida a examinar suas mercadorias. #STR_Start2
 ->choices
     
     =choices
-    +[Browse his wares]
+    +[Ver as mercadorias]
         ~ OpenInventoryAsTrade()
     ->AfterShopping
-    *[Continue your journey (Leave)] 
-        You decide it is better to move on for now. #STR_Leave
+    *[Continuar sua jornada (Sair)] 
+        Você decide que é melhor seguir viagem por ora. #STR_Leave
         ->END
 
 ===AfterShopping===
-You conclude your exploration of the merchant's array of treasures, and with a respectful bow of his head, he extends his appreciation for your interest and choices. #STR_AfterShopping
+Você conclui sua exploração da variedade de tesouros do mercante e, com uma reverência respeitosa, ele expressa sua gratidão pelo seu interesse e escolhas. #STR_AfterShopping
     -> END
+

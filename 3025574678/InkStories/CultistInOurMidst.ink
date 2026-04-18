@@ -1,5 +1,5 @@
 //Global story tags
-# title: Cultist in our midst
+# title: Cultista Infiltrado
 # frequency: Special
 # development: false
 # illustration: village
@@ -22,276 +22,277 @@ INCLUDE include.ink
 -> Start
 
 ===Start===
-    The journey to the village has been treacherous, winding through dense forests and foggy valleys. As you approach, you notice the hustle and bustle of villagers going about their daily lives. However, there's an undercurrent of unease in the air, hidden behind forced smiles and hushed whispers.
-    You leave your party camped outside the village and decide to begin your investigation discreetly on your own. Observing from the shadows, you notice a small group congregating near the village square, their demeanor suspiciously secretive. They exchange coded glances and speak in hushed tones.
+    A jornada até a aldeia foi traiçoeira, serpenteando por florestas densas e vales envoltos em névoa. Ao se aproximar, você nota a agitação dos aldeões em suas vidas diárias. No entanto, há uma corrente de inquietação no ar, escondida atrás de sorrisos forçados e sussurros abafados.
+    Você deixa seu grupo acampado fora da aldeia e decide iniciar sua investigação discretamente por conta própria. Observando das sombras, você nota um pequeno grupo se reunindo perto da praça da aldeia; o comportamento deles é suspeitamente secreto. Eles trocam olhares codificados e falam em tons baixos.
     ->choices
 
     =choices
-    *[Approach the group and listen in on their conversation. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
+    *[Aproximar-se do grupo e ouvir a conversa. {print_player_skill_chance("Roguery", NormalSkillCheckValue)}]
         {perform_player_skill_check("Roguery", NormalSkillCheckValue): ->ListenToGroup.succeed | -> ListenToGroup.fail}
-    *[Gather information from the villagers without raising suspicion.] ->InvestigateVillagers
+    *[Coletar informações dos aldeões sem levantar suspeitas.] ->InvestigateVillagers
 
 
 === ListenToGroup ===
 
     =succeed
-    (SUCCESS)
-    You stealthily approach the group, careful not to draw attention to yourself. Standing at a distance, you strain your ears to catch snippets of their conversation.
+    (SUCESSO)
+    Você se aproxima furtivamente do grupo, cuidadoso para não chamar a atenção. Mantendo distância, você apura os ouvidos para captar trechos da conversa.
     
-    "...the summoning ritual must be performed soon," whispers one figure anxiously. "Our power grows stronger every day."
+    "...o ritual de invocação deve ser realizado logo," sussurra uma figura ansiosa. "Nosso poder cresce a cada dia."
     
-    Another voice responds, "We must keep our true identities hidden. The Templar Order might be onto us. We don't want witch hunters all over the village, then all will be lost."
+    Outra voz responde: "Devemos manter nossas verdadeiras identidades ocultas. A Ordem Templária pode estar em nosso encalço. Não queremos caçadores de bruxas por toda a aldeia; se isso acontecer, tudo estará perdido."
     
-    "Let's meet at the Cradle tonight..."
+    "Vamos nos encontrar no Berço esta noite..."
     
-    The group disperses, each member disappearing into the crowd. The villagers continue their daily routines, seemingly oblivious to the hidden darkness lurking within their midst. 
+    O grupo se dispersa, com cada membro desaparecendo na multidão. Os aldeões continuam suas rotinas diárias, aparentemente alheios à escuridão oculta que espreita em seu meio. 
     ->Start.choices
     
     =fail
-    (FAIL)
-    You try to stealthily approach the group, careful not to draw attention to yourself, however stealth is not your strong suit and as you inch closer, a sudden creaking noise alerts them to your presence. 
-    They glance in your direction, their eyes narrowing with suspicion. They exchange a few quick words before disappearing into the crowd.
-    Your attempt to eavesdrop has failed, and you can't help but wonder if your element of suprise has just been compromised. 
+    (FALHA)
+    Você tenta se aproximar furtivamente do grupo, cuidadoso para não chamar a atenção; no entanto, a furtividade não é o seu forte. Conforme você avança, o rangido súbito de uma tábua alerta o grupo de sua presença. 
+    Eles olham em sua direção, os olhos estreitados com suspeita. Trocam algumas palavras rápidas antes de desaparecerem na multidão.
+    Sua tentativa de ouvir às escondidas falhou, e você não pode deixar de se perguntar se o seu elemento surpresa acaba de ser comprometido. 
     ->Start.choices
 
 
 === InvestigateVillagers ===
-    You realize that the cultists are adept at hiding their true identities. Finding out who they are is going to be no easy feat. You decide to interact with the villagers and gather more information.
-    Speaking to various individuals, you subtly inquire about recent strange occurrences, missing persons, or rumors of dark practices. Some villagers express unease, speaking of mysterious symbols etched in hidden corners, unexplained disappearances and strange lights appearing in the surrounding forest during the night.
+    Você percebe que os cultistas são hábeis em esconder suas verdadeiras identidades. Descobrir quem eles são não será uma tarefa fácil. Você decide interagir com os aldeões e coletar mais informações.
+    Falando com vários indivíduos, você indaga sutilmente sobre ocorrências estranhas recentes, pessoas desaparecidas ou rumores de práticas sombrias. Alguns aldeões expressam inquietação, falando de símbolos misteriosos gravados em cantos escondidos, desaparecimentos inexplicáveis e luzes estranhas que aparecem na floresta circundante durante a noite.
     ->choices
 
     =choices
-    *[Seek out the village elder for questioning.] ->InterviewElder
-    *[Venture into the woods during the night to uncover the source of the strange lights.] ->Woods
-    *[Look into the disappearances by talking to the relatives of the disappeared.] ->InvestigateDisappearances
+    *[Procurar o ancião da aldeia para interrogatório.] ->InterviewElder
+    *[Aventurar-se na mata durante a noite para descobrir a origem das luzes estranhas.] ->Woods
+    *[Investigar os desaparecimentos conversando com os parentes dos desaparecidos.] ->InvestigateDisappearances
     * -> OutOfOptions
 
 
 === InterviewElder ===
 {ElderState == 3: ->grumpy | ->normal}
 
+
     =normal
-    The elder, a man of some means compared to the modest state of the village, resides in a comfortable cottage near the center of the village.
-    Knocking on the wooden door, the elder welcomes you inside with a warm smile. The cottage exudes a sense of coziness, with a crackling fireplace casting a comforting glow across the room. You take a seat by a small wooden table, ready to discuss your concerns about the strange occurrences in the village.
-    {ElderState == 1:As you confront the elder about the potential presence of a cult in the village, he listens attentively but with a skeptical expression on his face. He dismisses the notion of a cult, finding it absurd and far-fetched. He believes that the recent troubles can be attributed to mere coincidences or isolated incidents.}
-    {ElderState == 1:"I understand your concerns," he says, his voice tinged with a touch of condescension. "But I assure you, there is no cult in our village. These strange occurrences can be explained by natural causes or the overactive imagination of some villagers."}
-    {ElderState == 1:Frustrated by the elder's denial, you realize that convincing him to take action against the cult will be an uphill battle. It's clear that alternative approaches need to be explored to address the growing threat.}
-    {ElderState == 2: During the conversation, you observe the surroundings, paying attention to the subtle indications of the elder's relatively elevated wealth. The silverware glimmers in the soft candlelight, the paintings on the walls reveal scenes of serene landscapes and the elder's clothing exhibits a higher level of craftsmanship compared to the average villager.}
-    {ElderState == 2:As the discussion progresses, the elder admits to the village's troubles, but finds the idea of a cult operating within the village simply absurd. However, you sense a flicker of unease in his eyes, a hint of guilt that betrays more than his words convey.}
+    O ancião, um homem com mais posses se comparado ao estado modesto da aldeia, reside em um chalé confortável perto do centro do vilarejo.
+    Ao bater na porta de madeira, o ancião o recebe com um sorriso caloroso. O chalé emana uma sensação de aconchego, com uma lareira crepitante lançando um brilho reconfortante por todo o cômodo. Você se senta perto de uma pequena mesa de madeira, pronto para discutir suas preocupações sobre as ocorrências estranhas na aldeia.
+    {ElderState == 1:Ao confrontar o ancião sobre a potencial presença de um culto na aldeia, ele escuta atentamente, mas com uma expressão cética no rosto. Ele descarta a noção de um culto, considerando-a absurda e improvável. Ele acredita que os problemas recentes podem ser atribuídos a meras coincidências ou incidentes isolados.}
+    {ElderState == 1:"Eu entendo suas preocupações," diz ele, com a voz tingida por um toque de condescendência. "Mas garanto-lhe que não há culto algum em nossa aldeia. Essas ocorrências estranhas podem ser explicadas por causas naturais ou pela imaginação hiperativa de alguns aldeões."}
+    {ElderState == 1:Frustrado pela negação do ancião, você percebe que convencê-lo a agir contra o culto será uma batalha difícil. Está claro que abordagens alternativas precisam ser exploradas para enfrentar a ameaça crescente.}
+    {ElderState == 2: Durante a conversa, você observa os arredores, prestando atenção aos sutis indícios da riqueza relativamente elevada do ancião. A prataria brilha à luz suave das velas, as pinturas nas paredes revelam cenas de paisagens serenas e as vestes do ancião exibem um nível de acabamento superior ao do aldeão comum.}
+    {ElderState == 2:À medida que a conversa avança, o ancião admite os problemas da aldeia, mas considera a ideia de um culto operando no local simplesmente absurda. No entanto, você sente um lampejo de inquietação em seus olhos, um indício de culpa que revela mais do que suas palavras transmitem.}
     ->choices
     
     =grumpy
-    The elder, a man known for his lackluster performance in maintaining order and resolving village issues, resides in a modest cottage at the heart of the village. As you approach, you notice signs of neglect in the surroundings—overgrown garden, peeling paint on the front door, and an overall air of disarray.
-    You knock on the wooden door, and the elder opens it with a slightly exasperated expression. "What do you want?" he grumbles, his tone reflecting a touch of annoyance. You explain the reason for your visit, expressing concerns about the strange occurrences in the village and the possible presence of a cult.
-    "You think there's a cult in our village?" he scoffs, his voice tinged with disbelief. "That's preposterous! We have enough problems with everyday life without such wild tales. Troubles? Yes, we have plenty. But a cult? No way."
-    As you press further, attempting to convince the elder of the seriousness of the situation, his temper flares up. "I have more pressing matters to attend to than listening to such nonsense!" he snaps, his frustration palpable. "If you want to investigate, go ahead. But don't come bothering me with your imaginary cults!"
-    With that, he slams the door in your face, the sound echoing through the quiet village streets.
-    Left with no choice, you must find alternative means to investigate without the elder's cooperation.
+    O ancião, um homem conhecido por seu desempenho medíocre em manter a ordem e resolver os problemas da aldeia, reside em um chalé modesto no coração do vilarejo. Ao se aproximar, você nota sinais de negligência nos arredores — jardim mal cuidado, tinta lascada na porta da frente e um ar geral de desordem.
+    Você bate na porta de madeira e o ancião a abre com uma expressão levemente exasperada. "O que você quer?" ele resmunga, seu tom refletindo um toque de aborrecimento. Você explica o motivo de sua visita, expressando preocupações sobre as ocorrências estranhas na aldeia e a possível presença de um culto.
+    "Você acha que há um culto em nossa aldeia?" ele mofa, com a voz tingida de descrença. "Isso é absurdo! Já temos problemas suficientes na vida cotidiana sem esses contos fantásticos. Problemas? Sim, temos de sobra. Mas um culto? De jeito nenhum."
+    Conforme você insiste, tentando convencer o ancião da seriedade da situação, o temperamento dele explode. "Tenho assuntos mais urgentes para tratar do que ouvir tamanha bobagem!" ele dispara, sua frustração palpável. "Se quiser investigar, vá em frente. Mas não venha me incomodar com seus cultos imaginários!"
+    Com isso, ele bate a porta na sua cara, e o som ecoa pelas ruas silenciosas da aldeia.
+    Sem escolha, você deve encontrar meios alternativos de investigar sem a cooperação do ancião.
     ->InvestigateVillagers.choices
     
     =choices
-    *{ElderState == 2}[Confront the elder about his apparent wealth accusing him of illicit activities. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
+    *{ElderState == 2}[Confrontar o ancião sobre sua riqueza aparente, acusando-o de atividades ilícitas. {print_player_skill_chance("Charm", HardSkillCheckValue)}]
         {perform_player_skill_check("Charm", HardSkillCheckValue): -> InterviewElder.succeed | -> InterviewElder.fail}
     * -> InvestigateVillagers.choices
-
+    
     =succeed
-    (SUCCESS)
-    The elder's face twitches, caught off guard by the bluntness of your allegations.
-    In a moment of vulnerability, the elder confesses that he has been receiving small sums of money left anonymously at his doorstep. The source of the money remains a mystery to him, but he admits that he has turned a blind eye to the strange events in exchange for these bribes. Shame fills his voice as he explains that his financial struggles and the allure of a better life for his family had clouded his judgment.
-    He seems sincere. You are convinced he truly doesn't know more about the origin of the bribe money.
-    Despite his lack of knowledge, you implore the elder to take responsibility for his actions and sever ties with the anonymous benefactor. You emphasize the importance of restoring the village's safety and well-being, urging him to become an ally in the fight against the cult.
-    *[Lie in wait for the next drop of bribe money in order to follow the person who delivers it.] -> wait
-    *[Find other ways to continue your investigation.] -> InvestigateVillagers.choices
+    (SUCESSO)
+    O rosto do ancião se contrai, pego de surpresa pela franqueza de suas alegações.
+    Em um momento de vulnerabilidade, o ancião confessa que tem recebido pequenas quantias de dinheiro deixadas anonimamente à sua porta. A origem do dinheiro permanece um mistério para ele, mas admite que fechou os olhos para os eventos estranhos em troca desses subornos. A vergonha preenche sua voz enquanto explica que suas dificuldades financeiras e a tentação de uma vida melhor para sua família haviam obscurecido seu julgamento.
+    Ele parece sincero. Você está convencido de que ele realmente não sabe mais nada sobre a origem do suborno.
+    Apesar da falta de conhecimento dele, você implora ao ancião que assuma a responsabilidade por suas ações e corte os laços com o benfeitor anônimo. Você enfatiza a importância de restaurar a segurança e o bem-estar da aldeia, instando-o a tornar-se um aliado na luta contra o culto.
+    *[Ficar à espreita para a próxima entrega do suborno para seguir a pessoa que o entrega.] -> wait
+    *[Encontrar outras maneiras de continuar sua investigação.] -> InvestigateVillagers.choices
     
     =fail
-    (FAIL)
-     The elder vehemently denies any such accusations. With an air of indignation, he defends himself, claiming that his relatively improved circumstances are a result of shrewd financial management and investments made outside the village. 
-     The elder skillfully deflects your allegations, attributing them to rumors and jealousy among the villagers who are envious of his modest success. 
-     Despite your suspicions, he manages to maintain an outward appearance of innocence, leaving you with lingering doubts about his true intentions. 
+    (FALHA)
+     O ancião nega veementemente tais acusações. Com um ar de indignação, ele se defende, alegando que sua situação relativamente melhor é fruto de uma gestão financeira astuta e investimentos feitos fora da aldeia. 
+     O ancião desvia habilmente de suas alegações, atribuindo-as a rumores e ciúmes entre os aldeões que invejam seu sucesso modesto. 
+     Apesar de suas suspeitas, ele consegue manter uma aparência externa de inocência, deixando-o com dúvidas persistentes sobre suas verdadeiras intenções. 
      ->InvestigateVillagers.choices
+
     
     =wait
-    Determined to uncover the mystery behind the bribe money, you devise a plan to stake out the elder's home and wait for the next drop. Days turn into nights as you patiently remain hidden, keeping a vigilant watch for any signs of the mysterious deliverer. But as time goes by, no one arrives, and the nights remain undisturbed.
-    Growing frustrated and exhausted, you start to doubt the effectiveness of this approach. Perhaps the briber has become aware of your presence or has changed their method of delivery. The lack of any significant leads or developments weighs heavily on your determination.
-    You decide to abandon the stakeout, acknowledging that this particular lead has reached a dead end.
+    Determinado a desvendar o mistério por trás do dinheiro do suborno, você elabora um plano para vigiar a casa do ancião e esperar pela próxima entrega. Dias se transformam em noites enquanto você permanece pacientemente escondido, mantendo uma vigilância atenta para qualquer sinal do misterioso entregador. Mas, com o passar do tempo, ninguém chega, e as noites permanecem sem perturbação.
+    Cada vez mais frustrado e exausto, você começa a duvidar da eficácia desta abordagem. Talvez o subornador tenha percebido sua presença ou mudado o método de entrega. A falta de pistas ou desenvolvimentos significativos pesa sobre sua determinação.
+    Você decide abandonar a vigilância, reconhecendo que esta pista em particular chegou a um beco sem saída.
     -> InvestigateVillagers.choices
 
 ===Woods===
-    Intrigued by the mention of strange lights in the woods, you decide to delve into the depths of the forest during the cloak of night. With your senses sharpened and your weapon at the ready, you navigate through the dense foliage.
+    Intrigado pela menção de luzes estranhas na mata, você decide mergulhar nas profundezas da floresta sob o manto da noite. Com seus sentidos aguçados e sua arma pronta, você navega pela folhagem densa.
     
-    As you make your way deeper into the woods, the glow of the lights becomes more intense and magical. It dances and flickers in patterns that seem orchestrated, almost intentional.
+    À medida que avança na floresta, o brilho das luzes torna-se mais intenso e mágico. Ele dança e cintila em padrões que parecem orquestrados, quase intencionais.
     
-    To your surprise, you stumble upon several unusually large swarms of fireflies, their luminescent bodies creating a breathtaking spectacle. They flutter and twirl in mesmerizing unison, illuminating the surrounding trees with their enchanting glow.
+    Para sua surpresa, você depara-se com vários enxames de vaga-lumes estranhamente grandes, cujos corpos luminescentes criam um espetáculo de tirar o fôlego. Eles esvoaçam e giram em uníssono hipnotizante, iluminando as árvores ao redor com seu brilho encantador.
     
-    Realizing that these fireflies are the source of the mysterious lights, you watch in awe as they continue their nocturnal display. Though not the cultists you were seeking, their presence reminds you of the beauty and wonder that exists in the world.
+    Percebendo que esses vaga-lumes são a origem das luzes misteriosas, você observa maravilhado enquanto eles continuam sua exibição noturna. Embora não sejam os cultistas que você procurava, a presença deles o lembra da beleza e do encanto que existem no mundo.
     
-    Feeling a sense of peace and tranquility, you take a moment to appreciate the natural marvel before continuing your investigation.
+    Sentindo uma sensação de paz e tranquilidade, você dedica um momento para apreciar a maravilha natural antes de continuar sua investigação.
     ->InvestigateVillagers.choices
 
 ===InvestigateDisappearances===
-    Your first course of action is to approach the relatives of the disappeared individuals. You lend a sympathetic ear, offering comfort and support while discreetly gathering information. Each tale is filled with anguish and confusion, with common threads of unexplained circumstances. Dark rumors circulate, whispering of an unseen force lurking within the shadows of the village.
-    Driven by a sense of urgency, you delve deeper into the matter, searching for clues and connections. You map out the locations where the disappearances occurred, marking them on a makeshift investigation board. Patterns emerge, indicating a concentration of incidents near the outskirts of the village and the surrounding woods.
+    Sua primeira ação é abordar os parentes dos indivíduos desaparecidos. Você oferece um ouvido compreensivo e apoio enquanto coleta informações discretamente. Cada relato é repleto de angústia e confusão, com fios comuns de circunstâncias inexplicáveis. Rumores sombrios circulam, sussurrando sobre uma força invisível que espreita nas sombras da aldeia.
+    Impulsionado por um senso de urgência, você se aprofunda no assunto, buscando pistas e conexões. Você mapeia os locais onde os desaparecimentos ocorreram em um quadro de investigação improvisado. Padrões emergem, indicando uma concentração de incidentes perto da periferia da aldeia e da floresta circundante.
     ->choices
     
     =search
-    With a determined focus on finding answers, you set out to investigate the homes of the disappeared individuals, hoping to uncover any clues that might shed light on their unsettling vanishing. As you enter each home, a sense of sadness and unease fills the air, reminding you of the lives that were abruptly interrupted.
-    Inside one of the homes, you come across signs of struggle—a knocked-over chair, a shattered vase, and belongings strewn about haphazardly. It's evident that something untoward occurred here, suggesting a forced departure rather than a voluntary one.
-    In another home, you discover personal belongings left behind — a cherished trinket, a half-finished letter, and a favorite book. These remnants of their lives hint at the suddenness and unexpected nature of their departure.
-    It becomes clear that the vanished individuals were victims, taken against their will.
-    {SymbolLeftBehind == 1: As you meticulously investigate the home with the signs of struggle, your sharp eye catches something amidst the chaos — an item left behind by the perpetrators. Carefully hidden beneath a toppled table, you discover a broken amulet with a torn chain, unmistakably belonging to the cult you have been seeking. -> identify_option}
-    {SymbolLeftBehind == 0: Despite your thorough investigation of the disappeared victims' homes, you find no further significant leads or breakthroughs. The signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. Frustration and a sense of helplessness start to settle in as you realize that the trail has gone cold. ->InvestigateVillagers.choices}
+    Com um foco determinado em encontrar respostas, você parte para investigar as casas dos indivíduos desaparecidos, esperando descobrir pistas que possam esclarecer seu sumiço perturbador. Ao entrar em cada casa, uma sensação de tristeza e inquietação preenche o ar, lembrando-o das vidas que foram interrompidas abruptamente.
+    Dentro de uma das casas, você encontra sinais de luta — uma cadeira derrubada, um vaso quebrado e pertences espalhados desordenadamente. É evidente que algo errado ocorreu ali, sugerindo uma partida forçada em vez de voluntária.
+    Em outra casa, você descobre pertences pessoais deixados para trás — um amuleto querido, uma carta inacabada e um livro favorito. Esses vestígios de suas vidas sugerem a natureza repentina e inesperada de sua partida.
+    Torna-se claro que os indivíduos desaparecidos foram vítimas, levados contra sua vontade.
+    {SymbolLeftBehind == 1: Enquanto investiga meticulosamente a casa com sinais de luta, seu olhar atento capta algo em meio ao caos — um item deixado para trás pelos perpetradores. Cuidadosamente escondido sob uma mesa tombada, você descobre um amuleto quebrado com uma corrente rasgada, pertencente inequivocamente ao culto que você tem procurado. -> identify_option}
+    {SymbolLeftBehind == 0: Apesar de sua investigação minuciosa nas casas das vítimas, você não encontra outras pistas ou avanços significativos. Os sinais de luta e pertences abandonados apenas aprofundam o mistério, deixando-o com mais perguntas do que respostas. Uma sensação de frustração e impotência começa a se instalar ao perceber que a pista esfriou. ->InvestigateVillagers.choices}
     
     =identify_option
-    *[Identify the symbol. {print_player_attribute_chance("Intelligence",5)}] -> identify_check
+    *[Identificar o símbolo. {print_player_attribute_chance("Intelligence", 5)}] -> identify_check
     
     =identify_check
     {perform_player_attribute_check("Intelligence", 5): -> succeed | -> fail}
     
     =succeed
-    (SUCCESS)
+    (SUCESSO)
     ~ CultIsKnownToPlayer = true
-    You instantly recognize the distinct symbol of the {CultName}.
-    A chill runs down your spine as you recognize the significance of the item. It's a distinct piece of paraphernalia associated with the cult, confirming their direct involvement in the disappearances. 
+    Você reconhece instantaneamente o símbolo distinto do {CultName}.
+    Um calafrio percorre sua espinha ao reconhecer a importância do item. É uma peça distinta de parafernália associada ao culto, confirmando o envolvimento direto deles nos desaparecimentos. 
     ->InvestigateVillagers.choices
     
     =fail
-    (FAIL)
-    Despite your thorough examination of the symbol, you are unable to identify its meaning or significance. 
-    You find no further significant leads or breakthroughs. The enigmatic symbol, signs of struggle and abandoned belongings only deepen the mystery, leaving you with more questions than answers. 
+    (FALHA)
+    Apesar do seu exame minucioso do símbolo, você é incapaz de identificar seu significado ou importância. 
     ->InvestigateVillagers.choices
     
     =choices
-    *[Carefully search the homes of the disappeared.] -> search
+    *[Revistar cuidadosamente as casas dos desaparecidos.] -> search
 
 
 ===OutOfOptions===
 
-After tirelessly pursuing various leads and options, your efforts have yielded little progress in solving the intricate web of mysteries that shroud the village. Frustration and weariness start to take their toll, leaving you at a crossroads, unsure of the best path forward.
+Depois de perseguir incansavelmente várias pistas e opções, seus esforços renderam pouco progresso na resolução da complexa rede de mistérios que envolve a aldeia. A frustração e o cansaço começam a cobrar seu preço, deixando-o em uma encruzilhada, incerto sobre o melhor caminho a seguir.
 
-With your mind weighed down by the weight of the unresolved enigmas, you find yourself standing before the village tavern. The warm glow of its windows and the inviting aroma of food beckon you inside. Perhaps a moment of respite, a chance to gather your thoughts and reassess your strategies, is what you need.
+Com a mente pesada pelo peso dos enigmas não resolvidos, você se vê diante da taverna da aldeia. O brilho quente de suas janelas e o aroma convidativo de comida o chamam para dentro. Talvez um momento de folga, uma chance de organizar seus pensamentos e reavaliar suas estratégias, seja o que você precisa.
 
-As you sit in the tavern, contemplating your next move, a snippet of conversation from a nearby group catches your attention. The villagers are abuzz with talk of a gathering planned for the next day, a rare occasion when the entire village will come together to discuss recent events and concerns. 
+Enquanto você se senta na taverna, contemplando seu próximo passo, um trecho de conversa de um grupo próximo chama sua atenção. Os aldeões estão agitados com a conversa sobre uma reunião planejada para o dia seguinte, uma ocasião rara em que toda a aldeia se reunirá para discutir eventos e preocupações recentes. 
 
-Listening closely, you learn that the gathering will take place at the village square. The news piques your interest, as it presents a chance to observe the villagers' reactions, gauge their suspicions, and perhaps catch a glimpse of any cultists who might try to blend in with the crowd.
+Ouvindo atentamente, você descobre que a reunião ocorrerá na praça da aldeia. A notícia desperta seu interesse, pois apresenta uma chance de observar as reações dos aldeões, avaliar suas suspeitas e talvez vislumbrar quaisquer cultistas que possam tentar se misturar à multidão.
 
-You can't help but wonder about the possibilities that such an event presents. The thought of the entire village congregating in one place, including potential cultists, triggers a series of calculations in your mind.
+Você não pode deixar de se perguntar sobre as possibilidades que tal evento apresenta. O pensamento de toda a aldeia congregada em um só lugar, incluindo potenciais cultistas, desencadeia uma série de cálculos em sua mente.
 
-Could the cultists be planning to make a move during this gathering? Would they take advantage of the crowd to advance their agenda, or would they simply observe from the shadows, disguising their true intentions?
+Poderiam os cultistas estar planejando agir durante esta reunião? Eles aproveitariam a multidão para avançar sua agenda ou simplesmente observariam das sombras, disfarçando suas verdadeiras intenções?
 
-*[Attend the gathering.] -> AttendGathering
-*[Give up the search. This investigation has already taken too much of your time.] -> VoluntaryEnd
+*[Comparecer à reunião.] -> AttendGathering
+*[Desistir da busca. Esta investigação já tomou muito do seu tempo.] -> VoluntaryEnd
 
 === AttendGathering ===
-As the day of the village gathering arrives, a mix of anticipation and caution fills the air. You make your way to the village square, your senses sharpened and your awareness heightened. The bustling crowd, a sea of familiar faces, conceals the unknown. As you navigate through the villagers, you remain vigilant, your gaze scanning for any signs of the cult's presence.
+Conforme o dia da reunião da aldeia chega, uma mistura de antecipação e cautela preenche o ar. Você se dirige à praça da aldeia, com seus sentidos aguçados e sua consciência elevada. A multidão agitada, um mar de rostos familiares, esconde o desconhecido. Enquanto você navega entre os aldeões, permanece vigilante, seu olhar examinando em busca de quaisquer sinais da presença do culto.
 
-Suddenly, a subtle shift in the atmosphere catches your attention. An undercurrent of tension ripples through the crowd, and you notice several individuals who seem out of place—furtive glances, concealed expressions. Instinctively, your eyes narrow on their movements. Your suspicions are confirmed when you glimpse the glint of daggers, hidden within their clothing.
+De repente, uma mudança sutil na atmosfera chama sua atenção. Uma corrente de tensão ondula pela multidão, e você nota vários indivíduos que parecem fora de lugar — olhares furtivos, expressões contidas. Instintivamente, seus olhos se estreitam em seus movimentos. Suas suspeitas são confirmadas quando você vislumbra o brilho de adagas, escondidas sob suas roupas.
 
-Your heart quickens as the gravity of the situation becomes clear. The cultists are among the villagers, concealed and armed. {CultIsKnownToPlayer: Knowing what you know about the {CultName} it becomes evident that their | Their} intent is not merely to observe; they plan to strike, unleashing chaos and violence.
+Seu coração acelera quando a gravidade da situação se torna clara. Os cultistas estão entre os aldeões, ocultos e armados. {CultIsKnownToPlayer: Sabendo o que você sabe sobre o {CultName}, torna-se evidente que a | A} intenção deles não é meramente observar; eles planejam atacar, desencadeando o caos e a violência.
 
-How do you proceed?
+Como você procede?
 
-*[Careful not to cause chaos, try to disarm the cultists one by one. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
-*[Expose their true nature to the villagers, turning them against the cultists. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
+*[Cuidadoso para não causar pânico, tente desarmar os cultistas um por um. {print_player_skill_chance("Roguery", HardSkillCheckValue)}] -> DisarmCultists
+*[Expor a verdadeira natureza deles aos aldeões, voltando-os contra os cultistas. {print_player_skill_chance("Charm", HardSkillCheckValue)}] -> ExposeCultists
 
 === ExposeCultists ===
 {perform_player_skill_check("Charm", HardSkillCheckValue): -> succeed | -> fail}
 
     =succeed
     ~ StruggleHappened = true
-    (SUCCESS)
-    Summoning every ounce of determination, you raise your voice above the chaos, your words cutting through the fear and confusion with authority. Urgency infuses your voice as you expose the hidden threat of the cultists, their daggers concealed and their intent to unleash violence upon the unsuspecting villagers. 
+    (SUCESSO)
+    Reunindo cada grama de determinação, você eleva sua voz acima do caos, suas palavras cortando o medo e a confusão com autoridade. A urgência toma sua voz enquanto você expõe a ameaça oculta dos cultistas, suas adagas escondidas e sua intenção de desencadear a violência sobre os aldeões desprevenidos. 
     
-    Shock and disbelief ripple through the crowd as they gaze upon their friends and neighbors, unmasked as agents of chaos.
+    Choque e descrença reverberam pela multidão enquanto olham para seus amigos e vizinhos, desmascarados como agentes do caos.
     
-    The villagers, enraged and betrayed, turn against the cultists, their trust shattered. The ensuing struggle is brief but fierce, the villagers driven by a shared goal — to protect their community and rid it of this malevolent presence.
+    Os aldeões, enfurecidos e traídos, voltam-se contra os cultistas, com a confiança estilhaçada. A luta que se segue é breve, mas feroz, com os aldeões impulsionados por um objetivo comum — proteger sua comunidade e livrá-la desta presença malévola.
     
-    Among the chaos, a handful of cultists manage to break free from the villagers' grasp, disappearing into the winding streets that surround the square.
+    Em meio ao caos, um punhado de cultistas consegue se soltar das mãos dos aldeões, desaparecendo nas ruas sinuosas que cercam a praça.
     
-    The rest are swiftly outnumbered and subdued. As the dust settles, a sense of triumph and relief washes over the square. 
+    O restante é rapidamente superado em número e contido. Conforme a poeira baixa, uma sensação de triunfo e alívio toma conta da praça. 
     ->choices
 
     =fail
-    (FAIL)
-    Amidst the village gathering, you step forward, heart pounding with the urgency of your message. Your voice carries above the chatter, capturing the attention of those around you. You unveil the hidden threat — the presence of cultists among them, armed and intent on a violent act to appease their dark deity. 
+    (FALHA)
+    Em meio à reunião da aldeia, você dá um passo à frente, com o coração palpitando com a urgência de sua mensagem. Sua voz sobressai ao falatório, capturando a atenção dos presentes. Você revela a ameaça oculta — a presença de cultistas entre eles, armados e determinados a um ato violento para apaziguar sua divindade sombria. 
     
-    But as your words hang in the air, disbelief and skepticism ripple through the crowd like a stone cast into a calm pond. Eyes narrow and brows furrow as the villagers exchange glances, some even chuckling at what they perceive as an outlandish tale. 
+    Mas à medida que suas palavras pairam no ar, a descrença e o ceticismo ondulam pela multidão como uma pedra lançada em um lago calmo. Olhos se estreitam e sobrancelhas se franzem enquanto os aldeões trocam olhares, alguns até rindo do que percebem como uma história fantasiosa. 
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Perseguir o cultista em fuga mais próximo.] ->ChaseCultist
 
 ===DisarmCultists===
-Moving with a deliberate caution, you weave through the villagers, your movements calculated to avoid drawing attention. The cultists are strategically positioned near the edge of the crowd, and as you approach the first one, your heart pounds with a mix of fear and purpose.
+Movendo-se com cautela deliberada, você tece seu caminho entre os aldeões, com movimentos calculados para evitar chamar atenção. Os cultistas estão posicionados estrategicamente perto da borda da multidão e, ao se aproximar do primeiro, seu coração bate forte com uma mistura de medo e propósito.
 {perform_player_skill_check("Roguery", HardSkillCheckValue): -> succeed | -> fail}
 
     =succeed
-    (SUCCESS)
-    Your fingers deftly work as you reach the cultist's side, your hand moving to disarm the hidden dagger. The blade is cool against your touch as you extract it from its concealed sheath, the cultist remaining blissfully unaware of your actions. 
-    Your movements are calculated, your senses attuned to every nuance. The weight of each blade taken away is both a victory and a somber reminder of the violence that could have been. 
-    Eventually some of your earlier victims realize that something is amiss. Their gaze narrows, a glint of suspicion sparking within their eyes. Panic flares within you as you realize that your actions have not gone entirely unnoticed.
-    The cultists exchange alarmed glances, their unspoken communication reveals a decision — they recognize the element of surprise they had hoped to wield has slipped away. They begin to disengage from their positions within the crowd and blend into the labyrinthine streets that surround the square.
+    (SUCESSO)
+    Seus dedos trabalham habilmente ao chegar ao lado do cultista, sua mão movendo-se para desarmar a adaga escondida. A lâmina está fria ao seu toque enquanto você a extrai de sua bainha oculta, com o cultista permanecendo felizmente alheio às suas ações. 
+    Seus movimentos são calculados, seus sentidos sintonizados com cada nuance. O peso de cada lâmina retirada é tanto uma vitória quanto um lembrete sombrio da violência que poderia ter ocorrido. 
+    Eventualmente, algumas de suas vítimas percebem que algo está errado. Seus olhares se estreitam e um brilho de suspeita surge em seus olhos. O pânico surge em você ao perceber que suas ações não passaram totalmente despercebidas.
+    Os cultistas trocam olhares alarmados; a comunicação silenciosa revela uma decisão — eles percebem que o elemento surpresa que esperavam usar desapareceu. Eles começam a abandonar suas posições na multidão e se misturam às ruas labirínticas que cercam a praça.
     ->choices
     
     =fail
-    (FAIL)
-    In an instant, your heart skips a beat as the cultist's gaze locks onto your actions. Panic flares in his eyes, followed by a swift reaction. With a sharp intake of breath, they attempt to wrench the dagger from your grasp. The element of surprise is lost, replaced by a struggle that draws the attention of nearby cultists.
+    (FALHA)
+    Em um instante, seu coração salta uma batida quando o olhar do cultista trava em suas ações. O pânico brilha nos olhos dele, seguido por uma reação rápida. Com uma respiração ofegante, eles tentam arrancar a adaga de suas mãos. O elemento surpresa foi perdido, substituído por uma luta que atrai a atenção dos cultistas próximos.
     ->CultistsAct
     
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Perseguir o cultista em fuga mais próximo.] ->ChaseCultist
 
 ===CultistsAct===
 ~ MassacreHappened = true
-The hidden cultists seize this moment to enact their plan. Strategically positioned near the edge of the gathering, they draw concealed daggers and converge with a sinister purpose. 
-Before anyone can react, the cultists spring into action, their blades gleaming in the daylight. Chaos ensues as they mercilessly cut down anyone in their path. Chaos reigns as horror-stricken cries fill the air as the village square transforms into a scene of nightmarish violence. The cultists' chilling efficiency and the villagers' shock paralyze any chance of immediate escape.
-Amidst the chaos and horror that engulfs the village square, your eyes catch something strange — patterns emerging within the flow of spilled blood on the cobblestones. The cultists' daggers wielded with a calculated brutality create rivulets of crimson that seem to converge in deliberate paths.
-A cold shiver courses down your spine as you recognize the significance of these patterns — the cultists' intent is far more insidious than a mere massacre. The blood they spill is not wasted; it's directed towards a purpose. Their dark ritual aims to channel the spilled blood into the hidden depths beneath the village square, a macabre ceremony to appease their bloodthirsty deity.
+Os cultistas ocultos aproveitam este momento para executar seu plano. Posicionados estrategicamente perto da borda da reunião, eles sacam adagas escondidas e convergem com um propósito sinistro. 
+Antes que alguém possa reagir, os cultistas partem para a ação, suas lâminas brilhando à luz do dia. O caos se instala enquanto eles cortam impiedosamente qualquer um em seu caminho. Gritos de horror preenchem o ar enquanto a praça da aldeia se transforma em uma cena de violência pesadela. A eficiência arrepiante dos cultistas e o choque dos aldeões paralisam qualquer chance de fuga imediata.
+Em meio ao caos e ao horror que engolem a praça, seus olhos captam algo estranho — padrões emergindo no fluxo de sangue derramado sobre os paralelepípedos. As adagas dos cultistas, empunhadas com uma brutalidade calculada, criam pequenos riachos de carmesim que parecem convergir em caminhos deliberados.
+Um calafrio percorre sua espinha ao reconhecer o significado desses padrões — a intenção dos cultistas é muito mais insidiosa do que um mero massacre. O sangue que derramam não é desperdiçado; ele é direcionado para um propósito. Seu ritual sombrio visa canalizar o sangue derramado para as profundezas ocultas sob a praça da aldeia, uma cerimônia macabra para apaziguar sua divindade sedenta de sangue.
 
-*[Rally some of the villagers to mount a defense with your leadership.] -> RallyVillagers
-*[Fearing for your own life, flee the scene of horror and abandon this futile quest.]
-    As the horrifying chaos of the massacre unfurls before you, your instincts take over, propelling you into action.
-    Adrenaline courses through your veins as you turn away from the scene of violence. The screams of the villagers echo in your ears, spurring you to move swiftly, desperately seeking an escape.
-    Leaving the village and its enigmas behind, you turn away from the chaos, the violence, and the darkness that have consumed your days.
+*[Reunir alguns aldeões para montar uma defesa com sua liderança.] -> RallyVillagers
+*[Temendo por sua própria vida, fuja da cena de horror e abandone esta busca fútil.]
+    Conforme o caos horripilante do massacre se desenrola diante de você, seus instintos assumem o controle, impulsionando-o para a ação.
+    A adrenalina corre em suas veias enquanto você se afasta da cena de violência. Os gritos dos aldeões ecoam em seus ouvidos, incitando-o a mover-se rapidamente, buscando desesperadamente uma fuga.
+    Deixando a aldeia e seus enigmas para trás, você se afasta do caos, da violência e da escuridão que consumiram seus dias.
     ->END
 
 ===RallyVillagers===
-Amidst the chaos of the village square, your determination ignites a spark of action within you. With a voice raised above the cacophony, you call out to those within earshot, your words carrying a sense of urgency and authority.
+Em meio ao caos da praça, sua determinação acende uma centelha de ação em você. Com a voz elevada acima da cacofonia, você chama os que estão ao alcance, suas palavras carregando um senso de urgência e autoridade.
 
-"Villagers, stand together" - with a firm voice, you command the villagers to build barricades using nearby stands and tables and mount a defense against the cultists' onslaught.
+"Aldeões, permaneçam juntos!" - com uma voz firme, você ordena que os aldeões construam barricadas usando barracas e mesas próximas e montem uma defesa contra a investida dos cultistas.
 
-The horrific scene at the village square transforms into one of organization and defiance as the villagers rally to your command. Their makeshift weapons, combined with the barriers they've created, form a defensive line that stands as a formidable challenge to the cultists' daggers. 
+A cena horrível na praça se transforma em uma de organização e desafio conforme os aldeões respondem ao seu comando. Suas armas improvisadas, combinadas com as barreiras criadas, formam uma linha defensiva que se apresenta como um desafio formidável às adagas dos cultistas. 
 
-As the cultists' advance is met with this unexpected resistance, their determination begins to falter. They pause, held at bay by the villagers' united front and the strategic advantage they've taken. The realization dawns upon them that the element of surprise has been thwarted, replaced by a defiant strength that they hadn't anticipated.
+À medida que o avanço dos cultistas encontra essa resistência inesperada, a determinação deles começa a fraquejar. Eles pausam, contidos pela frente unida dos aldeões e pela vantagem estratégica conquistada. Percebem que o elemento surpresa foi frustrado, substituído por uma força desafiadora que eles não haviam antecipado.
 
-In a swift decision, the cultists begin to withdraw, their footsteps retreating as they fade into the background.
+Em uma decisão rápida, os cultistas começam a recuar, seus passos retrocedendo enquanto desaparecem de vista.
 ->choices
 
     =choices
-    *[Chase after the nearest escaping cultist.] ->ChaseCultist
+    *[Perseguir o cultista em fuga mais próximo.] ->ChaseCultist
     
 ===ChaseCultist===
-Driven by a relentless determination, you choose to give chase as the cultists retreat from the village square. The winding streets and narrow alleys become a blur as you navigate the labyrinthine paths, driven by a thirst for answers and justice.
-Your pursuit eventually leads you to a building that stands apart from the others — an abandoned and partly ruined structure marred by time and neglect. The entrance, concealed by a tattered curtain of vines, hints at the darkness that lies within. The cultists' footsteps fade as they disappear through this ominous entrance.
-Sword in hand, you decide to enter after them.
+Impulsionado por uma determinação implacável, você escolhe perseguir os cultistas enquanto eles recuam da praça. As ruas sinuosas e os becos estreitos tornam-se um borrão enquanto você navega pelos caminhos labirínticos, movido por uma sede de respostas e justiça.
+Sua perseguição eventualmente o leva a um prédio que se destaca dos demais — uma estrutura abandonada e parcialmente arruinada, marcada pelo tempo e pela negligência. A entrada, escondida por uma cortina de trepadeiras esfarrapadas, sugere a escuridão que reside em seu interior. Os passos dos cultistas diminuem conforme desaparecem por esta entrada sinistra.
+Espada em punho, você decide entrar atrás deles.
 ->EnterHideout
 
 ===VoluntaryEnd===
-    With a heavy sigh, you acknowledge that this puzzle has proven too much for you, robbing you of time and peace. You decide to leave the village to its fate. With a final glance you turn away, the weight of unanswered questions and unfulfilled justice a burden you reluctantly leave behind.
+    Com um suspiro pesado, você reconhece que este quebra-cabeça provou ser demais para você, roubando-lhe tempo e paz. Você decide deixar a aldeia à sua própria sorte. Com um último olhar, você se afasta; o peso das perguntas sem resposta e da justiça não cumprida é um fardo que você relutantemente deixa para trás.
 ->END
 
 ===EnterHideout===
 ~ OpenCultistLairMission("TOR_cultist_lair_001")
 ...
-{DealtWithCultists: As the last cultist falls beneath the weight of your blade, a deafening silence descends upon the chamber. The air is thick with the scent of victory and the echoes of battle. You stand amidst the fallen cultists, the sword in your hand a testament to your unwavering determination and skill.}
-{DealtWithCultists && MassacreHappened: As you step out of the underground chamber, your heart sinks at the sight that awaits you in the village square. The once vibrant heart of the village now lies transformed into a scene of unspeakable horror. Bodies of villagers and cultists alike litter the ground, their lives snuffed out in the violent clash that has taken place.}
-{DealtWithCultists && MassacreHappened: Blood stains the cobblestones, turning the ground into a macabre canvas of tragedy. The air is thick with the scent of iron and the aftermath of battle, a stark contrast to the festivities that had filled the square only moments before. The debris of the confrontation, overturned stands and shattered tables, bears witness to the chaos that has unfolded.}
-{DealtWithCultists && MassacreHappened: The once-lively atmosphere is replaced by an eerie stillness, broken only by the distant sounds of sobbing and the soft cries of those who have survived. The villagers, who had rallied to your side in the face of the cultists' threat, now grapple with the brutal reality that their efforts have come at a heavy cost.}
-{DealtWithCultists && not MassacreHappened && not StruggleHappened: You emerge from the hideout and step into the square, your heart is still racing from the confrontation with the cultists. }
-{DealtWithCultists && not MassacreHappened && not StruggleHappened: As you move through the crowd, you realize that your actions have gone unnoticed. The villagers laugh and chat, engrossed in their festivities, unaware of the sinister plot that had loomed over them.}
-{DealtWithCultists && not MassacreHappened && not StruggleHappened:You take a moment to appreciate the warmth and joy that fill the air. Children play, adults converse, and the camaraderie of the villagers is a testament to their shared bonds and resilience. The darkness that had sought to infiltrate their lives has been kept at bay, and your actions have played a crucial role in preserving their way of life.}
- {DealtWithCultists && not MassacreHappened: The cult has been eradicated, and the hidden threat has been extinguished, leaving behind a village that can continue to thrive in the light of a new day.}
- {not DealtWithCultists: As you lie defeated within the hidden chamber, your breath ragged and your body battered, the weight of your failure presses heavily upon you. The cold stone walls, which had borne witness to the battle's violence, now seem to close in around you, a grim reminder of the darkness that has prevailed.}
- {not DealtWithCultists: Amidst the silence of your defeat, a distant sound reaches your ears — a chorus of hurried footsteps and raised voices. The troops of your party, who had been camped outside the village are now rushing to your aid.}
- {not DealtWithCultists: The cultists who had managed to overwhelm you, having exposed themselves, are no longer within your reach. They have slipped away, disappearing like smoke carried by the wind, leaving the village in their wake.}
- {not DealtWithCultists: The knowledge that the cultists will surely continue their reign of darkness in another unsuspecting village is a painful reality to accept.}
-->END
+{DealtWithCultists: Quando o último cultista cai sob o peso de sua lâmina, um silêncio ensurdecedor desce sobre a câmara. O ar está pesado com o cheiro da vitória e os ecos da batalha. Você permanece em meio aos cultistas caídos, a espada em sua mão sendo um testemunho de sua determinação e habilidade inabaláveis.}
+{DealtWithCultists && MassacreHappened: Ao sair da câmara subterrânea, seu coração afunda com a visão que o espera na praça da aldeia. O que antes era o coração vibrante do vilarejo agora está transformado em uma cena de horror indescritível. Corpos de aldeões e cultistas jazem pelo chão, suas vidas extintas no confronto violento que ocorreu.}
+{DealtWithCultists && MassacreHappened: O sangue mancha os paralelepípedos, transformando o solo em uma tela macabra de tragédia. O ar está carregado com o cheiro de ferro e as sequelas da batalha, um contraste gritante com as festividades que preenchiam a praça momentos antes. Os destroços do confronto, barracas tombadas e mesas estilhaçadas, testemunham o caos que se desenrolou.}
+{DealtWithCultists && MassacreHappened: A atmosfera antes animada é substituída por uma quietude sinistra, quebrada apenas pelos sons distantes de soluços e pelos gritos suaves daqueles que sobreviveram. Os aldeões, que haviam se unido a você diante da ameaça dos cultistas, agora lutam contra a realidade brutal de que seus esforços custaram um preço alto.}
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Você emerge do esconderijo e entra na praça, seu coração ainda acelerado pelo confronto com os cultistas. }
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Ao se mover pela multidão, você percebe que suas ações passaram despercebidas. Os aldeões riem e conversam, absortos em suas festividades, alheios à trama sinistra que pairava sobre eles.}
+{DealtWithCultists && not MassacreHappened && not StruggleHappened: Você dedica um momento para apreciar o calor e a alegria que preenchem o ar. Crianças brincam, adultos conversam, e a camaradagem dos aldeões é um testemunho de seus laços compartilhados e resiliência. A escuridão que buscava infiltrar-se em suas vidas foi mantida à distância, e suas ações desempenharam um papel crucial na preservação de seu modo de vida.}
+ {DealtWithCultists && not MassacreHappened: O culto foi erradicado e a ameaça oculta foi extinta, deixando para trás uma aldeia que pode continuar a prosperar à luz de um novo dia.}
+ {not DealtWithCultists: Enquanto você jaz derrotado dentro da câmara oculta, sua respiração ofegante e seu corpo castigado, o peso de sua falha o oprime. As paredes de pedra fria, que testemunharam a violência da batalha, agora parecem se fechar ao seu redor, um lembrete sombrio da escuridão que prevaleceu.}
+ {not DealtWithCultists: Em meio ao silêncio de sua derrota, um som distante chega aos seus ouvidos — um coro de passos apressados e vozes elevadas. As tropas do seu grupo, que estavam acampadas fora da aldeia, agora correm em seu auxílio.}
+ {not DealtWithCultists: Os cultistas que conseguiram subjugá-lo, tendo se exposto, não estão mais ao seu alcance. Eles escaparam, desaparecendo como fumaça carregada pelo vento, deixando a aldeia para trás.}
+ {not DealtWithCultists: O conhecimento de que os cultistas certamente continuarão seu reinado de escuridão em outra aldeia desprevenida é uma realidade dolorosa de aceitar.}
+->END

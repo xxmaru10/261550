@@ -1,5 +1,5 @@
 //Global story tags
-# title: The Meadow
+# title: O Prado
 # frequency: Common
 # development: false
 # illustration: meadow
@@ -180,20 +180,20 @@
 
 ===Start===
 
-    You and your party have been trudging along a winding path, when the landscape gradually shifts. The air becomes gentler, the sounds more peaceful. #STR_Start1
-    And then, you step into a clearing, and a gasp escapes your lips. Before you stretches a meadow unlike any you've seen in a long while. The grass is a rich tapestry of green, waving softly in the breeze. A multitude of wildflowers paints the scene with vibrant hues of red, purple, and yellow. #STR_Start2
-    {IsNight(): Silver moonlight | Golden sunlight } filters through the tree canopy, bathing the meadow in warmth. A gentle aroma of blooming flowers perfumes the air. Birds serenade with their melodies, filling the clearing with a symphony that feels like a balm to your weary spirit. #STR_Start3
+    Você e seu grupo têm avançado penosamente por um caminho sinuoso, quando a paisagem começa a mudar gradualmente. O ar torna-se mais suave, e os sons, mais pacíficos. #STR_Start1
+    Então, vocês entram em uma clareira, e um suspiro escapa de seus lábios. Diante de vocês estende-se um prado como nenhum outro que viram em muito tempo. A grama é uma rica tapeçaria verde, ondulando suavemente na brisa. Uma multidão de flores silvestres pinta a cena com matizes vibrantes de vermelho, roxo e amarelo. #STR_Start2
+    {IsNight(): O luar prateado | A luz dourada do sol } filtra-se através da copa das árvores, banhando o prado em calor. Um aroma suave de flores desabrochando perfuma o ar. Pássaros cantam suas melodias, preenchendo a clareira com uma sinfonia que parece um bálsamo para seu espírito cansado. #STR_Start3
         ->choice1
         
     =choice1
-        What will you have your party do? #STR_Start4
-            *[Forage for wild plants (Multiple attempts at {LoreOfLifeInParty: 75% chance (Improved by Lore of Life)| 50% chance} to succeed at harvesting various wild plants)] 
-            You order your party to forage amongst the plants of the meadow. #STR_Forage1
+        O que você ordenará que seu grupo faça? #STR_Start4
+            *[Procurar plantas silvestres (Diferentes tentativas com {LoreOfLifeInParty: 75% de chance (Melhorado pelo Saber da Vida)| 50% de chance} de sucesso na colheita)] 
+            Você ordena que seu grupo procure entre as plantas do prado. #STR_Forage1
             
                 //Lore of Life in Party Increases success chance
                     {LoreOfLifeInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghyran to aid your men in their search. #STR_Forage_LoreOFLifeInParty
+                            Um mago em seu grupo clama pelo Vento de Ghyran para auxiliar seus homens na busca. #STR_Forage_LoreOFLifeInParty
                             ~ ForageDifficulty = ForageDifficulty - 25
                         -false:
                         -else: ERROR
@@ -201,12 +201,12 @@
                     
                 ->ForageLoop
 
-            *[Hunt animals (Multiple chances to get meat, hide, and or fur {PartyRangedSkillCheckText})]
+            *[Caçar animais (Múltiplas chances de obter carne, couro ou pele {PartyRangedSkillCheckText})]
                 
                 //Bonus Attempts from Lore of Beasts
                     {LoreOfBeastsInParty:
                         -true: 
-                            A mage in your party calls upon the Wind of Ghur to aid your men in their search. (+1 attempt) #STR_Hunt_LoreOFBeastInParty
+                            Um mago em seu grupo clama pelo Vento de Ghur para auxiliar seus homens na busca. (+1 tentativa) #STR_Hunt_LoreOFBeastInParty
                             ~ HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
@@ -215,7 +215,7 @@
                 //Bonus attempt from Scouting
                     {perform_party_skill_check("Scouting", HuntDifficulty):
                         -true: 
-                            Your scouts manage to locate some extra animals. (Scouting)(+1 Attempt) #STR_Hunt_Scout
+                            Seus batedores conseguem localizar alguns animais extras. (Batedor)(+1 tentativa) #STR_Hunt_Scout
                             ~HuntLoops = HuntLoops + 1
                         -false:
                         -else: ERROR
@@ -223,9 +223,9 @@
                     
                 ->HuntLoop
                 
-            *[Have your men rest (All companions healed and all wounded troops recovered {PartyMedicineCheckText})]
+            *[Fazer seus homens descansarem (Companheiros curados e tropas feridas recuperadas {PartyMedicineCheckText})]
                 
-                You try to give your men a break hoping that the brief respite will help them get better. You set up a makeshift camp at the meadow's edge. #STR_Rest1
+                Você tenta dar um descanso aos seus homens, esperando que o breve repouso ajude em sua recuperação. Vocês montam um acampamento improvisado na borda do prado. #STR_Rest1
                 
                 {PartyMedicineCheckTest:
                     -true: 
@@ -234,11 +234,11 @@
                     -else: "ERROR"
                 }
                 
-                {PartyMedicineCheckTest: Your party takes advantage of the break to take care of the wounded.| Unfortunately just as the men start to try and rest, a large storm comes through and forces your party to try and move to find shelter.} #STR_Rest2
+                {PartyMedicineCheckTest: Seu grupo aproveita a pausa para cuidar dos feridos.| Infelizmente, assim que os homens começam a descansar, uma grande tempestade surge e força o grupo a se mover para encontrar abrigo.} #STR_Rest2
                 
                 ->Leave
                 
-            *[Leave] You decide your party has no time to rest and set out immediately.->END
+            *[Partir] Você decide que o grupo não tem tempo para descansar e parte imediatamente.->END
 
     =ForageLoop
         //Decrease number of loops remaining
@@ -263,18 +263,18 @@
             
             {RewardRoll:
                 -0:
-                    Foraging yields no results, your men return empty handed. #ForageLoop0
+                    A coleta não rendeu frutos, seus homens retornam de mãos vazias. #ForageLoop0
                 -1:
-                    Your men find some wild grain. (+1 Grain) #ForageLoop1
+                    Seus homens encontram grãos selvagens. (+1 Grãos) #ForageLoop1
                     ~ GiveItem("grain",1)
                 -2:
-                    Your men find some wild berries. (+1 Grapes) #ForageLoop2
+                    Seus homens encontram bagas silvestres. (+1 Uvas) #ForageLoop2
                     ~ GiveItem("grape",1)
                 -3:
-                    Your men find some wild flax. (+1 Flax) #ForageLoop3
+                    Seus homens encontram linho selvagem. (+1 Linho) #ForageLoop3
                     ~ GiveItem("flax",1)
                 -4:
-                    Your men find some wild spices. (+1 Spice) #ForageLoop4
+                    Seus homens encontram especiarias selvagens. (+1 Especiaria) #ForageLoop4
                     ~ GiveItem("spice",1)
             }
             
@@ -314,19 +314,19 @@
         //Reward
             {
                 - AttemptSuccessful == true && RewardRoll == 0:
-                    Your men are successful, they return with some pheasants. (+1 Meat) #HuntLoop0
+                    Seus homens tiveram sucesso e retornam com alguns faisões. (+1 Carne) #HuntLoop0
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 1:
-                    Your men are successful, they return with a deer. (+1 Meat, +1 Hide) #HuntLoop1
+                    Seus homens tiveram sucesso e retornam com um cervo. (+1 Carne, +1 Couro) #HuntLoop1
                     ~ GiveItem("meat",1)
                     ~ GiveItem("hides",1)
                 - AttemptSuccessful == true && RewardRoll == 2:
-                    Your men are successful, they return with a wild boar. (+1 Meat, +1 Fur) #HuntLoop2
+                    Seus homens tiveram sucesso e retornam com um javali selvagem. (+1 Carne, +1 Pele) #HuntLoop2
                     ~ GiveItem("meat",1)
                     ~ GiveItem("fur",1)
                 - AttemptSuccessful == false:
-                     Wild game eludes you, your men return empty handed. #HuntLoop3
+                    A caça escapou, seus homens retornam de mãos vazias. #HuntLoop3
                 -else: ERROR
             }
                     
@@ -336,7 +336,7 @@
     ->END
     
 ===Leave===
-    Having spent your time in the meadow you decide to head off. #STR_Leave
+    Tendo passado seu tempo no prado, você decide seguir viagem. #STR_Leave
 
     ~ MakePartyDisorganized()
     
